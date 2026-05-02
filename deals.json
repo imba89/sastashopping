@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-02T13:05:10.056700+00:00",
+  "updated_at": "2026-05-02T13:54:09.103166+00:00",
   "deals": [
+    {
+      "asin": "B074XXRHZG",
+      "title": "Hanes Men's 5-Pack X-Temp Comfort Cool Crewneck Undershirt, White, X-Large",
+      "price": "₹13,003",
+      "price_num": 13003,
+      "original_price": "₹20,951",
+      "discount_pct": 37,
+      "effective_price": null,
+      "image_url": "https://m.media-amazon.com/images/I/51IhWK-GjcL._SL1500_.jpg",
+      "category": "👗 Fashion",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": null,
+      "average_price": null,
+      "highest_price": null,
+      "vs_avg_str": null,
+      "vs_avg_pct": null,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 18,
+      "affiliate_link": "https://www.amazon.in/dp/B074XXRHZG?tag=techeasy0d1-21&linkCode=ll1&linkId=B074XXRHZG&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-02T13:53:12.575803+00:00"
+    },
     {
       "asin": "B0F5X17PLB",
       "title": "Whirlpool 60cm 900 m3/hr Cassette Filter Kitchen Chimney with 5 Years WARR on Motor",
@@ -754,32 +780,6 @@
       "score": 45,
       "affiliate_link": "https://www.amazon.in/dp/B0D6N6S97K?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D6N6S97K&ref_=as_li_ss_tl",
       "posted_at": "2026-05-02T09:57:36.173846+00:00"
-    },
-    {
-      "asin": "B0D8CYB9PY",
-      "title": "VOKKA Thai Oud Eau De Parfum",
-      "price": "₹206",
-      "price_num": 206,
-      "original_price": "₹1,149",
-      "discount_pct": 82,
-      "effective_price": null,
-      "image_url": "https://m.media-amazon.com/images/I/61202p2EKFL._SL1200_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "desidime",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹189",
-      "average_price": "₹281",
-      "highest_price": "₹999",
-      "vs_avg_str": "26% below avg (avg ₹281)",
-      "vs_avg_pct": 26,
-      "best_card_label": "₹30 off via select Credit",
-      "best_card_discount": 30,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 46,
-      "affiliate_link": "https://www.amazon.in/dp/B0D8CYB9PY?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D8CYB9PY&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-02T09:57:30.449858+00:00"
     }
   ]
 }
