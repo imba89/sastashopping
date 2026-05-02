@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-02T08:40:04.483574+00:00",
+  "updated_at": "2026-05-02T08:50:58.655644+00:00",
   "deals": [
+    {
+      "asin": "B0DLBCJ39S",
+      "title": "Plantex Ceramic Matt Tabletop Wash Basin for Bathroom/Designer Hand Wash Sink/Oval Countertop Bathroom Sink/Home/Office (21.5 x 13.5 x 6 Inch)",
+      "price": "₹2,047",
+      "price_num": 2047,
+      "original_price": "₹23,520",
+      "discount_pct": 91,
+      "effective_price": "₹1,229",
+      "image_url": "https://m.media-amazon.com/images/I/81DRZw38xeL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "desidime",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹2,565",
+      "average_price": "₹2,972",
+      "highest_price": "₹3,599",
+      "vs_avg_str": "31% below avg (avg ₹2,972)",
+      "vs_avg_pct": 31,
+      "best_card_label": "₹818 off via select Credit",
+      "best_card_discount": 818,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹66 EMI interest savings",
+      "score": 90,
+      "affiliate_link": "https://www.amazon.in/dp/B0DLBCJ39S?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DLBCJ39S&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-02T08:50:13.487162+00:00"
+    },
     {
       "asin": "B0CJP2VCPC",
       "title": "Buy NATURAL LEATHER Men's Red Leather Jacket (ZL_JK_49_Red,Size",
