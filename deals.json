@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-02T18:58:49.092884+00:00",
+  "updated_at": "2026-05-02T19:09:21.049600+00:00",
   "deals": [
+    {
+      "asin": "B08VDYQBLJ",
+      "title": "Ringke Fusion-X for Galaxy A72 5G Case Back Cover, [Military Drop Tested] Ergonomic Transparent Hard PC Back TPU Bumper Impact Resistant Protection for Galaxy A72 5G Back Cover Case - Black",
+      "price": "₹399",
+      "price_num": 399,
+      "original_price": "₹2,199",
+      "discount_pct": 81,
+      "effective_price": "₹240",
+      "image_url": "https://m.media-amazon.com/images/I/71b5gnT9wfS._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹259",
+      "average_price": "₹1,080",
+      "highest_price": "₹1,709",
+      "vs_avg_str": "63% below avg (avg ₹1,080)",
+      "vs_avg_pct": 63,
+      "best_card_label": "₹159 off via select Credit",
+      "best_card_discount": 159,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 50,
+      "affiliate_link": "https://www.amazon.in/dp/B08VDYQBLJ?tag=techeasy0d1-21&linkCode=ll1&linkId=B08VDYQBLJ&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-02T19:08:38.285028+00:00"
+    },
     {
       "asin": "B085TW6G85",
       "title": "Buy TRESemmé TRESemm© Tres Smooth&amp;Shine 1 ltr Shmp",
@@ -754,32 +780,6 @@
       "score": 20,
       "affiliate_link": "https://www.amazon.in/dp/B0DGKMXT18?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DGKMXT18&ref_=as_li_ss_tl",
       "posted_at": "2026-05-02T15:49:06.052757+00:00"
-    },
-    {
-      "asin": "B0GSWR7VZM",
-      "title": "Buy BSB HOME Modern Striped Area Rug – Vibrant Multicolor Living Room Carpet, Soft Plush Floor Mat, Contemporary Home Décor Accent, Durable Non-Slip, 8.6 x 5.8 ft (262 x 177 cm) (Multicolor) Online at Low Prices in India - Amazon.in",
-      "price": "₹399",
-      "price_num": 399,
-      "original_price": "₹9,000",
-      "discount_pct": 95,
-      "effective_price": "₹221",
-      "image_url": "https://m.media-amazon.com/images/I/81xELKVnCjL._SL1500_.jpg",
-      "category": "🏠 Home",
-      "source": "desidime",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹399",
-      "average_price": "₹399",
-      "highest_price": "₹399",
-      "vs_avg_str": "0% above avg (avg ₹399)",
-      "vs_avg_pct": 0,
-      "best_card_label": "₹159 off via select Credit",
-      "best_card_discount": 159,
-      "coupon": "5% off",
-      "coupon_num": 19,
-      "emi_savings": null,
-      "score": 60,
-      "affiliate_link": "https://www.amazon.in/dp/B0GSWR7VZM?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GSWR7VZM&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-02T15:48:59.610552+00:00"
     }
   ]
 }
