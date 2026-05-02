@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-02T14:59:07.997999+00:00",
+  "updated_at": "2026-05-02T15:09:50.704786+00:00",
   "deals": [
+    {
+      "asin": "B0F84DKX8K",
+      "title": "Samsung 108 cm (43 inches) FHD Smart LED TV UA43F5550FUXXL",
+      "price": "₹24,750",
+      "price_num": 24750,
+      "original_price": "₹1,05,990",
+      "discount_pct": 76,
+      "effective_price": "₹24,008",
+      "image_url": "https://m.media-amazon.com/images/I/81wj0iahGCL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "desidime",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹21,490",
+      "average_price": "₹23,534",
+      "highest_price": "₹25,990",
+      "vs_avg_str": "5% above avg (avg ₹23,534)",
+      "vs_avg_pct": -5,
+      "best_card_label": "₹742 off via Amazon Pay",
+      "best_card_discount": 742,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹802 EMI interest savings",
+      "score": 20,
+      "affiliate_link": "https://www.amazon.in/dp/B0F84DKX8K?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F84DKX8K&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-02T15:09:07.308618+00:00"
+    },
     {
       "asin": "B0BTTG3LKK",
       "title": "Springtek Hybrid Hard &amp; Soft Dual Comfort Mattress King Size",
@@ -754,32 +780,6 @@
       "score": 55,
       "affiliate_link": "https://www.amazon.in/dp/B0FQG1LPVF?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FQG1LPVF&ref_=as_li_ss_tl",
       "posted_at": "2026-05-02T10:41:32.166612+00:00"
-    },
-    {
-      "asin": "B0G3Q3HCLX",
-      "title": "FURNY Opalz Premium 3 Seater Leatherette Sofa Set with 2 Ottomans for Living Room-Modern Fabric Sofa for Living Room",
-      "price": "₹12,549",
-      "price_num": 12549,
-      "original_price": "₹45,000",
-      "discount_pct": 72,
-      "effective_price": null,
-      "image_url": "",
-      "category": "🏠 Home",
-      "source": "desidime",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹12,549",
-      "average_price": "₹13,340",
-      "highest_price": "₹17,252",
-      "vs_avg_str": "5% below avg (avg ₹13,340)",
-      "vs_avg_pct": 5,
-      "best_card_label": null,
-      "best_card_discount": 0,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 65,
-      "affiliate_link": "https://www.amazon.in/dp/B0G3Q3HCLX?tag=techeasy0d1-21&linkCode=ll1&linkId=B0G3Q3HCLX&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-02T10:41:24.771458+00:00"
     }
   ]
 }
