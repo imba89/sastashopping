@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-02T21:40:30.827261+00:00",
+  "updated_at": "2026-05-02T22:00:52.370682+00:00",
   "deals": [
+    {
+      "asin": "B0F5YDV5SF",
+      "title": "ZOUK Arin Laptop Bag - Ikat GreRed",
+      "price": "₹1,499",
+      "price_num": 1499,
+      "original_price": "₹5,140",
+      "discount_pct": 70,
+      "effective_price": "₹900",
+      "image_url": "https://m.media-amazon.com/images/I/711q5WJM+FL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹1,398",
+      "average_price": "₹1,566",
+      "highest_price": "₹1,699",
+      "vs_avg_str": "4% below avg (avg ₹1,566)",
+      "vs_avg_pct": 4,
+      "best_card_label": "₹599 off via select Credit",
+      "best_card_discount": 599,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 24,
+      "affiliate_link": "https://www.amazon.in/dp/B0F5YDV5SF?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F5YDV5SF&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-02T22:00:03.359788+00:00"
+    },
     {
       "asin": "B087RFDM35",
       "title": "Cuticle Trimmer with Cuticle Pusher, Easkep Cuticle Remover Cutter Nipper Durable Dead Skin Clipper Manicure Pedicure Tools …",
@@ -754,32 +780,6 @@
       "score": 90,
       "affiliate_link": "https://www.amazon.in/dp/B0CXDNR7WL?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CXDNR7WL&ref_=as_li_ss_tl",
       "posted_at": "2026-05-02T20:49:18.717240+00:00"
-    },
-    {
-      "asin": "B0F3JM1YP5",
-      "title": "Xiaomi 80 cm (32 inch) F Series HD Ready Smart LED Fire TV L32MB-FIN",
-      "price": "₹11,990",
-      "price_num": 11990,
-      "original_price": "₹24,999",
-      "discount_pct": 52,
-      "effective_price": "₹11,631",
-      "image_url": "https://m.media-amazon.com/images/I/71kjAokz-yL._SL1500_.jpg",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹9,999",
-      "average_price": "₹11,627",
-      "highest_price": "₹17,075",
-      "vs_avg_str": "3% above avg (avg ₹11,627)",
-      "vs_avg_pct": -3,
-      "best_card_label": "₹359 off via Amazon Pay",
-      "best_card_discount": 359,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹388 EMI interest savings",
-      "score": 20,
-      "affiliate_link": "https://www.amazon.in/dp/B0F3JM1YP5?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F3JM1YP5&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-02T20:34:07.771135+00:00"
     }
   ]
 }
