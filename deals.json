@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-02T10:54:07.494644+00:00",
+  "updated_at": "2026-05-02T11:04:33.880787+00:00",
   "deals": [
+    {
+      "asin": "B0C5HTQY51",
+      "title": "BERGNER TriPro Tri-Ply Stainless Steel Deep Kadai with Lid",
+      "price": "₹999",
+      "price_num": 999,
+      "original_price": "₹4,025",
+      "discount_pct": 75,
+      "effective_price": "₹600",
+      "image_url": "https://m.media-amazon.com/images/I/61fr2ee4t7L._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "desidime",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹999",
+      "average_price": "₹1,891",
+      "highest_price": "₹2,695",
+      "vs_avg_str": "47% below avg (avg ₹1,891)",
+      "vs_avg_pct": 47,
+      "best_card_label": "₹399 off via select Credit",
+      "best_card_discount": 399,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 90,
+      "affiliate_link": "https://www.amazon.in/dp/B0C5HTQY51?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C5HTQY51&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-02T11:03:52.373235+00:00"
+    },
     {
       "asin": "B0DKTG8ZLH",
       "title": "Boldfit Weight Machine for Home Digital Weighing Machine for Human Body with LCD Display Max Weight Capacity 180Kgs (Batteries Not Included) – Bathroom Scale for Home",
@@ -754,32 +780,6 @@
       "score": 90,
       "affiliate_link": "https://www.amazon.in/dp/B0DLBCJ39S?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DLBCJ39S&ref_=as_li_ss_tl",
       "posted_at": "2026-05-02T08:50:13.487162+00:00"
-    },
-    {
-      "asin": "B0CJP2VCPC",
-      "title": "Buy NATURAL LEATHER Men's Red Leather Jacket (ZL_JK_49_Red,Size",
-      "price": "₹10,999",
-      "price_num": 10999,
-      "original_price": "₹23,999",
-      "discount_pct": 54,
-      "effective_price": "₹8,499",
-      "image_url": "https://m.media-amazon.com/images/I/51-+S1MTeBL._SL1000_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": null,
-      "average_price": null,
-      "highest_price": null,
-      "vs_avg_str": null,
-      "vs_avg_pct": null,
-      "best_card_label": "₹2,500 off via select Credit",
-      "best_card_discount": 2500,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹356 EMI interest savings",
-      "score": 22,
-      "affiliate_link": "https://www.amazon.in/dp/B0CJP2VCPC?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CJP2VCPC&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-02T08:39:02.956339+00:00"
     }
   ]
 }
