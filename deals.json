@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-02T23:44:07.093471+00:00",
+  "updated_at": "2026-05-02T23:55:00.237204+00:00",
   "deals": [
+    {
+      "asin": "B07L1KXHTL",
+      "title": "Spyder Men’s Encore Fleece Jacket – Male Half Zip Pullover Outdoor Apparel",
+      "price": "₹33,175",
+      "price_num": 33175,
+      "original_price": null,
+      "discount_pct": 54,
+      "effective_price": null,
+      "image_url": "https://m.media-amazon.com/images/I/81lbXvFywAL._SL1500_.jpg",
+      "category": "👗 Fashion",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": null,
+      "average_price": null,
+      "highest_price": null,
+      "vs_avg_str": null,
+      "vs_avg_pct": null,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 20,
+      "affiliate_link": "https://www.amazon.in/dp/B07L1KXHTL?tag=techeasy0d1-21&linkCode=ll1&linkId=B07L1KXHTL&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-02T23:53:53.644750+00:00"
+    },
     {
       "asin": "B0D151399V",
       "title": "Buy Shri Krishan Kripa Handloom Cotton Mattress Cover for Single Bed (75x36x5 in,Brown) Non Shrink Heavy Fabric,Interlocked Stiching,Stong Zip,Metal Locks. Online at Low Prices in India - Amazon.in",
@@ -754,32 +780,6 @@
       "score": 60,
       "affiliate_link": "https://www.amazon.in/dp/B0DXQCBNL4?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DXQCBNL4&ref_=as_li_ss_tl",
       "posted_at": "2026-05-02T22:57:55.941296+00:00"
-    },
-    {
-      "asin": "B0F9FC6ZML",
-      "title": "Casa Copenhagen,Dual Memory Foam 5-Inch Single Size Premium Mattress 7 Years Warranty - 72x36x5 Inches - Dark Midnight Grey",
-      "price": "₹5,936",
-      "price_num": 5936,
-      "original_price": "₹12,490",
-      "discount_pct": 52,
-      "effective_price": "₹3,562",
-      "image_url": "https://m.media-amazon.com/images/I/61aM+my8NuL._SL1200_.jpg",
-      "category": "🏠 Home",
-      "source": "amazon",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹5,936",
-      "average_price": "₹6,025",
-      "highest_price": "₹6,249",
-      "vs_avg_str": "1% below avg (avg ₹6,025)",
-      "vs_avg_pct": 1,
-      "best_card_label": "₹2,374 off via select Credit",
-      "best_card_discount": 2374,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹192 EMI interest savings",
-      "score": 63,
-      "affiliate_link": "https://www.amazon.in/dp/B0F9FC6ZML?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F9FC6ZML&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-02T22:57:49.242854+00:00"
     }
   ]
 }
