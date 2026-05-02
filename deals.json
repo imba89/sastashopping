@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-02T14:05:30.591510+00:00",
+  "updated_at": "2026-05-02T14:17:02.526907+00:00",
   "deals": [
+    {
+      "asin": "B097LR4K45",
+      "title": "IVELECT Universal 5V Car Mini Fridge Warmer and Cooler Dual Auto USB Refrigerator Freezer Office Black",
+      "price": "₹4,533",
+      "price_num": 4533,
+      "original_price": "₹9,066",
+      "discount_pct": 50,
+      "effective_price": null,
+      "image_url": "",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹2,812",
+      "average_price": "₹4,168",
+      "highest_price": "₹6,382",
+      "vs_avg_str": "8% above avg (avg ₹4,168)",
+      "vs_avg_pct": -8,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 20,
+      "affiliate_link": "https://www.amazon.in/dp/B097LR4K45?tag=techeasy0d1-21&linkCode=ll1&linkId=B097LR4K45&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-02T14:16:15.224955+00:00"
+    },
     {
       "asin": "B0DZ6QBZKB",
       "title": "Anchor by Panasonic Roma Classic 4 Module Tresa Glossy White Plate for Switch Board (White, 30249WH-20)",
@@ -754,32 +780,6 @@
       "score": 22,
       "affiliate_link": "https://www.amazon.in/dp/B0FXXM7NSR?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FXXM7NSR&ref_=as_li_ss_tl",
       "posted_at": "2026-05-02T10:08:57.724390+00:00"
-    },
-    {
-      "asin": "B0GHXVS6BP",
-      "title": "Buy Naixa Women's Vichitra Silk Embroidered A-Line Kurta with Pant and Dupatta Sets (NX-907-Rama-3XL) at Amazon.in",
-      "price": "₹899",
-      "price_num": 899,
-      "original_price": "₹2,599",
-      "discount_pct": 65,
-      "effective_price": "₹540",
-      "image_url": "https://m.media-amazon.com/images/I/61n9vkJOP+L._SL1440_.jpg",
-      "category": "👗 Fashion",
-      "source": "amazon",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹899",
-      "average_price": "₹899",
-      "highest_price": "₹899",
-      "vs_avg_str": "0% above avg (avg ₹899)",
-      "vs_avg_pct": 0,
-      "best_card_label": "₹359 off via select Credit",
-      "best_card_discount": 359,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 60,
-      "affiliate_link": "https://www.amazon.in/dp/B0GHXVS6BP?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GHXVS6BP&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-02T10:08:52.255293+00:00"
     }
   ]
 }
