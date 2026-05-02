@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-02T15:09:50.704786+00:00",
+  "updated_at": "2026-05-02T15:39:11.514765+00:00",
   "deals": [
+    {
+      "asin": "B07S34X3Y7",
+      "title": "Buy Nike Unisex Black Pepper + Incense + Patchouli Fresh Spray Deodorant For Man - Pack Of 3 (200Ml Each), 3 Count Online at Low Prices in India - Amazon.in",
+      "price": "₹346",
+      "price_num": 346,
+      "original_price": "₹1,197",
+      "discount_pct": 71,
+      "effective_price": null,
+      "image_url": "",
+      "category": "🔥 Hot Deal",
+      "source": "desidime",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹299",
+      "average_price": "₹580",
+      "highest_price": "₹1,107",
+      "vs_avg_str": "40% below avg (avg ₹580)",
+      "vs_avg_pct": 40,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 50,
+      "affiliate_link": "https://www.amazon.in/dp/B07S34X3Y7?tag=techeasy0d1-21&linkCode=ll1&linkId=B07S34X3Y7&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-02T15:38:24.436350+00:00"
+    },
     {
       "asin": "B0F84DKX8K",
       "title": "Samsung 108 cm (43 inches) FHD Smart LED TV UA43F5550FUXXL",
@@ -754,32 +780,6 @@
       "score": 90,
       "affiliate_link": "https://www.amazon.in/dp/B09HXMKKCM?tag=techeasy0d1-21&linkCode=ll1&linkId=B09HXMKKCM&ref_=as_li_ss_tl",
       "posted_at": "2026-05-02T10:53:13.164657+00:00"
-    },
-    {
-      "asin": "B0FQG1LPVF",
-      "title": "Apple iPhone 17 Pro 256 GB",
-      "price": "₹134,900",
-      "price_num": 134900,
-      "original_price": "₹1,70,736",
-      "discount_pct": 20,
-      "effective_price": "₹130,853",
-      "image_url": "https://m.media-amazon.com/images/I/71JGCn1z1TL._SL1500_.jpg",
-      "category": "⚡ Electronics",
-      "source": "desidime",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹134,900",
-      "average_price": "₹136,438",
-      "highest_price": "₹174,900",
-      "vs_avg_str": "1% below avg (avg ₹136,438)",
-      "vs_avg_pct": 1,
-      "best_card_label": "₹4,047 off via Amazon Pay",
-      "best_card_discount": 4047,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹6,261 EMI interest savings",
-      "score": 55,
-      "affiliate_link": "https://www.amazon.in/dp/B0FQG1LPVF?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FQG1LPVF&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-02T10:41:32.166612+00:00"
     }
   ]
 }
