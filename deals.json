@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-02T11:59:15.930987+00:00",
+  "updated_at": "2026-05-02T12:18:44.678664+00:00",
   "deals": [
+    {
+      "asin": "B0DZ35JC3D",
+      "title": "Ponds Hydra Miracle Super Light Gel with Hyaluronic Acid &amp; Vitamin C - 200g",
+      "price": "₹255",
+      "price_num": 255,
+      "original_price": "₹654",
+      "discount_pct": 61,
+      "effective_price": null,
+      "image_url": "https://m.media-amazon.com/images/I/51pNnHLSQzL._SL1000_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "desidime",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹253",
+      "average_price": "₹389",
+      "highest_price": "₹499",
+      "vs_avg_str": "34% below avg (avg ₹389)",
+      "vs_avg_pct": 34,
+      "best_card_label": "₹38 off via select Credit",
+      "best_card_discount": 38,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 50,
+      "affiliate_link": "https://www.amazon.in/dp/B0DZ35JC3D?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DZ35JC3D&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-02T12:17:50.892700+00:00"
+    },
     {
       "asin": "B003N8A0AQ",
       "title": "GE FXWPC Whole Home System Replacement Filter Set, White, 10.00 x 2.60 x 5.20 inches",
@@ -754,32 +780,6 @@
       "score": 20,
       "affiliate_link": "https://www.amazon.in/dp/B0DXD7VY57?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DXD7VY57&ref_=as_li_ss_tl",
       "posted_at": "2026-05-02T09:33:44.631444+00:00"
-    },
-    {
-      "asin": "B0DXFSZJS1",
-      "title": "TMQ Air Conditioner Remote Compatible for Haier Split AC Remote Control (Please Match The Image with Your Old Remote)",
-      "price": "₹429",
-      "price_num": 429,
-      "original_price": "₹999",
-      "discount_pct": 57,
-      "effective_price": "₹258",
-      "image_url": "https://m.media-amazon.com/images/I/51Rq+Qzzy6L._SL1038_.jpg",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": null,
-      "average_price": null,
-      "highest_price": null,
-      "vs_avg_str": null,
-      "vs_avg_pct": null,
-      "best_card_label": "₹171 off via select Credit",
-      "best_card_discount": 171,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 20,
-      "affiliate_link": "https://www.amazon.in/dp/B0DXFSZJS1?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DXFSZJS1&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-02T09:33:37.502781+00:00"
     }
   ]
 }
