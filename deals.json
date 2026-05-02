@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-02T18:16:17.132838+00:00",
+  "updated_at": "2026-05-02T18:36:48.019172+00:00",
   "deals": [
+    {
+      "asin": "B0GHY76N2H",
+      "title": "Buy F Gear Canyon 18L Premium Canvas Laptop Backpack",
+      "price": "₹1,290",
+      "price_num": 1290,
+      "original_price": "₹6,999",
+      "discount_pct": 81,
+      "effective_price": "₹774",
+      "image_url": "https://m.media-amazon.com/images/I/711y8cjWyIL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹1,290",
+      "average_price": "₹1,290",
+      "highest_price": "₹1,290",
+      "vs_avg_str": "0% above avg (avg ₹1,290)",
+      "vs_avg_pct": 0,
+      "best_card_label": "₹516 off via select Credit",
+      "best_card_discount": 516,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 60,
+      "affiliate_link": "https://www.amazon.in/dp/B0GHY76N2H?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GHY76N2H&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-02T18:35:46.801692+00:00"
+    },
     {
       "asin": "B0DG5TKLGG",
       "title": "INALSA Air Fryer 3.5 ltr",
@@ -754,32 +780,6 @@
       "score": 90,
       "affiliate_link": "https://www.amazon.in/dp/B0DMWCJSY9?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DMWCJSY9&ref_=as_li_ss_tl",
       "posted_at": "2026-05-02T14:28:10.877123+00:00"
-    },
-    {
-      "asin": "B097LR4K45",
-      "title": "IVELECT Universal 5V Car Mini Fridge Warmer and Cooler Dual Auto USB Refrigerator Freezer Office Black",
-      "price": "₹4,533",
-      "price_num": 4533,
-      "original_price": "₹9,066",
-      "discount_pct": 50,
-      "effective_price": null,
-      "image_url": "",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹2,812",
-      "average_price": "₹4,168",
-      "highest_price": "₹6,382",
-      "vs_avg_str": "8% above avg (avg ₹4,168)",
-      "vs_avg_pct": -8,
-      "best_card_label": null,
-      "best_card_discount": 0,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 20,
-      "affiliate_link": "https://www.amazon.in/dp/B097LR4K45?tag=techeasy0d1-21&linkCode=ll1&linkId=B097LR4K45&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-02T14:16:15.224955+00:00"
     }
   ]
 }
