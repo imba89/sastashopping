@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-02T20:51:13.769789+00:00",
+  "updated_at": "2026-05-02T21:03:01.506159+00:00",
   "deals": [
+    {
+      "asin": "B0C4Q7ZBLS",
+      "title": "Buy Nikon Z 8 with Zoom Lens",
+      "price": "₹539,938",
+      "price_num": 539938,
+      "original_price": "₹11,74,499",
+      "discount_pct": 54,
+      "effective_price": "₹523,740",
+      "image_url": "https://m.media-amazon.com/images/I/91Schv+IZqL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹539,937",
+      "average_price": "₹591,037",
+      "highest_price": "₹1,124,499",
+      "vs_avg_str": "8% below avg (avg ₹591,037)",
+      "vs_avg_pct": 8,
+      "best_card_label": "₹16,198 off via Amazon Pay",
+      "best_card_discount": 16198,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹14,076 EMI interest savings",
+      "score": 38,
+      "affiliate_link": "https://www.amazon.in/dp/B0C4Q7ZBLS?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C4Q7ZBLS&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-02T21:01:09.639656+00:00"
+    },
     {
       "asin": "B09NW8SCRJ",
       "title": "LOOM &amp; NEEDLES Folding &amp; Tri-fold Memory Foam Mattress, Medium Firm, Foldable, Guest Beds, Camp Portable Travel Mattresses, 72x36x4 Inches",
@@ -754,32 +780,6 @@
       "score": 62,
       "affiliate_link": "https://www.amazon.in/dp/B0GPZ3VMTZ?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GPZ3VMTZ&ref_=as_li_ss_tl",
       "posted_at": "2026-05-02T20:04:44.760375+00:00"
-    },
-    {
-      "asin": "B0DXQ6747D",
-      "title": "Mickko 45+2 MFD 440V Tibcon Capacitor for Air Conditioner (Split &amp; Window Air Conditioners) 1 Ton &amp; 1.5 Ton &amp; 2 Ton Air Conditioner",
-      "price": "₹399",
-      "price_num": 399,
-      "original_price": "₹999",
-      "discount_pct": 60,
-      "effective_price": "₹233",
-      "image_url": "https://m.media-amazon.com/images/I/610NCiHQ1HL._SL1386_.jpg",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹367",
-      "average_price": "₹394",
-      "highest_price": "₹399",
-      "vs_avg_str": "1% above avg (avg ₹394)",
-      "vs_avg_pct": -1,
-      "best_card_label": "₹159 off via select Credit",
-      "best_card_discount": 159,
-      "coupon": "2% off",
-      "coupon_num": 7,
-      "emi_savings": null,
-      "score": 20,
-      "affiliate_link": "https://www.amazon.in/dp/B0DXQ6747D?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DXQ6747D&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-02T19:53:21.562412+00:00"
     }
   ]
 }
