@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-02T08:29:51.807177+00:00",
+  "updated_at": "2026-05-02T08:40:04.483574+00:00",
   "deals": [
+    {
+      "asin": "B0CJP2VCPC",
+      "title": "Buy NATURAL LEATHER Men's Red Leather Jacket (ZL_JK_49_Red,Size",
+      "price": "₹10,999",
+      "price_num": 10999,
+      "original_price": "₹23,999",
+      "discount_pct": 54,
+      "effective_price": "₹8,499",
+      "image_url": "https://m.media-amazon.com/images/I/51-+S1MTeBL._SL1000_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": null,
+      "average_price": null,
+      "highest_price": null,
+      "vs_avg_str": null,
+      "vs_avg_pct": null,
+      "best_card_label": "₹2,500 off via select Credit",
+      "best_card_discount": 2500,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹356 EMI interest savings",
+      "score": 22,
+      "affiliate_link": "https://www.amazon.in/dp/B0CJP2VCPC?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CJP2VCPC&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-02T08:39:02.956339+00:00"
+    },
     {
       "asin": "B0GDFG1NC2",
       "title": "Buy Cruiser Men’s Sneakers",
