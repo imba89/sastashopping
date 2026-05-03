@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-03T04:59:51.799726+00:00",
+  "updated_at": "2026-05-03T05:10:43.288926+00:00",
   "deals": [
+    {
+      "asin": "B0FKBMB6NW",
+      "title": "Lifelong Beard Trimmer for Man",
+      "price": "₹599",
+      "price_num": 599,
+      "original_price": "₹1,499",
+      "discount_pct": 60,
+      "effective_price": null,
+      "image_url": "https://m.media-amazon.com/images/I/81UBJwZ2SNL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹499",
+      "average_price": "₹592",
+      "highest_price": "₹633",
+      "vs_avg_str": "1% above avg (avg ₹592)",
+      "vs_avg_pct": -1,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 20,
+      "affiliate_link": "https://www.amazon.in/dp/B0FKBMB6NW?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FKBMB6NW&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-03T05:09:51.047957+00:00"
+    },
     {
       "asin": "B013UQIK2A",
       "title": "Buy V Tech Kidizoom Duo Camera Pink Online Exclusive Online at Low Prices in India - Amazon.in",
@@ -754,32 +780,6 @@
       "score": 20,
       "affiliate_link": "https://www.amazon.in/dp/B0BLSQVN7Q?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BLSQVN7Q&ref_=as_li_ss_tl",
       "posted_at": "2026-05-03T03:45:56.364691+00:00"
-    },
-    {
-      "asin": "B079J1SJQJ",
-      "title": "Buy Shri Krishan kripa Handloom Cotton Mattress Cover Single Bed Diwan Cot 2.5x6 ft- 72X30x5 inch,Multi Online at Low Prices in India - Amazon.in",
-      "price": "₹399",
-      "price_num": 399,
-      "original_price": "₹1,299",
-      "discount_pct": 69,
-      "effective_price": "₹240",
-      "image_url": "https://m.media-amazon.com/images/I/915C0RJrpiL._SL1500_.jpg",
-      "category": "🏠 Home",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹379",
-      "average_price": "₹395",
-      "highest_price": "₹399",
-      "vs_avg_str": "1% above avg (avg ₹395)",
-      "vs_avg_pct": -1,
-      "best_card_label": "₹159 off via select Credit",
-      "best_card_discount": 159,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 20,
-      "affiliate_link": "https://www.amazon.in/dp/B079J1SJQJ?tag=techeasy0d1-21&linkCode=ll1&linkId=B079J1SJQJ&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-03T03:45:51.310742+00:00"
     }
   ]
 }
