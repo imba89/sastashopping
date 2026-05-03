@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-03T03:46:50.005081+00:00",
+  "updated_at": "2026-05-03T03:57:50.584893+00:00",
   "deals": [
+    {
+      "asin": "B0CQ57TVZS",
+      "title": "LG WashTower 13 Kg/10 Kg Washing Machine and Dryer FWT1310BG",
+      "price": "₹164,290",
+      "price_num": 164290,
+      "original_price": "₹2,75,000",
+      "discount_pct": 40,
+      "effective_price": "₹159,362",
+      "image_url": "https://m.media-amazon.com/images/I/71XH2Z6p1CL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹149,890",
+      "average_price": "₹179,610",
+      "highest_price": "₹238,990",
+      "vs_avg_str": "8% below avg (avg ₹179,610)",
+      "vs_avg_pct": 8,
+      "best_card_label": "₹4,928 off via Amazon Pay",
+      "best_card_discount": 4928,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹20,168 EMI interest savings",
+      "score": 32,
+      "affiliate_link": "https://www.amazon.in/dp/B0CQ57TVZS?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CQ57TVZS&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-03T03:56:49.724039+00:00"
+    },
     {
       "asin": "B01D11ZOAK",
       "title": "VTech Kidizoom Camera Pix, Blue",
@@ -754,32 +780,6 @@
       "score": 31,
       "affiliate_link": "https://www.amazon.in/dp/B0BQN79PH9?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BQN79PH9&ref_=as_li_ss_tl",
       "posted_at": "2026-05-03T02:35:02.165587+00:00"
-    },
-    {
-      "asin": "B0024E6V30",
-      "title": "Camco TastePURE Inline Water Filter, Greatly Reduces Bad Taste, Odors, Chlorine and Sediment in Drinking Water (2 Pack) (40045)",
-      "price": "₹7,418",
-      "price_num": 7418,
-      "original_price": "₹24,999",
-      "discount_pct": 70,
-      "effective_price": "₹4,918",
-      "image_url": "https://m.media-amazon.com/images/I/81SJapwWGPL._SL1500_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "amazon",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹7,419",
-      "average_price": "₹7,419",
-      "highest_price": "₹7,419",
-      "vs_avg_str": "0% above avg (avg ₹7,419)",
-      "vs_avg_pct": 0,
-      "best_card_label": "₹2,500 off via select Credit",
-      "best_card_discount": 2500,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹240 EMI interest savings",
-      "score": 62,
-      "affiliate_link": "https://www.amazon.in/dp/B0024E6V30?tag=techeasy0d1-21&linkCode=ll1&linkId=B0024E6V30&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-03T02:34:55.602556+00:00"
     }
   ]
 }
