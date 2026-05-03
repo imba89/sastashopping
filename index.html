@@ -5,864 +5,820 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SastaShopping — Best Amazon India Deals</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,700;0,900;1,300;1,700&family=Instrument+Sans:wght@400;500;600&family=Instrument+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --bg: #0a0a0a;
-    --surface: #141414;
-    --card: #1a1a1a;
-    --border: #2a2a2a;
-    --accent: #ff6b00;
-    --accent2: #ffb347;
-    --teal: #00c896;
-    --red: #ff3b3b;
-    --text: #f0f0f0;
-    --muted: #888;
-    --font-display: 'Bebas Neue', sans-serif;
-    --font-body: 'DM Sans', sans-serif;
-    --font-mono: 'DM Mono', monospace;
-  }
-
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: var(--font-body);
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
-
-  /* Noise texture overlay */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-    pointer-events: none;
-    z-index: 0;
-    opacity: 0.4;
-  }
-
-  /* Header */
-  header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: rgba(10,10,10,0.92);
-    backdrop-filter: blur(20px);
-    border-bottom: 1px solid var(--border);
-    padding: 0 2rem;
-  }
-
-  .header-inner {
-    max-width: 1400px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 64px;
-  }
-
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-  }
-
-  .logo-icon {
-    width: 36px;
-    height: 36px;
-    background: var(--accent);
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-  }
-
-  .logo-text {
-    font-family: var(--font-display);
-    font-size: 1.8rem;
-    letter-spacing: 2px;
-    color: var(--text);
-  }
-
-  .logo-text span { color: var(--accent); }
-
-  .header-right {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .live-badge {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    background: rgba(0,200,150,0.1);
-    border: 1px solid rgba(0,200,150,0.3);
-    color: var(--teal);
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-  }
-
-  .live-dot {
-    width: 6px;
-    height: 6px;
-    background: var(--teal);
-    border-radius: 50%;
-    animation: pulse 1.5s infinite;
-  }
-
-  @keyframes pulse {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.5; transform: scale(0.8); }
-  }
-
-  .tg-btn {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    background: var(--accent);
-    color: white;
-    padding: 8px 16px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 0.85rem;
-    font-weight: 600;
-    transition: all 0.2s;
-  }
-
-  .tg-btn:hover {
-    background: var(--accent2);
-    transform: translateY(-1px);
-  }
-
-  /* Hero */
-  .hero {
-    position: relative;
-    padding: 4rem 2rem 2rem;
-    text-align: center;
-    overflow: hidden;
-  }
-
-  .hero::after {
-    content: '';
-    position: absolute;
-    top: -100px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 600px;
-    height: 400px;
-    background: radial-gradient(ellipse, rgba(255,107,0,0.12) 0%, transparent 70%);
-    pointer-events: none;
-  }
-
-  .hero h1 {
-    font-family: var(--font-display);
-    font-size: clamp(3rem, 8vw, 6rem);
-    letter-spacing: 4px;
-    line-height: 1;
-    margin-bottom: 1rem;
-  }
-
-  .hero h1 span { color: var(--accent); }
-
-  .hero p {
-    color: var(--muted);
-    font-size: 1rem;
-    max-width: 500px;
-    margin: 0 auto 1.5rem;
-    line-height: 1.6;
-  }
-
-  .stats-row {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-bottom: 2rem;
-    flex-wrap: wrap;
-  }
-
-  .stat {
-    text-align: center;
-  }
-
-  .stat-num {
-    font-family: var(--font-display);
-    font-size: 2rem;
-    color: var(--accent);
-    letter-spacing: 2px;
-  }
-
-  .stat-label {
-    font-size: 0.7rem;
-    color: var(--muted);
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-
-  /* Filters */
-  .filters {
-    padding: 0 2rem 1.5rem;
-    max-width: 1400px;
-    margin: 0 auto;
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .filter-label {
-    font-size: 0.75rem;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-right: 0.5rem;
-  }
-
-  .filter-btn {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    color: var(--muted);
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    cursor: pointer;
-    transition: all 0.2s;
-    font-family: var(--font-body);
-  }
-
-  .filter-btn:hover, .filter-btn.active {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: white;
-  }
-
-  .sort-select {
-    margin-left: auto;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    color: var(--text);
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    cursor: pointer;
-    font-family: var(--font-body);
-    outline: none;
-  }
-
-  /* Grid */
-  .grid-section {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 2rem 4rem;
-  }
-
-  .section-header {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .section-title {
-    font-family: var(--font-display);
-    font-size: 1.5rem;
-    letter-spacing: 2px;
-  }
-
-  .deal-count {
-    font-size: 0.75rem;
-    color: var(--muted);
-    font-family: var(--font-mono);
-    background: var(--surface);
-    padding: 3px 10px;
-    border-radius: 10px;
-  }
-
-  .last-updated {
-    margin-left: auto;
-    font-size: 0.75rem;
-    color: var(--muted);
-    font-family: var(--font-mono);
-  }
-
-  .deals-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
-  }
-
-  /* Deal Card */
-  .deal-card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    overflow: hidden;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    animation: fadeUp 0.4s ease both;
-  }
-
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-
-  .deal-card:hover {
-    border-color: var(--accent);
-    transform: translateY(-4px);
-    box-shadow: 0 20px 40px rgba(255,107,0,0.1);
-  }
-
-  .card-top-bar {
-    height: 4px;
-    background: var(--accent);
-  }
-
-  .card-top-bar.desidime { background: #00bcd4; }
-  .card-top-bar.lowest   { background: var(--red); }
-
-  .card-image {
-    width: 100%;
-    height: 200px;
-    background: #111;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .card-image img {
-    max-width: 90%;
-    max-height: 90%;
-    object-fit: contain;
-    transition: transform 0.3s;
-  }
-
-  .deal-card:hover .card-image img {
-    transform: scale(1.05);
-  }
-
-  .card-badges {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
-  .badge {
-    font-size: 0.7rem;
-    font-weight: 600;
-    padding: 4px 10px;
-    border-radius: 6px;
-    letter-spacing: 0.5px;
-  }
-
-  .badge-discount {
-    background: var(--accent);
-    color: white;
-  }
-
-  .badge-lowest {
-    background: var(--red);
-    color: white;
-  }
-
-  .badge-desidime {
-    background: #00bcd4;
-    color: white;
-  }
-
-  .badge-below-avg {
-    background: var(--teal);
-    color: #000;
-  }
-
-  .card-body {
-    padding: 1rem;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-  }
-
-  .card-category {
-    font-size: 0.7rem;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-family: var(--font-mono);
-  }
-
-  .card-title {
-    font-size: 0.9rem;
-    font-weight: 500;
-    line-height: 1.4;
-    color: var(--text);
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  .card-pricing {
-    display: flex;
-    align-items: baseline;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-  }
-
-  .price-main {
-    font-family: var(--font-display);
-    font-size: 1.6rem;
-    color: var(--accent);
-    letter-spacing: 1px;
-  }
-
-  .price-original {
-    font-size: 0.8rem;
-    color: var(--muted);
-    text-decoration: line-through;
-  }
-
-  .card-meta {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
-
-  .meta-row {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 0.78rem;
-    color: var(--muted);
-  }
-
-  .meta-row.green { color: var(--teal); }
-  .meta-row.red   { color: var(--red); }
-
-  .ph-row {
-    background: var(--surface);
-    border-radius: 8px;
-    padding: 8px 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 4px;
-    margin-top: 4px;
-  }
-
-  .ph-item { text-align: center; }
-
-  .ph-label {
-    font-size: 0.6rem;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-
-  .ph-value {
-    font-size: 0.8rem;
-    font-weight: 600;
-    font-family: var(--font-mono);
-  }
-
-  .ph-value.low  { color: var(--red); }
-  .ph-value.avg  { color: var(--text); }
-  .ph-value.high { color: var(--muted); }
-
-  .card-footer {
-    padding: 0.75rem 1rem;
-    border-top: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .time-ago {
-    font-size: 0.7rem;
-    color: var(--muted);
-    font-family: var(--font-mono);
-  }
-
-  .buy-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: var(--accent);
-    color: white;
-    text-decoration: none;
-    padding: 8px 16px;
-    border-radius: 8px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    transition: all 0.2s;
-    white-space: nowrap;
-  }
-
-  .buy-btn:hover {
-    background: var(--accent2);
-    transform: translateY(-1px);
-  }
-
-  /* Empty state */
-  .empty-state {
-    text-align: center;
-    padding: 4rem 2rem;
-    color: var(--muted);
-  }
-
-  .empty-icon { font-size: 3rem; margin-bottom: 1rem; }
-  .empty-state h3 { color: var(--text); margin-bottom: 0.5rem; }
-
-  /* Loading */
-  .loading {
-    display: flex;
-    justify-content: center;
-    padding: 4rem;
-  }
-
-  .spinner {
-    width: 40px;
-    height: 40px;
-    border: 3px solid var(--border);
-    border-top-color: var(--accent);
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-  }
-
-  @keyframes spin { to { transform: rotate(360deg); } }
-
-  /* Ticker */
-  .ticker {
-    background: var(--accent);
-    padding: 8px 0;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-
-  .ticker-inner {
-    display: inline-flex;
-    animation: ticker 30s linear infinite;
-    gap: 4rem;
-  }
-
-  .ticker-inner span {
-    font-family: var(--font-display);
-    font-size: 0.9rem;
-    letter-spacing: 2px;
-    color: white;
-  }
-
-  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-
-  /* Footer */
-  footer {
-    border-top: 1px solid var(--border);
-    padding: 2rem;
-    text-align: center;
-    color: var(--muted);
-    font-size: 0.8rem;
-  }
-
-  footer a { color: var(--accent); text-decoration: none; }
-
-  /* Responsive */
-  @media (max-width: 600px) {
-    .hero h1 { font-size: 3rem; }
-    .stats-row { gap: 1rem; }
-    .deals-grid { grid-template-columns: 1fr; }
-    .header-inner { padding: 0; }
-    .logo-text { font-size: 1.4rem; }
-  }
-
-  /* No image placeholder */
-  .no-image {
-    width: 80px;
-    height: 80px;
-    background: var(--border);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    color: var(--muted);
-  }
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #FAFAF8;
+  --surface: #F4F3EF;
+  --card: #FFFFFF;
+  --border: #E8E6E0;
+  --border-dark: #D0CEC7;
+  --ink: #1A1916;
+  --ink2: #6B6860;
+  --ink3: #B0AEA8;
+  --orange: #E84825;
+  --orange2: #FF5A34;
+  --green: #1A7A4A;
+  --blue: #1B5299;
+  --gold: #C4922A;
+  --font-display: 'Fraunces', serif;
+  --font-ui: 'Instrument Sans', sans-serif;
+  --font-mono: 'Instrument Mono', monospace;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Header ── */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(250,250,248,0.96);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 2.5rem;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-right: auto;
+}
+
+.logo-text {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -0.5px;
+}
+
+.logo-dot {
+  width: 7px;
+  height: 7px;
+  background: var(--orange);
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.header-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #E8F5ED;
+  border: 1px solid #B8DEC5;
+  color: var(--green);
+  padding: 5px 12px;
+  border-radius: 100px;
+  font-size: 0.72rem;
+  font-weight: 500;
+}
+
+.pulse {
+  width: 6px;
+  height: 6px;
+  background: var(--green);
+  border-radius: 50%;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse { 0%,100%{transform:scale(1);opacity:1} 50%{transform:scale(0.7);opacity:0.6} }
+
+.header-stats {
+  display: flex;
+  gap: 1.5rem;
+  padding-left: 2rem;
+  border-left: 1px solid var(--border);
+}
+
+.h-stat { text-align: right; }
+.h-stat-n { font-family: var(--font-mono); font-size: 0.9rem; font-weight: 500; color: var(--ink); }
+.h-stat-l { font-size: 0.62rem; color: var(--ink3); }
+
+.header-btn {
+  background: var(--ink);
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.header-btn:hover { background: var(--orange); }
+
+/* ── Hero ── */
+.hero {
+  padding: 4rem 2.5rem 3rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.h-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1.25rem;
+}
+
+.h-chip {
+  background: #FEF0EC;
+  border: 1px solid #F7C4B5;
+  color: var(--orange);
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 4px;
+  letter-spacing: 0.3px;
+}
+
+.h-date {
+  font-size: 0.75rem;
+  color: var(--ink3);
+  font-family: var(--font-mono);
+}
+
+.hero-h {
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  margin-bottom: 1.25rem;
+  color: var(--ink);
+}
+
+.hero-h em {
+  font-style: italic;
+  color: var(--orange);
+}
+
+.hero-p {
+  font-size: 1rem;
+  color: var(--ink2);
+  line-height: 1.7;
+  max-width: 440px;
+  margin-bottom: 2rem;
+}
+
+.hero-numbers {
+  display: flex;
+  gap: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.h-num { }
+.h-num-n {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--orange);
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.h-num-l { font-size: 0.72rem; color: var(--ink3); margin-top: 4px; }
+
+/* Featured card */
+.featured-wrap {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.featured-header {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feat-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--ink3);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.feat-badge {
+  background: var(--orange);
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+
+.featured-img {
+  height: 180px;
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.featured-img img { max-width: 85%; max-height: 85%; object-fit: contain; }
+
+.featured-body {
+  padding: 1.25rem;
+}
+
+.feat-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+  color: var(--ink);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.feat-price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.feat-price {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--orange);
+  letter-spacing: -0.5px;
+}
+
+.feat-orig {
+  font-size: 0.85rem;
+  color: var(--ink3);
+  text-decoration: line-through;
+  font-family: var(--font-mono);
+}
+
+.feat-disc {
+  background: var(--orange);
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.feat-buy {
+  display: block;
+  background: var(--ink);
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.feat-buy:hover { background: var(--orange); }
+
+/* ── Divider ── */
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0;
+}
+
+/* ── Main ── */
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2.5rem;
+}
+
+.main-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.main-title {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.main-sub {
+  font-size: 0.8rem;
+  color: var(--ink3);
+  margin-top: 4px;
+  font-family: var(--font-mono);
+}
+
+.last-updated {
+  font-size: 0.72rem;
+  color: var(--ink3);
+  font-family: var(--font-mono);
+}
+
+/* ── Filter row ── */
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.f-btn {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--ink2);
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.f-btn:hover { border-color: var(--border-dark); color: var(--ink); }
+.f-btn.active { background: var(--ink); border-color: var(--ink); color: #fff; }
+
+.f-sort {
+  margin-left: auto;
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--ink2);
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  cursor: pointer;
+  outline: none;
+  font-family: var(--font-ui);
+}
+
+/* ── Grid ── */
+.deals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+/* ── Card ── */
+.c {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+  animation: up 0.3s ease both;
+}
+
+@keyframes up {
+  from { opacity:0; transform:translateY(10px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+
+.c:hover {
+  border-color: var(--border-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.07);
+}
+
+.c-img {
+  height: 200px;
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.c-img img {
+  max-width: 85%;
+  max-height: 85%;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+
+.c:hover .c-img img { transform: scale(1.05); }
+
+.c-disc {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--orange);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.c-lowest {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #E8F5ED;
+  border: 1px solid #B8DEC5;
+  color: var(--green);
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.c-desi {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #EBF5FE;
+  border: 1px solid #B3D4F5;
+  color: var(--blue);
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.c-body {
+  padding: 1rem 1.15rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.c-cat {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--ink3);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.c-title {
+  font-size: 0.87rem;
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--ink);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.c-price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.c-price {
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: var(--orange);
+  letter-spacing: -0.5px;
+  line-height: 1;
+}
+
+.c-orig {
+  font-size: 0.78rem;
+  color: var(--ink3);
+  text-decoration: line-through;
+  font-family: var(--font-mono);
+}
+
+.c-ph {
+  background: var(--surface);
+  border-radius: 6px;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+.c-ph-item { text-align: center; }
+.c-ph-l { font-size: 0.55rem; color: var(--ink3); margin-bottom: 2px; text-transform: uppercase; letter-spacing: 0.5px; }
+.c-ph-v { font-size: 0.72rem; font-family: var(--font-mono); font-weight: 500; color: var(--ink); }
+.c-ph-v.low { color: var(--orange); }
+
+.c-offer { font-size: 0.73rem; color: var(--ink2); display: flex; align-items: center; gap: 5px; }
+.c-offer.g { color: var(--green); }
+
+.c-foot {
+  padding: 0.85rem 1.15rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.c-time { font-size: 0.65rem; color: var(--ink3); font-family: var(--font-mono); }
+
+.c-buy {
+  background: var(--ink);
+  color: #fff;
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.c-buy:hover { background: var(--orange); }
+
+/* ── Empty ── */
+.empty {
+  padding: 5rem 2rem;
+  text-align: center;
+  color: var(--ink3);
+  font-size: 0.9rem;
+}
+
+/* ── Footer ── */
+.site-footer {
+  margin-top: 4rem;
+  border-top: 1px solid var(--border);
+  padding: 2rem 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-l {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.footer-r {
+  font-size: 0.72rem;
+  color: var(--ink3);
+  font-family: var(--font-mono);
+}
+
+.footer-r a { color: var(--orange); text-decoration: none; }
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  header { padding: 0 1.25rem; }
+  .header-stats { display: none; }
+  .hero { grid-template-columns: 1fr; padding: 2rem 1.25rem; }
+  .featured-wrap { display: none; }
+  .main { padding: 1.5rem 1.25rem; }
+  .deals-grid { grid-template-columns: 1fr; }
+  .site-footer { flex-direction: column; gap: 1rem; padding: 1.5rem 1.25rem; }
+}
 </style>
 </head>
 <body>
 
-<!-- Ticker -->
-<div class="ticker">
-  <div class="ticker-inner" id="ticker">
-    <span>🔥 BEST AMAZON INDIA DEALS</span>
-    <span>💰 LOWEST EVER PRICES</span>
-    <span>⚡ UPDATED EVERY 5 MINUTES</span>
-    <span>🎯 HANDPICKED BY AI</span>
-    <span>🔥 BEST AMAZON INDIA DEALS</span>
-    <span>💰 LOWEST EVER PRICES</span>
-    <span>⚡ UPDATED EVERY 5 MINUTES</span>
-    <span>🎯 HANDPICKED BY AI</span>
-  </div>
-</div>
-
-<!-- Header -->
 <header>
-  <div class="header-inner">
-    <a href="/" class="logo">
-      <div class="logo-icon">🛍️</div>
-      <div class="logo-text">SASTA<span>SHOPPING</span></div>
-    </a>
-    <div class="header-right">
-      <div class="live-badge">
-        <div class="live-dot"></div>
-        LIVE DEALS
-      </div>
-      <a href="https://t.me/techeasydeals" target="_blank" class="tg-btn">
-        ✈️ Telegram
-      </a>
+  <a href="/" class="logo">
+    <span class="logo-text">SastaShopping</span>
+    <span class="logo-dot"></span>
+  </a>
+  <div class="header-pill">
+    <div class="pulse"></div>
+    Live Deals
+  </div>
+  <div class="header-stats">
+    <div class="h-stat">
+      <div class="h-stat-n" id="h-deals">—</div>
+      <div class="h-stat-l">Active Deals</div>
+    </div>
+    <div class="h-stat">
+      <div class="h-stat-n" id="h-low">—</div>
+      <div class="h-stat-l">Lowest Ever</div>
+    </div>
+    <div class="h-stat">
+      <div class="h-stat-n" id="h-avg">—</div>
+      <div class="h-stat-l">Avg Discount</div>
     </div>
   </div>
+  <a href="https://t.me/techeasydeals" target="_blank" class="header-btn">
+    Join Telegram →
+  </a>
 </header>
 
-<!-- Hero -->
 <div class="hero">
-  <h1>BEST DEALS<br><span>RIGHT NOW</span></h1>
-  <p>AI-curated Amazon India deals updated every 5 minutes. Only the best discounts, lowest ever prices, and verified offers.</p>
-  <div class="stats-row" id="stats-row">
-    <div class="stat">
-      <div class="stat-num" id="stat-deals">—</div>
-      <div class="stat-label">Active Deals</div>
+  <div>
+    <div class="h-eyebrow">
+      <div class="h-chip">AI-Curated Deals</div>
+      <div class="h-date" id="h-date"></div>
     </div>
-    <div class="stat">
-      <div class="stat-num" id="stat-lowest">—</div>
-      <div class="stat-label">Lowest Ever</div>
+    <h1 class="hero-h">The <em>best</em> Amazon<br>deals — verified,<br>every 5 minutes.</h1>
+    <p class="hero-p">We scan thousands of products across Amazon India continuously — surfacing the highest discounts, lowest ever prices, and verified bank offers so you never miss a great deal.</p>
+    <div class="hero-numbers">
+      <div class="h-num">
+        <div class="h-num-n" id="big-deals">—</div>
+        <div class="h-num-l">Active Deals</div>
+      </div>
+      <div class="h-num">
+        <div class="h-num-n" id="big-low">—</div>
+        <div class="h-num-l">Lowest Ever</div>
+      </div>
+      <div class="h-num">
+        <div class="h-num-n" id="big-avg">—</div>
+        <div class="h-num-l">Avg Discount</div>
+      </div>
     </div>
-    <div class="stat">
-      <div class="stat-num" id="stat-avg-disc">—</div>
-      <div class="stat-label">Avg Discount</div>
+  </div>
+
+  <div class="featured-wrap">
+    <div class="featured-header">
+      <div class="feat-label">Featured Deal</div>
+      <div class="feat-badge" id="feat-badge">Top Pick</div>
     </div>
-    <div class="stat">
-      <div class="stat-num" id="stat-savings">—</div>
-      <div class="stat-label">Max Saving</div>
+    <div class="featured-img" id="feat-img">
+      <span style="font-size:3rem">🛍️</span>
+    </div>
+    <div class="featured-body">
+      <div class="feat-title" id="feat-title">Loading best deal...</div>
+      <div class="feat-price-row">
+        <div class="feat-price" id="feat-price">—</div>
+        <div class="feat-orig" id="feat-orig"></div>
+        <div class="feat-disc" id="feat-disc"></div>
+      </div>
+      <a href="#" class="feat-buy" id="feat-buy">View on Amazon →</a>
     </div>
   </div>
 </div>
 
-<!-- Filters -->
-<div class="filters">
-  <span class="filter-label">Filter:</span>
-  <button class="filter-btn active" onclick="filterDeals('all', this)">All</button>
-  <button class="filter-btn" onclick="filterDeals('lowest', this)">🏆 Lowest Ever</button>
-  <button class="filter-btn" onclick="filterDeals('electronics', this)">⚡ Electronics</button>
-  <button class="filter-btn" onclick="filterDeals('fashion', this)">👗 Fashion</button>
-  <button class="filter-btn" onclick="filterDeals('kitchen', this)">🍳 Kitchen</button>
-  <button class="filter-btn" onclick="filterDeals('desidime', this)">🎯 DesiDime</button>
-  <select class="sort-select" onchange="sortDeals(this.value)">
-    <option value="time">Latest First</option>
-    <option value="discount">Highest Discount</option>
-    <option value="score">Best Score</option>
-    <option value="savings">Most Savings</option>
-  </select>
-</div>
+<hr class="divider">
 
-<!-- Grid -->
-<div class="grid-section">
-  <div class="section-header">
-    <div class="section-title">TODAY'S DEALS</div>
-    <div class="deal-count" id="deal-count">Loading...</div>
+<div class="main">
+  <div class="main-header">
+    <div>
+      <div class="main-title">Today's Deals</div>
+      <div class="main-sub" id="deal-count">Loading...</div>
+    </div>
     <div class="last-updated" id="last-updated"></div>
   </div>
-  <div id="deals-container">
-    <div class="loading"><div class="spinner"></div></div>
+
+  <div class="filter-row">
+    <button class="f-btn active" onclick="filt('all',this)">All Deals</button>
+    <button class="f-btn" onclick="filt('lowest',this)">🏆 Lowest Ever</button>
+    <button class="f-btn" onclick="filt('electronics',this)">Electronics</button>
+    <button class="f-btn" onclick="filt('fashion',this)">Fashion</button>
+    <button class="f-btn" onclick="filt('kitchen',this)">Kitchen</button>
+    <button class="f-btn" onclick="filt('desidime',this)">🎯 DesiDime</button>
+    <select class="f-sort" onchange="srt(this.value)">
+      <option value="time">Latest First</option>
+      <option value="discount">Highest Discount</option>
+      <option value="score">Best Score</option>
+    </select>
+  </div>
+
+  <div id="container">
+    <div class="empty">Loading deals...</div>
   </div>
 </div>
 
-<!-- Footer -->
-<footer>
-  <p>© 2025 SastaShopping · Deals updated every 5 mins · 
-  <a href="https://t.me/techeasydeals" target="_blank">Join Telegram</a> for instant alerts ·
-  Prices include all applicable offers · All purchases via Amazon.in
-  </p>
+<footer class="site-footer">
+  <div class="footer-l">SastaShopping</div>
+  <div class="footer-r">© 2025 · <a href="https://t.me/techeasydeals">Telegram Channel</a> · Amazon India Affiliate · Updated every 5 mins</div>
 </footer>
 
 <script>
-let allDeals = [];
-let currentFilter = 'all';
-let currentSort = 'time';
+let deals=[], cf='all', cs='time';
 
-async function loadDeals() {
+document.getElementById('h-date').textContent = new Date().toLocaleDateString('en-IN',{weekday:'long',day:'numeric',month:'long'});
+
+async function load() {
   try {
-    const res = await fetch('deals.json?t=' + Date.now());
-    if (!res.ok) throw new Error('No deals yet');
-    const data = await res.json();
-    allDeals = data.deals || [];
-    updateStats(allDeals);
-    renderDeals();
-    document.getElementById('last-updated').textContent =
-      'Updated: ' + new Date(data.updated_at || Date.now()).toLocaleTimeString('en-IN');
+    const r = await fetch('deals.json?t='+Date.now());
+    const data = await r.json();
+    deals = data.deals||[];
+    const low = deals.filter(d=>d.is_lowest_ever).length;
+    const avg = deals.length ? Math.round(deals.reduce((s,d)=>s+(d.discount_pct||0),0)/deals.length) : 0;
+    ['h-deals','big-deals'].forEach(id=>document.getElementById(id).textContent=deals.length);
+    ['h-low','big-low'].forEach(id=>document.getElementById(id).textContent=low);
+    ['h-avg','big-avg'].forEach(id=>document.getElementById(id).textContent=avg+'%');
+    document.getElementById('deal-count').textContent = deals.length + ' deals available';
+    document.getElementById('last-updated').textContent = 'Updated ' + new Date(data.updated_at||Date.now()).toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'});
+    updateFeat();
+    render();
   } catch(e) {
-    document.getElementById('deals-container').innerHTML = `
-      <div class="empty-state">
-        <div class="empty-icon">🔍</div>
-        <h3>Deals loading soon...</h3>
-        <p>The bot is scanning Amazon for the best deals. Check back in a few minutes!</p>
-      </div>`;
-    document.getElementById('deal-count').textContent = '0 deals';
+    document.getElementById('container').innerHTML='<div class="empty">Deals loading soon — check back in a moment.</div>';
   }
 }
 
-function updateStats(deals) {
-  document.getElementById('stat-deals').textContent = deals.length;
-  const lowest = deals.filter(d => d.is_lowest_ever).length;
-  document.getElementById('stat-lowest').textContent = lowest;
-  const avgDisc = deals.length
-    ? Math.round(deals.reduce((s,d) => s + (d.discount_pct||0), 0) / deals.length)
-    : 0;
-  document.getElementById('stat-avg-disc').textContent = avgDisc + '%';
-  const maxSaving = deals.reduce((max, d) => {
-    const s = (d.best_card_discount||0) + (d.coupon_num||0);
-    return s > max ? s : max;
-  }, 0);
-  document.getElementById('stat-savings').textContent =
-    maxSaving > 0 ? '₹' + maxSaving.toLocaleString('en-IN') : '—';
+function updateFeat() {
+  const top = deals.find(d=>d.is_lowest_ever)||deals[0];
+  if (!top) return;
+  if (top.image_url) document.getElementById('feat-img').innerHTML=`<img src="${top.image_url}" style="max-width:85%;max-height:150px;object-fit:contain;" onerror="this.style.display='none'">`;
+  document.getElementById('feat-title').textContent=(top.title||'').substring(0,75);
+  document.getElementById('feat-price').textContent=top.effective_price||top.price||'';
+  document.getElementById('feat-orig').textContent=top.original_price||'';
+  document.getElementById('feat-disc').textContent=`-${top.discount_pct||0}%`;
+  if (top.is_lowest_ever) document.getElementById('feat-badge').textContent='🏆 Lowest Ever';
+  document.getElementById('feat-buy').href=top.affiliate_link||'#';
 }
 
-function filterDeals(filter, btn) {
-  currentFilter = filter;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+function filt(f,btn) {
+  cf=f;
+  document.querySelectorAll('.f-btn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
-  renderDeals();
+  render();
 }
 
-function sortDeals(sort) {
-  currentSort = sort;
-  renderDeals();
+function srt(s) { cs=s; render(); }
+
+function getD() {
+  let d=[...deals];
+  if(cf==='lowest') d=d.filter(x=>x.is_lowest_ever);
+  else if(cf==='electronics') d=d.filter(x=>(x.category||'').includes('Electronics'));
+  else if(cf==='fashion') d=d.filter(x=>(x.category||'').includes('Fashion'));
+  else if(cf==='kitchen') d=d.filter(x=>(x.category||'').includes('Kitchen'));
+  else if(cf==='desidime') d=d.filter(x=>x.source==='desidime');
+  if(cs==='discount') d.sort((a,b)=>(b.discount_pct||0)-(a.discount_pct||0));
+  else if(cs==='score') d.sort((a,b)=>(b.score||0)-(a.score||0));
+  else d.sort((a,b)=>new Date(b.posted_at||0)-new Date(a.posted_at||0));
+  return d;
 }
 
-function getFilteredSorted() {
-  let deals = [...allDeals];
-  if (currentFilter === 'lowest')      deals = deals.filter(d => d.is_lowest_ever);
-  else if (currentFilter === 'electronics') deals = deals.filter(d => (d.category||'').includes('Electronics'));
-  else if (currentFilter === 'fashion')     deals = deals.filter(d => (d.category||'').includes('Fashion'));
-  else if (currentFilter === 'kitchen')     deals = deals.filter(d => (d.category||'').includes('Kitchen'));
-  else if (currentFilter === 'desidime')    deals = deals.filter(d => d.source === 'desidime');
-
-  if (currentSort === 'discount') deals.sort((a,b) => (b.discount_pct||0) - (a.discount_pct||0));
-  else if (currentSort === 'score')   deals.sort((a,b) => (b.score||0) - (a.score||0));
-  else if (currentSort === 'savings') deals.sort((a,b) =>
-    ((b.best_card_discount||0)+(b.coupon_num||0)) - ((a.best_card_discount||0)+(a.coupon_num||0)));
-  else deals.sort((a,b) => new Date(b.posted_at||0) - new Date(a.posted_at||0));
-
-  return deals;
+function ago(s) {
+  if(!s) return '';
+  const d=(Date.now()-new Date(s))/1000;
+  if(d<60) return 'just now';
+  if(d<3600) return Math.floor(d/60)+'m ago';
+  if(d<86400) return Math.floor(d/3600)+'h ago';
+  return Math.floor(d/86400)+'d ago';
 }
 
-function timeAgo(dateStr) {
-  if (!dateStr) return '';
-  const diff = (Date.now() - new Date(dateStr)) / 1000;
-  if (diff < 60)   return 'just now';
-  if (diff < 3600) return Math.floor(diff/60) + 'm ago';
-  if (diff < 86400) return Math.floor(diff/3600) + 'h ago';
-  return Math.floor(diff/86400) + 'd ago';
+function render() {
+  const d=getD();
+  document.getElementById('deal-count').textContent=d.length+' deals available';
+  if(!d.length) { document.getElementById('container').innerHTML='<div class="empty">No deals match this filter.</div>'; return; }
+  document.getElementById('container').innerHTML=`<div class="deals-grid">${d.map((x,i)=>card(x,i)).join('')}</div>`;
 }
 
-function renderDeals() {
-  const deals = getFilteredSorted();
-  const container = document.getElementById('deals-container');
-  document.getElementById('deal-count').textContent = deals.length + ' deals';
-
-  if (!deals.length) {
-    container.innerHTML = `
-      <div class="empty-state">
-        <div class="empty-icon">🔍</div>
-        <h3>No deals match this filter</h3>
-        <p>Try a different category or check back soon!</p>
-      </div>`;
-    return;
-  }
-
-  container.innerHTML = `<div class="deals-grid">${deals.map((d,i) => dealCard(d,i)).join('')}</div>`;
-}
-
-function dealCard(d, i) {
-  const isLowest   = d.is_lowest_ever;
-  const isDesidime = d.source === 'desidime';
-  const barClass   = isLowest ? 'lowest' : isDesidime ? 'desidime' : '';
-  const eff        = d.effective_price || d.price || '';
-  const hasPH      = d.lowest_ever || d.average_price;
-  const totalSaving = (d.best_card_discount||0) + (d.coupon_num||0);
-
-  const badges = `
-    <div class="badge badge-discount">-${d.discount_pct||0}% OFF</div>
-    <div>
-      ${isLowest   ? '<div class="badge badge-lowest">🏆 LOWEST</div>' : ''}
-      ${isDesidime ? '<div class="badge badge-desidime">🎯 DESI</div>' : ''}
-      ${!isLowest && d.vs_avg_pct > 0 ? `<div class="badge badge-below-avg">📉 ${d.vs_avg_pct}% below avg</div>` : ''}
-    </div>`;
-
-  const priceHistory = hasPH ? `
-    <div class="ph-row">
-      ${d.lowest_ever   ? `<div class="ph-item"><div class="ph-label">All-time Low</div><div class="ph-value low">${d.lowest_ever}</div></div>` : ''}
-      ${d.average_price ? `<div class="ph-item"><div class="ph-label">Average</div><div class="ph-value avg">${d.average_price}</div></div>` : ''}
-      ${d.highest_price ? `<div class="ph-item"><div class="ph-label">Highest</div><div class="ph-value high">${d.highest_price}</div></div>` : ''}
-    </div>` : '';
-
-  const offers = [];
-  if (d.best_card_label) offers.push(`🏦 ${d.best_card_label}`);
-  if (d.coupon)          offers.push(`🏷️ Coupon: ${d.coupon}`);
-  if (d.emi_savings)     offers.push(`📅 ${d.emi_savings}`);
-
-  return `
-  <div class="deal-card" style="animation-delay:${i*0.05}s">
-    <div class="card-top-bar ${barClass}"></div>
-    <div class="card-image">
-      ${d.image_url
-        ? `<img src="${d.image_url}" alt="${(d.title||'').replace(/"/g,'')}" loading="lazy" onerror="this.parentNode.innerHTML='<div class=\\'no-image\\'>🛍️</div>'">`
-        : '<div class="no-image">🛍️</div>'}
-      <div class="card-badges">${badges}</div>
+function card(d,i) {
+  const p=d.effective_price||d.price||'';
+  const ph=(d.lowest_ever||d.average_price)?`<div class="c-ph">
+    ${d.lowest_ever?`<div class="c-ph-item"><div class="c-ph-l">Low</div><div class="c-ph-v low">${d.lowest_ever}</div></div>`:''}
+    ${d.average_price?`<div class="c-ph-item"><div class="c-ph-l">Avg</div><div class="c-ph-v">${d.average_price}</div></div>`:''}
+    ${d.highest_price?`<div class="c-ph-item"><div class="c-ph-l">High</div><div class="c-ph-v">${d.highest_price}</div></div>`:''}
+  </div>`:'';
+  const badge=d.is_lowest_ever?`<div class="c-lowest">🏆 Lowest Ever</div>`:d.source==='desidime'?`<div class="c-desi">🎯 DesiDime</div>`:'';
+  return `<div class="c" style="animation-delay:${i*.03}s">
+    <div class="c-img">
+      ${d.image_url?`<img src="${d.image_url}" loading="lazy" alt="" onerror="this.style.display='none'">`:'<span style="font-size:2.5rem">🛍️</span>'}
+      <div class="c-disc">-${d.discount_pct||0}%</div>
+      ${badge}
     </div>
-    <div class="card-body">
-      <div class="card-category">${d.category||'Hot Deal'}</div>
-      <div class="card-title">${d.title||''}</div>
-      <div class="card-pricing">
-        <div class="price-main">${eff}</div>
-        ${d.original_price ? `<div class="price-original">${d.original_price}</div>` : ''}
+    <div class="c-body">
+      <div class="c-cat">${d.category||'Deal'}</div>
+      <div class="c-title">${d.title||''}</div>
+      <div class="c-price-row">
+        <div class="c-price">${p}</div>
+        ${d.original_price?`<div class="c-orig">${d.original_price}</div>`:''}
       </div>
-      <div class="card-meta">
-        ${isLowest ? '<div class="meta-row red">🏆 Lowest price ever!</div>' : ''}
-        ${!isLowest && d.vs_avg_str ? `<div class="meta-row green">📉 ${d.vs_avg_str}</div>` : ''}
-        ${totalSaving > 0 ? `<div class="meta-row green">💳 Save ₹${totalSaving.toLocaleString('en-IN')} with offers</div>` : ''}
-        ${offers.map(o => `<div class="meta-row">${o}</div>`).join('')}
-      </div>
-      ${priceHistory}
+      ${ph}
+      ${d.best_card_label?`<div class="c-offer g">🏦 ${d.best_card_label}</div>`:''}
+      ${d.coupon?`<div class="c-offer">🏷 Coupon: ${d.coupon}</div>`:''}
     </div>
-    <div class="card-footer">
-      <div class="time-ago">${timeAgo(d.posted_at)}</div>
-      <a href="${d.affiliate_link||'#'}" target="_blank" rel="nofollow" class="buy-btn">
-        Buy on Amazon →
-      </a>
+    <div class="c-foot">
+      <div class="c-time">${ago(d.posted_at)}</div>
+      <a href="${d.affiliate_link||'#'}" target="_blank" rel="nofollow" class="c-buy">Buy on Amazon →</a>
     </div>
   </div>`;
 }
 
-// Load deals and auto-refresh every 5 mins
-loadDeals();
-setInterval(loadDeals, 5 * 60 * 1000);
+load();
+setInterval(load,5*60*1000);
 </script>
 </body>
 </html>
