@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-03T12:31:03.139109+00:00",
+  "updated_at": "2026-05-03T13:22:02.044611+00:00",
   "deals": [
+    {
+      "asin": "B0FCXLWV93",
+      "title": "Buy LookMark Women's Silk Blend Embroidered Kurti Set with Bottom and Dupatta",
+      "price": "₹699",
+      "price_num": 699,
+      "original_price": "₹2,599",
+      "discount_pct": 73,
+      "effective_price": "₹420",
+      "image_url": "https://m.media-amazon.com/images/I/615-u2aeOpL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹649",
+      "average_price": "₹696",
+      "highest_price": "₹699",
+      "vs_avg_str": "0% above avg (avg ₹696)",
+      "vs_avg_pct": 0,
+      "best_card_label": "₹279 off via select Credit",
+      "best_card_discount": 279,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 20,
+      "affiliate_link": "https://www.amazon.in/dp/B0FCXLWV93?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FCXLWV93&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-03T13:21:16.190080+00:00"
+    },
     {
       "asin": "B003N8A0AQ",
       "title": "GE FXWPC Whole Home System Replacement Filter Set, White, 10.00 x 2.60 x 5.20 inches",
@@ -754,32 +780,6 @@
       "score": 22,
       "affiliate_link": "https://www.amazon.in/dp/B07VNR9671?tag=techeasy0d1-21&linkCode=ll1&linkId=B07VNR9671&ref_=as_li_ss_tl",
       "posted_at": "2026-05-03T09:37:40.053188+00:00"
-    },
-    {
-      "asin": "B0FR37WQRG",
-      "title": "AMORE Pincore Hybrid Latex Orthopedic Mattress",
-      "price": "₹16,236",
-      "price_num": 16236,
-      "original_price": "₹37,759",
-      "discount_pct": 57,
-      "effective_price": "₹13,736",
-      "image_url": "",
-      "category": "🏠 Home",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹14,074",
-      "average_price": "₹14,793",
-      "highest_price": "₹16,236",
-      "vs_avg_str": "9% above avg (avg ₹14,793)",
-      "vs_avg_pct": -9,
-      "best_card_label": "₹2,500 off via select Credit",
-      "best_card_discount": 2500,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹526 EMI interest savings",
-      "score": 22,
-      "affiliate_link": "https://www.amazon.in/dp/B0FR37WQRG?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FR37WQRG&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-03T09:37:33.075707+00:00"
     }
   ]
 }
