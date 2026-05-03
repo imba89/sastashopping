@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-03T08:21:38.578928+00:00",
+  "updated_at": "2026-05-03T08:32:56.542776+00:00",
   "deals": [
+    {
+      "asin": "B0DN15P4JD",
+      "title": "Kwality Baking Soda 100g",
+      "price": "₹19",
+      "price_num": 19,
+      "original_price": "₹250",
+      "discount_pct": 92,
+      "effective_price": null,
+      "image_url": "https://m.media-amazon.com/images/I/814aQgLV1FL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "desidime",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹19",
+      "average_price": "₹22",
+      "highest_price": "₹33",
+      "vs_avg_str": "13% below avg (avg ₹22)",
+      "vs_avg_pct": 13,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 73,
+      "affiliate_link": "https://www.amazon.in/dp/B0DN15P4JD?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DN15P4JD&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-03T08:32:06.595086+00:00"
+    },
     {
       "asin": "B0DC5KDH6Z",
       "title": "VGR Rosso Professional Men's Beard &amp; Moustache Hair Trimmer for Men with 400min Long Runtime",
@@ -754,32 +780,6 @@
       "score": 20,
       "affiliate_link": "https://www.amazon.in/dp/B013UQIK2A?tag=techeasy0d1-21&linkCode=ll1&linkId=B013UQIK2A&ref_=as_li_ss_tl",
       "posted_at": "2026-05-03T04:58:56.950446+00:00"
-    },
-    {
-      "asin": "B0GF9K31VN",
-      "title": "Buy Pinkmint Women Printed Cotton Blend Kurta Pant with Dupatta Set",
-      "price": "₹999",
-      "price_num": 999,
-      "original_price": "₹1,999",
-      "discount_pct": 50,
-      "effective_price": "₹600",
-      "image_url": "https://m.media-amazon.com/images/I/71nFve-0jBL._SL1500_.jpg",
-      "category": "👗 Fashion",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": null,
-      "average_price": null,
-      "highest_price": null,
-      "vs_avg_str": null,
-      "vs_avg_pct": null,
-      "best_card_label": "₹399 off via select Credit",
-      "best_card_discount": 399,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 20,
-      "affiliate_link": "https://www.amazon.in/dp/B0GF9K31VN?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GF9K31VN&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-03T04:58:50.173597+00:00"
     }
   ]
 }
