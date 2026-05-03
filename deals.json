@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-03T15:41:20.108090+00:00",
+  "updated_at": "2026-05-03T16:19:19.046483+00:00",
   "deals": [
+    {
+      "asin": "B072ZN4LH5",
+      "title": "Buy Herbal Essences bio",
+      "price": "₹163",
+      "price_num": 163,
+      "original_price": "₹659",
+      "discount_pct": 75,
+      "effective_price": null,
+      "image_url": "https://m.media-amazon.com/images/I/61DOPZkEiOL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "desidime",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹184",
+      "average_price": "₹451",
+      "highest_price": "₹7,814",
+      "vs_avg_str": "63% below avg (avg ₹451)",
+      "vs_avg_pct": 63,
+      "best_card_label": "₹24 off via select Credit",
+      "best_card_discount": 24,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 90,
+      "affiliate_link": "https://www.amazon.in/dp/B072ZN4LH5?tag=techeasy0d1-21&linkCode=ll1&linkId=B072ZN4LH5&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-03T16:18:09.120449+00:00"
+    },
     {
       "asin": "B0GVS5QNKF",
       "title": "Buy Nermosa Women Printed Anarkali Kurta and Pant Set with Dupatta",
@@ -754,32 +780,6 @@
       "score": 32,
       "affiliate_link": "https://www.amazon.in/dp/B07HTGQ2K7?tag=techeasy0d1-21&linkCode=ll1&linkId=B07HTGQ2K7&ref_=as_li_ss_tl",
       "posted_at": "2026-05-03T11:49:44.620860+00:00"
-    },
-    {
-      "asin": "B09Y65HV6N",
-      "title": "Samsung 214 cm (85 inches) 4K Ultra HD Smart Neo QLED TV QA85QN90BAKXXL (Titan Black)",
-      "price": "₹474,990",
-      "price_num": 474990,
-      "original_price": "₹8,79,900",
-      "discount_pct": 46,
-      "effective_price": "₹460,741",
-      "image_url": "https://m.media-amazon.com/images/I/91b1B9Pjd2L._SL1500_.jpg",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹356,740",
-      "average_price": "₹512,123",
-      "highest_price": "₹679,990",
-      "vs_avg_str": "7% below avg (avg ₹512,123)",
-      "vs_avg_pct": 7,
-      "best_card_label": "₹14,249 off via Amazon Pay",
-      "best_card_discount": 14249,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹40,993 EMI interest savings",
-      "score": 37,
-      "affiliate_link": "https://www.amazon.in/dp/B09Y65HV6N?tag=techeasy0d1-21&linkCode=ll1&linkId=B09Y65HV6N&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-03T11:28:49.972171+00:00"
     }
   ]
 }
