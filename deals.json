@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-03T12:01:48.503046+00:00",
+  "updated_at": "2026-05-03T12:31:03.139109+00:00",
   "deals": [
+    {
+      "asin": "B003N8A0AQ",
+      "title": "GE FXWPC Whole Home System Replacement Filter Set, White, 10.00 x 2.60 x 5.20 inches",
+      "price": "₹2,300",
+      "price_num": 2300,
+      "original_price": "₹3,499",
+      "discount_pct": 34,
+      "effective_price": "₹1,380",
+      "image_url": "https://m.media-amazon.com/images/I/610UvqaHKvL._SL1500_.jpg",
+      "category": "🏠 Home",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹904",
+      "average_price": "₹2,334",
+      "highest_price": "₹6,109",
+      "vs_avg_str": "1% below avg (avg ₹2,334)",
+      "vs_avg_pct": 1,
+      "best_card_label": "₹920 off via select Credit",
+      "best_card_discount": 920,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹74 EMI interest savings",
+      "score": 18,
+      "affiliate_link": "https://www.amazon.in/dp/B003N8A0AQ?tag=techeasy0d1-21&linkCode=ll1&linkId=B003N8A0AQ&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-03T12:30:06.460135+00:00"
+    },
     {
       "asin": "B09CC5FXD4",
       "title": "Nerf Rival Vision XXII-800 Blaster Foam Ball Launcher",
@@ -754,32 +780,6 @@
       "score": 22,
       "affiliate_link": "https://www.amazon.in/dp/B0FR37WQRG?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FR37WQRG&ref_=as_li_ss_tl",
       "posted_at": "2026-05-03T09:37:33.075707+00:00"
-    },
-    {
-      "asin": "B097RK7KR3",
-      "title": "Buy Lavie Sport Polyester Lino Large Wheel Duffel Bag",
-      "price": "₹979",
-      "price_num": 979,
-      "original_price": "₹3,999",
-      "discount_pct": 75,
-      "effective_price": null,
-      "image_url": "https://m.media-amazon.com/images/I/61VkthqjVGL._SL1500_.jpg",
-      "category": "👗 Fashion",
-      "source": "desidime",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹779",
-      "average_price": "₹1,060",
-      "highest_price": "₹2,066",
-      "vs_avg_str": "7% below avg (avg ₹1,060)",
-      "vs_avg_pct": 7,
-      "best_card_label": "₹29 off via Amazon Pay",
-      "best_card_discount": 29,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 27,
-      "affiliate_link": "https://www.amazon.in/dp/B097RK7KR3?tag=techeasy0d1-21&linkCode=ll1&linkId=B097RK7KR3&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-03T09:37:25.694262+00:00"
     }
   ]
 }
