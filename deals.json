@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-03T02:36:04.185818+00:00",
+  "updated_at": "2026-05-03T02:54:10.239133+00:00",
   "deals": [
+    {
+      "asin": "B08X6PPTTH",
+      "title": "Intel Core i9-11900K Desktop Processor",
+      "price": "₹38,399",
+      "price_num": 38399,
+      "original_price": "₹1,54,920",
+      "discount_pct": 75,
+      "effective_price": null,
+      "image_url": "",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹32,659",
+      "average_price": "₹45,510",
+      "highest_price": "₹191,585",
+      "vs_avg_str": "15% below avg (avg ₹45,510)",
+      "vs_avg_pct": 15,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 35,
+      "affiliate_link": "https://www.amazon.in/dp/B08X6PPTTH?tag=techeasy0d1-21&linkCode=ll1&linkId=B08X6PPTTH&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-03T02:53:13.892827+00:00"
+    },
     {
       "asin": "B0G1L11R15",
       "title": "iSpring Mineral RO+UV+UF 12 Liter RO + UV + TDS ADJUSTER Water Purifier With Copper Charge Technology Black &amp; Copper Best For Home and Office (Made In India)",
@@ -754,32 +780,6 @@
       "score": 20,
       "affiliate_link": "https://www.amazon.in/dp/B0DXQFJ48Y?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DXQFJ48Y&ref_=as_li_ss_tl",
       "posted_at": "2026-05-03T01:39:02.053485+00:00"
-    },
-    {
-      "asin": "B0FCXW8YX2",
-      "title": "Buy LookMark Women's Silk Blend Embroidered Kurti Set with Bottom and Dupatta",
-      "price": "₹847",
-      "price_num": 847,
-      "original_price": "₹2,999",
-      "discount_pct": 71,
-      "effective_price": null,
-      "image_url": "https://m.media-amazon.com/images/I/615-u2aeOpL._SL1500_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹619",
-      "average_price": "₹691",
-      "highest_price": "₹699",
-      "vs_avg_str": "22% above avg (avg ₹691)",
-      "vs_avg_pct": -22,
-      "best_card_label": null,
-      "best_card_discount": 0,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 20,
-      "affiliate_link": "https://www.amazon.in/dp/B0FCXW8YX2?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FCXW8YX2&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-03T01:38:54.348045+00:00"
     }
   ]
 }
