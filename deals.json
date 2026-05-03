@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-03T16:19:19.046483+00:00",
+  "updated_at": "2026-05-03T16:58:29.083482+00:00",
   "deals": [
+    {
+      "asin": "B0CZJ214QZ",
+      "title": "Buy French Connection 3 Hands Purple Dial Round Sunray Analog Watch for Women - FCS07PR at Amazon.in",
+      "price": "₹1,477",
+      "price_num": 1477,
+      "original_price": "₹6,950",
+      "discount_pct": 78,
+      "effective_price": "₹887",
+      "image_url": "https://m.media-amazon.com/images/I/51I1hpQNBfL._SL1440_.jpg",
+      "category": "👗 Fashion",
+      "source": "desidime",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹1,251",
+      "average_price": "₹1,682",
+      "highest_price": "₹2,085",
+      "vs_avg_str": "12% below avg (avg ₹1,682)",
+      "vs_avg_pct": 12,
+      "best_card_label": "₹590 off via select Credit",
+      "best_card_discount": 590,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 32,
+      "affiliate_link": "https://www.amazon.in/dp/B0CZJ214QZ?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CZJ214QZ&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-03T16:57:24.421931+00:00"
+    },
     {
       "asin": "B072ZN4LH5",
       "title": "Buy Herbal Essences bio",
@@ -754,32 +780,6 @@
       "score": 20,
       "affiliate_link": "https://www.amazon.in/dp/B0BNDKBDTV?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BNDKBDTV&ref_=as_li_ss_tl",
       "posted_at": "2026-05-03T11:49:51.607554+00:00"
-    },
-    {
-      "asin": "B07HTGQ2K7",
-      "title": "Springtek Dreamer - 3 Layered Medium Firm Orthopedic Mattress",
-      "price": "₹8,623",
-      "price_num": 8623,
-      "original_price": "₹21,538",
-      "discount_pct": 59,
-      "effective_price": "₹6,123",
-      "image_url": "https://m.media-amazon.com/images/I/711WEB7SA1L._SL1500_.jpg",
-      "category": "🏠 Home",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹6,981",
-      "average_price": "₹9,687",
-      "highest_price": "₹12,874",
-      "vs_avg_str": "10% below avg (avg ₹9,687)",
-      "vs_avg_pct": 10,
-      "best_card_label": "₹2,500 off via select Credit",
-      "best_card_discount": 2500,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹676 EMI interest savings",
-      "score": 32,
-      "affiliate_link": "https://www.amazon.in/dp/B07HTGQ2K7?tag=techeasy0d1-21&linkCode=ll1&linkId=B07HTGQ2K7&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-03T11:49:44.620860+00:00"
     }
   ]
 }
