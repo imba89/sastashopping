@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-03T17:09:46.485600+00:00",
+  "updated_at": "2026-05-03T17:29:36.856704+00:00",
   "deals": [
+    {
+      "asin": "B0GR939WPQ",
+      "title": "TheGiftKart Tough Armor Bumper Back Case Cover for iQOO 15R 5G",
+      "price": "₹399",
+      "price_num": 399,
+      "original_price": "₹999",
+      "discount_pct": 60,
+      "effective_price": null,
+      "image_url": "",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹399",
+      "average_price": "₹399",
+      "highest_price": "₹399",
+      "vs_avg_str": "0% above avg (avg ₹399)",
+      "vs_avg_pct": 0,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 60,
+      "affiliate_link": "https://www.amazon.in/dp/B0GR939WPQ?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GR939WPQ&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-03T17:28:49.745373+00:00"
+    },
     {
       "asin": "B0FH9VK8RN",
       "title": "Buy New Balance Men's 373 Casual Shoes, Grey,8 at Amazon.in",
@@ -754,32 +780,6 @@
       "score": 18,
       "affiliate_link": "https://www.amazon.in/dp/B003N8A0AQ?tag=techeasy0d1-21&linkCode=ll1&linkId=B003N8A0AQ&ref_=as_li_ss_tl",
       "posted_at": "2026-05-03T12:30:06.460135+00:00"
-    },
-    {
-      "asin": "B09CC5FXD4",
-      "title": "Nerf Rival Vision XXII-800 Blaster Foam Ball Launcher",
-      "price": "₹2,144",
-      "price_num": 2144,
-      "original_price": "₹3,299",
-      "discount_pct": 35,
-      "effective_price": "₹1,287",
-      "image_url": "https://m.media-amazon.com/images/I/6196jzwPCZL._SL1000_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "desidime",
-      "is_lowest_ever": false,
-      "lowest_ever": null,
-      "average_price": null,
-      "highest_price": null,
-      "vs_avg_str": null,
-      "vs_avg_pct": null,
-      "best_card_label": "₹857 off via select Credit",
-      "best_card_discount": 857,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹69 EMI interest savings",
-      "score": 17,
-      "affiliate_link": "https://www.amazon.in/dp/B09CC5FXD4?tag=techeasy0d1-21&linkCode=ll1&linkId=B09CC5FXD4&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-03T12:00:38.392995+00:00"
     }
   ]
 }
