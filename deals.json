@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-03T11:18:34.483466+00:00",
+  "updated_at": "2026-05-03T11:29:36.138923+00:00",
   "deals": [
+    {
+      "asin": "B09Y65HV6N",
+      "title": "Samsung 214 cm (85 inches) 4K Ultra HD Smart Neo QLED TV QA85QN90BAKXXL (Titan Black)",
+      "price": "₹474,990",
+      "price_num": 474990,
+      "original_price": "₹8,79,900",
+      "discount_pct": 46,
+      "effective_price": "₹460,741",
+      "image_url": "https://m.media-amazon.com/images/I/91b1B9Pjd2L._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹356,740",
+      "average_price": "₹512,123",
+      "highest_price": "₹679,990",
+      "vs_avg_str": "7% below avg (avg ₹512,123)",
+      "vs_avg_pct": 7,
+      "best_card_label": "₹14,249 off via Amazon Pay",
+      "best_card_discount": 14249,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹40,993 EMI interest savings",
+      "score": 37,
+      "affiliate_link": "https://www.amazon.in/dp/B09Y65HV6N?tag=techeasy0d1-21&linkCode=ll1&linkId=B09Y65HV6N&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-03T11:28:49.972171+00:00"
+    },
     {
       "asin": "B0DXFX2K6Y",
       "title": "TMQ Air Conditioner Remote Compatible with Voltas Split/Window AC Remote Control [Compatible for Voltas AC Remote Control ]",
@@ -754,32 +780,6 @@
       "score": 22,
       "affiliate_link": "https://www.amazon.in/dp/B0F3HWJXZ5?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F3HWJXZ5&ref_=as_li_ss_tl",
       "posted_at": "2026-05-03T09:23:35.310945+00:00"
-    },
-    {
-      "asin": "B0CSD9YVR4",
-      "title": "Thomas Scott Men's",
-      "price": "₹737",
-      "price_num": 737,
-      "original_price": "₹3,299",
-      "discount_pct": 77,
-      "effective_price": "₹443",
-      "image_url": "https://m.media-amazon.com/images/I/61JpNaB1MFL._SL1280_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "desidime",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹689",
-      "average_price": "₹819",
-      "highest_price": "₹1,049",
-      "vs_avg_str": "10% below avg (avg ₹819)",
-      "vs_avg_pct": 10,
-      "best_card_label": "₹294 off via select Credit",
-      "best_card_discount": 294,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 30,
-      "affiliate_link": "https://www.amazon.in/dp/B0CSD9YVR4?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CSD9YVR4&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-03T09:23:28.838169+00:00"
     }
   ]
 }
