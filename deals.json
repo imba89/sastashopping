@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-03T11:50:38.870704+00:00",
+  "updated_at": "2026-05-03T12:01:48.503046+00:00",
   "deals": [
+    {
+      "asin": "B09CC5FXD4",
+      "title": "Nerf Rival Vision XXII-800 Blaster Foam Ball Launcher",
+      "price": "₹2,144",
+      "price_num": 2144,
+      "original_price": "₹3,299",
+      "discount_pct": 35,
+      "effective_price": "₹1,287",
+      "image_url": "https://m.media-amazon.com/images/I/6196jzwPCZL._SL1000_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "desidime",
+      "is_lowest_ever": false,
+      "lowest_ever": null,
+      "average_price": null,
+      "highest_price": null,
+      "vs_avg_str": null,
+      "vs_avg_pct": null,
+      "best_card_label": "₹857 off via select Credit",
+      "best_card_discount": 857,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹69 EMI interest savings",
+      "score": 17,
+      "affiliate_link": "https://www.amazon.in/dp/B09CC5FXD4?tag=techeasy0d1-21&linkCode=ll1&linkId=B09CC5FXD4&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-03T12:00:38.392995+00:00"
+    },
     {
       "asin": "B0BNDKBDTV",
       "title": "E-COSMOS Food Chopper 900ml Manual Hand-Press Vegetable Chopper",
@@ -754,32 +780,6 @@
       "score": 27,
       "affiliate_link": "https://www.amazon.in/dp/B097RK7KR3?tag=techeasy0d1-21&linkCode=ll1&linkId=B097RK7KR3&ref_=as_li_ss_tl",
       "posted_at": "2026-05-03T09:37:25.694262+00:00"
-    },
-    {
-      "asin": "B0GMQPN3Y7",
-      "title": "Response 8 inch Single Bed High-Density Support Foam (72x42 inch)",
-      "price": "₹5,000",
-      "price_num": 5000,
-      "original_price": "₹10,000",
-      "discount_pct": 50,
-      "effective_price": "₹3,000",
-      "image_url": "https://m.media-amazon.com/images/I/61sU82xbBwL._SL1344_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "amazon",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹5,000",
-      "average_price": "₹5,000",
-      "highest_price": "₹5,000",
-      "vs_avg_str": "0% above avg (avg ₹5,000)",
-      "vs_avg_pct": 0,
-      "best_card_label": "₹2,000 off via select Credit",
-      "best_card_discount": 2000,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹162 EMI interest savings",
-      "score": 62,
-      "affiliate_link": "https://www.amazon.in/dp/B0GMQPN3Y7?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GMQPN3Y7&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-03T09:37:19.988315+00:00"
     }
   ]
 }
