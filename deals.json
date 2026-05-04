@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-04T08:04:25.686117+00:00",
+  "updated_at": "2026-05-04T08:15:01.036555+00:00",
   "deals": [
+    {
+      "asin": "B0F846C3K7",
+      "title": "Hisense 189 cm (75 Inches) 4K QLED Mini-LED Smart TV",
+      "price": "₹95,999",
+      "price_num": 95999,
+      "original_price": "₹2,49,999",
+      "discount_pct": 61,
+      "effective_price": "₹93,120",
+      "image_url": "https://m.media-amazon.com/images/I/71JZExBgbnL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹95,999",
+      "average_price": "₹103,528",
+      "highest_price": "₹121,999",
+      "vs_avg_str": "7% below avg (avg ₹103,528)",
+      "vs_avg_pct": 7,
+      "best_card_label": "₹2,879 off via Amazon Pay",
+      "best_card_discount": 2879,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹9,638 EMI interest savings",
+      "score": 69,
+      "affiliate_link": "https://www.amazon.in/dp/B0F846C3K7?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F846C3K7&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-04T08:14:02.145048+00:00"
+    },
     {
       "asin": "B0DFM9PH81",
       "title": "FLiX UltraCharge Duotone 20,000mAh 22.5W QC Pocket Power Delivery PPS Power Bank, Type C Input &amp; Output, LED Percentage Display, Compatible iPhone, Samsung, Google (White + Blue)",
@@ -754,32 +780,6 @@
       "score": 20,
       "affiliate_link": "https://www.amazon.in/dp/B013UQIK2A?tag=techeasy0d1-21&linkCode=ll1&linkId=B013UQIK2A&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T05:17:01.978328+00:00"
-    },
-    {
-      "asin": "B079J1SJQJ",
-      "title": "Buy Shri Krishan kripa Handloom Cotton Mattress Cover Single Bed Diwan Cot 2.5x6 ft- 72X30x5 inch,Multi Online at Low Prices in India - Amazon.in",
-      "price": "₹399",
-      "price_num": 399,
-      "original_price": "₹800",
-      "discount_pct": 50,
-      "effective_price": null,
-      "image_url": "",
-      "category": "🏠 Home",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹379",
-      "average_price": "₹395",
-      "highest_price": "₹399",
-      "vs_avg_str": "1% above avg (avg ₹395)",
-      "vs_avg_pct": -1,
-      "best_card_label": null,
-      "best_card_discount": 0,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 20,
-      "affiliate_link": "https://www.amazon.in/dp/B079J1SJQJ?tag=techeasy0d1-21&linkCode=ll1&linkId=B079J1SJQJ&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T05:16:56.545201+00:00"
     }
   ]
 }
