@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-04T03:29:49.091045+00:00",
+  "updated_at": "2026-05-04T03:48:48.317465+00:00",
   "deals": [
+    {
+      "asin": "B0G26174DJ",
+      "title": "ionstar 7.5 KG 5 Star Fully Automatic Top Loading Washing Machine",
+      "price": "₹13,490",
+      "price_num": 13490,
+      "original_price": "₹53500",
+      "discount_pct": 74,
+      "effective_price": "₹12,479",
+      "image_url": "https://m.media-amazon.com/images/I/61O+eceGqEL._SL1080_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹12,990",
+      "average_price": "₹13,489",
+      "highest_price": "₹13,961",
+      "vs_avg_str": "0% above avg (avg ₹13,489)",
+      "vs_avg_pct": 0,
+      "best_card_label": "₹1,011 off via select Credit",
+      "best_card_discount": 1011,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹437 EMI interest savings",
+      "score": 21,
+      "affiliate_link": "https://www.amazon.in/dp/B0G26174DJ?tag=techeasy0d1-21&linkCode=ll1&linkId=B0G26174DJ&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-04T03:48:11.413559+00:00"
+    },
     {
       "asin": "B0D81973S4",
       "title": "Buy Wipro Elato FMG209 800 Watt Mixer Grinder with 4 Jars,Heavy Duty 100% Copper Ball Bearing Motor with 5 Year Warranty,Superfast Grinding,Clip Lids - Hands Free use, 4 Jars Mixer Grinder 800 Watt,Black Online at Low Prices in India - Amazon.in",
@@ -754,32 +780,6 @@
       "score": 23,
       "affiliate_link": "https://www.amazon.in/dp/B09QM1V3VN?tag=techeasy0d1-21&linkCode=ll1&linkId=B09QM1V3VN&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T02:40:52.621361+00:00"
-    },
-    {
-      "asin": "B0CBBLBDRK",
-      "title": "AGARO Galaxy Digital Air Fryer For Home, 4.5L, Electric Air Fryer, Convection Oven, 1400W, 7 Preset Programs &amp; Reheat, 360 Degrees Air Circulation, Digital Touch Display, Bake, Roast, Toast, Black",
-      "price": "₹3,999",
-      "price_num": 3999,
-      "original_price": "₹16,999",
-      "discount_pct": 76,
-      "effective_price": "₹2,400",
-      "image_url": "https://m.media-amazon.com/images/I/61RXnaIkydL._SL1500_.jpg",
-      "category": "🏠 Home",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹3,555",
-      "average_price": "₹4,270",
-      "highest_price": "₹7,200",
-      "vs_avg_str": "6% below avg (avg ₹4,270)",
-      "vs_avg_pct": 6,
-      "best_card_label": "₹1,599 off via select Credit",
-      "best_card_discount": 1599,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹129 EMI interest savings",
-      "score": 27,
-      "affiliate_link": "https://www.amazon.in/dp/B0CBBLBDRK?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CBBLBDRK&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T02:40:45.794770+00:00"
     }
   ]
 }
