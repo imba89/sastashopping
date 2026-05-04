@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-04T08:15:01.036555+00:00",
+  "updated_at": "2026-05-04T08:26:18.029528+00:00",
   "deals": [
+    {
+      "asin": "B082HPXRPB",
+      "title": "Groomiist All in One Beard Body &amp; Ball Grooming kit Trimmer for Men Cordless Multi 4 in 1 Set",
+      "price": "₹2,016",
+      "price_num": 2016,
+      "original_price": "₹4,124",
+      "discount_pct": 51,
+      "effective_price": null,
+      "image_url": "https://m.media-amazon.com/images/I/61XOi+2O3ZL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹1,934",
+      "average_price": "₹2,531",
+      "highest_price": "₹3,500",
+      "vs_avg_str": "20% below avg (avg ₹2,531)",
+      "vs_avg_pct": 20,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 40,
+      "affiliate_link": "https://www.amazon.in/dp/B082HPXRPB?tag=techeasy0d1-21&linkCode=ll1&linkId=B082HPXRPB&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-04T08:25:31.082276+00:00"
+    },
     {
       "asin": "B0F846C3K7",
       "title": "Hisense 189 cm (75 Inches) 4K QLED Mini-LED Smart TV",
@@ -754,32 +780,6 @@
       "score": 34,
       "affiliate_link": "https://www.amazon.in/dp/B0CNBCZGRZ?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CNBCZGRZ&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T06:01:21.686280+00:00"
-    },
-    {
-      "asin": "B013UQIK2A",
-      "title": "Buy V Tech Kidizoom Duo Camera Pink Online Exclusive Online at Low Prices in India - Amazon.in",
-      "price": "₹13,312",
-      "price_num": 13312,
-      "original_price": "₹21,299",
-      "discount_pct": 37,
-      "effective_price": "₹10,812",
-      "image_url": "https://m.media-amazon.com/images/I/71e-erwFLrL._SL1500_.jpg",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹5,314",
-      "average_price": "₹10,628",
-      "highest_price": "₹26,770",
-      "vs_avg_str": "25% above avg (avg ₹10,628)",
-      "vs_avg_pct": -25,
-      "best_card_label": "₹2,500 off via select Credit",
-      "best_card_discount": 2500,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹431 EMI interest savings",
-      "score": 20,
-      "affiliate_link": "https://www.amazon.in/dp/B013UQIK2A?tag=techeasy0d1-21&linkCode=ll1&linkId=B013UQIK2A&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T05:17:01.978328+00:00"
     }
   ]
 }
