@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-04T12:59:59.245652+00:00",
+  "updated_at": "2026-05-04T13:19:59.884778+00:00",
   "deals": [
+    {
+      "asin": "B0GFCRMTRH",
+      "title": "Crompton Ozone Personal Air Cooler 45L",
+      "price": "₹5,999",
+      "price_num": 5999,
+      "original_price": "₹10,500",
+      "discount_pct": 42,
+      "effective_price": "₹3,600",
+      "image_url": "https://m.media-amazon.com/images/I/51HLOD40vnL._SL1200_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "desidime",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹5,799",
+      "average_price": "₹5,974",
+      "highest_price": "₹5,999",
+      "vs_avg_str": "0% above avg (avg ₹5,974)",
+      "vs_avg_pct": 0,
+      "best_card_label": "₹2,399 off via select Credit",
+      "best_card_discount": 2399,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹194 EMI interest savings",
+      "score": 22,
+      "affiliate_link": "https://www.amazon.in/dp/B0GFCRMTRH?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GFCRMTRH&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-04T13:18:48.058832+00:00"
+    },
     {
       "asin": "B0BMYW2VDV",
       "title": "UN1QUE Wireless Door Bell for Home - Small Calling Bell for Office, 1000ft Long Range with 36 Chimes, 100dB Louder Volume, 4 Level Volume, LED Light, Info Board Design, IP44 Waterproof",
