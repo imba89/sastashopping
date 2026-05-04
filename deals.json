@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-04T14:01:14.792927+00:00",
+  "updated_at": "2026-05-04T14:34:20.720130+00:00",
   "deals": [
+    {
+      "asin": "B0CKVVM6DD",
+      "title": "Bata Shalita Pump E 23 Women's Tan Heels - 5 UK (6513000)",
+      "price": "₹469",
+      "price_num": 469,
+      "original_price": "₹2,999",
+      "discount_pct": 84,
+      "effective_price": null,
+      "image_url": "https://m.media-amazon.com/images/I/710igXxMGlL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "desidime",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹780",
+      "average_price": "₹1,484",
+      "highest_price": "₹1,956",
+      "vs_avg_str": "68% below avg (avg ₹1,484)",
+      "vs_avg_pct": 68,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 90,
+      "affiliate_link": "https://www.amazon.in/dp/B0CKVVM6DD?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CKVVM6DD&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-04T14:33:25.870206+00:00"
+    },
     {
       "asin": "B0GVSCF9H6",
       "title": "Buy Nermosa Women Printed Anarkali Kurta and Pant Set with Dupatta",
