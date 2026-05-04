@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-04T00:54:06.599672+00:00",
+  "updated_at": "2026-05-04T01:05:02.902102+00:00",
   "deals": [
+    {
+      "asin": "B0B2KF9WLL",
+      "title": "Mortein 7x45 ml Refill + Machine, Fits All Machines",
+      "price": "₹359",
+      "price_num": 359,
+      "original_price": "₹450",
+      "discount_pct": 20,
+      "effective_price": "₹216",
+      "image_url": "https://m.media-amazon.com/images/I/610sBN7JKcL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "desidime",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹239",
+      "average_price": "₹369",
+      "highest_price": "₹413",
+      "vs_avg_str": "2% below avg (avg ₹369)",
+      "vs_avg_pct": 2,
+      "best_card_label": "₹143 off via select Credit",
+      "best_card_discount": 143,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 12,
+      "affiliate_link": "https://www.amazon.in/dp/B0B2KF9WLL?tag=techeasy0d1-21&linkCode=ll1&linkId=B0B2KF9WLL&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-04T01:04:01.587735+00:00"
+    },
     {
       "asin": "B00509KG50",
       "title": "13pc All in One Beard Trimmer",
@@ -754,32 +780,6 @@
       "score": 20,
       "affiliate_link": "https://www.amazon.in/dp/B0D3M1SNMP?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D3M1SNMP&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T00:06:34.690293+00:00"
-    },
-    {
-      "asin": "B0DHD6BN4Y",
-      "title": "Pigeon Strike Battery Powered Beard Trimmer for Men",
-      "price": "₹667",
-      "price_num": 667,
-      "original_price": "₹1,495",
-      "discount_pct": 55,
-      "effective_price": null,
-      "image_url": "https://m.media-amazon.com/images/I/71KjrW8HqvL._SL1500_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹587",
-      "average_price": "₹675",
-      "highest_price": "₹730",
-      "vs_avg_str": "1% below avg (avg ₹675)",
-      "vs_avg_pct": 1,
-      "best_card_label": null,
-      "best_card_discount": 0,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 21,
-      "affiliate_link": "https://www.amazon.in/dp/B0DHD6BN4Y?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DHD6BN4Y&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T00:06:28.066730+00:00"
     }
   ]
 }
