@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-04T07:11:17.776141+00:00",
+  "updated_at": "2026-05-04T07:22:48.996552+00:00",
   "deals": [
+    {
+      "asin": "B0BQN79PH9",
+      "title": "Norelco Philips Multigroom Series 5000 18 Piece, Beard Face, Hair, Body Hair Trimmer For Men - No Blade Oil Needed, Mg5910/49",
+      "price": "₹6,995",
+      "price_num": 6995,
+      "original_price": "₹15,761",
+      "discount_pct": 55,
+      "effective_price": null,
+      "image_url": "https://m.media-amazon.com/images/I/81FIedn+trL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹4,741",
+      "average_price": "₹7,068",
+      "highest_price": "₹11,656",
+      "vs_avg_str": "1% below avg (avg ₹7,068)",
+      "vs_avg_pct": 1,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 21,
+      "affiliate_link": "https://www.amazon.in/dp/B0BQN79PH9?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BQN79PH9&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-04T07:21:34.446951+00:00"
+    },
     {
       "asin": "B0D11TMDTN",
       "title": "ZIEVA Compatible with Electrolx AC Remote for 1 1.5 2 ton Split/Window Air Conditioner - Please Match The Original Remote (AC 12)",
@@ -754,32 +780,6 @@
       "score": 20,
       "affiliate_link": "https://www.amazon.in/dp/B0GVS5FWMV?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GVS5FWMV&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T05:16:24.904284+00:00"
-    },
-    {
-      "asin": "B0D1P381B9",
-      "title": "AMORE Orthoplus 6 Inches 100% Natural Latex Pocket Spring Mattress",
-      "price": "₹10,446",
-      "price_num": 10446,
-      "original_price": "₹29,469",
-      "discount_pct": 64,
-      "effective_price": "₹7,946",
-      "image_url": "",
-      "category": "🏠 Home",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹8,834",
-      "average_price": "₹9,845",
-      "highest_price": "₹11,043",
-      "vs_avg_str": "6% above avg (avg ₹9,845)",
-      "vs_avg_pct": -6,
-      "best_card_label": "₹2,500 off via select Credit",
-      "best_card_discount": 2500,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹338 EMI interest savings",
-      "score": 22,
-      "affiliate_link": "https://www.amazon.in/dp/B0D1P381B9?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D1P381B9&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T05:16:19.049157+00:00"
     }
   ]
 }
