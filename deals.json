@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-04T13:19:59.884778+00:00",
+  "updated_at": "2026-05-04T13:30:50.819457+00:00",
   "deals": [
+    {
+      "asin": "B0CTHC6CXG",
+      "title": "Bajaj PX25 Torque Air Cooler For Room 24L",
+      "price": "₹4,799",
+      "price_num": 4799,
+      "original_price": "₹10,500",
+      "discount_pct": 54,
+      "effective_price": "₹2,880",
+      "image_url": "https://m.media-amazon.com/images/I/51PAAlk7skL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "desidime",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹4,399",
+      "average_price": "₹5,258",
+      "highest_price": "₹8,590",
+      "vs_avg_str": "8% below avg (avg ₹5,258)",
+      "vs_avg_pct": 8,
+      "best_card_label": "₹1,919 off via select Credit",
+      "best_card_discount": 1919,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹155 EMI interest savings",
+      "score": 29,
+      "affiliate_link": "https://www.amazon.in/dp/B0CTHC6CXG?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CTHC6CXG&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-04T13:29:56.562646+00:00"
+    },
     {
       "asin": "B0GFCRMTRH",
       "title": "Crompton Ozone Personal Air Cooler 45L",
