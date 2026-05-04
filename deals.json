@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-04T08:57:08.548074+00:00",
+  "updated_at": "2026-05-04T09:08:36.146673+00:00",
   "deals": [
+    {
+      "asin": "B0CJP2VCPC",
+      "title": "Buy NATURAL LEATHER Men's Red Leather Jacket (ZL_JK_49_Red,Size",
+      "price": "₹10,999",
+      "price_num": 10999,
+      "original_price": "₹23,999",
+      "discount_pct": 54,
+      "effective_price": "₹8,499",
+      "image_url": "https://m.media-amazon.com/images/I/51-+S1MTeBL._SL1000_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹6,999",
+      "average_price": "₹9,666",
+      "highest_price": "₹10,999",
+      "vs_avg_str": "13% above avg (avg ₹9,666)",
+      "vs_avg_pct": -13,
+      "best_card_label": "₹2,500 off via select Credit",
+      "best_card_discount": 2500,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹356 EMI interest savings",
+      "score": 22,
+      "affiliate_link": "https://www.amazon.in/dp/B0CJP2VCPC?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CJP2VCPC&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-04T09:07:29.680119+00:00"
+    },
     {
       "asin": "B0GC5NQFHV",
       "title": "Kilig Nexa Core 4L 100% Toxin-Free Air Fryer",
@@ -754,32 +780,6 @@
       "score": 91,
       "affiliate_link": "https://www.amazon.in/dp/B097G4R5MB?tag=techeasy0d1-21&linkCode=ll1&linkId=B097G4R5MB&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T06:34:36.723209+00:00"
-    },
-    {
-      "asin": "B0GYPZLXZR",
-      "title": "Dash Designs Laptop Bag for Men 15.6 Inch",
-      "price": "₹3,290",
-      "price_num": 3290,
-      "original_price": "₹6,590",
-      "discount_pct": 50,
-      "effective_price": "₹1,909",
-      "image_url": "https://m.media-amazon.com/images/I/61Mm1qJ2-cL._SL1500_.jpg",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": null,
-      "average_price": null,
-      "highest_price": null,
-      "vs_avg_str": null,
-      "vs_avg_pct": null,
-      "best_card_label": "₹1,316 off via select Credit",
-      "best_card_discount": 1316,
-      "coupon": "2% off",
-      "coupon_num": 65,
-      "emi_savings": "₹106 EMI interest savings",
-      "score": 21,
-      "affiliate_link": "https://www.amazon.in/dp/B0GYPZLXZR?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GYPZLXZR&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T06:01:43.439757+00:00"
     }
   ]
 }
