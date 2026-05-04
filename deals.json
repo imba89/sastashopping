@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-04T08:26:18.029528+00:00",
+  "updated_at": "2026-05-04T08:36:25.064517+00:00",
   "deals": [
+    {
+      "asin": "B0GZ73BY4C",
+      "title": "Buy Luxury full Automatic Shree Ram Diamond Edition Watch for Men Heavy Open Machine Design with Orange Straps, Shri Ram ji &amp; Hanuman ji Artwork, Ayodhya Mandir Dial",
+      "price": "₹999,899",
+      "price_num": 999899,
+      "original_price": "₹20,00,000",
+      "discount_pct": 50,
+      "effective_price": "₹969,903",
+      "image_url": "",
+      "category": "👗 Fashion",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": null,
+      "average_price": null,
+      "highest_price": null,
+      "vs_avg_str": null,
+      "vs_avg_pct": null,
+      "best_card_label": "₹29,996 off via Amazon Pay",
+      "best_card_discount": 29996,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹26,067 EMI interest savings",
+      "score": 30,
+      "affiliate_link": "https://www.amazon.in/dp/B0GZ73BY4C?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GZ73BY4C&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-04T08:35:40.844747+00:00"
+    },
     {
       "asin": "B082HPXRPB",
       "title": "Groomiist All in One Beard Body &amp; Ball Grooming kit Trimmer for Men Cordless Multi 4 in 1 Set",
@@ -754,32 +780,6 @@
       "score": 26,
       "affiliate_link": "https://www.amazon.in/dp/B00GR7BTO6?tag=techeasy0d1-21&linkCode=ll1&linkId=B00GR7BTO6&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T06:01:30.011260+00:00"
-    },
-    {
-      "asin": "B0CNBCZGRZ",
-      "title": "Buy THE NORTH FACE Recon Everyday Laptop Backpack, Tnf Black/Tnf Black-npf, One Size, Recon at Amazon.in",
-      "price": "₹21,734",
-      "price_num": 21734,
-      "original_price": "₹37,515",
-      "discount_pct": 42,
-      "effective_price": "₹19,234",
-      "image_url": "https://m.media-amazon.com/images/I/81It0IIEVLL._SL1500_.jpg",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹18,335",
-      "average_price": "₹24,880",
-      "highest_price": "₹58,900",
-      "vs_avg_str": "12% below avg (avg ₹24,880)",
-      "vs_avg_pct": 12,
-      "best_card_label": "₹2,500 off via select Credit",
-      "best_card_discount": 2500,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹704 EMI interest savings",
-      "score": 34,
-      "affiliate_link": "https://www.amazon.in/dp/B0CNBCZGRZ?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CNBCZGRZ&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T06:01:21.686280+00:00"
     }
   ]
 }
