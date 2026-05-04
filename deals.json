@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T21:56:17.567370+00:00",
+  "updated_at": "2026-05-04T22:17:16.720432+00:00",
   "deals": [
     {
       "asin": "B00ENMK1DW",
@@ -886,6 +886,32 @@
       "posted_at": "2026-05-04T17:15:12.493345+00:00"
     },
     {
+      "asin": "B073C8GKQC",
+      "title": "Buy Samsonite Modern Utility Double Shot Laptop Backpack (Charcoal Heather) at Amazon.in",
+      "price": "₹14,768",
+      "price_num": 14768,
+      "original_price": "₹56,405",
+      "discount_pct": 73,
+      "effective_price": "₹12,268",
+      "image_url": "https://m.media-amazon.com/images/I/91msy9SaTpL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹7,459",
+      "average_price": "₹19,731",
+      "highest_price": "₹53,100",
+      "vs_avg_str": "25% below avg (avg ₹19,731)",
+      "vs_avg_pct": 25,
+      "best_card_label": "₹2,500 off via select Credit",
+      "best_card_discount": 2500,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹478 EMI interest savings",
+      "score": 47,
+      "affiliate_link": "https://www.amazon.in/dp/B073C8GKQC?tag=techeasy0d1-21&linkCode=ll1&linkId=B073C8GKQC&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-04T22:15:42.757220+00:00"
+    },
+    {
       "asin": "B07QHZMN9D",
       "title": "co2CREA SRS-XB12 Wireless Bluetooth Portable Speaker (Black, Blue)",
       "price": "₹2,628",
@@ -1274,32 +1300,6 @@
       "score": 33,
       "affiliate_link": "https://www.amazon.in/dp/B073BVWRSP?tag=techeasy0d1-21&linkCode=ll1&linkId=B073BVWRSP&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T17:44:57.023976+00:00"
-    },
-    {
-      "asin": "B0CXPW61BS",
-      "title": "CIPLA PLAST Heavy Duty Folding Ladder with Wide Steps",
-      "price": "₹1,685",
-      "price_num": 1685,
-      "original_price": "₹4,999",
-      "discount_pct": 66,
-      "effective_price": "₹1,011",
-      "image_url": "https://m.media-amazon.com/images/I/61KEh6jHDDL._SL1500_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "desidime",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹1,349",
-      "average_price": "₹1,886",
-      "highest_price": "₹2,399",
-      "vs_avg_str": "10% below avg (avg ₹1,886)",
-      "vs_avg_pct": 10,
-      "best_card_label": "₹674 off via select Credit",
-      "best_card_discount": 674,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹54 EMI interest savings",
-      "score": 30,
-      "affiliate_link": "https://www.amazon.in/dp/B0CXPW61BS?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CXPW61BS&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T20:15:39.357266+00:00"
     }
   ]
 }
