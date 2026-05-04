@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-04T15:26:04.154056+00:00",
+  "updated_at": "2026-05-04T15:53:51.989660+00:00",
   "deals": [
+    {
+      "asin": "B0GX9JMN8V",
+      "title": "Original 33W Type C Quick Power Charging Adapter Compatible with Nothing Phone 4a",
+      "price": "₹649",
+      "price_num": 649,
+      "original_price": "₹1,499",
+      "discount_pct": 56,
+      "effective_price": "₹390",
+      "image_url": "https://m.media-amazon.com/images/I/51Ca19VveTL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": null,
+      "average_price": null,
+      "highest_price": null,
+      "vs_avg_str": null,
+      "vs_avg_pct": null,
+      "best_card_label": "₹259 off via select Credit",
+      "best_card_discount": 259,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 20,
+      "affiliate_link": "https://www.amazon.in/dp/B0GX9JMN8V?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GX9JMN8V&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-04T15:53:08.269465+00:00"
+    },
     {
       "asin": "B0DWDST1WX",
       "title": "Buy TADKEE Women's Cotton Blend Kurta Set (FN-Kurta-Set-Dupatta-133-Grey-L) at Amazon.in",
