@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-05-04T11:15:10.199132+00:00",
+  "updated_at": "2026-05-04T11:34:46.910895+00:00",
   "deals": [
+    {
+      "asin": "B0GQJ3J6D4",
+      "title": "Blackwik Military-Grade Gorilla Tempered Glass for Google Pixel 6A (Black)",
+      "price": "₹299",
+      "price_num": 299,
+      "original_price": "₹999",
+      "discount_pct": 70,
+      "effective_price": "₹175",
+      "image_url": "https://m.media-amazon.com/images/I/71NO04T11IL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹299",
+      "average_price": "₹299",
+      "highest_price": "₹299",
+      "vs_avg_str": "0% above avg (avg ₹299)",
+      "vs_avg_pct": 0,
+      "best_card_label": "₹119 off via select Credit",
+      "best_card_discount": 119,
+      "coupon": "2% off",
+      "coupon_num": 5,
+      "emi_savings": null,
+      "score": 60,
+      "affiliate_link": "https://www.amazon.in/dp/B0GQJ3J6D4?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GQJ3J6D4&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-04T11:33:50.054913+00:00"
+    },
     {
       "asin": "B0FFRZL6HV",
       "title": "GODREJ INTERIO Mattress Restomagic Dual Comfort 5 Inch King Size Mattress (78 x 72 x 5), 5-Years Warranty, Cream and Dark Grey",
@@ -754,32 +780,6 @@
       "score": 31,
       "affiliate_link": "https://www.amazon.in/dp/B0BG51SYGM?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BG51SYGM&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T07:51:11.377204+00:00"
-    },
-    {
-      "asin": "B06Y4MP4PX",
-      "title": "Durable Mens Messenger Bag Blue Water Resistant 15.6 Laptop Bag by Vonxury by VX VONXURY",
-      "price": "₹7,713",
-      "price_num": 7713,
-      "original_price": "₹12,341",
-      "discount_pct": 37,
-      "effective_price": "₹5,213",
-      "image_url": "https://m.media-amazon.com/images/I/71UiQFCheRL._SL1500_.jpg",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": null,
-      "average_price": null,
-      "highest_price": null,
-      "vs_avg_str": null,
-      "vs_avg_pct": null,
-      "best_card_label": "₹2,500 off via select Credit",
-      "best_card_discount": 2500,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹250 EMI interest savings",
-      "score": 20,
-      "affiliate_link": "https://www.amazon.in/dp/B06Y4MP4PX?tag=techeasy0d1-21&linkCode=ll1&linkId=B06Y4MP4PX&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T07:39:52.336658+00:00"
     }
   ]
 }
