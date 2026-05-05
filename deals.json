@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T12:08:06.859429+00:00",
+  "updated_at": "2026-05-05T12:49:21.332615+00:00",
   "deals": [
     {
       "asin": "B00ENMK1DW",
@@ -130,6 +130,32 @@
       "score": 91,
       "affiliate_link": "https://www.amazon.in/dp/B0GTVL8WZ7?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GTVL8WZ7&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T19:19:25.091846+00:00"
+    },
+    {
+      "asin": "B0CX988QL2",
+      "title": "Drumstone (NEW WITH 17 YEARS LIMITED WARRANTY) 5 IN 1 Hair Dryer Brush, Multifunctional Hot Air Styler Hair Tools Detachable Brush Head for Straightening Curling Drying Combing PRO ck_19",
+      "price": "₹1,089",
+      "price_num": 1089,
+      "original_price": "₹8,999",
+      "discount_pct": 87,
+      "effective_price": null,
+      "image_url": "",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹1,089",
+      "average_price": "₹1,644",
+      "highest_price": "₹2,099",
+      "vs_avg_str": "33% below avg (avg ₹1,644)",
+      "vs_avg_pct": 33,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": "2% off",
+      "coupon_num": 21,
+      "emi_savings": null,
+      "score": 90,
+      "affiliate_link": "https://www.amazon.in/dp/B0CX988QL2?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CX988QL2&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-05T12:45:56.690669+00:00"
     },
     {
       "asin": "B0FMF1262K",
@@ -1274,32 +1300,6 @@
       "score": 60,
       "affiliate_link": "https://www.amazon.in/dp/B0BGSB646C?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BGSB646C&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T21:20:43.560949+00:00"
-    },
-    {
-      "asin": "B0GHP8PV5T",
-      "title": "pTron Studio Ultima w/ 60Hrs Playtime, 40mm Drivers, Custom EQ, Mobile App, Wireless Over Ear Headphones w/HD Mic &amp; TruTalk AI-ENC Calls, BTv5.4, Dual Device Pairing &amp; Type-C Charging (Jet Black)",
-      "price": "₹1,699",
-      "price_num": 1699,
-      "original_price": "₹5,999",
-      "discount_pct": 71,
-      "effective_price": "₹1,020",
-      "image_url": "https://m.media-amazon.com/images/I/61MadwUi7SL._SL1200_.jpg",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹1,699",
-      "average_price": "₹1,712",
-      "highest_price": "₹1,999",
-      "vs_avg_str": "0% above avg (avg ₹1,712)",
-      "vs_avg_pct": 0,
-      "best_card_label": "₹679 off via select Credit",
-      "best_card_discount": 679,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹55 EMI interest savings",
-      "score": 60,
-      "affiliate_link": "https://www.amazon.in/dp/B0GHP8PV5T?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GHP8PV5T&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T19:47:34.815476+00:00"
     }
   ]
 }
