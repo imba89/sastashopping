@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T08:04:37.391026+00:00",
+  "updated_at": "2026-05-05T08:26:50.398464+00:00",
   "deals": [
     {
       "asin": "B00ENMK1DW",
@@ -572,6 +572,32 @@
       "score": 81,
       "affiliate_link": "https://www.amazon.in/dp/B0DNK24TN1?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DNK24TN1&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T19:45:02.017890+00:00"
+    },
+    {
+      "asin": "B0DF2V2XRN",
+      "title": "SHARP 265L Frost Free Double Door 2 Star Refrigerator",
+      "price": "₹21,990",
+      "price_num": 21990,
+      "original_price": "₹23,99,000",
+      "discount_pct": 99,
+      "effective_price": null,
+      "image_url": "",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹21,990",
+      "average_price": "₹27,049",
+      "highest_price": "₹33,500",
+      "vs_avg_str": "18% below avg (avg ₹27,049)",
+      "vs_avg_pct": 18,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 78,
+      "affiliate_link": "https://www.amazon.in/dp/B0DF2V2XRN?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DF2V2XRN&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-05T08:25:14.519836+00:00"
     },
     {
       "asin": "B0DSWJW3H2",
@@ -1274,32 +1300,6 @@
       "score": 60,
       "affiliate_link": "https://www.amazon.in/dp/B0GL89XP3N?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GL89XP3N&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T18:42:48.400144+00:00"
-    },
-    {
-      "asin": "B071ZJD9SV",
-      "title": "VTech Kidizoom Smartwatch DX2 Blue (Frustration Free Packaging)",
-      "price": "₹11,501",
-      "price_num": 11501,
-      "original_price": "₹17,882",
-      "discount_pct": 35,
-      "effective_price": null,
-      "image_url": "",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹11,501",
-      "average_price": "₹11,501",
-      "highest_price": "₹11,501",
-      "vs_avg_str": "0% above avg (avg ₹11,501)",
-      "vs_avg_pct": 0,
-      "best_card_label": null,
-      "best_card_discount": 0,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 57,
-      "affiliate_link": "https://www.amazon.in/dp/B071ZJD9SV?tag=techeasy0d1-21&linkCode=ll1&linkId=B071ZJD9SV&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T20:43:43.975606+00:00"
     }
   ]
 }
