@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T16:07:18.705796+00:00",
+  "updated_at": "2026-05-05T16:27:16.489165+00:00",
   "deals": [
     {
       "asin": "B00ENMK1DW",
@@ -704,6 +704,32 @@
       "posted_at": "2026-05-04T19:45:02.017890+00:00"
     },
     {
+      "asin": "B0G39X5N25",
+      "title": "Skullcandy Crusher ANC 2 Wireless Bluetooth Over-Ear Headphones with Active Noise Cancellation, Adjustable Sensory Bass, 50Hr Battery, 40 mm Drivers, Multipoint Pairing, Built-in Mic-Leopard",
+      "price": "₹15,999",
+      "price_num": 15999,
+      "original_price": "₹64,999",
+      "discount_pct": 75,
+      "effective_price": "₹13,499",
+      "image_url": "https://m.media-amazon.com/images/I/71r-LlMmm1L._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "desidime",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹15,999",
+      "average_price": "₹19,723",
+      "highest_price": "₹19,999",
+      "vs_avg_str": "18% below avg (avg ₹19,723)",
+      "vs_avg_pct": 18,
+      "best_card_label": "₹2,500 off via select Credit",
+      "best_card_discount": 2500,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹518 EMI interest savings",
+      "score": 80,
+      "affiliate_link": "https://www.amazon.in/dp/B0G39X5N25?tag=techeasy0d1-21&linkCode=ll1&linkId=B0G39X5N25&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-05T16:25:56.484038+00:00"
+    },
+    {
       "asin": "B0DF2V2XRN",
       "title": "SHARP 265L Frost Free Double Door 2 Star Refrigerator",
       "price": "₹21,990",
@@ -1274,32 +1300,6 @@
       "score": 60,
       "affiliate_link": "https://www.amazon.in/dp/B0GTMDJGFV?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GTMDJGFV&ref_=as_li_ss_tl",
       "posted_at": "2026-05-05T09:25:50.553721+00:00"
-    },
-    {
-      "asin": "B0GR6FGBJ3",
-      "title": "Buy DOCTOR EXTRA SOFT Men’s Sports Walking Running Jogging Slip-On Shoes",
-      "price": "₹1,398",
-      "price_num": 1398,
-      "original_price": "₹5,999",
-      "discount_pct": 76,
-      "effective_price": "₹839",
-      "image_url": "https://m.media-amazon.com/images/I/71AJd1NKzyL._SL1500_.jpg",
-      "category": "👗 Fashion",
-      "source": "amazon",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹1,399",
-      "average_price": "₹1,399",
-      "highest_price": "₹1,399",
-      "vs_avg_str": "0% above avg (avg ₹1,399)",
-      "vs_avg_pct": 0,
-      "best_card_label": "₹559 off via select Credit",
-      "best_card_discount": 559,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 60,
-      "affiliate_link": "https://www.amazon.in/dp/B0GR6FGBJ3?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GR6FGBJ3&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-05T06:57:11.621076+00:00"
     }
   ]
 }
