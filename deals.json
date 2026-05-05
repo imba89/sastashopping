@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T01:43:34.038857+00:00",
+  "updated_at": "2026-05-05T02:06:45.998283+00:00",
   "deals": [
     {
       "asin": "B00ENMK1DW",
@@ -572,6 +572,32 @@
       "score": 61,
       "affiliate_link": "https://www.amazon.in/dp/B0GQTJDRSL?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GQTJDRSL&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T17:44:28.441372+00:00"
+    },
+    {
+      "asin": "B0D3XBXF8B",
+      "title": "Tishnagi SMARTBERRY B86 Plus Study Tab Gen. 2 Educational Tablet",
+      "price": "₹6,499",
+      "price_num": 6499,
+      "original_price": "₹59,990",
+      "discount_pct": 89,
+      "effective_price": "₹5,749",
+      "image_url": "https://m.media-amazon.com/images/I/71+XMTQOt-L._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹6,499",
+      "average_price": "₹6,499",
+      "highest_price": "₹6,499",
+      "vs_avg_str": "0% above avg (avg ₹6,499)",
+      "vs_avg_pct": 0,
+      "best_card_label": "₹750 off via select Credit",
+      "best_card_discount": 750,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹169 EMI interest savings",
+      "score": 60,
+      "affiliate_link": "https://www.amazon.in/dp/B0D3XBXF8B?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D3XBXF8B&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-05T02:05:04.180231+00:00"
     },
     {
       "asin": "B0BGSB646C",
@@ -1274,32 +1300,6 @@
       "score": 44,
       "affiliate_link": "https://www.amazon.in/dp/B07R2JQHY9?tag=techeasy0d1-21&linkCode=ll1&linkId=B07R2JQHY9&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T22:57:06.582713+00:00"
-    },
-    {
-      "asin": "B0DM8M617X",
-      "title": "Buy Columbus MASSAGER-01 Sports Shoes - Running Shoes",
-      "price": "₹949",
-      "price_num": 949,
-      "original_price": "₹3,999",
-      "discount_pct": 76,
-      "effective_price": "₹570",
-      "image_url": "https://m.media-amazon.com/images/I/81t0iFcKdML._SL1500_.jpg",
-      "category": "👗 Fashion",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹919",
-      "average_price": "₹1,262",
-      "highest_price": "₹1,899",
-      "vs_avg_str": "24% below avg (avg ₹1,262)",
-      "vs_avg_pct": 24,
-      "best_card_label": "₹379 off via select Credit",
-      "best_card_discount": 379,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 44,
-      "affiliate_link": "https://www.amazon.in/dp/B0DM8M617X?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DM8M617X&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T22:57:00.830111+00:00"
     }
   ]
 }
