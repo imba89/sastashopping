@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T04:25:37.189288+00:00",
+  "updated_at": "2026-05-05T04:56:31.940995+00:00",
   "deals": [
     {
       "asin": "B00ENMK1DW",
@@ -624,6 +624,32 @@
       "score": 62,
       "affiliate_link": "https://www.amazon.in/dp/B0D1GJ5TSC?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D1GJ5TSC&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T21:20:37.482785+00:00"
+    },
+    {
+      "asin": "B0GS1X1ZVD",
+      "title": "Haier 190L 5 Star Direct Cool Single Door Refrigerator",
+      "price": "₹16,290",
+      "price_num": 16290,
+      "original_price": "₹25,590",
+      "discount_pct": 36,
+      "effective_price": "₹13,790",
+      "image_url": "https://m.media-amazon.com/images/I/61oBxqZf6hL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "desidime",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹16,290",
+      "average_price": "₹16,590",
+      "highest_price": "₹17,690",
+      "vs_avg_str": "1% below avg (avg ₹16,590)",
+      "vs_avg_pct": 1,
+      "best_card_label": "₹2,500 off via select Credit",
+      "best_card_discount": 2500,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹909 EMI interest savings",
+      "score": 61,
+      "affiliate_link": "https://www.amazon.in/dp/B0GS1X1ZVD?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GS1X1ZVD&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-05T04:54:17.467275+00:00"
     },
     {
       "asin": "B0GQTJDRSL",
@@ -1274,32 +1300,6 @@
       "score": 50,
       "affiliate_link": "https://www.amazon.in/dp/B09SBQWGMC?tag=techeasy0d1-21&linkCode=ll1&linkId=B09SBQWGMC&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T20:43:49.737208+00:00"
-    },
-    {
-      "asin": "B095NYS2WN",
-      "title": "Bosch F002H52012FT9 Iris Led Retrofit Head Light",
-      "price": "₹1,887",
-      "price_num": 1887,
-      "original_price": "₹4,999",
-      "discount_pct": 62,
-      "effective_price": "₹1,133",
-      "image_url": "https://m.media-amazon.com/images/I/6161zZDvoeS._SL1500_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "desidime",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹1,713",
-      "average_price": "₹4,288",
-      "highest_price": "₹5,299",
-      "vs_avg_str": "55% below avg (avg ₹4,288)",
-      "vs_avg_pct": 55,
-      "best_card_label": "₹754 off via select Credit",
-      "best_card_discount": 754,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹61 EMI interest savings",
-      "score": 50,
-      "affiliate_link": "https://www.amazon.in/dp/B095NYS2WN?tag=techeasy0d1-21&linkCode=ll1&linkId=B095NYS2WN&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T19:45:09.026147+00:00"
     }
   ]
 }
