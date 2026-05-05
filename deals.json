@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T10:16:09.802651+00:00",
+  "updated_at": "2026-05-05T11:18:16.772294+00:00",
   "deals": [
     {
       "asin": "B00ENMK1DW",
@@ -834,6 +834,32 @@
       "posted_at": "2026-05-05T07:39:08.263326+00:00"
     },
     {
+      "asin": "B0GYJPVL8H",
+      "title": "Portable Washing Machine, 16L Mini Washing Machine With Spin Basket, Small Portable Washer Machine Suitable for Underwear Small Clothes Dryer Deep Cleaning",
+      "price": "₹1,299",
+      "price_num": 1299,
+      "original_price": "₹4,999",
+      "discount_pct": 74,
+      "effective_price": "₹1,105",
+      "image_url": "https://m.media-amazon.com/images/I/516uXE9f8iL._SL1280_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹1,299",
+      "average_price": "₹1,339",
+      "highest_price": "₹1,499",
+      "vs_avg_str": "2% below avg (avg ₹1,339)",
+      "vs_avg_pct": 2,
+      "best_card_label": "₹194 off via select Credit",
+      "best_card_discount": 194,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 62,
+      "affiliate_link": "https://www.amazon.in/dp/B0GYJPVL8H?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GYJPVL8H&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-05T11:13:36.919764+00:00"
+    },
+    {
       "asin": "B0DNZ3HCZM",
       "title": "Sheer Comfort Duo Flexi Comfort Mattress",
       "price": "₹9,095",
@@ -1274,32 +1300,6 @@
       "score": 60,
       "affiliate_link": "https://www.amazon.in/dp/B0CQVMYJNK?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CQVMYJNK&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T19:19:55.846615+00:00"
-    },
-    {
-      "asin": "B0GHY76N2H",
-      "title": "Buy F Gear Canyon 18L Premium Canvas Laptop Backpack",
-      "price": "₹1,290",
-      "price_num": 1290,
-      "original_price": "₹2,580",
-      "discount_pct": 50,
-      "effective_price": null,
-      "image_url": "https://m.media-amazon.com/images/I/71FZtCsUvzL._SL1500_.jpg",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹1,290",
-      "average_price": "₹1,290",
-      "highest_price": "₹1,290",
-      "vs_avg_str": "0% above avg (avg ₹1,290)",
-      "vs_avg_pct": 0,
-      "best_card_label": null,
-      "best_card_discount": 0,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 60,
-      "affiliate_link": "https://www.amazon.in/dp/B0GHY76N2H?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GHY76N2H&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T19:19:49.878377+00:00"
     }
   ]
 }
