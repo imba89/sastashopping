@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T23:53:45.215277+00:00",
+  "updated_at": "2026-05-05T00:56:52.239785+00:00",
   "deals": [
     {
       "asin": "B00ENMK1DW",
@@ -834,6 +834,32 @@
       "posted_at": "2026-05-04T20:15:26.229952+00:00"
     },
     {
+      "asin": "B01MDMHRXG",
+      "title": "Nuwave Air Fryer, 2.8L, Multicolour, Touch Control, Bake, Roast, Dehydrate",
+      "price": "₹3,774",
+      "price_num": 3774,
+      "original_price": "₹11,750",
+      "discount_pct": 67,
+      "effective_price": "₹2,265",
+      "image_url": "https://m.media-amazon.com/images/I/71lKCgEkoKL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹3,003",
+      "average_price": "₹6,624",
+      "highest_price": "₹22,721",
+      "vs_avg_str": "43% below avg (avg ₹6,624)",
+      "vs_avg_pct": 43,
+      "best_card_label": "₹1,509 off via select Credit",
+      "best_card_discount": 1509,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹122 EMI interest savings",
+      "score": 51,
+      "affiliate_link": "https://www.amazon.in/dp/B01MDMHRXG?tag=techeasy0d1-21&linkCode=ll1&linkId=B01MDMHRXG&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-05T00:54:42.397158+00:00"
+    },
+    {
       "asin": "B083QN6N4M",
       "title": "eKids Super Mario Wireless Bluetooth Portable Kids Headphones with Microphone, Volume Reduced to Protect Hearing Rechargeable Battery, Adjustable Kids Headband for School Home or Travel",
       "price": "₹4,566",
@@ -1274,32 +1300,6 @@
       "score": 42,
       "affiliate_link": "https://www.amazon.in/dp/B0CCJHQBTF?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CCJHQBTF&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T17:15:32.533800+00:00"
-    },
-    {
-      "asin": "B082D8F917",
-      "title": "ODISTAR Desktop Vacuum Cleaner,Mini Table dust Sweeper Energy Saving,High Endurance up to 400 mins,Cordless&amp;360º Rotatable Design for Cleaning Hairs,Crumbs,Computer Keyboard of Gifts for Kids (Pink)",
-      "price": "₹2,187",
-      "price_num": 2187,
-      "original_price": "₹6,000",
-      "discount_pct": 63,
-      "effective_price": "₹1,313",
-      "image_url": "https://m.media-amazon.com/images/I/41tVjk+BsxL._SL1000_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹998",
-      "average_price": "₹2,765",
-      "highest_price": "₹6,150",
-      "vs_avg_str": "20% below avg (avg ₹2,765)",
-      "vs_avg_pct": 20,
-      "best_card_label": "₹874 off via select Credit",
-      "best_card_discount": 874,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹70 EMI interest savings",
-      "score": 40,
-      "affiliate_link": "https://www.amazon.in/dp/B082D8F917?tag=techeasy0d1-21&linkCode=ll1&linkId=B082D8F917&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T21:53:34.023734+00:00"
     }
   ]
 }
