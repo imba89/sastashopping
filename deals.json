@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T03:27:39.780157+00:00",
+  "updated_at": "2026-05-05T04:04:22.692236+00:00",
   "deals": [
     {
       "asin": "B00ENMK1DW",
@@ -652,6 +652,32 @@
       "posted_at": "2026-05-04T17:44:28.441372+00:00"
     },
     {
+      "asin": "B0FWC4Q9FN",
+      "title": "Buy Lifelong 2 Litre Triply Stainless Steel Pressure Cooker for Kitchen",
+      "price": "₹1,499",
+      "price_num": 1499,
+      "original_price": "₹3,199",
+      "discount_pct": 53,
+      "effective_price": null,
+      "image_url": "",
+      "category": "🍳 Kitchen",
+      "source": "amazon",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹1,499",
+      "average_price": "₹1,499",
+      "highest_price": "₹1,499",
+      "vs_avg_str": "0% above avg (avg ₹1,499)",
+      "vs_avg_pct": 0,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 60,
+      "affiliate_link": "https://www.amazon.in/dp/B0FWC4Q9FN?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FWC4Q9FN&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-05T04:01:01.561591+00:00"
+    },
+    {
       "asin": "B0CXM31SQL",
       "title": "spareplanet™ Roller Belan Pulsator Compatible with Samsung Top Load Fully Automatic Washing Machine (Set of 3 Pieces)(Match &amp; Buy) Match Roller Length 8 cm with Old Rollers",
       "price": "₹210",
@@ -1274,32 +1300,6 @@
       "score": 50,
       "affiliate_link": "https://www.amazon.in/dp/B095NYS2WN?tag=techeasy0d1-21&linkCode=ll1&linkId=B095NYS2WN&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T19:45:09.026147+00:00"
-    },
-    {
-      "asin": "B0DPLK4N27",
-      "title": "Hair Trimmer Electric Shaving Machine Adjustable Blade Clipper T285",
-      "price": "₹165",
-      "price_num": 165,
-      "original_price": "₹7,999",
-      "discount_pct": 97,
-      "effective_price": null,
-      "image_url": "https://m.media-amazon.com/images/I/618uE9G0GGL._SL1500_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹150",
-      "average_price": "₹283",
-      "highest_price": "₹499",
-      "vs_avg_str": "41% below avg (avg ₹283)",
-      "vs_avg_pct": 41,
-      "best_card_label": null,
-      "best_card_discount": 0,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 50,
-      "affiliate_link": "https://www.amazon.in/dp/B0DPLK4N27?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DPLK4N27&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T17:15:18.780474+00:00"
     }
   ]
 }
