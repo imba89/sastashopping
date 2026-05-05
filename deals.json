@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-05T23:29:53.740904+00:00",
+  "updated_at": "2026-05-05T23:52:17.983885+00:00",
   "deals": [
+    {
+      "asin": "B09NNBBY8F",
+      "title": "Uliptz Wireless Bluetooth Headphones - 65H Playtime, 3 EQ Sound Modes, HiFi Stereo Over Ear With Microphone, Foldable Lightweight Bluetooth 5.2 for Travel/Office/Cellphone/TV/PC",
+      "price": "₹3,719",
+      "price_num": 3719,
+      "original_price": "₹12,244",
+      "discount_pct": 69,
+      "effective_price": "₹3,608",
+      "image_url": "https://m.media-amazon.com/images/I/61-ZTbzw6oL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹2,568",
+      "average_price": "₹3,624",
+      "highest_price": "₹5,999",
+      "vs_avg_str": "2% above avg (avg ₹3,624)",
+      "vs_avg_pct": -2,
+      "best_card_label": "₹111 off via Amazon Pay",
+      "best_card_discount": 111,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹120 EMI interest savings",
+      "score": 20,
+      "rating": 4.6,
+      "affiliate_link": "https://www.amazon.in/dp/B09NNBBY8F?tag=techeasy0d1-21&linkCode=ll1&linkId=B09NNBBY8F&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-05T23:49:33.307849+00:00"
+    },
     {
       "asin": "B0DNTGXBPP",
       "title": "Buy Drumstone (5 Years Warranty) Multicolor - Auto Cut-Off Portable Instant Water Heater/Geyser for Kitchen, Restaurant, Clinic, Salon, &amp; More – No Plumbing Required, 6-Second Hot Water Online at Low Prices in India - Amazon.in",
@@ -1323,33 +1350,6 @@
       "rating": 4.6,
       "affiliate_link": "https://www.amazon.in/dp/B0BGSB646C?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BGSB646C&ref_=as_li_ss_tl",
       "posted_at": "2026-05-05T21:56:13.921241+00:00"
-    },
-    {
-      "asin": "B0FDKZMMYC",
-      "title": "Samsung Galaxy Z Flip7 5G Smartphone with Galaxy AI",
-      "price": "₹109,998",
-      "price_num": 109998,
-      "original_price": "₹1,39,999",
-      "discount_pct": 21,
-      "effective_price": null,
-      "image_url": "",
-      "category": "⚡ Electronics",
-      "source": "desidime",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹102,999",
-      "average_price": "₹110,980",
-      "highest_price": "₹121,999",
-      "vs_avg_str": "0% above avg (avg ₹110,980)",
-      "vs_avg_pct": 0,
-      "best_card_label": null,
-      "best_card_discount": 0,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 10,
-      "rating": 4.3,
-      "affiliate_link": "https://www.amazon.in/dp/B0FDKZMMYC?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FDKZMMYC&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-05T21:55:16.819729+00:00"
     }
   ]
 }
