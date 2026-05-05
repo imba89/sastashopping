@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T11:18:16.772294+00:00",
+  "updated_at": "2026-05-05T12:08:06.859429+00:00",
   "deals": [
     {
       "asin": "B00ENMK1DW",
@@ -1068,6 +1068,32 @@
       "posted_at": "2026-05-04T17:44:28.441372+00:00"
     },
     {
+      "asin": "B0GQJ3J6D4",
+      "title": "Blackwik Military-Grade Gorilla Tempered Glass for Google Pixel 6A (Black)",
+      "price": "₹299",
+      "price_num": 299,
+      "original_price": "₹999",
+      "discount_pct": 70,
+      "effective_price": "₹175",
+      "image_url": "https://m.media-amazon.com/images/I/71NO04T11IL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹299",
+      "average_price": "₹299",
+      "highest_price": "₹299",
+      "vs_avg_str": "0% above avg (avg ₹299)",
+      "vs_avg_pct": 0,
+      "best_card_label": "₹119 off via select Credit",
+      "best_card_discount": 119,
+      "coupon": "2% off",
+      "coupon_num": 5,
+      "emi_savings": null,
+      "score": 60,
+      "affiliate_link": "https://www.amazon.in/dp/B0GQJ3J6D4?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GQJ3J6D4&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-05T12:04:20.953490+00:00"
+    },
+    {
       "asin": "B0GTMDJGFV",
       "title": "Buy Bullett by Wonderchef, 500W Mixer Grinder Blender Smoothie Maker, 22000 RPM, 2 Jars, Stainless-Steel Blade, Sipper Jar &amp; Lid, 2-Yr Warranty, Black &amp; Red Online at Low Prices in India - Amazon.in",
       "price": "₹1,599",
@@ -1274,32 +1300,6 @@
       "score": 60,
       "affiliate_link": "https://www.amazon.in/dp/B0GHP8PV5T?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GHP8PV5T&ref_=as_li_ss_tl",
       "posted_at": "2026-05-04T19:47:34.815476+00:00"
-    },
-    {
-      "asin": "B0CQVMYJNK",
-      "title": "Kitchen kemistry Premium Electric Kettle 1.8 L, 1500 Watt, Stainless Steel Body with Auto Shut-off Feature Used for Boiling Water - (SilverOak)",
-      "price": "₹699",
-      "price_num": 699,
-      "original_price": "₹1,399",
-      "discount_pct": 50,
-      "effective_price": "₹420",
-      "image_url": "https://m.media-amazon.com/images/I/71k-FOXAeTL._SL1500_.jpg",
-      "category": "🍳 Kitchen",
-      "source": "amazon",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹699",
-      "average_price": "₹699",
-      "highest_price": "₹699",
-      "vs_avg_str": "0% above avg (avg ₹699)",
-      "vs_avg_pct": 0,
-      "best_card_label": "₹279 off via select Credit",
-      "best_card_discount": 279,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 60,
-      "affiliate_link": "https://www.amazon.in/dp/B0CQVMYJNK?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CQVMYJNK&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-04T19:19:55.846615+00:00"
     }
   ]
 }
