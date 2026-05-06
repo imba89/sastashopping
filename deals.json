@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-06T07:06:46.986821+00:00",
+  "updated_at": "2026-05-06T07:30:07.271791+00:00",
   "deals": [
+    {
+      "asin": "B0CNBCZGRZ",
+      "title": "Buy THE NORTH FACE Recon Everyday Laptop Backpack, Tnf Black/Tnf Black-npf, One Size, Recon at Amazon.in",
+      "price": "₹21,729",
+      "price_num": 21729,
+      "original_price": "₹67,973",
+      "discount_pct": 68,
+      "effective_price": "₹19,229",
+      "image_url": "https://m.media-amazon.com/images/I/81It0IIEVLL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹18,335",
+      "average_price": "₹24,880",
+      "highest_price": "₹58,900",
+      "vs_avg_str": "12% below avg (avg ₹24,880)",
+      "vs_avg_pct": 12,
+      "best_card_label": "₹2,500 off via select Credit",
+      "best_card_discount": 2500,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹704 EMI interest savings",
+      "score": 34,
+      "rating": 4.7,
+      "affiliate_link": "https://www.amazon.in/dp/B0CNBCZGRZ?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CNBCZGRZ&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-06T07:29:13.167869+00:00"
+    },
     {
       "asin": "B01D11ZOAK",
       "title": "VTech Kidizoom Camera Pix, Blue",
@@ -1323,33 +1350,6 @@
       "rating": 4.2,
       "affiliate_link": "https://www.amazon.in/dp/B0DKFTZCJ2?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DKFTZCJ2&ref_=as_li_ss_tl",
       "posted_at": "2026-05-06T05:15:27.582878+00:00"
-    },
-    {
-      "asin": "B0GGR9DCCB",
-      "title": "VW 109 cm (43 inches) Pro Series 4K Ultra HD Smart QLED Google TV VW43GQ2",
-      "price": "₹19,999",
-      "price_num": 19999,
-      "original_price": "₹54,999",
-      "discount_pct": 63,
-      "effective_price": "₹18,500",
-      "image_url": "https://m.media-amazon.com/images/I/81pQIs9fKVL._SL1500_.jpg",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹18,999",
-      "average_price": "₹19,523",
-      "highest_price": "₹19,999",
-      "vs_avg_str": "2% above avg (avg ₹19,523)",
-      "vs_avg_pct": -2,
-      "best_card_label": "₹1,499 off via select Credit",
-      "best_card_discount": 1499,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹2,008 EMI interest savings",
-      "score": 21,
-      "rating": 4.5,
-      "affiliate_link": "https://www.amazon.in/dp/B0GGR9DCCB?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GGR9DCCB&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-06T05:15:21.690220+00:00"
     }
   ]
 }
