@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-06T01:57:47.100535+00:00",
+  "updated_at": "2026-05-06T02:21:10.468674+00:00",
   "deals": [
+    {
+      "asin": "B0DZTPG8TB",
+      "title": "TheGiftKart Hybrid Shockproof Back Cover Case for iQOO Neo 10R 5G",
+      "price": "₹399",
+      "price_num": 399,
+      "original_price": "₹2,500",
+      "discount_pct": 84,
+      "effective_price": null,
+      "image_url": "https://m.media-amazon.com/images/I/51nQf5Tj8DL._SL1000_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹298",
+      "average_price": "₹370",
+      "highest_price": "₹399",
+      "vs_avg_str": "7% above avg (avg ₹370)",
+      "vs_avg_pct": -7,
+      "best_card_label": "₹11 off via Amazon Pay",
+      "best_card_discount": 11,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 20,
+      "rating": 4.6,
+      "affiliate_link": "https://www.amazon.in/dp/B0DZTPG8TB?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DZTPG8TB&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-06T02:17:32.545303+00:00"
+    },
     {
       "asin": "B0DZP2ZQC9",
       "title": "TheGiftKart Tough Armor Bumper Back Case Cover for iQOO Neo 10R 5G",
@@ -1323,33 +1350,6 @@
       "rating": 4.5,
       "affiliate_link": "https://www.amazon.in/dp/B0F48PCHYR?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F48PCHYR&ref_=as_li_ss_tl",
       "posted_at": "2026-05-05T22:55:55.670549+00:00"
-    },
-    {
-      "asin": "B09LVFVRYB",
-      "title": "TP-Link Deco X50 AX3000 Whole Home Dual Band Mesh Wi-Fi 6 System",
-      "price": "₹5,599",
-      "price_num": 5599,
-      "original_price": "₹54999",
-      "discount_pct": 89,
-      "effective_price": "₹5,432",
-      "image_url": "https://m.media-amazon.com/images/I/51qopsLVQuL._SL1500_.jpg",
-      "category": "🏠 Home",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹4,599",
-      "average_price": "₹5,177",
-      "highest_price": "₹13,999",
-      "vs_avg_str": "8% above avg (avg ₹5,177)",
-      "vs_avg_pct": -8,
-      "best_card_label": "₹167 off via Amazon Pay",
-      "best_card_discount": 167,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹145 EMI interest savings",
-      "score": 20,
-      "rating": 4.4,
-      "affiliate_link": "https://www.amazon.in/dp/B09LVFVRYB?tag=techeasy0d1-21&linkCode=ll1&linkId=B09LVFVRYB&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-05T22:55:49.034113+00:00"
     }
   ]
 }
