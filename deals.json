@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-06T02:21:10.468674+00:00",
+  "updated_at": "2026-05-06T02:44:31.577295+00:00",
   "deals": [
+    {
+      "asin": "B07TPLQVGQ",
+      "title": "Kids Headphones-noot products K33 Foldable Stereo Tangle-Free 3.5mm Jack Wired Cord On-Ear Headset for Children/Teens/Boys/Girls/Smartphones/School/Kindle/Airplane Travel/Plane/Tablet (Electric Blue)",
+      "price": "₹2,037",
+      "price_num": 2037,
+      "original_price": "₹4,880",
+      "discount_pct": 58,
+      "effective_price": "₹1,976",
+      "image_url": "https://m.media-amazon.com/images/I/714dVWam9aL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹1,438",
+      "average_price": "₹2,365",
+      "highest_price": "₹4,433",
+      "vs_avg_str": "13% below avg (avg ₹2,365)",
+      "vs_avg_pct": 13,
+      "best_card_label": "₹61 off via Amazon Pay",
+      "best_card_discount": 61,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹66 EMI interest savings",
+      "score": 33,
+      "rating": 4.7,
+      "affiliate_link": "https://www.amazon.in/dp/B07TPLQVGQ?tag=techeasy0d1-21&linkCode=ll1&linkId=B07TPLQVGQ&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-06T02:41:35.585161+00:00"
+    },
     {
       "asin": "B0DZTPG8TB",
       "title": "TheGiftKart Hybrid Shockproof Back Cover Case for iQOO Neo 10R 5G",
@@ -1323,33 +1350,6 @@
       "rating": 4.0,
       "affiliate_link": "https://www.amazon.in/dp/B0DQ49W1KV?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DQ49W1KV&ref_=as_li_ss_tl",
       "posted_at": "2026-05-05T22:56:03.389259+00:00"
-    },
-    {
-      "asin": "B0F48PCHYR",
-      "title": "Ant Esports Thunder10, 60% Wired Mechanical Gaming Keyboard Mouse Combo, Anti-Ghosting Brown Switch RGB Backlit Keyboard,5 Programable Buttons 3200DPI RGB Weight Honeycomb Mouse PC MAC_Carbon Black",
-      "price": "₹1,899",
-      "price_num": 1899,
-      "original_price": "₹25999",
-      "discount_pct": 92,
-      "effective_price": "₹1,843",
-      "image_url": "https://m.media-amazon.com/images/I/71yCGfdK2IL._SL1500_.jpg",
-      "category": "🎮 Video Games",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹1,270",
-      "average_price": "₹1,499",
-      "highest_price": "₹2,227",
-      "vs_avg_str": "26% above avg (avg ₹1,499)",
-      "vs_avg_pct": -26,
-      "best_card_label": "₹56 off via Amazon Pay",
-      "best_card_discount": 56,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹49 EMI interest savings",
-      "score": 20,
-      "rating": 4.5,
-      "affiliate_link": "https://www.amazon.in/dp/B0F48PCHYR?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F48PCHYR&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-05T22:55:55.670549+00:00"
     }
   ]
 }
