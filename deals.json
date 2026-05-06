@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-06T14:56:03.212379+00:00",
+  "updated_at": "2026-05-06T15:17:25.871896+00:00",
   "deals": [
+    {
+      "asin": "B0DZ24GY3Z",
+      "title": "TheGiftKart Hybrid Shockproof Back Cover Case for Xiaomi 15 5G",
+      "price": "₹499",
+      "price_num": 499,
+      "original_price": "₹2,499",
+      "discount_pct": 80,
+      "effective_price": null,
+      "image_url": "https://m.media-amazon.com/images/I/51NQkEu1c1L._SL1000_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹466",
+      "average_price": "₹522",
+      "highest_price": "₹599",
+      "vs_avg_str": "4% below avg (avg ₹522)",
+      "vs_avg_pct": 4,
+      "best_card_label": "₹14 off via Amazon Pay",
+      "best_card_discount": 14,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 24,
+      "rating": 4.4,
+      "affiliate_link": "https://www.amazon.in/dp/B0DZ24GY3Z?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DZ24GY3Z&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-06T15:16:30.288451+00:00"
+    },
     {
       "asin": "B07HL1H93Y",
       "title": "Riwbox Bluetooth Headphones, Riwbox CT-7 Cat Ear LED Light Up Wireless Foldable Headphones Over Ear with Microphone and Volume Control for iPhone/iPad/Smartphones/Laptop/PC/TV (Pink&amp;Green)",
@@ -1323,33 +1350,6 @@
       "rating": 3.8,
       "affiliate_link": "https://www.amazon.in/dp/B0DL9X6N77?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DL9X6N77&ref_=as_li_ss_tl",
       "posted_at": "2026-05-06T11:35:36.782984+00:00"
-    },
-    {
-      "asin": "B0F7HN2RFS",
-      "title": "Drumstone 𝐁𝐮𝐲 𝟏 𝐆𝐞𝐭 𝟏 Mini Electric Shaver for Men, Rechargeable Beard Trimmer for Bald, Fade, Vintage Styles, and On-the-Go Grooming with 4 Guide Combs 𝟏𝟓 𝐘𝐞𝐚𝐫𝐬 𝐖𝐚𝐫𝐫𝐚𝐧𝐭𝐲",
-      "price": "₹1,299",
-      "price_num": 1299,
-      "original_price": "₹2,999",
-      "discount_pct": 56,
-      "effective_price": null,
-      "image_url": "https://m.media-amazon.com/images/I/5180tw4eZZL._SL1000_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹939",
-      "average_price": "₹1,140",
-      "highest_price": "₹1,299",
-      "vs_avg_str": "13% above avg (avg ₹1,140)",
-      "vs_avg_pct": -13,
-      "best_card_label": null,
-      "best_card_discount": 0,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 20,
-      "rating": 5.0,
-      "affiliate_link": "https://www.amazon.in/dp/B0F7HN2RFS?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F7HN2RFS&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-06T11:35:30.452179+00:00"
     }
   ]
 }
