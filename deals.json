@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-06T14:35:29.740861+00:00",
+  "updated_at": "2026-05-06T14:56:03.212379+00:00",
   "deals": [
+    {
+      "asin": "B07HL1H93Y",
+      "title": "Riwbox Bluetooth Headphones, Riwbox CT-7 Cat Ear LED Light Up Wireless Foldable Headphones Over Ear with Microphone and Volume Control for iPhone/iPad/Smartphones/Laptop/PC/TV (Pink&amp;Green)",
+      "price": "₹37,999",
+      "price_num": 37999,
+      "original_price": null,
+      "discount_pct": 63,
+      "effective_price": null,
+      "image_url": "",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹4,125",
+      "average_price": "₹6,167",
+      "highest_price": "₹9,123",
+      "vs_avg_str": "516% above avg (avg ₹6,167)",
+      "vs_avg_pct": -516,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 20,
+      "rating": 4.4,
+      "affiliate_link": "https://www.amazon.in/dp/B07HL1H93Y?tag=techeasy0d1-21&linkCode=ll1&linkId=B07HL1H93Y&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-06T14:54:50.041552+00:00"
+    },
     {
       "asin": "B0BZ5VDCMM",
       "title": "VIVITAR Metallic Cordless 3 Head Rotary Shaver, Cordless Electric Rotary Shaver for Men with Three Independently-Floating Heads, Pop-up Trimmer, and Stainless Steel Blades for Wet and Dry Uses",
@@ -1323,33 +1350,6 @@
       "rating": 5.0,
       "affiliate_link": "https://www.amazon.in/dp/B0F7HN2RFS?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F7HN2RFS&ref_=as_li_ss_tl",
       "posted_at": "2026-05-06T11:35:30.452179+00:00"
-    },
-    {
-      "asin": "B09NMM5YQY",
-      "title": "Florix Autoclave 12 * 12 Approx 22 to 23 liter Almunium finish Autoclave Pressure cooker type A1 quality Dental Automatic Autoclave",
-      "price": "₹6,390",
-      "price_num": 6390,
-      "original_price": "₹14,999",
-      "discount_pct": 57,
-      "effective_price": "₹6,199",
-      "image_url": "",
-      "category": "🍳 Kitchen",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": null,
-      "average_price": null,
-      "highest_price": null,
-      "vs_avg_str": null,
-      "vs_avg_pct": null,
-      "best_card_label": "₹191 off via Amazon Pay",
-      "best_card_discount": 191,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹207 EMI interest savings",
-      "score": 20,
-      "rating": 5.0,
-      "affiliate_link": "https://www.amazon.in/dp/B09NMM5YQY?tag=techeasy0d1-21&linkCode=ll1&linkId=B09NMM5YQY&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-06T11:35:23.231684+00:00"
     }
   ]
 }
