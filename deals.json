@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-06T11:36:36.804950+00:00",
+  "updated_at": "2026-05-06T11:58:29.234738+00:00",
   "deals": [
+    {
+      "asin": "B0CHJDB21D",
+      "title": "KROSER Laptop Backpack 17\" Stylish Backpack Water Repellent College Casual Daypack with USB Port Travel Business Work Bag for Men/Women-Quilted",
+      "price": "₹6,988",
+      "price_num": 6988,
+      "original_price": "₹13,771",
+      "discount_pct": 49,
+      "effective_price": "₹6,238",
+      "image_url": "https://m.media-amazon.com/images/I/717JsOIPdxL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": null,
+      "average_price": null,
+      "highest_price": null,
+      "vs_avg_str": null,
+      "vs_avg_pct": null,
+      "best_card_label": "₹750 off via select Credit",
+      "best_card_discount": 750,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 20,
+      "rating": 4.7,
+      "affiliate_link": "https://www.amazon.in/dp/B0CHJDB21D?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CHJDB21D&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-06T11:57:12.157156+00:00"
+    },
     {
       "asin": "B0C711CHKB",
       "title": "Buy Wonderchef Taurus Hard Anodized Inner Lid Pressure cooker, 5 liter, Cool Touch Handles for Durability, Induction Friendly, Black, 5 year warranty, ISI Certified Online at Low Prices in India - Amazon.in",
@@ -1323,33 +1350,6 @@
       "rating": 5.0,
       "affiliate_link": "https://www.amazon.in/dp/B0DQXXBJ57?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DQXXBJ57&ref_=as_li_ss_tl",
       "posted_at": "2026-05-06T09:43:34.729797+00:00"
-    },
-    {
-      "asin": "B09D439KLX",
-      "title": "Razer Kraken V3 - Wired USB Gaming Headset - RZ04-03770200-R3M1",
-      "price": "₹3,316",
-      "price_num": 3316,
-      "original_price": "₹11,037",
-      "discount_pct": 69,
-      "effective_price": "₹3,217",
-      "image_url": "https://m.media-amazon.com/images/I/71QWY-ItQ2L._SL1500_.jpg",
-      "category": "🎮 Video Games",
-      "source": "desidime",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹3,316",
-      "average_price": "₹8,030",
-      "highest_price": "₹18,879",
-      "vs_avg_str": "58% below avg (avg ₹8,030)",
-      "vs_avg_pct": 58,
-      "best_card_label": "₹99 off via Amazon Pay",
-      "best_card_discount": 99,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹86 EMI interest savings",
-      "score": 90,
-      "rating": 4.2,
-      "affiliate_link": "https://www.amazon.in/dp/B09D439KLX?tag=techeasy0d1-21&linkCode=ll1&linkId=B09D439KLX&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-06T09:43:27.660468+00:00"
     }
   ]
 }
