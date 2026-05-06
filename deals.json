@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-06T00:44:53.963599+00:00",
+  "updated_at": "2026-05-06T01:07:17.486509+00:00",
   "deals": [
+    {
+      "asin": "B0F4X6H488",
+      "title": "Ubervia Tablets - 101in Tablet Golden Wifi Gaming Tablet 6GB RAM 128GB ROM 2560x1600 Type C Rechargeable Front 5MP Rear 8MP for Office EU Plug",
+      "price": "₹16,109",
+      "price_num": 16109,
+      "original_price": "₹35,549",
+      "discount_pct": 54,
+      "effective_price": "₹13,287",
+      "image_url": "https://m.media-amazon.com/images/I/61EooF5OJcL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": null,
+      "average_price": null,
+      "highest_price": null,
+      "vs_avg_str": null,
+      "vs_avg_pct": null,
+      "best_card_label": "₹2,500 off via select Credit",
+      "best_card_discount": 2500,
+      "coupon": "2% off",
+      "coupon_num": 322,
+      "emi_savings": "₹522 EMI interest savings",
+      "score": 22,
+      "rating": 4.3,
+      "affiliate_link": "https://www.amazon.in/dp/B0F4X6H488?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F4X6H488&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-06T01:05:12.259214+00:00"
+    },
     {
       "asin": "B07RYYKG7D",
       "title": "Buy Dinictis Travel Backpack Carry on Flight Approved, Backpack Suitcase for Travel, Personal Item Travel Bag fits 17 inch Laptop- Dark grey at Amazon.in",
@@ -1323,33 +1350,6 @@
       "rating": 4.5,
       "affiliate_link": "https://www.amazon.in/dp/B071ZJD9SV?tag=techeasy0d1-21&linkCode=ll1&linkId=B071ZJD9SV&ref_=as_li_ss_tl",
       "posted_at": "2026-05-05T22:28:56.168683+00:00"
-    },
-    {
-      "asin": "B0GKFHKDKD",
-      "title": "GOBOULT Newly Launched Drift2 Smart Watch 1.83'' HD Display,15 Days Battery Life, 150+Watchfaces, 500 Nits Brightness, AI Voice Assistant, SpO2 Monitoring (Carbon Black) (Storm Grey)",
-      "price": "₹1,199",
-      "price_num": 1199,
-      "original_price": "₹19,999",
-      "discount_pct": 94,
-      "effective_price": null,
-      "image_url": "https://m.media-amazon.com/images/I/71A4mgph38L._SL1500_.jpg",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": true,
-      "lowest_ever": "₹1,199",
-      "average_price": "₹2,262",
-      "highest_price": "₹8,999",
-      "vs_avg_str": "46% below avg (avg ₹2,262)",
-      "vs_avg_pct": 46,
-      "best_card_label": "₹35 off via Amazon Pay",
-      "best_card_discount": 35,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 90,
-      "rating": 5.0,
-      "affiliate_link": "https://www.amazon.in/dp/B0GKFHKDKD?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GKFHKDKD&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-05T22:27:03.243474+00:00"
     }
   ]
 }
