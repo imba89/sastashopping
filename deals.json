@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-07T08:01:32.246480+00:00",
+  "updated_at": "2026-05-07T08:22:45.209106+00:00",
   "deals": [
+    {
+      "asin": "B0D8PQQQ6G",
+      "title": "DALUCI Self Adhesive Wall Hooks - 20 Pcs Heavy Duty Wall Hooks for Hanging",
+      "price": "₹171",
+      "price_num": 171,
+      "original_price": "₹999",
+      "discount_pct": 82,
+      "effective_price": null,
+      "image_url": "https://m.media-amazon.com/images/I/61GkkM+S6lL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "desidime",
+      "is_lowest_ever": true,
+      "lowest_ever": "₹171",
+      "average_price": "₹182",
+      "highest_price": "₹229",
+      "vs_avg_str": "6% below avg (avg ₹182)",
+      "vs_avg_pct": 6,
+      "best_card_label": "₹5 off via Amazon Pay",
+      "best_card_discount": 5,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 66,
+      "rating": 4.2,
+      "affiliate_link": "https://www.amazon.in/dp/B0D8PQQQ6G?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D8PQQQ6G&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-07T08:21:30.129768+00:00"
+    },
     {
       "asin": "B0D73WR1YX",
       "title": "Xiaomi Pocket Power Bank 10000mAh 22.5W with Built-in Cable",
@@ -1323,33 +1350,6 @@
       "rating": 4.3,
       "affiliate_link": "https://www.amazon.in/dp/B09V381P4B?tag=techeasy0d1-21&linkCode=ll1&linkId=B09V381P4B&ref_=as_li_ss_tl",
       "posted_at": "2026-05-07T06:54:57.903452+00:00"
-    },
-    {
-      "asin": "B0CS6LM2Y2",
-      "title": "RFV1 Stainless Steel,Silicon Combo (3 in 1) Electric Kettle 1.8 ltr,Silicon FoldableKettle(600ml),Thermo Vaccum Flask Set (Insulated,500ML) With coffee Mug 3 Piece for Travel &amp; Diwali Gift,2200 Watts",
-      "price": "₹1,399",
-      "price_num": 1399,
-      "original_price": "₹2,899",
-      "discount_pct": 51,
-      "effective_price": null,
-      "image_url": "https://m.media-amazon.com/images/I/61JkvSlTobL._SL1500_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹1,350",
-      "average_price": "₹1,412",
-      "highest_price": "₹1,499",
-      "vs_avg_str": "0% above avg (avg ₹1,412)",
-      "vs_avg_pct": 0,
-      "best_card_label": "₹41 off via Amazon Pay",
-      "best_card_discount": 41,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 20,
-      "rating": 4.6,
-      "affiliate_link": "https://www.amazon.in/dp/B0CS6LM2Y2?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CS6LM2Y2&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-07T06:23:41.796460+00:00"
     }
   ]
 }
