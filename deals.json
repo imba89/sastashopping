@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-07T14:43:15.049308+00:00",
+  "updated_at": "2026-05-07T15:04:13.952886+00:00",
   "deals": [
+    {
+      "asin": "B08C33DRZY",
+      "title": "Buy Pets Empire Munchy Sticks Dogs Treat (2kg)",
+      "price": "₹349",
+      "price_num": 349,
+      "original_price": "₹898",
+      "discount_pct": 61,
+      "effective_price": null,
+      "image_url": "https://m.media-amazon.com/images/I/81WMruGcdBL._SL1500_.jpg",
+      "category": "🔥 Hot Deal",
+      "source": "desidime",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹165",
+      "average_price": "₹1,753",
+      "highest_price": "₹2,199",
+      "vs_avg_str": "80% below avg (avg ₹1,753)",
+      "vs_avg_pct": 80,
+      "best_card_label": "₹10 off via Amazon Pay",
+      "best_card_discount": 10,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 50,
+      "rating": 3.9,
+      "affiliate_link": "https://www.amazon.in/dp/B08C33DRZY?tag=techeasy0d1-21&linkCode=ll1&linkId=B08C33DRZY&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-07T15:03:02.385675+00:00"
+    },
     {
       "asin": "B0G2RJVLRQ",
       "title": "MERISHOPP®2.5 inches SATA 3.0 SSD Internal Solid State Drive for PC Laptop Red 64GB",
@@ -1323,33 +1350,6 @@
       "rating": 4.1,
       "affiliate_link": "https://www.amazon.in/dp/B0F1B83WCV?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F1B83WCV&ref_=as_li_ss_tl",
       "posted_at": "2026-05-07T12:02:50.644823+00:00"
-    },
-    {
-      "asin": "B0DKTVS2YR",
-      "title": "Car Kettle, Portable Electric Travel Kettle, 12V/24V Car Coffee Warmer,420ML Hot Water Heater with Built-in Magnetic Induction Stirring,Mini Hot Water Boiler for Tea Coffee Milk",
-      "price": "₹6,857",
-      "price_num": 6857,
-      "original_price": "₹24,060",
-      "discount_pct": 71,
-      "effective_price": "₹6,652",
-      "image_url": "https://m.media-amazon.com/images/I/618wgC6t40L._SL1500_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": null,
-      "average_price": null,
-      "highest_price": null,
-      "vs_avg_str": null,
-      "vs_avg_pct": null,
-      "best_card_label": "₹205 off via Amazon Pay",
-      "best_card_discount": 205,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹222 EMI interest savings",
-      "score": 20,
-      "rating": 4.4,
-      "affiliate_link": "https://www.amazon.in/dp/B0DKTVS2YR?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DKTVS2YR&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-07T12:02:43.345821+00:00"
     }
   ]
 }
