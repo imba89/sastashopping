@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-07T01:43:56.468418+00:00",
+  "updated_at": "2026-05-07T02:04:52.873864+00:00",
   "deals": [
+    {
+      "asin": "B0F6K9Q9YP",
+      "title": "Buy EUME Premium 15.6 in Laptop Bags for Men &amp; Women Office Use",
+      "price": "₹5,499",
+      "price_num": 5499,
+      "original_price": "₹11,999",
+      "discount_pct": 54,
+      "effective_price": "₹5,335",
+      "image_url": "https://m.media-amazon.com/images/I/81FlizgavnL._SL1500_.jpg",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": "₹5,439",
+      "average_price": "₹6,056",
+      "highest_price": "₹6,889",
+      "vs_avg_str": "9% below avg (avg ₹6,056)",
+      "vs_avg_pct": 9,
+      "best_card_label": "₹164 off via Amazon Pay",
+      "best_card_discount": 164,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": "₹178 EMI interest savings",
+      "score": 29,
+      "rating": 4.9,
+      "affiliate_link": "https://www.amazon.in/dp/B0F6K9Q9YP?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F6K9Q9YP&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-07T02:03:19.379238+00:00"
+    },
     {
       "asin": "B01J5HHYP2",
       "title": "F2C Portable Folding Hand Truck Aluminium Luggage Trolley Cart and Dolly 175 lbs Capacity with Black Bungee Cord, Telescoping Handle, PVC Wheels with Double Bearings for Travel Office Auto Moving",
@@ -1323,33 +1350,6 @@
       "rating": 4.6,
       "affiliate_link": "https://www.amazon.in/dp/B09HZLRVGK?tag=techeasy0d1-21&linkCode=ll1&linkId=B09HZLRVGK&ref_=as_li_ss_tl",
       "posted_at": "2026-05-06T23:55:27.434905+00:00"
-    },
-    {
-      "asin": "B0BVV5LXS9",
-      "title": "TheGiftKart Tough Armor Bumper Back Case Cover for iQOO Neo 7 / Neo 7 Pro 5G",
-      "price": "₹345",
-      "price_num": 345,
-      "original_price": "₹2,500",
-      "discount_pct": 86,
-      "effective_price": null,
-      "image_url": "https://m.media-amazon.com/images/I/511H2keam1L._SL1000_.jpg",
-      "category": "🔥 Hot Deal",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹284",
-      "average_price": "₹343",
-      "highest_price": "₹369",
-      "vs_avg_str": "0% above avg (avg ₹343)",
-      "vs_avg_pct": 0,
-      "best_card_label": "₹10 off via Amazon Pay",
-      "best_card_discount": 10,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": null,
-      "score": 20,
-      "rating": 4.4,
-      "affiliate_link": "https://www.amazon.in/dp/B0BVV5LXS9?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BVV5LXS9&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-06T23:55:20.652538+00:00"
     }
   ]
 }
