@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-08T02:58:42.670076+00:00",
+  "updated_at": "2026-05-08T03:18:47.957951+00:00",
   "deals": [
+    {
+      "asin": "B0GX9GHZMQ",
+      "title": "Original CM,F 65W Type C to USB A PPS Charging Adapter Compatible with Nothing Phone 4a",
+      "price": "₹949",
+      "price_num": 949,
+      "original_price": "₹3,999",
+      "discount_pct": 76,
+      "effective_price": null,
+      "image_url": "",
+      "category": "⚡ Electronics",
+      "source": "amazon",
+      "is_lowest_ever": false,
+      "lowest_ever": null,
+      "average_price": null,
+      "highest_price": null,
+      "vs_avg_str": null,
+      "vs_avg_pct": null,
+      "best_card_label": null,
+      "best_card_discount": 0,
+      "coupon": null,
+      "coupon_num": 0,
+      "emi_savings": null,
+      "score": 20,
+      "rating": 4.5,
+      "affiliate_link": "https://www.amazon.in/dp/B0GX9GHZMQ?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GX9GHZMQ&ref_=as_li_ss_tl",
+      "posted_at": "2026-05-08T03:17:11.646538+00:00"
+    },
     {
       "asin": "B0F5GS19PV",
       "title": "TheGiftKart Tough Armor Bumper Back Case Cover for iQOO Z10 5G / Vivo T4 5G",
@@ -1323,33 +1350,6 @@
       "rating": 5.0,
       "affiliate_link": "https://www.amazon.in/dp/B0GKFHKDKD?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GKFHKDKD&ref_=as_li_ss_tl",
       "posted_at": "2026-05-08T01:01:38.253558+00:00"
-    },
-    {
-      "asin": "B0F4WVW7D9",
-      "title": "Midea 560 L Side by Side Frost Free Refrigerator",
-      "price": "₹44,990",
-      "price_num": 44990,
-      "original_price": "₹1,28,499",
-      "discount_pct": 64,
-      "effective_price": "₹41,990",
-      "image_url": "https://m.media-amazon.com/images/I/71iB8o2vqlL._SL1500_.jpg",
-      "category": "⚡ Electronics",
-      "source": "amazon",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹39,990",
-      "average_price": "₹48,937",
-      "highest_price": "₹75,900",
-      "vs_avg_str": "8% below avg (avg ₹48,937)",
-      "vs_avg_pct": 8,
-      "best_card_label": "₹3,000 off via HDFC",
-      "best_card_discount": 3000,
-      "coupon": null,
-      "coupon_num": 0,
-      "emi_savings": "₹4,517 EMI interest savings",
-      "score": 31,
-      "rating": 4.1,
-      "affiliate_link": "https://www.amazon.in/dp/B0F4WVW7D9?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F4WVW7D9&ref_=as_li_ss_tl",
-      "posted_at": "2026-05-08T00:30:49.261043+00:00"
     }
   ]
 }
