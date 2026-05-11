@@ -128,13 +128,14 @@ header {
 
 /* ── Hero ── */
 .hero {
-  padding: 4rem 2.5rem 3rem;
+  padding: 3rem 2.5rem 2.5rem;
   max-width: 1440px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
   gap: 3rem;
   align-items: center;
+  min-height: 360px;
 }
 
 .h-eyebrow {
@@ -357,28 +358,31 @@ header {
   gap: 0;
   overflow-x: auto;
   scrollbar-width: none;
+  position: sticky;
+  top: 68px;
+  z-index: 90;
 }
 .cat-nav::-webkit-scrollbar { display: none; }
 .cat-link {
-  padding: 12px 20px;
-  font-size: 0.78rem;
+  padding: 10px 18px;
+  font-size: 0.76rem;
   font-weight: 500;
   color: var(--ink2);
   text-decoration: none;
   white-space: nowrap;
   border-bottom: 2px solid transparent;
-  transition: all 0.15s;
-  cursor: pointer;
-  background: none;
   border-top: none;
   border-left: none;
   border-right: none;
+  transition: all 0.15s;
+  cursor: pointer;
+  background: none;
   font-family: var(--font-ui);
 }
 .cat-link:hover { color: var(--ink); border-bottom-color: var(--border-dark); }
 .cat-link.active { color: var(--orange); border-bottom-color: var(--orange); font-weight: 600; }
 
-/* ── Filter row tweaks ── */
+/* ── Filter row ── */
 .filter-row {
   display: flex;
   align-items: center;
@@ -628,11 +632,13 @@ header {
 @media (max-width: 900px) {
   header { padding: 0 1.25rem; }
   .header-stats { display: none; }
-  .hero { grid-template-columns: 1fr; padding: 2rem 1.25rem; }
-  .featured-wrap { display: none; }
+  .hero { grid-template-columns: 1fr; padding: 1.5rem 1.25rem 1rem; min-height: auto; }
+  .featured-wrap { display: block; margin: 0 1.25rem 1rem; }
+  .featured-img { height: 140px; }
   .main { padding: 1.5rem 1.25rem; }
   .deals-grid { grid-template-columns: 1fr; }
   .site-footer { flex-direction: column; gap: 1rem; padding: 1.5rem 1.25rem; }
+  .cat-nav { padding: 0 1.25rem; top: 56px; }
 }
 </style>
 </head>
@@ -765,22 +771,26 @@ header {
 let deals=[], cf='all', cs='time', cc='all';
 
 const CAT_KEYWORDS = {
-  mobile:    ['mobile','smartphone','phone','iphone','android','5g','redmi','realme','oneplus','samsung galaxy','pixel'],
-  tv:        ['tv','television','oled','qled','led smart','inches','cm smart'],
-  laptop:    ['laptop','macbook','notebook','chromebook','zenbook','vivobook','ideapad','inspiron'],
-  audio:     ['headphone','earphone','earbud','speaker','soundbar','tws','airdopes','rockerz','airpods'],
-  gaming:    ['gaming','mouse','keyboard','controller','ps5','xbox','playstation','joystick','gamepad','razer','hyperx'],
-  appliance: ['washing machine','refrigerator','fridge','ac','air conditioner','geyser','water heater','vacuum','purifier'],
-  kitchen:   ['mixer','grinder','air fryer','kettle','toaster','microwave','oven','cooker','iron','induction'],
-  fashion:   ['shoe','sneaker','boot','bag','backpack','wallet','watch','shirt','jeans','kurta','saree'],
-  camera:    ['camera','dslr','mirrorless','gopro','lens','tripod','gimbal'],
+  mobile:    ['mobile','smartphone','phone','iphone','5g','redmi','realme','oneplus','galaxy','pixel','vivo','oppo','poco','iqoo','nothing phone'],
+  tv:        ['television','tv','oled','qled','mini led','smart tv','inch','inches','cm (','cm)'],
+  laptop:    ['laptop','macbook','notebook','chromebook','zenbook','vivobook','ideapad','inspiron','thinkpad','pavilion','elitebook'],
+  audio:     ['headphone','earphone','earbud','earbuds','speaker','soundbar','tws','airdopes','rockerz','airpods','neckband','bluetooth audio','wireless audio'],
+  gaming:    ['gaming','razer','hyperx','corsair','logitech','steelseries','ps5','xbox','playstation','joystick','gamepad','esports','gamer'],
+  appliance: ['washing machine','refrigerator','fridge','inverter ac','split ac','window ac','geyser','water heater','vacuum cleaner','air purifier','water purifier'],
+  kitchen:   ['mixer','grinder','air fryer','kettle','toaster','microwave','oven','pressure cooker','iron','induction','sandwich','blender','juicer','food processor'],
+  fashion:   ['shoe','sneaker','boot','sandal','bag','backpack','wallet','watch','shirt','jeans','kurta','saree','dress','tshirt','jacket','luggage','trolley'],
+  camera:    ['camera','dslr','mirrorless','gopro','lens','tripod','gimbal','action cam','dashcam','dash cam','webcam'],
 };
 
 function catFilt(cat, btn) {
   cc = cat;
+  cf = 'all';  // reset source filter so category nav shows all deals in that category
   document.querySelectorAll('.cat-link').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
-  // Reset source filter when switching categories
+  // Also reset the source filter buttons
+  document.querySelectorAll('.f-btn').forEach(b=>b.classList.remove('active'));
+  const allBtn = document.querySelector('.f-btn');
+  if(allBtn) allBtn.classList.add('active');
   render();
 }
 
