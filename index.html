@@ -685,6 +685,8 @@ header {
   <button class="cat-link" onclick="catFilt('camera',this)">📷 Cameras</button>
   <button class="cat-link" onclick="catFilt('flipkart',this)">🛒 Flipkart</button>
 </nav>
+
+<div class="hero">
   <div>
     <div class="h-eyebrow">
       <div class="h-chip">AI-Curated Deals</div>
@@ -771,15 +773,44 @@ header {
 let deals=[], cf='all', cs='time', cc='all';
 
 const CAT_KEYWORDS = {
-  mobile:    ['mobile','smartphone','phone','iphone','5g','redmi','realme','oneplus','galaxy','pixel','vivo','oppo','poco','iqoo','nothing phone'],
-  tv:        ['television','tv','oled','qled','mini led','smart tv','inch','inches','cm (','cm)'],
-  laptop:    ['laptop','macbook','notebook','chromebook','zenbook','vivobook','ideapad','inspiron','thinkpad','pavilion','elitebook'],
-  audio:     ['headphone','earphone','earbud','earbuds','speaker','soundbar','tws','airdopes','rockerz','airpods','neckband','bluetooth audio','wireless audio'],
-  gaming:    ['gaming','razer','hyperx','corsair','logitech','steelseries','ps5','xbox','playstation','joystick','gamepad','esports','gamer'],
-  appliance: ['washing machine','refrigerator','fridge','inverter ac','split ac','window ac','geyser','water heater','vacuum cleaner','air purifier','water purifier'],
-  kitchen:   ['mixer','grinder','air fryer','kettle','toaster','microwave','oven','pressure cooker','iron','induction','sandwich','blender','juicer','food processor'],
-  fashion:   ['shoe','sneaker','boot','sandal','bag','backpack','wallet','watch','shirt','jeans','kurta','saree','dress','tshirt','jacket','luggage','trolley'],
-  camera:    ['camera','dslr','mirrorless','gopro','lens','tripod','gimbal','action cam','dashcam','dash cam','webcam'],
+  // Each category uses DISTINCTIVE terms that won't appear in other categories
+  mobile:    ['smartphone','5g phone','mobile phone','iphone','android phone',
+               'redmi note','realme narzo','oneplus nord','samsung galaxy m',
+               'samsung galaxy a','samsung galaxy s','pixel 6','pixel 7','pixel 8','pixel 9',
+               'vivo t','vivo v','oppo reno','poco m','poco x','iqoo z','iqoo neo',
+               'motorola g','motorola edge','nothing phone'],
+  tv:        ['smart tv','qled tv','oled tv','led tv','mini led tv',
+               '4k tv','full hd tv','ultra hd tv','television',
+               'cm (43','cm (50','cm (55','cm (65','cm (75','cm (85',
+               'inches) 4k','inches) full hd','inches) ultra'],
+  laptop:    ['laptop','macbook','notebook','chromebook','gaming laptop',
+               'business laptop','zenbook','vivobook','ideapad','inspiron',
+               'thinkpad','pavilion','elitebook','surface laptop','rog laptop'],
+  audio:     ['headphone','earphone','earbud','tws earbu','wireless earbud',
+               'neckband','over-ear','in-ear','on-ear','bluetooth headset',
+               'soundbar','bluetooth speaker','portable speaker',
+               'airdopes','rockerz','airpods'],
+  gaming:    ['gaming mouse','gaming keyboard','gaming headset','gaming chair',
+               'gaming monitor','mechanical keyboard','gaming controller',
+               'ps5','xbox series','playstation 5','nintendo switch',
+               'razer','hyperx','corsair','steelseries','ant esports','cosmic byte'],
+  appliance: ['washing machine','fully automatic','semi automatic',
+               'refrigerator','double door','single door','side by side fridge',
+               'split ac','window ac','inverter ac','air conditioner',
+               'geyser','water heater','storage water','instant water',
+               'vacuum cleaner','wet dry vacuum','robot vacuum','air purifier',
+               'water purifier','ro water'],
+  kitchen:   ['mixer grinder','air fryer','electric kettle','sandwich maker',
+               'microwave oven','pressure cooker','induction cooktop',
+               'electric iron','dry iron','steam iron','hand blender',
+               'juicer','food processor','coffee maker','toaster'],
+  fashion:   ['running shoes','sports shoes','sneakers','casual shoes',
+               'formal shoes','boots','sandals','trolley bag','cabin trolley',
+               'laptop bag','backpack','school bag','wallet','handbag',
+               'smartwatch','analog watch','digital watch'],
+  camera:    ['dslr','mirrorless camera','action camera','gopro',
+               'camera lens','camera bag','tripod','gimbal','dashcam',
+               'dash cam','security camera','webcam','ring light'],
 };
 
 function catFilt(cat, btn) {
