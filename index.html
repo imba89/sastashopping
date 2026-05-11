@@ -774,11 +774,14 @@ let deals=[], cf='all', cs='time', cc='all';
 
 const CAT_KEYWORDS = {
   // Each category uses DISTINCTIVE terms that won't appear in other categories
-  mobile:    ['smartphone','5g phone','mobile phone','iphone','android phone',
+  mobile:    {
+    include: ['smartphone','5g phone','mobile phone','iphone','android phone',
                'redmi note','realme narzo','oneplus nord','samsung galaxy m',
                'samsung galaxy a','samsung galaxy s','pixel 6','pixel 7','pixel 8','pixel 9',
                'vivo t','vivo v','oppo reno','poco m','poco x','iqoo z','iqoo neo',
                'motorola g','motorola edge','nothing phone'],
+    exclude: ['headphone','earphone','earbud','speaker','neckband','soundbar','tws']
+  },
   tv:        ['smart tv','qled tv','oled tv','led tv','mini led tv',
                '4k tv','full hd tv','ultra hd tv','television',
                'cm (43','cm (50','cm (55','cm (65','cm (75','cm (85',
@@ -872,10 +875,13 @@ function getD() {
 
   // Category nav filter (top nav)
   if (cc !== 'all' && cc !== 'flipkart') {
-    const kws = CAT_KEYWORDS[cc] || [];
+    const cat = CAT_KEYWORDS[cc];
+    const includes = Array.isArray(cat) ? cat : (cat?.include || []);
+    const excludes = Array.isArray(cat) ? [] : (cat?.exclude || []);
     d = d.filter(x => {
       const t = ((x.title||'') + ' ' + (x.category||'')).toLowerCase();
-      return kws.some(k => t.includes(k));
+      if (excludes.some(k => t.includes(k))) return false;
+      return includes.some(k => t.includes(k));
     });
   } else if (cc === 'flipkart') {
     d = d.filter(x => x.source === 'flipkart' || x.source === 'flipkart_desidime');
