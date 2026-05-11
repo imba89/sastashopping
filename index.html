@@ -595,6 +595,23 @@ header {
 }
 .c-buy:hover { background: var(--orange); }
 
+/* ── Deal of the Day ── */
+.dotd-header { display:flex; align-items:flex-end; justify-content:space-between; margin-bottom:1.5rem; }
+.dotd-slot { font-size:.75rem; background:#FEF0EC; border:1px solid #F7C4B5; color:var(--orange); padding:4px 12px; border-radius:20px; font-weight:600; }
+.dotd-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(190px,1fr)); gap:1rem; margin-bottom:1rem; }
+.dotd-card { background:var(--card); border:1px solid var(--border); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
+.dotd-card-img { height:120px; background:var(--surface); display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden; }
+.dotd-card-img img { max-width:80%; max-height:80%; object-fit:contain; }
+.dotd-store { position:absolute; bottom:4px; right:4px; font-size:.55rem; font-weight:700; color:#fff; padding:2px 6px; border-radius:3px; text-transform:uppercase; }
+.dotd-card-body { padding:.75rem; flex:1; display:flex; flex-direction:column; gap:.35rem; }
+.dotd-cat { font-size:.6rem; font-weight:600; color:var(--ink3); text-transform:uppercase; letter-spacing:.8px; }
+.dotd-title { font-size:.78rem; font-weight:500; color:var(--ink); line-height:1.35; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.dotd-price { font-family:var(--font-display); font-size:1.2rem; font-weight:700; color:var(--orange); }
+.dotd-badge { font-size:.6rem; color:var(--green); font-weight:600; }
+.dotd-btn { display:block; background:var(--ink); color:#fff; text-align:center; padding:7px; border-radius:6px; font-size:.72rem; font-weight:500; text-decoration:none; margin-top:auto; }
+.dotd-btn:hover { background:var(--orange); }
+@media(max-width:900px) { .dotd-grid { grid-template-columns:repeat(2,1fr); } }
+
 .c-store-badge {
   position: absolute;
   bottom: 8px;
@@ -761,6 +778,22 @@ header {
 
 <hr class="divider">
 
+<!-- Deal of the Day Section -->
+<div class="dotd-section" id="dotd-section" style="display:none;">
+  <div class="main" style="padding-bottom:0;">
+    <div class="dotd-header">
+      <div>
+        <div class="main-title">🏆 Deal of the Day</div>
+        <div class="main-sub" id="dotd-meta">Curated twice daily — best picks across Amazon &amp; Flipkart</div>
+      </div>
+      <div class="dotd-slot" id="dotd-slot"></div>
+    </div>
+    <div class="dotd-grid" id="dotd-grid"></div>
+  </div>
+  <hr class="divider" style="margin-top:2rem;">
+</div>
+
+<hr class="divider" id="main-divider">
 <div class="main">
   <div class="main-header">
     <div>
@@ -859,6 +892,42 @@ function catFilt(cat, btn) {
 
 document.getElementById('h-date').textContent = new Date().toLocaleDateString('en-IN',{weekday:'long',day:'numeric',month:'long'});
 
+async function loadDotd() {
+  try {
+    const r = await fetch('dotd.json?t='+Date.now());
+    if (!r.ok) return;
+    const data = await r.json();
+    if (!data.items || !data.items.length) return;
+    document.getElementById('dotd-section').style.display = 'block';
+    document.getElementById('dotd-slot').textContent = data.slot_name || '';
+    document.getElementById('dotd-meta').textContent =
+      `${data.date} · Best picks across Amazon & Flipkart`;
+    const grid = document.getElementById('dotd-grid');
+    grid.innerHTML = data.items.map(item => {
+      const storeColor = item.store==='Flipkart' ? '#1A7A4A' : '#E84825';
+      const btnLabel   = item.store==='Flipkart' ? '🛒 Buy on Flipkart →' : '🛍️ Buy on Amazon →';
+      const badge      = item.is_lowest_ever ? '<div class="dotd-badge">🏆 Lowest Ever</div>'
+                       : item.vs_avg_pct > 0  ? `<div class="dotd-badge">📉 ${item.vs_avg_pct}% below avg</div>` : '';
+      const imgTag     = item.image
+        ? `<img src="${item.image}" alt="" referrerpolicy="origin" onerror="this.style.display='none'">`
+        : '<span style="font-size:2rem">🛍️</span>';
+      return `<div class="dotd-card">
+        <div class="dotd-card-img">
+          ${imgTag}
+          <div class="dotd-store" style="background:${storeColor}">${item.store}</div>
+        </div>
+        <div class="dotd-card-body">
+          <div class="dotd-cat">${item.label}</div>
+          <div class="dotd-title">${item.title}</div>
+          <div class="dotd-price">${item.price}</div>
+          ${badge}
+          <a href="${item.link}" target="_blank" rel="nofollow" class="dotd-btn">${btnLabel}</a>
+        </div>
+      </div>`;
+    }).join('');
+  } catch(e) { /* dotd.json not yet available */ }
+}
+
 async function load() {
   try {
     const r = await fetch('deals.json?t='+Date.now());
@@ -873,6 +942,7 @@ async function load() {
     document.getElementById('last-updated').textContent = 'Updated ' + new Date(data.updated_at||Date.now()).toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'});
     updateFeat();
     render();
+    loadDotd();
   } catch(e) {
     document.getElementById('container').innerHTML='<div class="empty">Deals loading soon — check back in a moment.</div>';
   }
@@ -881,13 +951,18 @@ async function load() {
 function updateFeat() {
   const top = deals.find(d=>d.is_lowest_ever)||deals[0];
   if (!top) return;
-  if (top.image_url) document.getElementById('feat-img').innerHTML=`<img src="${top.image_url}" style="max-width:85%;max-height:150px;object-fit:contain;" onerror="this.style.display='none'">`;
+  const isFK = top.source==='flipkart' || top.source==='flipkart_desidime';
+  const link = isFK ? (top.flipkart_link||'#') : (top.affiliate_link||'#');
+  const btnText = isFK ? '🛒 Buy on Flipkart →' : '🛍️ Buy on Amazon →';
+  if (top.image_url) document.getElementById('feat-img').innerHTML=`<img src="${top.image_url}" style="max-width:85%;max-height:150px;object-fit:contain;" referrerpolicy="origin" onerror="this.style.display='none'">`;
   document.getElementById('feat-title').textContent=(top.title||'').substring(0,75);
   document.getElementById('feat-price').textContent=top.effective_price||top.price||'';
   document.getElementById('feat-orig').textContent=top.original_price||'';
   document.getElementById('feat-disc').textContent=`-${top.discount_pct||0}%`;
   if (top.is_lowest_ever) document.getElementById('feat-badge').textContent='🏆 Lowest Ever';
-  document.getElementById('feat-buy').href=top.affiliate_link||'#';
+  const buyBtn = document.getElementById('feat-buy');
+  buyBtn.href = link;
+  buyBtn.textContent = btnText;
 }
 
 function filt(f,btn) {
