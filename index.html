@@ -595,6 +595,35 @@ header {
 }
 .c-buy:hover { background: var(--orange); }
 
+.c-store-badge {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  color: #fff;
+  font-size: 0.55rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.c-headline {
+  font-size: 0.78rem;
+  color: var(--ink2);
+  font-style: italic;
+  line-height: 1.4;
+  padding: 4px 0;
+  border-left: 2px solid var(--orange);
+  padding-left: 8px;
+}
+
+.c-rating {
+  font-size: 0.7rem;
+  color: var(--ink3);
+}
+.c-rating span { color: var(--ink3); }
+
 /* ── Empty ── */
 .empty {
   padding: 5rem 2rem;
@@ -918,44 +947,85 @@ function render() {
 }
 
 function card(d,i) {
-  const p   = d.effective_price||d.price||'';
-  const isFK = d.source==='flipkart' || d.source==='flipkart_desidime';
-  const link = isFK ? (d.flipkart_link||d.affiliate_link||'#') : (d.affiliate_link||'#');
-  const btnLabel = isFK ? 'Buy on Flipkart →' : 'Buy on Amazon →';
+  const isFK  = d.source==='flipkart' || d.source==='flipkart_desidime';
+  const link  = isFK ? (d.flipkart_link||d.affiliate_link||'#') : (d.affiliate_link||'#');
+  const store = isFK ? 'Flipkart' : 'Amazon';
+  const storeColor = isFK ? '#1A7A4A' : '#E84825';
+  const btnLabel = isFK ? '🛒 Buy on Flipkart →' : '🛍️ Buy on Amazon →';
+
+  // Price: show effective (after coupon+bank) if available, else listed price
+  const displayPrice = d.effective_price || d.price || '';
+  const listedPrice  = d.price || '';
+  const showBoth = d.effective_price && d.effective_price !== d.price;
+
   const badge = d.is_lowest_ever
     ? '<div class="c-lowest">🏆 Lowest Ever</div>'
     : d.source==='flipkart_desidime'
     ? '<div class="c-desi" style="background:#E8F5ED;border-color:#B8DEC5;color:#1A7A4A;">🤝 Community • FK</div>'
-    : isFK
-    ? '<div class="c-desi" style="background:#E8F5ED;border-color:#B8DEC5;color:#1A7A4A;">🛒 Flipkart</div>'
     : d.source==='desidime'
     ? '<div class="c-desi">🤝 Community Pick</div>'
     : '';
+
   const imgSrc = d.image_url || '';
   const imgTag = imgSrc
     ? `<img src="${imgSrc}" loading="lazy" alt="" referrerpolicy="origin" onerror="this.style.display='none'">`
     : '<span style="font-size:2.5rem">🛍️</span>';
+
   const ph = (d.lowest_ever||d.average_price) ? `<div class="c-ph">
     ${d.lowest_ever?`<div class="c-ph-item"><div class="c-ph-l">Low</div><div class="c-ph-v low">${d.lowest_ever}</div></div>`:''}
     ${d.average_price?`<div class="c-ph-item"><div class="c-ph-l">Avg</div><div class="c-ph-v">${d.average_price}</div></div>`:''}
     ${d.highest_price?`<div class="c-ph-item"><div class="c-ph-l">High</div><div class="c-ph-v">${d.highest_price}</div></div>`:''}
   </div>` : '';
+
+  // Headline — strip emoji from front for cleaner web display
+  const headlineRaw = (d.headline||'').replace(/^[🏆📉🛒🛍️⚡🔥]+\s*/,'');
+  const headlineHtml = headlineRaw ? `<div class="c-headline">${headlineRaw}</div>` : '';
+
+  // Bank offers — show up to 2
+  const offers = (d.bank_offers||[]).slice(0,2);
+  let offersHtml = '';
+  if (offers.length) {
+    offersHtml = offers.map(o => {
+      // Extract just the key info: amount + bank name
+      const amt  = o.match(/₹\s*([\d,]+)/);
+      const bank = o.match(/(HDFC|ICICI|SBI|Axis|Kotak|Amazon Pay|IDFC|RBL)/i);
+      const txt  = amt ? `🏦 ₹${amt[1]} off${bank?' · '+bank[1]:''}` : `🏦 ${o.slice(0,50)}`;
+      return `<div class="c-offer g">${txt}</div>`;
+    }).join('');
+  }
+
+  // Coupon
+  const couponHtml = d.coupon ? `<div class="c-offer">🏷️ Coupon: <b>${d.coupon}</b></div>` : '';
+
+  // Savings breakdown — only show if effective price differs from listed
+  const breakdownHtml = showBoth && d.saving_breakdown && d.saving_breakdown.length
+    ? `<div class="c-offer g">💳 Best: <b>${d.effective_price}</b> (${d.saving_breakdown.join(' + ')})</div>`
+    : '';
+
+  // Rating
+  const ratingHtml = (d.rating && d.review_count)
+    ? `<div class="c-rating">⭐ ${d.rating} <span>(${d.review_count.toLocaleString('en-IN')})</span></div>`
+    : '';
+
   return `<div class="c" style="animation-delay:${i*.03}s">
     <div class="c-img">
       ${imgTag}
       <div class="c-disc">-${d.discount_pct||0}%</div>
       ${badge}
+      <div class="c-store-badge" style="background:${storeColor}">${store}</div>
     </div>
     <div class="c-body">
       <div class="c-cat">${d.category||'Deal'}</div>
       <div class="c-title">${d.title||''}</div>
+      ${ratingHtml}
+      ${headlineHtml}
       <div class="c-price-row">
-        <div class="c-price">${p}</div>
+        <div class="c-price">${displayPrice}</div>
         ${d.original_price?`<div class="c-orig">${d.original_price}</div>`:''}
       </div>
+      ${showBoth?`<div style="font-size:.7rem;color:var(--ink3)">Listed: ${listedPrice}</div>`:''}
       ${ph}
-      ${d.best_card_label?`<div class="c-offer g">🏦 ${d.best_card_label}</div>`:''}
-      ${d.coupon?`<div class="c-offer">🏷 Coupon: ${d.coupon}</div>`:''}
+      ${offersHtml}${couponHtml}${breakdownHtml}
     </div>
     <div class="c-foot">
       <div class="c-time">${ago(d.posted_at)}</div>
