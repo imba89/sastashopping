@@ -871,17 +871,28 @@ function render() {
 }
 
 function card(d,i) {
-  const p=d.effective_price||d.price||'';
-    const isFK = d.source==='flipkart' || d.source==='flipkart_desidime';
+  const p   = d.effective_price||d.price||'';
+  const isFK = d.source==='flipkart' || d.source==='flipkart_desidime';
   const link = isFK ? (d.flipkart_link||d.affiliate_link||'#') : (d.affiliate_link||'#');
   const btnLabel = isFK ? 'Buy on Flipkart →' : 'Buy on Amazon →';
-  const badge = d.is_lowest_ever ? '<div class="c-lowest">🏆 Lowest Ever</div>'
-    : d.source==='flipkart_desidime' ? '<div class="c-desi" style="background:#E8F5ED;border-color:#B8DEC5;color:#1A7A4A;">🤝 Community • FK</div>'
-    : isFK ? '<div class="c-desi" style="background:#E8F5ED;border-color:#B8DEC5;color:#1A7A4A;">🛒 Flipkart</div>'
-    : d.source==='desidime' ? '<div class="c-desi">🤝 Community Pick</div>'
+  const badge = d.is_lowest_ever
+    ? '<div class="c-lowest">🏆 Lowest Ever</div>'
+    : d.source==='flipkart_desidime'
+    ? '<div class="c-desi" style="background:#E8F5ED;border-color:#B8DEC5;color:#1A7A4A;">🤝 Community • FK</div>'
+    : isFK
+    ? '<div class="c-desi" style="background:#E8F5ED;border-color:#B8DEC5;color:#1A7A4A;">🛒 Flipkart</div>'
+    : d.source==='desidime'
+    ? '<div class="c-desi">🤝 Community Pick</div>'
     : '';
   const imgSrc = d.image_url || '';
-  const imgTag = imgSrc ? `<img src="${imgSrc}" loading="lazy" alt="" referrerpolicy="origin" onerror="this.style.display='none'">` : '<span style="font-size:2.5rem">🛍️</span>';
+  const imgTag = imgSrc
+    ? `<img src="${imgSrc}" loading="lazy" alt="" referrerpolicy="origin" onerror="this.style.display='none'">`
+    : '<span style="font-size:2.5rem">🛍️</span>';
+  const ph = (d.lowest_ever||d.average_price) ? `<div class="c-ph">
+    ${d.lowest_ever?`<div class="c-ph-item"><div class="c-ph-l">Low</div><div class="c-ph-v low">${d.lowest_ever}</div></div>`:''}
+    ${d.average_price?`<div class="c-ph-item"><div class="c-ph-l">Avg</div><div class="c-ph-v">${d.average_price}</div></div>`:''}
+    ${d.highest_price?`<div class="c-ph-item"><div class="c-ph-l">High</div><div class="c-ph-v">${d.highest_price}</div></div>`:''}
+  </div>` : '';
   return `<div class="c" style="animation-delay:${i*.03}s">
     <div class="c-img">
       ${imgTag}
