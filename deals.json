@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T07:40:31.705091+00:00",
+  "updated_at": "2026-05-15T07:42:18.712858+00:00",
   "deals": [
     {
       "asin": "fk_ITM033FA467ACB92",
@@ -58,7 +58,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/boat-aavante-2-0-150-rgb-leds-5-hrs-battery-tws-feature-16-w-bluetooth-speaker/p/itm033fa467acb92?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-05-15T07:40:16.865620+00:00"
+      "posted_at": "2026-05-15T07:40:16.865620+00:00",
+      "forced_update_at": "2026-05-15T07:42:18.712854+00:00"
     },
     {
       "asin": "B0CBJXSD2P",
@@ -794,7 +795,7 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": "₹5,872 EMI interest savings",
-      "score": 31,
+      "score": 27,
       "confidence_score": 65,
       "rating": 4.2,
       "review_count": 709,
@@ -1604,7 +1605,7 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": "₹1,021 EMI interest savings",
-      "score": 73,
+      "score": 80,
       "confidence_score": 71,
       "rating": 4.0,
       "review_count": 1,
@@ -1669,7 +1670,7 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": "₹1,102 EMI interest savings",
-      "score": 62,
+      "score": 58,
       "confidence_score": 75,
       "rating": 3.8,
       "review_count": null,
@@ -2334,7 +2335,7 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": null,
-      "score": 54,
+      "score": 66,
       "confidence_score": 80,
       "rating": null,
       "review_count": null,
@@ -2365,7 +2366,7 @@
       "pricing_confidence": 95,
       "tracked_since": "2026-05-15 07:21:40",
       "deal_insight": "Lowest tracked price in our data.",
-      "public_deal_label": "Worth Checking",
+      "public_deal_label": "Good Price",
       "intelligence_score_bonus": 12
     },
     {
@@ -2396,7 +2397,7 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": null,
-      "score": 70,
+      "score": 82,
       "confidence_score": 92,
       "rating": null,
       "review_count": null,
@@ -2732,7 +2733,7 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": null,
-      "score": 54,
+      "score": 65,
       "confidence_score": 34,
       "rating": null,
       "review_count": null,
@@ -2763,7 +2764,7 @@
       "pricing_confidence": 60,
       "tracked_since": "2026-05-15 07:21:40",
       "deal_insight": "Usually tracks around ₹17,726.",
-      "public_deal_label": "Worth Checking",
+      "public_deal_label": "Good Price",
       "intelligence_score_bonus": 11
     },
     {
@@ -3194,7 +3195,7 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": "₹120 EMI interest savings",
-      "score": 47,
+      "score": 49,
       "confidence_score": 72,
       "rating": 4.5,
       "review_count": 123,
@@ -6177,7 +6178,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/boat-aavante-2-0-150-rgb-leds-5-hrs-battery-tws-feature-16-w-bluetooth-speaker/p/itm033fa467acb92?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-05-15T07:40:16.865620+00:00"
+        "posted_at": "2026-05-15T07:40:16.865620+00:00",
+        "forced_update_at": "2026-05-15T07:42:18.712854+00:00"
       },
       {
         "asin": "B0FCM6JPKQ",
@@ -7023,7 +7025,7 @@
         "coupon_num": 0,
         "coupon_confidence": 0,
         "emi_savings": null,
-        "score": 70,
+        "score": 82,
         "confidence_score": 92,
         "rating": null,
         "review_count": null,
