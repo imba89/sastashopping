@@ -616,6 +616,164 @@ html { font-size: 16px; -webkit-font-smoothing: antialiased; }
   .deals-grid { grid-template-columns: 1fr 1fr; }
   .hero-price { font-size: 26px; }
 }
+/* ─── Topbar stats ───────────────────────────────────── */
+.topbar-stats {
+  display: flex; align-items: center; gap: 0;
+}
+.topbar-stat { text-align: center; padding: 0 20px; }
+.topbar-stat-val {
+  font-family: 'Inter Tight', sans-serif; font-weight: 700;
+  font-size: 16px; color: var(--text-1); letter-spacing: -.3px;
+}
+.topbar-stat-label { font-size: 10px; color: var(--text-3); margin-top: 1px; }
+.topbar-stat-div { width: 1px; height: 28px; background: var(--border); flex-shrink: 0; }
+@media (max-width: 768px) { .topbar-stats { display: none; } }
+
+/* ─── Hero banner ────────────────────────────────────── */
+.hero-banner {
+  background: var(--surface); border-bottom: 1px solid var(--border);
+}
+.hero-banner-inner {
+  max-width: 1440px; margin: 0 auto; padding: 48px 24px 44px;
+  display: grid; grid-template-columns: 1fr 420px; gap: 60px; align-items: center;
+}
+.hero-banner-eyebrow {
+  display: flex; align-items: center; gap: 7px;
+  font-size: 11px; font-weight: 500; color: var(--text-3);
+  letter-spacing: .3px; margin-bottom: 16px;
+}
+.hero-banner-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--green); flex-shrink: 0;
+  box-shadow: 0 0 0 2px #dcfce7;
+}
+.hero-banner-title {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 48px; font-weight: 700; line-height: 1.1;
+  letter-spacing: -1.2px; color: var(--text-1);
+  margin-bottom: 16px;
+}
+.hero-banner-title em {
+  font-style: italic; color: var(--indigo);
+  font-family: 'Instrument Serif', serif; font-weight: 400;
+}
+.hero-banner-sub {
+  font-size: 15px; color: var(--text-2); line-height: 1.7;
+  max-width: 480px; margin-bottom: 28px;
+}
+.hero-banner-numbers {
+  display: flex; align-items: flex-start; gap: 32px;
+}
+.hero-num-val {
+  font-family: 'Inter Tight', sans-serif; font-size: 28px;
+  font-weight: 700; color: var(--indigo); letter-spacing: -.5px;
+  line-height: 1;
+}
+.hero-num-label {
+  font-size: 11px; color: var(--text-3); margin-top: 3px;
+}
+
+/* Featured deal in hero */
+.hero-feat-card {
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: var(--r-xl); overflow: hidden;
+}
+.hero-feat-label {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 14px; border-bottom: 1px solid var(--border);
+}
+.hero-feat-label-text {
+  font-size: 10px; font-weight: 600; color: var(--text-3);
+  text-transform: uppercase; letter-spacing: .5px;
+}
+.hero-feat-badge {
+  display: inline-flex; align-items: center; gap: 3px;
+  padding: 3px 8px; border-radius: 100px; font-size: 10px; font-weight: 600;
+  background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border);
+}
+.hero-feat-img-wrap {
+  height: 180px; background: var(--surface);
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden; border-bottom: 1px solid var(--border);
+}
+.hero-feat-img-wrap img { width: 100%; height: 100%; object-fit: contain; padding: 16px; }
+.hero-feat-img-wrap .img-placeholder { font-size: 48px; }
+.hero-feat-body { padding: 14px 16px; }
+.hero-feat-source { margin-bottom: 6px; }
+.hero-feat-title {
+  font-size: 13px; font-weight: 500; color: var(--text-1);
+  line-height: 1.4; margin-bottom: 10px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.hero-feat-price-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 10px; }
+.hero-feat-price {
+  font-family: 'Inter Tight', sans-serif; font-weight: 700;
+  font-size: 24px; color: var(--text-1); letter-spacing: -.4px;
+}
+.hero-feat-orig { font-size: 13px; color: var(--text-3); text-decoration: line-through; }
+.hero-feat-off {
+  padding: 2px 7px; border-radius: 4px; font-size: 11px; font-weight: 600;
+  background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border);
+}
+
+/* ─── Deal of the Day strip ──────────────────────────── */
+.dotd-strip {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+}
+.dotd-strip-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--r-lg); overflow: hidden; cursor: pointer;
+  transition: border-color .15s, box-shadow .15s;
+}
+.dotd-strip-card:hover {
+  border-color: var(--border-2);
+  box-shadow: 0 2px 12px rgba(17,24,39,.05);
+}
+.dotd-strip-cat {
+  padding: 6px 10px; background: var(--surface-2);
+  border-bottom: 1px solid var(--border);
+  font-size: 9px; font-weight: 600; color: var(--text-3);
+  text-transform: uppercase; letter-spacing: .4px;
+}
+.dotd-strip-img {
+  height: 110px; background: var(--bg);
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden; border-bottom: 1px solid var(--border);
+}
+.dotd-strip-img img { width: 100%; height: 100%; object-fit: contain; padding: 10px; }
+.dotd-strip-img .img-placeholder { font-size: 32px; }
+.dotd-strip-body { padding: 10px; }
+.dotd-strip-title {
+  font-size: 11px; font-weight: 500; color: var(--text-1);
+  line-height: 1.35; margin-bottom: 6px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.dotd-strip-price {
+  font-family: 'Inter Tight', sans-serif; font-weight: 700;
+  font-size: 16px; color: var(--text-1); letter-spacing: -.2px;
+}
+.dotd-strip-off { font-size: 10px; font-weight: 600; color: var(--green); margin-left: 5px; }
+.dotd-strip-low {
+  display: inline-block; margin-top: 5px;
+  padding: 2px 6px; border-radius: 4px; font-size: 9px; font-weight: 600;
+  background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border);
+}
+.dotd-strip-source {
+  display: inline-block; margin-top: 3px;
+  padding: 1px 5px; border-radius: 3px; font-size: 8px; font-weight: 600;
+}
+.dotd-strip-source.amazon { background: #FFF7ED; color: #C2410C; border: 1px solid #FED7AA; }
+.dotd-strip-source.flipkart { background: #EFF6FF; color: #1D4ED8; border: 1px solid #BFDBFE; }
+
+@media (max-width: 1100px) { .dotd-strip { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 700px) {
+  .dotd-strip { grid-template-columns: repeat(2, 1fr); }
+  .hero-banner-inner { grid-template-columns: 1fr; gap: 28px; padding: 32px 20px; }
+  .hero-banner-title { font-size: 32px; }
+  .hero-banner-right { display: none; }
+}
 </style>
 </head>
 <body>
@@ -631,52 +789,62 @@ html { font-size: 16px; -webkit-font-smoothing: antialiased; }
         <div class="logo-tag">Pricing Intelligence</div>
       </div>
     </a>
-    <div class="topbar-subtext">
-      <div class="topbar-subtext-main">Real deals, verified by data.</div>
-      <div class="topbar-subtext-sub">Every price scored against its own history — so you never overpay.</div>
+    <div class="topbar-stats">
+      <div class="topbar-stat">
+        <div class="topbar-stat-val" id="deal-count-top">—</div>
+        <div class="topbar-stat-label">Active Deals</div>
+      </div>
+      <div class="topbar-stat-div"></div>
+      <div class="topbar-stat">
+        <div class="topbar-stat-val" id="topbar-lows">—</div>
+        <div class="topbar-stat-label">Lowest Ever</div>
+      </div>
+      <div class="topbar-stat-div"></div>
+      <div class="topbar-stat">
+        <div class="topbar-stat-val" id="topbar-disc">—</div>
+        <div class="topbar-stat-label">Avg Discount</div>
+      </div>
     </div>
     <div class="topbar-right">
       <div class="live-dot">
         <span></span>
-        <span id="deal-count-top" style="font-size:11px;color:var(--text-3)">live</span>
+        <span style="font-size:11px;color:var(--green);font-weight:500">Live Deals</span>
       </div>
       <a href="https://t.me/techeasydeals" target="_blank" rel="noopener" class="tg-btn">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-        Join Telegram
+        Join Telegram →
       </a>
     </div>
   </div>
 </header>
 
-<!-- ─── Status strip ─────────────────────────────────── -->
-<div class="status-strip">
-  <div class="status-strip-inner" id="status-strip">
-    <div class="stat-item">
-      <div class="stat-dot" style="background:var(--green)"></div>
-      <span class="stat-label">Live deals: </span>
-      <span class="stat-val" id="stat-live">—</span>
+<!-- ─── Hero banner ────────────────────────────────────── -->
+<div class="hero-banner">
+  <div class="hero-banner-inner">
+    <div class="hero-banner-left">
+      <div class="hero-banner-eyebrow">
+        <span class="hero-banner-dot"></span>
+        Amazon · Flipkart · More — updated every few minutes
+      </div>
+      <h1 class="hero-banner-title">The <em>best</em> deals —<br>verified, every day.</h1>
+      <p class="hero-banner-sub">We scan thousands of products continuously — surfacing the highest discounts, lowest ever prices, and verified offers so you never miss a great deal.</p>
+      <div class="hero-banner-numbers">
+        <div class="hero-num">
+          <div class="hero-num-val" id="hb-deals">—</div>
+          <div class="hero-num-label">Active Deals</div>
+        </div>
+        <div class="hero-num">
+          <div class="hero-num-val" id="hb-lows">—</div>
+          <div class="hero-num-label">Lowest Ever</div>
+        </div>
+        <div class="hero-num">
+          <div class="hero-num-val" id="hb-disc">—</div>
+          <div class="hero-num-label">Avg Discount</div>
+        </div>
+      </div>
     </div>
-    <div class="stat-div"></div>
-    <div class="stat-item">
-      <div class="stat-dot" style="background:var(--indigo)"></div>
-      <span class="stat-label">Hero picks: </span>
-      <span class="stat-val" id="stat-hero">—</span>
-    </div>
-    <div class="stat-div"></div>
-    <div class="stat-item">
-      <div class="stat-dot" style="background:var(--green)"></div>
-      <span class="stat-label">Historical lows: </span>
-      <span class="stat-val" id="stat-lows">—</span>
-    </div>
-    <div class="stat-div"></div>
-    <div class="stat-item">
-      <div class="stat-dot" style="background:var(--amber)"></div>
-      <span class="stat-label">Avg confidence: </span>
-      <span class="stat-val" id="stat-conf">—</span>
-    </div>
-    <div class="stat-div"></div>
-    <div class="stat-item">
-      <span class="stat-label" id="stat-updated">Updated just now</span>
+    <div class="hero-banner-right" id="hero-featured-deal">
+      <div style="height:320px;background:var(--surface-2);border-radius:var(--r-xl)" class="skeleton"></div>
     </div>
   </div>
 </div>
@@ -711,7 +879,27 @@ html { font-size: 16px; -webkit-font-smoothing: antialiased; }
 <!-- ─── Main content ─────────────────────────────────── -->
 <main id="main-content">
 
-  <!-- HERO SECTION -->
+  <!-- DEAL OF THE DAY STRIP -->
+  <div class="section" id="dotd-section">
+    <div class="section-eyebrow">
+      <div class="eyebrow-dot" style="background:var(--amber)"></div>
+      <div class="eyebrow-text">Deal of the Day</div>
+      <span style="font-size:11px;color:var(--text-3);margin-left:8px" id="dotd-date"></span>
+    </div>
+    <div class="section-head">
+      <div><span class="section-title">Today's Best Picks</span><span class="section-sub">across Amazon &amp; Flipkart</span></div>
+    </div>
+    <div class="dotd-strip" id="dotd-strip-container">
+      <div class="skeleton" style="height:220px;border-radius:var(--r-lg);min-width:180px;flex:1"></div>
+      <div class="skeleton" style="height:220px;border-radius:var(--r-lg);min-width:180px;flex:1"></div>
+      <div class="skeleton" style="height:220px;border-radius:var(--r-lg);min-width:180px;flex:1"></div>
+      <div class="skeleton" style="height:220px;border-radius:var(--r-lg);min-width:180px;flex:1"></div>
+      <div class="skeleton" style="height:220px;border-radius:var(--r-lg);min-width:180px;flex:1"></div>
+      <div class="skeleton" style="height:220px;border-radius:var(--r-lg);min-width:180px;flex:1"></div>
+    </div>
+  </div>
+
+  <!-- HERO INTELLIGENCE SECTION -->
   <div class="section" id="hero-section">
     <div class="section-eyebrow">
       <div class="eyebrow-dot" style="background:var(--indigo)"></div>
@@ -725,25 +913,12 @@ html { font-size: 16px; -webkit-font-smoothing: antialiased; }
       <div class="see-all" id="hero-see-all">See all</div>
     </div>
     <div id="hero-container">
-      <!-- JS-rendered -->
-      <div style="height:280px;background:var(--surface);border-radius:var(--r-xl);border:1px solid var(--border)" class="skeleton"></div>
-      <div style="height:140px;margin-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:10px">
+      <div style="height:300px;background:var(--surface);border-radius:var(--r-xl);border:1px solid var(--border)" class="skeleton"></div>
+      <div style="height:160px;margin-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:10px">
         <div class="skeleton" style="border-radius:var(--r-lg)"></div>
         <div class="skeleton" style="border-radius:var(--r-lg)"></div>
       </div>
     </div>
-  </div>
-
-  <!-- DEALS OF THE DAY -->
-  <div class="section" id="dotd-section" style="display:none">
-    <div class="section-eyebrow">
-      <div class="eyebrow-dot" style="background:var(--amber)"></div>
-      <div class="eyebrow-text">Deal of the Day</div>
-    </div>
-    <div class="section-head">
-      <div><span class="section-title">Today's Curated Picks</span></div>
-    </div>
-    <div class="dotd-scroll" id="dotd-container"></div>
   </div>
 
   <!-- LOWEST TRACKED PRICES -->
@@ -760,9 +935,10 @@ html { font-size: 16px; -webkit-font-smoothing: antialiased; }
       <div class="see-all">View all</div>
     </div>
     <div class="lowest-list" id="lowest-container">
-      <div style="height:68px" class="skeleton"></div>
-      <div style="height:68px" class="skeleton"></div>
-      <div style="height:68px" class="skeleton"></div>
+      <div style="height:80px" class="skeleton"></div>
+      <div style="height:80px" class="skeleton"></div>
+      <div style="height:80px" class="skeleton"></div>
+      <div style="height:80px" class="skeleton"></div>
     </div>
   </div>
 
@@ -777,9 +953,10 @@ html { font-size: 16px; -webkit-font-smoothing: antialiased; }
       <div class="see-all">See all</div>
     </div>
     <div class="trending-scroll" id="trending-container">
-      <div style="width:148px;height:100px" class="skeleton"></div>
-      <div style="width:148px;height:100px" class="skeleton"></div>
-      <div style="width:148px;height:100px" class="skeleton"></div>
+      <div style="width:180px;height:110px" class="skeleton"></div>
+      <div style="width:180px;height:110px" class="skeleton"></div>
+      <div style="width:180px;height:110px" class="skeleton"></div>
+      <div style="width:180px;height:110px" class="skeleton"></div>
     </div>
   </div>
 
@@ -797,10 +974,12 @@ html { font-size: 16px; -webkit-font-smoothing: antialiased; }
       <div class="see-all" id="all-deals-see-all">See all</div>
     </div>
     <div class="deals-grid" id="deals-container">
-      <div style="height:180px" class="skeleton"></div>
-      <div style="height:180px" class="skeleton"></div>
-      <div style="height:180px" class="skeleton"></div>
-      <div style="height:180px" class="skeleton"></div>
+      <div style="height:240px" class="skeleton"></div>
+      <div style="height:240px" class="skeleton"></div>
+      <div style="height:240px" class="skeleton"></div>
+      <div style="height:240px" class="skeleton"></div>
+      <div style="height:240px" class="skeleton"></div>
+      <div style="height:240px" class="skeleton"></div>
     </div>
   </div>
 
@@ -819,7 +998,7 @@ html { font-size: 16px; -webkit-font-smoothing: antialiased; }
     </a>
   </div>
 
-  <!-- SEARCH RESULTS (hidden by default) -->
+  <!-- SEARCH RESULTS -->
   <div class="section" id="search-results-section" style="display:none">
     <div class="section-head">
       <div><span class="section-title">Search Results</span> <span class="section-sub" id="search-count"></span></div>
@@ -1186,19 +1365,98 @@ async function loadDotd() {
 function updateStats(deals, updatedAt) {
   const hero = deals.filter(d => d.is_hero_deal).length;
   const lows = deals.filter(d => d.is_lowest_ever || (d.price_intelligence||{}).rare_low || d.local_lowest).length;
+  const discs = deals.filter(d => d.discount_pct).map(d => d.discount_pct);
+  const avgDisc = discs.length ? Math.round(discs.reduce((a,b)=>a+b,0)/discs.length) : 0;
   const confs = deals.filter(d => d.confidence_score).map(d => d.confidence_score);
   const avgConf = confs.length ? Math.round(confs.reduce((a,b)=>a+b,0)/confs.length) : 0;
 
-  $('deal-count-top').textContent = `${deals.length} live`;
-  $('stat-live').textContent = `${deals.length}`;
-  $('stat-hero').textContent = hero;
-  $('stat-lows').textContent = `${lows} today`;
-  $('stat-conf').textContent = avgConf ? `${avgConf}%` : '—';
-  $('stat-updated').textContent = updatedAt ? `Updated ${timeSince(updatedAt)}` : 'Updated just now';
-  if ($('hs-deals')) $('hs-deals').textContent = `${deals.length}+`;
+  // Topbar stats
+  if($('deal-count-top')) $('deal-count-top').textContent = deals.length;
+  if($('topbar-lows')) $('topbar-lows').textContent = lows;
+  if($('topbar-disc')) $('topbar-disc').textContent = avgDisc ? `${avgDisc}%` : '—';
+
+  // Hero banner numbers
+  if($('hb-deals')) $('hb-deals').textContent = deals.length;
+  if($('hb-lows')) $('hb-lows').textContent = lows;
+  if($('hb-disc')) $('hb-disc').textContent = avgDisc ? `${avgDisc}%` : '—';
 }
 
 function renderAll(deals) {
+  // ── Hero banner featured deal ──────────────────────────
+  const topDeal = deals.slice().sort((a,b)=>(b.score||0)-(a.score||0))[0];
+  if (topDeal && $('hero-featured-deal')) {
+    const pi = topDeal.price_intelligence || {};
+    const link = buyLink(topDeal);
+    const isLow = topDeal.is_lowest_ever || pi.rare_low;
+    $('hero-featured-deal').innerHTML = `
+    <div class="hero-feat-card">
+      <div class="hero-feat-label">
+        <div class="hero-feat-label-text">Featured Deal</div>
+        ${isLow ? `<div class="hero-feat-badge">↓ Lowest Ever</div>` : `<div class="hero-feat-badge" style="background:var(--indigo-bg);color:var(--indigo);border-color:var(--indigo-border)">Score ${topDeal.score}</div>`}
+      </div>
+      <div class="hero-feat-img-wrap">${imgOrEmoji(topDeal)}</div>
+      <div class="hero-feat-body">
+        <div class="hero-feat-source">
+          <span class="hero-source-pill ${sourceClass(topDeal.source)}" style="position:static;backdrop-filter:none">${sourceName(topDeal.source)}</span>
+        </div>
+        <div class="hero-feat-title">${topDeal.title}</div>
+        <div class="hero-feat-price-row">
+          <div class="hero-feat-price">${topDeal.price}</div>
+          ${topDeal.original_price ? `<div class="hero-feat-orig">${topDeal.original_price}</div>` : ''}
+          ${topDeal.discount_pct ? `<div class="hero-feat-off">-${topDeal.discount_pct}%</div>` : ''}
+        </div>
+        <div class="badge-row">${buildBadges(topDeal)}</div>
+        <a href="${link}" target="_blank" rel="noopener sponsored" class="btn-buy" style="margin-top:10px">
+          Buy on ${sourceName(topDeal.source)} →
+        </a>
+      </div>
+    </div>`;
+  }
+
+  // ── Deal of the day strip ──────────────────────────────
+  const catLabels = {tv:'Best TV', phone:'Best Phone', laptop:'Best Laptop', audio:'Best Audio', appliance:'Best Appliance', gaming:'Best Gaming', other:'Best Deal'};
+  const dotdDeals = [];
+  const usedCats = new Set();
+  const sorted = deals.slice().sort((a,b)=>(b.score||0)-(a.score||0));
+  for (const d of sorted) {
+    const cat = d.product_category_key || 'other';
+    if (!usedCats.has(cat)) { dotdDeals.push(d); usedCats.add(cat); }
+    if (dotdDeals.length >= 6) break;
+  }
+  if (dotdDeals.length < 6) {
+    for (const d of sorted) {
+      if (!dotdDeals.includes(d)) dotdDeals.push(d);
+      if (dotdDeals.length >= 6) break;
+    }
+  }
+  const today = new Date().toLocaleDateString('en-IN', {day:'numeric', month:'long', year:'numeric'});
+  if ($('dotd-date')) $('dotd-date').textContent = today;
+  const stripEl = $('dotd-strip-container');
+  if (stripEl) {
+    stripEl.innerHTML = dotdDeals.map(d => {
+      const cat = d.product_category_key || 'other';
+      const label = catLabels[cat] || 'Best Deal';
+      const link = buyLink(d);
+      const isLow = d.is_lowest_ever || (d.price_intelligence||{}).rare_low;
+      const src = sourceClass(d.source);
+      return `
+      <div class="dotd-strip-card" onclick="window.open('${link}','_blank')">
+        <div class="dotd-strip-cat">${label}</div>
+        <div class="dotd-strip-img">${imgOrEmoji(d)}</div>
+        <div class="dotd-strip-body">
+          <div class="dotd-strip-title">${d.title}</div>
+          <div>
+            <span class="dotd-strip-price">${d.price}</span>
+            ${d.discount_pct ? `<span class="dotd-strip-off">-${d.discount_pct}%</span>` : ''}
+          </div>
+          <div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:4px">
+            ${isLow ? `<span class="dotd-strip-low">↓ Lowest Ever</span>` : ''}
+            <span class="dotd-strip-source ${src}">${sourceName(d.source)}</span>
+          </div>
+        </div>
+      </div>`;
+    }).join('');
+  }
   // Hero section: top 3 by score/hero_score
   const heroDeals = deals
     .filter(d => d.is_hero_deal || d.hero_score >= 60)
@@ -1310,6 +1568,3 @@ setInterval(loadDeals, 10 * 60 * 1000);
 </script>
 </body>
 </html>
- 
- 
- 
