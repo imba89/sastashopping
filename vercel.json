@@ -1,6 +1,7 @@
 {
   "version": 2,
   "builds": [{ "src": "**", "use": "@vercel/static" }],
+  "ignoreCommand": "git diff HEAD~1 --name-only | grep -qvE '^(deals\\.json|dotd\\.json|dotd_cache\\.json|.*\\.json)$' && exit 0 || exit 1",
   "headers": [
     {
       "source": "/deals.json",
