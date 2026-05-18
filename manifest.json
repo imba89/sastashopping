@@ -1,0 +1,33 @@
+{
+  "name": "SastaShopping - Pricing Intelligence",
+  "short_name": "SastaShopping",
+  "description": "Verified Amazon and Flipkart deals with price history, confidence signals, and trust-first pricing intelligence.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F7F7F5",
+  "theme_color": "#4F46E5",
+  "categories": ["shopping", "finance", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
