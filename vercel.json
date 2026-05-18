@@ -1,13 +1,25 @@
 {
   "version": 2,
   "builds": [{ "src": "**", "use": "@vercel/static" }],
-  "ignoreCommand": "git diff HEAD~1 --name-only | grep -qE '^index\\.html$' && exit 1 || git diff HEAD~1 --name-only | grep -qvE '\\.(json)$' && exit 1 || exit 0",
   "headers": [
     {
       "source": "/deals.json",
       "headers": [
         { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" },
         { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
+      "source": "/dotd_cache.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
+      "source": "/sw.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }
       ]
     }
   ]
