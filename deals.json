@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T16:04:09.838130+00:00",
+  "updated_at": "2026-06-17T05:25:09.294965+00:00",
   "deals": [
     {
       "asin": "B0FJ8VXRFQ",
@@ -3393,17 +3393,17 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": "₹810 EMI interest savings",
-      "score": 64,
+      "score": 68,
       "final_intelligence_score": 19,
       "intelligence_explanation": {
         "score": 19,
         "components": {
-          "base_deal": 58,
+          "base_deal": 64,
           "pricing_confidence": 35,
           "trust": 32,
-          "historical_strength": 11,
-          "hero": 31,
-          "trend": 35,
+          "historical_strength": 7,
+          "hero": 30,
+          "trend": 31,
           "effective_price_strength": 48,
           "category_quality": 74,
           "rarity": 13,
@@ -3429,16 +3429,16 @@
         "synergy_bonus": 0
       },
       "confidence_score": 82,
-      "historical_conversion_score": 6,
-      "historical_product_strength": 11,
+      "historical_conversion_score": 4,
+      "historical_product_strength": 7,
       "historical_confidence": 82.0,
       "trend_score": 0,
       "trend_velocity": 50,
       "trend_stability": 100,
-      "trend_decay": 0,
-      "trend_maturity_score": 35,
+      "trend_decay": 12,
+      "trend_maturity_score": 31,
       "trend_tags": [],
-      "hero_score": 31,
+      "hero_score": 30,
       "is_hero_deal": false,
       "trust_score": 32,
       "public_trust_label": "Verify Before Buying",
@@ -3470,7 +3470,7 @@
       "posted_at": "2026-06-15T13:38:29.616392+00:00",
       "product_id": "amz:B0C4YY6WXX",
       "trend_signals": {},
-      "intelligence_score_bonus": 6
+      "intelligence_score_bonus": 4
     },
     {
       "asin": "B07M8H2HRD",
@@ -4305,15 +4305,15 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": "₹66 EMI interest savings",
-      "score": 97,
-      "final_intelligence_score": 49,
+      "score": 111,
+      "final_intelligence_score": 52,
       "intelligence_explanation": {
-        "score": 49,
+        "score": 52,
         "components": {
-          "base_deal": 82,
+          "base_deal": 97,
           "pricing_confidence": 60,
           "trust": 71,
-          "historical_strength": 7,
+          "historical_strength": 6,
           "hero": 30,
           "trend": 31,
           "effective_price_strength": 48,
@@ -4339,9 +4339,9 @@
         "synergy_bonus": 0
       },
       "confidence_score": 88,
-      "historical_conversion_score": 4,
-      "historical_product_strength": 7,
-      "historical_confidence": 82.94,
+      "historical_conversion_score": 3,
+      "historical_product_strength": 6,
+      "historical_confidence": 85.15,
       "trend_score": 0,
       "trend_velocity": 50,
       "trend_stability": 100,
@@ -4380,7 +4380,7 @@
       "posted_at": "2026-06-15T10:27:04.661785+00:00",
       "product_id": "amz:B01E2330K2",
       "trend_signals": {},
-      "intelligence_score_bonus": 15
+      "intelligence_score_bonus": 14
     },
     {
       "asin": "B07KJ67Y3K",
