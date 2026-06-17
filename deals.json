@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T05:25:09.294965+00:00",
+  "updated_at": "2026-06-17T13:05:18.215784+00:00",
   "deals": [
     {
       "asin": "B0FJ8VXRFQ",
@@ -3393,7 +3393,7 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": "₹810 EMI interest savings",
-      "score": 68,
+      "score": 67,
       "final_intelligence_score": 19,
       "intelligence_explanation": {
         "score": 19,
@@ -3401,7 +3401,7 @@
           "base_deal": 64,
           "pricing_confidence": 35,
           "trust": 32,
-          "historical_strength": 7,
+          "historical_strength": 6,
           "hero": 30,
           "trend": 31,
           "effective_price_strength": 48,
@@ -3429,8 +3429,8 @@
         "synergy_bonus": 0
       },
       "confidence_score": 82,
-      "historical_conversion_score": 4,
-      "historical_product_strength": 7,
+      "historical_conversion_score": 3,
+      "historical_product_strength": 6,
       "historical_confidence": 82.0,
       "trend_score": 0,
       "trend_velocity": 50,
@@ -3470,7 +3470,7 @@
       "posted_at": "2026-06-15T13:38:29.616392+00:00",
       "product_id": "amz:B0C4YY6WXX",
       "trend_signals": {},
-      "intelligence_score_bonus": 4
+      "intelligence_score_bonus": 3
     },
     {
       "asin": "B07M8H2HRD",
@@ -4305,7 +4305,7 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": "₹66 EMI interest savings",
-      "score": 111,
+      "score": 110,
       "final_intelligence_score": 52,
       "intelligence_explanation": {
         "score": 52,
@@ -4313,7 +4313,7 @@
           "base_deal": 97,
           "pricing_confidence": 60,
           "trust": 71,
-          "historical_strength": 6,
+          "historical_strength": 4,
           "hero": 30,
           "trend": 31,
           "effective_price_strength": 48,
@@ -4339,9 +4339,9 @@
         "synergy_bonus": 0
       },
       "confidence_score": 88,
-      "historical_conversion_score": 3,
-      "historical_product_strength": 6,
-      "historical_confidence": 85.15,
+      "historical_conversion_score": 2,
+      "historical_product_strength": 4,
+      "historical_confidence": 86.39,
       "trend_score": 0,
       "trend_velocity": 50,
       "trend_stability": 100,
@@ -4380,7 +4380,7 @@
       "posted_at": "2026-06-15T10:27:04.661785+00:00",
       "product_id": "amz:B01E2330K2",
       "trend_signals": {},
-      "intelligence_score_bonus": 14
+      "intelligence_score_bonus": 13
     },
     {
       "asin": "B07KJ67Y3K",
