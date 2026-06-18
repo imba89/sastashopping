@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T17:21:30.378890+00:00",
+  "updated_at": "2026-06-18T06:45:47.198382+00:00",
   "deals": [
     {
       "asin": "B0FJ8VXRFQ",
@@ -3401,7 +3401,7 @@
           "base_deal": 64,
           "pricing_confidence": 35,
           "trust": 32,
-          "historical_strength": 6,
+          "historical_strength": 5,
           "hero": 30,
           "trend": 31,
           "effective_price_strength": 48,
@@ -3430,7 +3430,7 @@
       },
       "confidence_score": 82,
       "historical_conversion_score": 3,
-      "historical_product_strength": 6,
+      "historical_product_strength": 5,
       "historical_confidence": 82.0,
       "trend_score": 0,
       "trend_velocity": 50,
@@ -4341,7 +4341,7 @@
       "confidence_score": 88,
       "historical_conversion_score": 2,
       "historical_product_strength": 4,
-      "historical_confidence": 86.39,
+      "historical_confidence": 86.79,
       "trend_score": 0,
       "trend_velocity": 50,
       "trend_stability": 100,
@@ -4360,7 +4360,7 @@
       "public_deal_label": "Worth Checking",
       "pricing_confidence": 60,
       "price_intelligence": {
-        "volatility_score": 4,
+        "volatility_score": 3,
         "fake_discount_risk": false,
         "pricing_confidence": 60,
         "likely_to_drop_further": false,
