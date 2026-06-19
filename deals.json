@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T19:31:08.182759+00:00",
+  "updated_at": "2026-06-19T05:14:15.142762+00:00",
   "deals": [
     {
       "asin": "B0FJ8VXRFQ",
@@ -3393,7 +3393,7 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": "₹810 EMI interest savings",
-      "score": 67,
+      "score": 66,
       "final_intelligence_score": 19,
       "intelligence_explanation": {
         "score": 19,
@@ -3401,7 +3401,7 @@
           "base_deal": 64,
           "pricing_confidence": 35,
           "trust": 32,
-          "historical_strength": 5,
+          "historical_strength": 4,
           "hero": 30,
           "trend": 31,
           "effective_price_strength": 48,
@@ -3429,8 +3429,8 @@
         "synergy_bonus": 0
       },
       "confidence_score": 82,
-      "historical_conversion_score": 3,
-      "historical_product_strength": 5,
+      "historical_conversion_score": 2,
+      "historical_product_strength": 4,
       "historical_confidence": 82.0,
       "trend_score": 0,
       "trend_velocity": 50,
@@ -3470,7 +3470,7 @@
       "posted_at": "2026-06-15T13:38:29.616392+00:00",
       "product_id": "amz:B0C4YY6WXX",
       "trend_signals": {},
-      "intelligence_score_bonus": 3
+      "intelligence_score_bonus": 2
     },
     {
       "asin": "B07M8H2HRD",
@@ -4341,7 +4341,7 @@
       "confidence_score": 88,
       "historical_conversion_score": 2,
       "historical_product_strength": 4,
-      "historical_confidence": 86.79,
+      "historical_confidence": 87.09,
       "trend_score": 0,
       "trend_velocity": 50,
       "trend_stability": 100,
