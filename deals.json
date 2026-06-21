@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T18:12:48.263071+00:00",
+  "updated_at": "2026-06-21T05:57:50.937249+00:00",
   "deals": [
     {
       "asin": "B0FJ8VXRFQ",
@@ -4341,7 +4341,7 @@
       "confidence_score": 88,
       "historical_conversion_score": 2,
       "historical_product_strength": 4,
-      "historical_confidence": 87.09,
+      "historical_confidence": 87.49,
       "trend_score": 0,
       "trend_velocity": 50,
       "trend_stability": 100,
