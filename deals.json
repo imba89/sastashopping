@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T08:55:17.154823+00:00",
+  "updated_at": "2026-06-22T07:18:20.451881+00:00",
   "deals": [
     {
       "asin": "B0FJ8VXRFQ",
@@ -4313,7 +4313,7 @@
           "base_deal": 97,
           "pricing_confidence": 60,
           "trust": 71,
-          "historical_strength": 4,
+          "historical_strength": 3,
           "hero": 30,
           "trend": 31,
           "effective_price_strength": 48,
@@ -4340,8 +4340,8 @@
       },
       "confidence_score": 88,
       "historical_conversion_score": 2,
-      "historical_product_strength": 4,
-      "historical_confidence": 87.62,
+      "historical_product_strength": 3,
+      "historical_confidence": 87.72,
       "trend_score": 0,
       "trend_velocity": 50,
       "trend_stability": 100,
