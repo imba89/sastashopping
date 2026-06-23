@@ -7,9 +7,13 @@
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#F7F7F5",
-  "theme_color": "#4F46E5",
-  "categories": ["shopping", "finance", "productivity"],
+  "background_color": "#0A0B14",
+  "theme_color": "#0A0B14",
+  "categories": [
+    "shopping",
+    "finance",
+    "productivity"
+  ],
   "icons": [
     {
       "src": "/icons/icon-192.png",
