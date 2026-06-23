@@ -4,1333 +4,1007 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SastaShopping — Pricing Intelligence for India</title>
-<meta name="description" content="India's smartest deal discovery platform. We track prices, verify history, and surface only genuinely good deals — so you never overpay.">
+<meta name="description" content="India's smartest deal discovery engine. Every price scored against its own history — so you never overpay.">
 <meta property="og:title" content="SastaShopping — Pricing Intelligence">
-<meta property="og:description" content="Live hero deals, historical lows, and confidence-ranked offers. Not a coupon site.">
-<meta name="theme-color" content="#4F46E5">
+<meta property="og:description" content="Live hero deals, historical lows, and confidence-ranked offers. A pricing observatory, not a coupon site.">
+<meta name="theme-color" content="#0A0B14">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="SastaShopping">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="manifest" href="/manifest.json">
 <link rel="apple-touch-icon" href="/icons/icon-192.png">
 <link rel="icon" href="/icons/icon-192.png" sizes="192x192">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Inter:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-/* ─── Reset ─────────────────────────────────────────── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { font-size: 16px; -webkit-font-smoothing: antialiased; }
+/* ════════════════════════════════════════════════════════════════
+   SastaShopping — Pricing Observatory
+   Dark instrument-panel aesthetic. Color encodes meaning.
+   ════════════════════════════════════════════════════════════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;scroll-behavior:smooth}
 
-/* ─── Design tokens ──────────────────────────────────── */
-:root {
-  --bg:          #F7F7F5;
-  --surface:     #FFFFFF;
-  --surface-2:   #F2F2EF;
-  --border:      #E6E6E2;
-  --border-2:    #D4D4CF;
+:root{
+  --void:#070811;
+  --bg:#0A0B14;
+  --panel:rgba(255,255,255,.035);
+  --panel-2:rgba(255,255,255,.055);
+  --line:rgba(255,255,255,.08);
+  --line-2:rgba(255,255,255,.14);
 
-  --text-1:      #111827;
-  --text-2:      #4B5563;
-  --text-3:      #9CA3AF;
+  --t1:#F3F4FB;
+  --t2:#A8ADC9;
+  --t3:#5F6486;
 
-  --indigo:      #4F46E5;
-  --indigo-2:    #6366F1;
-  --indigo-bg:   #EEF2FF;
-  --indigo-border:#C7D2FE;
+  --indigo:#6366F1;
+  --violet:#8B5CF6;
+  --cyan:#22D3EE;     /* confidence */
+  --mint:#34D399;     /* verified low / good */
+  --amber:#FBBF24;    /* caution */
+  --rose:#FB7185;     /* discount / heat */
 
-  --green:       #16A34A;
-  --green-bg:    #F0FDF4;
-  --green-border:#BBF7D0;
+  --glow-indigo:rgba(99,102,241,.45);
+  --glow-mint:rgba(52,211,153,.40);
+  --glow-cyan:rgba(34,211,238,.40);
 
-  --amber:       #92400E;
-  --amber-bg:    #FFFBEB;
-  --amber-border:#FDE68A;
+  --r-sm:8px; --r-md:14px; --r-lg:20px; --r-xl:28px;
 
-  --purple:      #5B21B6;
-  --purple-bg:   #F5F3FF;
-  --purple-border:#DDD6FE;
+  --ff-display:'Space Grotesk',system-ui,sans-serif;
+  --ff-body:'Inter',system-ui,sans-serif;
+  --ff-mono:'JetBrains Mono',ui-monospace,monospace;
 
-  --r-sm:  6px;
-  --r-md:  10px;
-  --r-lg:  14px;
-  --r-xl:  20px;
+  --ease:cubic-bezier(.22,.61,.36,1);
 
-  font-family: 'Inter', system-ui, sans-serif;
-  background: var(--bg);
-  color: var(--text-1);
-}
-
-/* ─── Scrollbar ──────────────────────────────────────── */
-::-webkit-scrollbar { width: 0; height: 0; }
-
-/* ─── Layout ─────────────────────────────────────────── */
-.page { min-height: 100vh; background: var(--bg); }
-.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-
-/* ─── Topbar ─────────────────────────────────────────── */
-.topbar {
-  position: sticky; top: 0; z-index: 100;
-  background: rgba(247,247,245,.92);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--border);
-}
-.topbar-inner {
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 12px 24px; max-width: 1200px; margin: 0 auto;
-}
-.logo { display: flex; align-items: center; gap: 9px; text-decoration: none; }
-.logo-mark {
-  width: 28px; height: 28px; background: var(--indigo); border-radius: 8px;
-  display: flex; align-items: center; justify-content: center;
-  font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 13px; color: #fff;
-  letter-spacing: -.5px; flex-shrink: 0;
-}
-.logo-name {
-  font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 15px;
-  color: var(--text-1); letter-spacing: -.3px;
-}
-.logo-tag { font-size: 10px; color: var(--text-3); font-weight: 400; margin-top: -1px; }
-.topbar-right { display: flex; align-items: center; gap: 10px; }
-.live-dot {
-  display: flex; align-items: center; gap: 5px;
-  font-size: 11px; color: var(--text-3);
-}
-.live-dot span {
-  width: 6px; height: 6px; border-radius: 50%; background: var(--green);
-  box-shadow: 0 0 0 2px #dcfce7;
-  animation: pulse 2s ease-in-out infinite;
-}
-@keyframes pulse {
-  0%,100% { opacity: 1; } 50% { opacity: .6; }
-}
-.tg-btn {
-  display: flex; align-items: center; gap: 5px;
-  padding: 7px 14px; border-radius: 8px;
-  background: var(--indigo); border: 1px solid var(--indigo);
-  font-size: 12px; font-weight: 500; color: #fff;
-  cursor: pointer; text-decoration: none; transition: background .15s;
-  flex-shrink: 0;
-}
-.tg-btn:hover { background: var(--indigo-2); }
-.tg-btn svg { width: 13px; height: 13px; flex-shrink: 0; }
-.topbar-subtext {
-  text-align: right; flex-shrink: 1; min-width: 0;
-}
-.topbar-subtext-main {
-  font-size: 13px; font-weight: 500; color: var(--text-1);
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-}
-.topbar-subtext-sub {
-  font-size: 11px; color: var(--text-3); margin-top: 1px;
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-}
-@media (max-width: 700px) {
-  .topbar-subtext { display: none; }
+  font-family:var(--ff-body);
+  background:var(--bg);
+  color:var(--t1);
 }
 
-/* ─── Status strip ───────────────────────────────────── */
-.status-strip {
-  border-bottom: 1px solid var(--border);
-  overflow-x: auto; scrollbar-width: none;
-}
-.status-strip-inner {
-  display: flex; align-items: center; gap: 0;
-  max-width: 1200px; margin: 0 auto; padding: 0 24px;
-  white-space: nowrap;
-}
-.stat-item {
-  display: flex; align-items: center; gap: 5px;
-  padding: 9px 0; flex-shrink: 0;
-}
-.stat-item + .stat-item { margin-left: 20px; }
-.stat-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
-.stat-label { font-size: 11px; color: var(--text-3); }
-.stat-val { font-size: 11px; font-weight: 500; color: var(--text-1); }
-.stat-div { width: 1px; height: 12px; background: var(--border); margin-left: 20px; flex-shrink: 0; }
+body{min-height:100vh;background:var(--bg);position:relative;overflow-x:hidden}
 
-/* ─── Filters ────────────────────────────────────────── */
-.filters {
-  overflow-x: auto; scrollbar-width: none;
-  border-bottom: 1px solid var(--border);
-  background: var(--surface);
+/* ── Ambient aurora field ─────────────────────────────────────── */
+.aurora{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.aurora::before,.aurora::after{
+  content:"";position:absolute;border-radius:50%;filter:blur(90px);opacity:.55;will-change:transform;
 }
-.filters-inner {
-  display: flex; gap: 6px; align-items: center;
-  padding: 10px 24px; max-width: 1200px; margin: 0 auto;
-}
-.filter-pill {
-  flex-shrink: 0; padding: 5px 12px; border-radius: 100px;
-  border: 1px solid var(--border); font-size: 12px; color: var(--text-2);
-  cursor: pointer; background: var(--surface); font-family: 'Inter', sans-serif;
-  transition: all .15s; white-space: nowrap;
-}
-.filter-pill:hover { border-color: var(--border-2); color: var(--text-1); }
-.filter-pill.active {
-  background: var(--indigo-bg); border-color: var(--indigo-border);
-  color: var(--indigo); font-weight: 500;
-}
+.aurora::before{width:60vw;height:60vw;left:-10vw;top:-20vh;
+  background:radial-gradient(circle at 30% 30%,var(--indigo),transparent 60%);
+  animation:drift1 26s var(--ease) infinite alternate}
+.aurora::after{width:55vw;height:55vw;right:-12vw;top:8vh;
+  background:radial-gradient(circle at 60% 40%,var(--violet),transparent 62%);
+  animation:drift2 32s var(--ease) infinite alternate}
+.aurora .glow3{position:absolute;width:48vw;height:48vw;left:30vw;bottom:-22vh;border-radius:50%;
+  filter:blur(100px);opacity:.30;background:radial-gradient(circle,var(--cyan),transparent 60%);
+  animation:drift3 38s var(--ease) infinite alternate}
+@keyframes drift1{to{transform:translate(8vw,10vh) scale(1.15)}}
+@keyframes drift2{to{transform:translate(-7vw,12vh) scale(1.1)}}
+@keyframes drift3{to{transform:translate(-10vw,-8vh) scale(1.2)}}
+.grid-tex{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.4;
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+  background-size:64px 64px;
+  -webkit-mask-image:radial-gradient(circle at 50% 0%,#000 0%,transparent 75%);
+  mask-image:radial-gradient(circle at 50% 0%,#000 0%,transparent 75%)}
 
-/* ─── Section scaffolding ────────────────────────────── */
-.section { padding: 32px 24px 0; max-width: 1200px; margin: 0 auto; }
-.section + .section { padding-top: 28px; }
-.section-eyebrow {
-  display: flex; align-items: center; gap: 6px; margin-bottom: 6px;
-}
-.eyebrow-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
-.eyebrow-text {
-  font-size: 10px; font-weight: 500; letter-spacing: .5px;
-  text-transform: uppercase; color: var(--text-3);
-}
-.section-head {
-  display: flex; align-items: baseline; justify-content: space-between;
-  margin-bottom: 14px;
-}
-.section-title {
-  font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 17px;
-  color: var(--text-1); letter-spacing: -.3px;
-}
-.section-sub {
-  font-size: 12px; color: var(--text-3); margin-left: 8px; font-weight: 400;
-}
-.see-all {
-  font-size: 11px; color: var(--indigo); cursor: pointer; font-weight: 500;
-  padding: 3px 0; border-bottom: 1px solid transparent; transition: border-color .15s;
-}
-.see-all:hover { border-color: var(--indigo); }
+.page{position:relative;z-index:1}
+.container{max-width:1240px;margin:0 auto;padding:0 24px}
 
-/* ─── HERO CARD ──────────────────────────────────────── */
-.hero-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--r-xl); overflow: hidden;
-  margin-bottom: 10px; cursor: pointer;
-  transition: border-color .2s, box-shadow .2s;
-}
-.hero-card:hover {
-  border-color: var(--border-2);
-  box-shadow: 0 4px 20px rgba(17,24,39,.06);
-}
-.hero-card.featured { border-color: var(--indigo-border); }
-.hero-card.featured:hover { box-shadow: 0 4px 24px rgba(79,70,229,.1); }
+::selection{background:var(--glow-indigo);color:#fff}
+::-webkit-scrollbar{width:0;height:0}
 
-/* Featured hero — tall layout */
-.hero-featured-img {
-  width: 100%; height: 220px; background: #F8F8FC;
-  display: flex; align-items: center; justify-content: center;
-  overflow: hidden; border-bottom: 1px solid var(--border);
-  position: relative;
-}
-.hero-featured-img img {
-  width: 100%; height: 100%; object-fit: contain;
-  padding: 20px;
-}
-.hero-featured-img .img-placeholder {
-  font-size: 56px; line-height: 1;
-}
-.hero-source-pill {
-  position: absolute; top: 12px; left: 12px;
-  display: flex; align-items: center; gap: 4px;
-  padding: 3px 8px; border-radius: 100px;
-  font-size: 10px; font-weight: 500; backdrop-filter: blur(8px);
-}
-.hero-source-pill.amazon { background: #FFF7ED; color: #C2410C; border: 1px solid #FED7AA; }
-.hero-source-pill.flipkart { background: #EFF6FF; color: #1D4ED8; border: 1px solid #BFDBFE; }
-.hero-source-pill.desidime { background: #F0FDF4; color: #16A34A; border: 1px solid #BBF7D0; }
+/* ════════════════════════════════════════════════════════════════
+   TOP NAV
+   ════════════════════════════════════════════════════════════════ */
+.scroll-progress{position:fixed;top:0;left:0;height:2px;width:0%;z-index:200;
+  background:linear-gradient(90deg,var(--indigo),var(--cyan),var(--mint));
+  box-shadow:0 0 12px var(--glow-cyan);transition:width .1s linear}
 
-/* Score pill — top right of hero image */
-.hero-score-pill {
-  position: absolute; top: 12px; right: 12px;
-  padding: 3px 8px; border-radius: 100px;
-  font-size: 10px; font-weight: 600;
-  background: rgba(255,255,255,.95); color: var(--indigo);
-  border: 1px solid var(--indigo-border);
-}
+.topbar{position:sticky;top:0;z-index:120;
+  background:rgba(10,11,20,.55);backdrop-filter:blur(18px) saturate(140%);
+  -webkit-backdrop-filter:blur(18px) saturate(140%);border-bottom:1px solid var(--line)}
+.topbar-inner{display:flex;align-items:center;justify-content:space-between;
+  padding:14px 24px;max-width:1240px;margin:0 auto}
+.logo{display:flex;align-items:center;gap:11px;text-decoration:none}
+.logo-mark{width:34px;height:34px;border-radius:10px;position:relative;flex-shrink:0;
+  background:linear-gradient(135deg,var(--indigo),var(--violet));
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--ff-display);font-weight:700;font-size:15px;color:#fff;letter-spacing:-1px;
+  box-shadow:0 0 0 1px var(--line-2),0 8px 24px -8px var(--glow-indigo)}
+.logo-mark::after{content:"";position:absolute;inset:0;border-radius:10px;
+  background:linear-gradient(135deg,transparent,rgba(255,255,255,.25));mix-blend-mode:overlay}
+.logo-name{font-family:var(--ff-display);font-weight:600;font-size:16px;color:var(--t1);letter-spacing:-.4px;line-height:1}
+.logo-tag{font-size:10px;color:var(--t3);font-weight:500;letter-spacing:.3px;margin-top:3px;
+  text-transform:uppercase;font-family:var(--ff-mono)}
+.topbar-right{display:flex;align-items:center;gap:14px}
+.live-dot{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--t2);
+  font-family:var(--ff-mono);letter-spacing:.5px}
+.live-dot b{width:7px;height:7px;border-radius:50%;background:var(--mint);
+  box-shadow:0 0 0 0 var(--glow-mint);animation:ping 2s var(--ease) infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 var(--glow-mint)}70%{box-shadow:0 0 0 7px transparent}100%{box-shadow:0 0 0 0 transparent}}
+.tg-btn{display:inline-flex;align-items:center;gap:7px;padding:9px 16px;border-radius:10px;
+  font-size:13px;font-weight:600;color:#fff;text-decoration:none;cursor:pointer;flex-shrink:0;
+  background:linear-gradient(135deg,var(--indigo),var(--violet));border:1px solid var(--line-2);
+  position:relative;overflow:hidden;transition:transform .25s var(--ease),box-shadow .25s var(--ease)}
+.tg-btn::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(120deg,transparent 30%,rgba(255,255,255,.35),transparent 70%);
+  transform:translateX(-130%);transition:transform .6s var(--ease)}
+.tg-btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px -10px var(--glow-indigo)}
+.tg-btn:hover::after{transform:translateX(130%)}
+.tg-btn svg{width:14px;height:14px}
 
-.hero-body { padding: 18px 18px 16px; }
-.hero-title {
-  font-family: 'Inter Tight', sans-serif; font-weight: 600;
-  font-size: 15px; line-height: 1.4; color: var(--text-1);
-  margin-bottom: 10px; letter-spacing: -.2px;
-  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
-}
-.hero-price-row {
-  display: flex; align-items: baseline; gap: 8px; margin-bottom: 10px;
-}
-.hero-price {
-  font-family: 'Inter Tight', sans-serif; font-weight: 700; font-style: normal;
-  font-size: 32px; color: var(--text-1); line-height: 1; letter-spacing: -.5px;
-}
-.hero-orig {
-  font-size: 13px; color: var(--text-3); text-decoration: line-through;
-}
-.hero-off {
-  padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600;
-  background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border);
-}
+/* ════════════════════════════════════════════════════════════════
+   HERO CONSOLE
+   ════════════════════════════════════════════════════════════════ */
+.hero{padding:74px 0 34px;text-align:center;position:relative}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:var(--ff-mono);
+  font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--cyan);
+  padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);margin-bottom:26px}
+.eyebrow span{width:6px;height:6px;border-radius:50%;background:var(--cyan);box-shadow:0 0 10px var(--glow-cyan)}
+.hero h1{font-family:var(--ff-display);font-weight:700;letter-spacing:-2px;line-height:1.02;
+  font-size:clamp(40px,7vw,76px);margin-bottom:22px}
+.hero h1 .grad{background:linear-gradient(110deg,var(--indigo),var(--violet) 40%,var(--cyan));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:620px;margin:0 auto;color:var(--t2);font-size:clamp(15px,2vw,18px);line-height:1.6}
+.hero p b{color:var(--t1);font-weight:600}
 
-/* Trust badges */
-.badge-row { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 12px; }
-.badge {
-  display: inline-flex; align-items: center; gap: 3px;
-  padding: 3px 8px; border-radius: var(--r-sm);
-  font-size: 10px; font-weight: 500; line-height: 1;
-}
-.badge svg { width: 10px; height: 10px; flex-shrink: 0; }
-.badge.historical-low { background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border); }
-.badge.confidence     { background: var(--indigo-bg); color: var(--indigo); border: 1px solid var(--indigo-border); }
-.badge.trending       { background: var(--amber-bg); color: var(--amber); border: 1px solid var(--amber-border); }
-.badge.rare           { background: var(--purple-bg); color: var(--purple); border: 1px solid var(--purple-border); }
-.badge.premium        { background: var(--indigo-bg); color: var(--indigo); border: 1px solid var(--indigo-border); }
-.badge.community      { background: #FFF0F3; color: #9D174D; border: 1px solid #FBCFE8; }
+.console{margin:40px auto 0;max-width:920px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.metric{position:relative;padding:20px 16px;border-radius:var(--r-md);text-align:left;
+  background:var(--panel);border:1px solid var(--line);overflow:hidden;
+  transition:border-color .3s var(--ease),transform .3s var(--ease)}
+.metric:hover{border-color:var(--line-2);transform:translateY(-3px)}
+.metric::before{content:"";position:absolute;top:0;left:0;width:100%;height:2px;opacity:.8}
+.metric.m1::before{background:var(--mint)}
+.metric.m2::before{background:var(--indigo)}
+.metric.m3::before{background:var(--cyan)}
+.metric.m4::before{background:var(--amber)}
+.metric .mlabel{font-family:var(--ff-mono);font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:var(--t3);margin-bottom:10px}
+.metric .mval{font-family:var(--ff-mono);font-weight:700;font-size:30px;line-height:1;color:var(--t1)}
+.metric .msub{font-size:11px;color:var(--t2);margin-top:6px}
+.updated{margin-top:18px;font-family:var(--ff-mono);font-size:11px;color:var(--t3);letter-spacing:.5px}
 
-/* "Why this matters" — editorial italic, no box */
-.why-matters {
-  font-family: 'Instrument Serif', serif; font-style: italic;
-  font-size: 13px; color: var(--text-2); line-height: 1.6;
-  margin-bottom: 14px; padding-left: 12px;
-  border-left: 2px solid var(--border-2);
-}
+/* ════════════════════════════════════════════════════════════════
+   FILTER RAIL + SEARCH
+   ════════════════════════════════════════════════════════════════ */
+.searchwrap{margin:46px auto 8px;max-width:680px;position:relative}
+.searchwrap svg{position:absolute;left:18px;top:50%;transform:translateY(-50%);width:17px;height:17px;color:var(--t3)}
+#search-input{width:100%;padding:15px 18px 15px 46px;border-radius:var(--r-md);
+  background:var(--panel);border:1px solid var(--line);color:var(--t1);
+  font-family:var(--ff-body);font-size:14px;outline:none;
+  transition:border-color .25s var(--ease),box-shadow .25s var(--ease)}
+#search-input::placeholder{color:var(--t3)}
+#search-input:focus{border-color:var(--indigo);box-shadow:0 0 0 4px rgba(99,102,241,.15)}
+.rail{display:flex;gap:8px;overflow-x:auto;padding:18px 0 4px;scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.filter-pill{flex-shrink:0;padding:9px 16px;border-radius:999px;cursor:pointer;
+  font-size:13px;font-weight:500;color:var(--t2);white-space:nowrap;
+  background:var(--panel);border:1px solid var(--line);transition:all .2s var(--ease)}
+.filter-pill:hover{color:var(--t1);border-color:var(--line-2)}
+.filter-pill.active{color:#fff;border-color:transparent;
+  background:linear-gradient(135deg,var(--indigo),var(--violet));box-shadow:0 8px 22px -10px var(--glow-indigo)}
 
-/* Price position bar */
-.price-track { margin-bottom: 14px; }
-.price-track-labels {
-  display: flex; justify-content: space-between;
-  font-size: 10px; color: var(--text-3); margin-bottom: 5px;
-}
-.price-track-labels .current { color: var(--green); font-weight: 500; }
-.price-track-bg {
-  height: 3px; background: var(--surface-2);
-  border-radius: 100px; position: relative;
-}
-.price-track-fill {
-  position: absolute; left: 0; top: 0; height: 100%;
-  background: var(--green); border-radius: 100px;
-}
-.price-track-dot {
-  position: absolute; top: -3px; width: 9px; height: 9px;
-  border-radius: 50%; background: var(--green);
-  border: 2px solid var(--surface); transform: translateX(-50%);
-  box-shadow: 0 1px 3px rgba(22,163,74,.3);
-}
+/* ════════════════════════════════════════════════════════════════
+   SECTIONS
+   ════════════════════════════════════════════════════════════════ */
+main{padding-bottom:40px}
+.section{margin-top:64px}
+.section-head{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:22px;gap:16px}
+.section-head .titles{display:flex;flex-direction:column;gap:6px}
+.kicker{font-family:var(--ff-mono);font-size:10px;letter-spacing:2px;text-transform:uppercase;
+  color:var(--t3);display:flex;align-items:center;gap:8px}
+.kicker i{width:18px;height:1px;background:var(--line-2);display:inline-block}
+.section-title{font-family:var(--ff-display);font-weight:600;font-size:clamp(22px,3vw,30px);letter-spacing:-.8px;color:var(--t1)}
+.section-sub{font-size:13px;color:var(--t2)}
+.see-all{font-family:var(--ff-mono);font-size:12px;color:var(--cyan);cursor:pointer;
+  display:inline-flex;align-items:center;gap:6px;white-space:nowrap;transition:gap .2s var(--ease)}
+.see-all::after{content:"→"}
+.see-all:hover{gap:10px}
 
-/* CTA buy button */
-.btn-buy {
-  width: 100%; padding: 11px 18px;
-  background: var(--indigo); color: #fff;
-  border: none; border-radius: var(--r-md);
-  font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 500;
-  cursor: pointer; transition: background .15s;
-  display: flex; align-items: center; justify-content: center; gap: 6px;
-  text-decoration: none;
-}
-.btn-buy:hover { background: var(--indigo-2); }
-.btn-buy svg { width: 14px; height: 14px; }
-.btn-buy.sm {
-  width: auto; padding: 7px 14px;
-  font-size: 11px; border-radius: var(--r-sm);
-}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.reveal.in{opacity:1;transform:none}
 
-/* Small hero cards */
-.hero-sm-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--r-lg); overflow: hidden; cursor: pointer;
-  transition: border-color .15s, box-shadow .15s;
-}
-.hero-sm-card:hover {
-  border-color: var(--border-2);
-  box-shadow: 0 2px 12px rgba(17,24,39,.05);
-}
-.hero-sm-img {
-  width: 100%; height: 110px; background: #F8F8FC;
-  display: flex; align-items: center; justify-content: center;
-  overflow: hidden; border-bottom: 1px solid var(--border);
-  position: relative;
-}
-.hero-sm-img img { width: 100%; height: 100%; object-fit: contain; padding: 12px; }
-.hero-sm-img .img-placeholder { font-size: 36px; }
-.hero-sm-body { padding: 12px; }
-.hero-sm-title {
-  font-size: 11px; font-weight: 500; color: var(--text-1);
-  line-height: 1.4; margin-bottom: 6px;
-  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-}
-.hero-sm-price { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 20px; color: var(--text-1); letter-spacing: -.3px; }
-.hero-sm-meta { display: flex; align-items: center; gap: 5px; margin-top: 4px; flex-wrap: wrap; }
-.hero-sm-orig { font-size: 10px; color: var(--text-3); text-decoration: line-through; }
-.hero-sm-off { font-size: 10px; font-weight: 600; color: var(--green); }
-.hero-sm-bottom { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; }
-.hero-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+/* ════════════════════════════════════════════════════════════════
+   HERO DEALS
+   ════════════════════════════════════════════════════════════════ */
+#hero-container{display:grid;grid-template-columns:1.5fr 1fr;gap:18px;align-items:stretch}
+.card{position:relative;border-radius:var(--r-lg);background:var(--panel);border:1px solid var(--line);
+  overflow:hidden;cursor:pointer;transition:transform .35s var(--ease),border-color .35s var(--ease),box-shadow .35s var(--ease)}
+.card::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;
+  transition:opacity .4s var(--ease);box-shadow:inset 0 0 0 1px var(--line-2),0 24px 60px -28px var(--glow-indigo)}
+.card:hover{transform:translateY(-5px);border-color:var(--line-2)}
+.card:hover::after{opacity:1}
 
-/* ─── TRENDING HORIZONTAL SCROLL ─────────────────────── */
-.trending-scroll {
-  display: flex; gap: 8px;
-  overflow-x: auto; scrollbar-width: none; padding-bottom: 2px;
-}
-.trend-chip {
-  flex-shrink: 0; width: 148px;
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--r-md); padding: 10px 12px; cursor: pointer;
-  transition: border-color .15s;
-}
-.trend-chip:hover { border-color: var(--border-2); }
-.trend-chip-title {
-  font-size: 11px; font-weight: 500; color: var(--text-1);
-  line-height: 1.35; margin-bottom: 5px;
-  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-}
-.trend-chip-price { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 16px; color: var(--text-1); letter-spacing: -.3px; }
-.trend-chip-off { font-size: 10px; font-weight: 500; color: var(--green); margin-left: 5px; }
-.trend-chip-tag {
-  display: inline-flex; align-items: center; gap: 3px; margin-top: 5px;
-  padding: 2px 6px; border-radius: 4px; font-size: 9px; font-weight: 500;
-}
-.trend-chip-tag.trending { background: var(--amber-bg); color: var(--amber); border: 1px solid var(--amber-border); }
-.trend-chip-tag.rare { background: var(--purple-bg); color: var(--purple); border: 1px solid var(--purple-border); }
-.trend-chip-tag.premium { background: var(--indigo-bg); color: var(--indigo); border: 1px solid var(--indigo-border); }
-.trend-chip-tag.low { background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border); }
+.featured{display:flex;flex-direction:column}
+.feat-media{position:relative;aspect-ratio:16/10;background:#0d0f1c;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.feat-media img{width:100%;height:100%;object-fit:contain;padding:22px;transition:transform .6s var(--ease)}
+.card:hover .feat-media img{transform:scale(1.04)}
+.img-ph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:54px;opacity:.5}
+.src-pill{position:absolute;top:14px;left:14px;font-family:var(--ff-mono);font-size:10px;font-weight:600;
+  letter-spacing:.5px;padding:5px 10px;border-radius:7px;backdrop-filter:blur(8px);border:1px solid var(--line-2);color:var(--t1)}
+.src-pill.amazon{background:rgba(255,153,0,.16)}
+.src-pill.flipkart{background:rgba(40,131,237,.18)}
+.src-pill.desidime{background:rgba(99,102,241,.18)}
+.score-pill{position:absolute;top:14px;right:14px;font-family:var(--ff-mono);font-size:10px;font-weight:700;
+  padding:5px 10px;border-radius:7px;color:var(--bg);
+  background:linear-gradient(135deg,var(--cyan),var(--mint));box-shadow:0 0 18px -4px var(--glow-cyan)}
+.feat-body{padding:22px;display:flex;flex-direction:column;gap:14px;flex:1}
+.feat-title{font-family:var(--ff-display);font-weight:500;font-size:18px;line-height:1.32;color:var(--t1);
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.price-row{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.price{font-family:var(--ff-mono);font-weight:700;font-size:32px;letter-spacing:-1px;color:var(--t1)}
+.orig{font-family:var(--ff-mono);font-size:15px;color:var(--t3);text-decoration:line-through}
+.off{font-family:var(--ff-mono);font-weight:700;font-size:13px;padding:4px 9px;border-radius:7px;
+  color:var(--rose);background:rgba(251,113,133,.13);border:1px solid rgba(251,113,133,.25)}
+.insight{font-size:13px;color:var(--t2);line-height:1.5;padding-left:12px;border-left:2px solid var(--line-2)}
 
-/* ─── LOWEST PRICES LIST ─────────────────────────────── */
-.lowest-list { display: flex; flex-direction: column; gap: 8px; }
-.lowest-item {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--r-md); padding: 12px 14px;
-  display: flex; align-items: center; gap: 12px; cursor: pointer;
-  transition: border-color .15s;
-}
-.lowest-item:hover { border-color: var(--border-2); }
-.lowest-img {
-  width: 48px; height: 48px; flex-shrink: 0;
-  background: #F8F8FC; border-radius: var(--r-sm);
-  display: flex; align-items: center; justify-content: center;
-  overflow: hidden; border: 1px solid var(--border);
-}
-.lowest-img img { width: 100%; height: 100%; object-fit: contain; padding: 4px; }
-.lowest-img .img-placeholder { font-size: 24px; }
-.lowest-info { flex: 1; min-width: 0; }
-.lowest-title {
-  font-size: 11px; font-weight: 500; color: var(--text-1);
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  margin-bottom: 2px;
-}
-.lowest-price-row { display: flex; align-items: baseline; gap: 5px; margin-bottom: 5px; }
-.lowest-price { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 17px; color: var(--text-1); letter-spacing: -.3px; }
-.lowest-orig { font-size: 10px; color: var(--text-3); text-decoration: line-through; }
-.lowest-bar-bg { height: 2px; background: var(--surface-2); border-radius: 100px; position: relative; }
-.lowest-bar-fill { position: absolute; left: 0; top: 0; height: 100%; background: var(--green); border-radius: 100px; }
-.lowest-bar-dot {
-  position: absolute; top: -3px; width: 8px; height: 8px;
-  border-radius: 50%; background: var(--green);
-  border: 1.5px solid var(--surface); transform: translateX(-50%);
-}
-.lowest-label {
-  flex-shrink: 0; padding: 3px 7px; border-radius: 5px; font-size: 9px; font-weight: 600;
-  background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border);
-  white-space: nowrap;
-}
+.badge-row{display:flex;flex-wrap:wrap;gap:7px}
+.badge{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;
+  padding:5px 10px;border-radius:7px;border:1px solid transparent;letter-spacing:.2px}
+.badge svg{width:12px;height:12px}
+.badge.low{color:var(--mint);background:rgba(52,211,153,.10);border-color:rgba(52,211,153,.28)}
+.badge.conf{color:var(--cyan);background:rgba(34,211,238,.10);border-color:rgba(34,211,238,.26)}
+.badge.trend{color:var(--amber);background:rgba(251,191,36,.10);border-color:rgba(251,191,36,.26)}
+.badge.rare{color:var(--violet);background:rgba(139,92,246,.12);border-color:rgba(139,92,246,.3)}
+.badge.value{color:var(--indigo);background:rgba(99,102,241,.12);border-color:rgba(99,102,241,.3)}
 
-/* ─── DEAL CARD GRID ──────────────────────────────────── */
-.deals-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-.deal-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--r-md); overflow: hidden; cursor: pointer;
-  transition: border-color .15s, box-shadow .15s;
-}
-.deal-card:hover {
-  border-color: var(--border-2);
-  box-shadow: 0 2px 10px rgba(17,24,39,.05);
-}
-.deal-img {
-  height: 90px; background: #F8F8FC;
-  display: flex; align-items: center; justify-content: center;
-  overflow: hidden; border-bottom: 1px solid var(--border);
-  position: relative;
-}
-.deal-img img { width: 100%; height: 100%; object-fit: contain; padding: 8px; }
-.deal-img .img-placeholder { font-size: 30px; }
-.deal-body { padding: 10px; }
-.deal-title {
-  font-size: 11px; font-weight: 500; color: var(--text-1);
-  line-height: 1.35; margin-bottom: 6px;
-  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-}
-.deal-price-row { display: flex; align-items: baseline; gap: 4px; margin-bottom: 5px; flex-wrap: wrap; }
-.deal-price { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 18px; color: var(--text-1); letter-spacing: -.3px; }
-.deal-orig { font-size: 10px; color: var(--text-3); text-decoration: line-through; }
-.deal-off {
-  font-size: 9px; font-weight: 600; color: var(--green);
-  background: var(--green-bg); padding: 1px 5px; border-radius: 3px;
-}
-.deal-badges { display: flex; flex-wrap: wrap; gap: 3px; }
-.mini-badge {
-  display: inline-flex; align-items: center; gap: 2px;
-  padding: 2px 5px; border-radius: 4px; font-size: 9px; font-weight: 500;
-}
-.mini-badge svg { width: 8px; height: 8px; }
-.mini-badge.hl  { background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border); }
-.mini-badge.ind { background: var(--indigo-bg); color: var(--indigo); border: 1px solid var(--indigo-border); }
-.mini-badge.amb { background: var(--amber-bg); color: var(--amber); border: 1px solid var(--amber-border); }
-.mini-badge.pur { background: var(--purple-bg); color: var(--purple); border: 1px solid var(--purple-border); }
-.deal-vs { font-size: 9px; color: var(--text-3); margin-top: 3px; }
+/* ── Signature: price-position gauge ── */
+.gauge{margin-top:2px}
+.gauge-labels{display:flex;justify-content:space-between;font-family:var(--ff-mono);font-size:10px;color:var(--t3);margin-bottom:7px}
+.gauge-labels .now{color:var(--mint);font-weight:700}
+.gauge-track{position:relative;height:6px;border-radius:999px;background:rgba(255,255,255,.07)}
+.gauge-fill{position:absolute;left:0;top:0;height:100%;border-radius:999px;width:0;
+  background:linear-gradient(90deg,var(--mint),var(--cyan));transition:width 1.1s var(--ease)}
+.gauge-dot{position:absolute;top:50%;width:13px;height:13px;border-radius:50%;left:0;
+  transform:translate(-50%,-50%) scale(0);background:#fff;
+  box-shadow:0 0 0 3px var(--bg),0 0 16px 2px var(--glow-mint);
+  transition:left 1.1s var(--ease),transform .5s var(--ease) .3s}
+.gauge.in .gauge-dot{transform:translate(-50%,-50%) scale(1)}
+.gauge-avg{position:absolute;top:-3px;width:1px;height:12px;background:var(--t3);opacity:.6}
+.gauge-avg span{position:absolute;top:-16px;left:50%;transform:translateX(-50%);
+  font-family:var(--ff-mono);font-size:9px;color:var(--t3);white-space:nowrap}
 
-/* ─── TELEGRAM BANNER ────────────────────────────────── */
-.tg-banner {
-  margin: 28px 24px 0;
-  max-width: 1200px; margin-left: auto; margin-right: auto;
-  padding: 16px 18px;
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--r-lg);
-  display: flex; align-items: center; gap: 14px;
-}
-.tg-banner-icon {
-  width: 40px; height: 40px; border-radius: var(--r-md); flex-shrink: 0;
-  background: #E8F4FD; display: flex; align-items: center; justify-content: center;
-}
-.tg-banner-icon svg { width: 20px; height: 20px; }
-.tg-banner-copy { flex: 1; min-width: 0; }
-.tg-banner-title { font-size: 13px; font-weight: 600; color: var(--text-1); margin-bottom: 2px; }
-.tg-banner-sub { font-size: 11px; color: var(--text-3); line-height: 1.4; }
-.tg-join-btn {
-  flex-shrink: 0; padding: 8px 16px; border-radius: var(--r-sm);
-  background: #229ED9; color: #fff; border: none;
-  font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 500;
-  cursor: pointer; transition: background .15s; text-decoration: none;
-  display: flex; align-items: center; gap: 5px;
-}
-.tg-join-btn:hover { background: #1A8BBD; }
+.btn-buy{margin-top:auto;display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:13px 18px;border-radius:var(--r-md);font-weight:600;font-size:14px;color:#fff;text-decoration:none;
+  border:1px solid var(--line-2);position:relative;overflow:hidden;
+  background:linear-gradient(135deg,var(--indigo),var(--violet));
+  transition:transform .2s var(--ease),box-shadow .25s var(--ease)}
+.btn-buy svg{width:15px;height:15px;transition:transform .25s var(--ease)}
+.btn-buy:hover{box-shadow:0 14px 32px -12px var(--glow-indigo)}
+.btn-buy:hover svg{transform:translateX(4px)}
+.btn-buy.sm{padding:9px 14px;font-size:12px;width:auto}
 
-/* ─── DOTD SECTION ───────────────────────────────────── */
-.dotd-scroll { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
-.dotd-card {
-  flex-shrink: 0; width: 130px;
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--r-md); overflow: hidden; cursor: pointer;
-  transition: border-color .15s;
+.hero-stack{display:flex;flex-direction:column;gap:18px}
+.sm-card{display:flex;gap:14px;padding:14px;flex:1}
+.sm-media{width:92px;flex-shrink:0;border-radius:var(--r-sm);overflow:hidden;background:#0d0f1c;
+  display:flex;align-items:center;justify-content:center;position:relative}
+.sm-media img{width:100%;height:100%;object-fit:contain;padding:8px}
+.sm-body{display:flex;flex-direction:column;gap:6px;min-width:0;flex:1}
+.sm-title{font-size:13px;font-weight:500;line-height:1.35;color:var(--t1);
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.sm-price-row{display:flex;align-items:baseline;gap:8px}
+.sm-price{font-family:var(--ff-mono);font-weight:700;font-size:18px;color:var(--t1)}
+.sm-off{font-family:var(--ff-mono);font-size:11px;color:var(--rose);font-weight:700}
+.sm-foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:8px}
+
+/* ════════════════════════════════════════════════════════════════
+   VERIFIED LOWS
+   ════════════════════════════════════════════════════════════════ */
+.low-list{display:grid;gap:12px}
+.low-row{display:grid;grid-template-columns:64px 1fr auto;gap:16px;align-items:center;
+  padding:14px 16px;border-radius:var(--r-md);background:var(--panel);border:1px solid var(--line);cursor:pointer;
+  transition:border-color .3s var(--ease),transform .3s var(--ease),background .3s var(--ease)}
+.low-row:hover{border-color:var(--line-2);transform:translateX(4px);background:var(--panel-2)}
+.low-media{width:64px;height:64px;border-radius:var(--r-sm);background:#0d0f1c;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.low-media img{width:100%;height:100%;object-fit:contain;padding:6px}
+.low-info{min-width:0}
+.low-title{font-size:13px;font-weight:500;color:var(--t1);margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.low-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.low-price{font-family:var(--ff-mono);font-weight:700;font-size:17px;color:var(--mint)}
+.low-orig{font-family:var(--ff-mono);font-size:12px;color:var(--t3);text-decoration:line-through}
+.low-vs{font-size:11px;color:var(--t2)}
+.low-tag{font-family:var(--ff-mono);font-size:10px;font-weight:700;letter-spacing:.5px;padding:6px 11px;border-radius:7px;
+  white-space:nowrap;text-transform:uppercase;color:var(--mint);background:rgba(52,211,153,.10);border:1px solid rgba(52,211,153,.28)}
+
+/* ════════════════════════════════════════════════════════════════
+   TRENDING MARQUEE
+   ════════════════════════════════════════════════════════════════ */
+.marquee{position:relative;overflow:hidden;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.marquee-track{display:flex;gap:14px;width:max-content;animation:scrollx 42s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+@keyframes scrollx{to{transform:translateX(-50%)}}
+.trend-chip{flex-shrink:0;width:230px;padding:16px;border-radius:var(--r-md);
+  background:var(--panel);border:1px solid var(--line);cursor:pointer;
+  transition:border-color .25s var(--ease),transform .25s var(--ease)}
+.trend-chip:hover{border-color:var(--line-2);transform:translateY(-3px)}
+.trend-chip-title{font-size:12px;color:var(--t2);line-height:1.4;margin-bottom:10px;height:34px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.trend-chip-price{font-family:var(--ff-mono);font-weight:700;font-size:18px;color:var(--t1)}
+.trend-chip-off{font-family:var(--ff-mono);font-size:11px;color:var(--rose);margin-left:8px;font-weight:700}
+.trend-chip-tag{margin-top:11px;display:inline-flex;align-items:center;gap:5px;font-family:var(--ff-mono);
+  font-size:9px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:4px 9px;border-radius:6px}
+.trend-chip-tag svg{width:11px;height:11px}
+.trend-chip-tag.low{color:var(--mint);background:rgba(52,211,153,.1)}
+.trend-chip-tag.trending{color:var(--amber);background:rgba(251,191,36,.1)}
+.trend-chip-tag.premium{color:var(--violet);background:rgba(139,92,246,.12)}
+.trend-chip-tag.amb{color:var(--cyan);background:rgba(34,211,238,.1)}
+
+/* ════════════════════════════════════════════════════════════════
+   DEAL OF THE DAY
+   ════════════════════════════════════════════════════════════════ */
+.dotd-scroll{display:flex;gap:16px;overflow-x:auto;padding-bottom:8px;scrollbar-width:none}
+.dotd-scroll::-webkit-scrollbar{display:none}
+.dotd-card{flex-shrink:0;width:230px;border-radius:var(--r-md);overflow:hidden;cursor:pointer;
+  background:var(--panel);border:1px solid var(--line);transition:border-color .3s var(--ease),transform .3s var(--ease)}
+.dotd-card:hover{border-color:var(--line-2);transform:translateY(-4px)}
+.dotd-label{font-family:var(--ff-mono);font-size:10px;font-weight:700;letter-spacing:.5px;padding:10px 14px;color:var(--cyan);border-bottom:1px solid var(--line)}
+.dotd-media{aspect-ratio:1;background:#0d0f1c;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.dotd-media img{width:100%;height:100%;object-fit:contain;padding:18px}
+.dotd-body{padding:14px}
+.dotd-title{font-size:12px;color:var(--t2);line-height:1.4;height:34px;margin-bottom:8px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.dotd-price{font-family:var(--ff-mono);font-weight:700;font-size:18px;color:var(--t1)}
+.dotd-off{font-family:var(--ff-mono);font-size:11px;color:var(--rose);margin-left:8px;font-weight:700}
+.dotd-low{display:inline-block;margin-top:9px;font-family:var(--ff-mono);font-size:9px;font-weight:700;
+  letter-spacing:.5px;text-transform:uppercase;color:var(--mint);padding:4px 9px;border-radius:6px;background:rgba(52,211,153,.1)}
+
+/* ════════════════════════════════════════════════════════════════
+   DEAL GRID
+   ════════════════════════════════════════════════════════════════ */
+.deals-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.deal-card{display:flex;flex-direction:column}
+.deal-media{position:relative;aspect-ratio:1;background:#0d0f1c;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.deal-media img{width:100%;height:100%;object-fit:contain;padding:18px;transition:transform .5s var(--ease)}
+.deal-card:hover .deal-media img{transform:scale(1.05)}
+.deal-body{padding:15px;display:flex;flex-direction:column;gap:9px;flex:1}
+.deal-title{font-size:13px;font-weight:500;color:var(--t1);line-height:1.4;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.deal-price-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.deal-price{font-family:var(--ff-mono);font-weight:700;font-size:19px;color:var(--t1)}
+.deal-orig{font-family:var(--ff-mono);font-size:12px;color:var(--t3);text-decoration:line-through}
+.deal-off{font-family:var(--ff-mono);font-size:11px;font-weight:700;color:var(--rose)}
+.conf-ring{position:absolute;bottom:10px;right:10px;width:42px;height:42px}
+.conf-ring svg{transform:rotate(-90deg)}
+.conf-ring .ring-bg{stroke:rgba(255,255,255,.1)}
+.conf-ring .ring-fg{stroke:var(--cyan);stroke-linecap:round;transition:stroke-dashoffset 1s var(--ease)}
+.conf-ring .ring-num{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--ff-mono);font-size:11px;font-weight:700;color:var(--cyan)}
+.deal-foot{margin-top:auto;display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.mini-badge{display:inline-flex;align-items:center;gap:4px;font-family:var(--ff-mono);font-size:9px;font-weight:700;
+  letter-spacing:.4px;text-transform:uppercase;padding:4px 8px;border-radius:6px}
+.mini-badge svg{width:10px;height:10px}
+.mini-badge.low{color:var(--mint);background:rgba(52,211,153,.1)}
+.mini-badge.trend{color:var(--amber);background:rgba(251,191,36,.1)}
+.mini-badge.value{color:var(--indigo);background:rgba(99,102,241,.12)}
+
+/* ════════════════════════════════════════════════════════════════
+   CTA + FOOTER
+   ════════════════════════════════════════════════════════════════ */
+.cta{margin-top:74px;padding:48px 32px;border-radius:var(--r-xl);text-align:center;position:relative;overflow:hidden;
+  border:1px solid var(--line-2);background:linear-gradient(135deg,rgba(99,102,241,.14),rgba(139,92,246,.08),rgba(34,211,238,.08))}
+.cta::before{content:"";position:absolute;width:60%;height:200%;left:-10%;top:-50%;
+  background:radial-gradient(circle,var(--glow-indigo),transparent 60%);filter:blur(60px);animation:drift1 20s var(--ease) infinite alternate}
+.cta-inner{position:relative;z-index:1}
+.cta h2{font-family:var(--ff-display);font-weight:600;font-size:clamp(24px,4vw,36px);letter-spacing:-1px;margin-bottom:12px}
+.cta p{color:var(--t2);font-size:15px;margin-bottom:26px}
+.cta .tg-btn{font-size:15px;padding:14px 28px}
+
+footer{margin-top:74px;border-top:1px solid var(--line);padding:40px 0 60px}
+.foot-top{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap;margin-bottom:28px}
+.foot-brand{display:flex;flex-direction:column;gap:8px;max-width:340px}
+.foot-name{font-family:var(--ff-display);font-weight:600;font-size:16px}
+.foot-tag{font-size:12px;color:var(--t3);font-family:var(--ff-mono)}
+.foot-links{display:flex;gap:22px}
+.foot-links a{color:var(--t2);text-decoration:none;font-size:13px;transition:color .2s var(--ease)}
+.foot-links a:hover{color:var(--cyan)}
+.disclaimer{font-size:11px;color:var(--t3);line-height:1.7;max-width:760px}
+
+/* ════════════════════════════════════════════════════════════════
+   STATES
+   ════════════════════════════════════════════════════════════════ */
+.skeleton{border-radius:var(--r-lg);background:var(--panel);border:1px solid var(--line);position:relative;overflow:hidden;min-height:120px}
+.skeleton::after{content:"";position:absolute;inset:0;transform:translateX(-100%);
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.05),transparent);animation:shimmer 1.5s infinite}
+@keyframes shimmer{to{transform:translateX(100%)}}
+.empty{padding:40px;text-align:center;color:var(--t3);font-size:13px;border:1px dashed var(--line-2);border-radius:var(--r-md);grid-column:1/-1}
+.empty a{color:var(--cyan)}
+#search-results-section{display:none}
+#dotd-section{display:none}
+
+/* ════════════════════════════════════════════════════════════════
+   RESPONSIVE
+   ════════════════════════════════════════════════════════════════ */
+@media(max-width:980px){
+  .console{grid-template-columns:repeat(2,1fr)}
+  #hero-container{grid-template-columns:1fr}
+  .hero-stack{flex-direction:row}
+  .deals-grid{grid-template-columns:repeat(3,1fr)}
 }
-.dotd-card:hover { border-color: var(--border-2); }
-.dotd-label {
-  padding: 5px 8px; background: var(--indigo-bg);
-  font-size: 9px; font-weight: 600; color: var(--indigo); text-transform: uppercase; letter-spacing: .4px;
-  border-bottom: 1px solid var(--indigo-border);
+@media(max-width:680px){
+  .container{padding:0 16px}
+  .hero{padding:54px 0 28px}
+  .topbar-right .live-dot{display:none}
+  .hero-stack{flex-direction:column}
+  .deals-grid{grid-template-columns:repeat(2,1fr)}
+  .low-row{grid-template-columns:52px 1fr;gap:12px}
+  .low-tag{grid-column:2;justify-self:start}
+  .low-media{width:52px;height:52px}
+  .deal-body{padding:12px}
+  .section{margin-top:48px}
 }
-.dotd-img {
-  height: 80px; background: #F8F8FC;
-  display: flex; align-items: center; justify-content: center; overflow: hidden;
-}
-.dotd-img img { width: 100%; height: 100%; object-fit: contain; padding: 8px; }
-.dotd-img .img-placeholder { font-size: 28px; }
-.dotd-body { padding: 8px; }
-.dotd-title { font-size: 9px; color: var(--text-2); line-height: 1.35; margin-bottom: 5px;
-  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.dotd-price { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 15px; color: var(--text-1); letter-spacing: -.2px; }
-.dotd-off { font-size: 9px; font-weight: 600; color: var(--green); margin-left: 4px; }
-.dotd-low { display: inline-block; margin-top: 3px; padding: 1px 5px; border-radius: 3px; font-size: 8px; font-weight: 500; background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border); }
-
-/* ─── Footer ─────────────────────────────────────────── */
-.footer {
-  margin-top: 40px; padding: 24px 24px;
-  border-top: 1px solid var(--border);
-  max-width: 1200px; margin-left: auto; margin-right: auto;
-}
-.footer-inner { display: flex; flex-direction: column; gap: 12px; }
-.footer-top { display: flex; align-items: center; justify-content: space-between; }
-.footer-logo { display: flex; align-items: center; gap: 7px; }
-.footer-name { font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 14px; color: var(--text-1); }
-.footer-tagline { font-size: 11px; color: var(--text-3); font-style: italic; font-family: 'Instrument Serif', serif; }
-.footer-links { display: flex; gap: 14px; }
-.footer-link { font-size: 11px; color: var(--text-3); text-decoration: none; transition: color .15s; }
-.footer-link:hover { color: var(--text-2); }
-.footer-bottom { font-size: 10px; color: var(--text-3); line-height: 1.5; }
-.footer-disclaimer { font-size: 10px; color: var(--text-3); line-height: 1.6; }
-
-/* ─── Loading skeleton ───────────────────────────────── */
-.skeleton {
-  background: linear-gradient(90deg, var(--surface-2) 25%, var(--border) 50%, var(--surface-2) 75%);
-  background-size: 200% 100%;
-  animation: shimmer 1.5s infinite; border-radius: var(--r-sm);
-}
-@keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
-
-/* ─── No-JS / error state ────────────────────────────── */
-.error-state {
-  text-align: center; padding: 60px 24px;
-  font-size: 13px; color: var(--text-3); line-height: 1.6;
-}
-.error-state a { color: var(--indigo); }
-
-/* ─── Search bar ─────────────────────────────────────── */
-.search-wrap {
-  padding: 12px 24px; border-bottom: 1px solid var(--border);
-  background: var(--surface);
-}
-.search-bar {
-  display: flex; align-items: center; gap: 8px;
-  background: var(--bg); border: 1px solid var(--border);
-  border-radius: var(--r-md); padding: 9px 12px;
-  cursor: text; transition: border-color .15s;
-  max-width: 600px; margin: 0 auto;
-}
-.search-bar:focus-within { border-color: var(--indigo-border); }
-.search-bar svg { width: 14px; height: 14px; color: var(--text-3); flex-shrink: 0; }
-.search-bar input {
-  flex: 1; border: none; outline: none; background: transparent;
-  font-family: 'Inter', sans-serif; font-size: 13px; color: var(--text-1);
-  min-width: 0;
-}
-.search-bar input::placeholder { color: var(--text-3); }
-
-/* ─── Desktop layout overrides ───────────────────────── */
-@media (min-width: 900px) {
-  /* Hero: featured left, two small cards stacked right */
-  #hero-container {
-    display: grid;
-    grid-template-columns: 1fr 340px;
-    gap: 16px;
-    align-items: start;
-  }
-  #hero-container > .hero-card.featured { margin-bottom: 0; }
-  #hero-container > .hero-grid-2 {
-    display: flex; flex-direction: column; gap: 16px;
-  }
-  .hero-sm-card { height: 100%; }
-
-  /* Deals grid: 4 columns on desktop */
-  .deals-grid { grid-template-columns: repeat(4, 1fr); gap: 12px; }
-
-  /* Lowest prices: 2 columns */
-  .lowest-list { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-
-  /* Trending chips: show more */
-  .trending-scroll { flex-wrap: nowrap; }
-  .trend-chip { min-width: 160px; }
-
-  /* DOTD */
-  .dotd-scroll { gap: 12px; }
-  .dotd-card { width: 160px; }
-
-  /* Featured hero image taller on desktop */
-  .hero-featured-img { height: 260px; }
-
-  /* Search bar wider */
-  .search-wrap { padding: 12px 24px; }
+@media(max-width:420px){
+  .console{grid-template-columns:1fr 1fr;gap:10px}
+  .metric{padding:14px 12px}
+  .metric .mval{font-size:24px}
 }
 
-@media (min-width: 1100px) {
-  .deals-grid { grid-template-columns: repeat(4, 1fr); }
-}
-
-@media (max-width: 899px) {
-  /* Mobile stays single column hero */
-  #hero-container { display: block; }
-  .hero-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
-  .deals-grid { grid-template-columns: 1fr 1fr; }
-}
-
-@media (max-width: 480px) {
-  .hero-grid-2 { grid-template-columns: 1fr 1fr; }
-  .deals-grid { grid-template-columns: 1fr 1fr; }
-  .hero-price { font-size: 26px; }
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+  .marquee-track{animation:none;flex-wrap:wrap;width:auto;justify-content:center}
 }
 </style>
 </head>
 <body>
+
+<div class="scroll-progress" id="scroll-progress"></div>
+<div class="aurora"><div class="glow3"></div></div>
+<div class="grid-tex"></div>
+
 <div class="page">
 
-<!-- ─── Topbar ───────────────────────────────────────── -->
-<header class="topbar">
-  <div class="topbar-inner">
-    <a href="/" class="logo">
-      <div class="logo-mark">S</div>
-      <div>
-        <div class="logo-name">SastaShopping</div>
-        <div class="logo-tag">Pricing Intelligence</div>
-      </div>
-    </a>
-    <div class="topbar-subtext">
-      <div class="topbar-subtext-main">Real deals, verified by data.</div>
-      <div class="topbar-subtext-sub">Every price scored against its own history — so you never overpay.</div>
-    </div>
-    <div class="topbar-right">
-      <div class="live-dot">
-        <span></span>
-        <span id="deal-count-top" style="font-size:11px;color:var(--text-3)">live</span>
-      </div>
-      <a href="https://t.me/techeasydeals" target="_blank" rel="noopener" class="tg-btn">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-        Join Telegram
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="logo" href="/">
+        <div class="logo-mark">S</div>
+        <div>
+          <div class="logo-name">SastaShopping</div>
+          <div class="logo-tag">Pricing Intelligence</div>
+        </div>
       </a>
-    </div>
-  </div>
-</header>
-
-<!-- ─── Status strip ─────────────────────────────────── -->
-<div class="status-strip">
-  <div class="status-strip-inner" id="status-strip">
-    <div class="stat-item">
-      <div class="stat-dot" style="background:var(--green)"></div>
-      <span class="stat-label">Live deals: </span>
-      <span class="stat-val" id="stat-live">—</span>
-    </div>
-    <div class="stat-div"></div>
-    <div class="stat-item">
-      <div class="stat-dot" style="background:var(--indigo)"></div>
-      <span class="stat-label">Hero picks: </span>
-      <span class="stat-val" id="stat-hero">—</span>
-    </div>
-    <div class="stat-div"></div>
-    <div class="stat-item">
-      <div class="stat-dot" style="background:var(--green)"></div>
-      <span class="stat-label">Historical lows: </span>
-      <span class="stat-val" id="stat-lows">—</span>
-    </div>
-    <div class="stat-div"></div>
-    <div class="stat-item">
-      <div class="stat-dot" style="background:var(--amber)"></div>
-      <span class="stat-label">Avg confidence: </span>
-      <span class="stat-val" id="stat-conf">—</span>
-    </div>
-    <div class="stat-div"></div>
-    <div class="stat-item">
-      <span class="stat-label" id="stat-updated">Updated just now</span>
-    </div>
-  </div>
-</div>
-
-<!-- ─── Search ───────────────────────────────────────── -->
-<div class="search-wrap">
-  <div class="search-bar">
-    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
-      <circle cx="9" cy="9" r="5.5"/><path d="M13.5 13.5L17 17" stroke-linecap="round"/>
-    </svg>
-    <input id="search-input" type="text" placeholder="Search deals, brands, categories…" autocomplete="off">
-  </div>
-</div>
-
-<!-- ─── Filters ──────────────────────────────────────── -->
-<div class="filters">
-  <div class="filters-inner">
-    <div class="filter-pill active" data-filter="all">All Deals</div>
-    <div class="filter-pill" data-filter="hero">Hero Picks</div>
-    <div class="filter-pill" data-filter="lowest">Historical Lows</div>
-    <div class="filter-pill" data-filter="trending">Trending</div>
-    <div class="filter-pill" data-filter="tv">TVs</div>
-    <div class="filter-pill" data-filter="audio">Audio</div>
-    <div class="filter-pill" data-filter="laptop">Laptops</div>
-    <div class="filter-pill" data-filter="phone">Phones</div>
-    <div class="filter-pill" data-filter="appliance">Appliances</div>
-    <div class="filter-pill" data-filter="amazon">Amazon</div>
-    <div class="filter-pill" data-filter="flipkart">Flipkart</div>
-  </div>
-</div>
-
-<!-- ─── Main content ─────────────────────────────────── -->
-<main id="main-content">
-
-  <!-- HERO SECTION -->
-  <div class="section" id="hero-section">
-    <div class="section-eyebrow">
-      <div class="eyebrow-dot" style="background:var(--indigo)"></div>
-      <div class="eyebrow-text">Hero Deals</div>
-    </div>
-    <div class="section-head">
-      <div>
-        <span class="section-title">Intelligence Picks</span>
-        <span class="section-sub">ranked by master score</span>
-      </div>
-      <div class="see-all" id="hero-see-all">See all</div>
-    </div>
-    <div id="hero-container">
-      <!-- JS-rendered -->
-      <div style="height:280px;background:var(--surface);border-radius:var(--r-xl);border:1px solid var(--border)" class="skeleton"></div>
-      <div style="height:140px;margin-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:10px">
-        <div class="skeleton" style="border-radius:var(--r-lg)"></div>
-        <div class="skeleton" style="border-radius:var(--r-lg)"></div>
+      <div class="topbar-right">
+        <span class="live-dot"><b></b><span id="deal-count-top">live</span></span>
+        <a class="tg-btn" href="https://t.me/techeasydeals" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+          Join Telegram
+        </a>
       </div>
     </div>
-  </div>
+  </header>
 
-  <!-- DEALS OF THE DAY -->
-  <div class="section" id="dotd-section" style="display:none">
-    <div class="section-eyebrow">
-      <div class="eyebrow-dot" style="background:var(--amber)"></div>
-      <div class="eyebrow-text">Deal of the Day</div>
-    </div>
-    <div class="section-head">
-      <div><span class="section-title">Today's Curated Picks</span></div>
-    </div>
-    <div class="dotd-scroll" id="dotd-container"></div>
-  </div>
+  <div class="container">
 
-  <!-- LOWEST TRACKED PRICES -->
-  <div class="section">
-    <div class="section-eyebrow">
-      <div class="eyebrow-dot" style="background:var(--green)"></div>
-      <div class="eyebrow-text">Verified Lows</div>
-    </div>
-    <div class="section-head">
-      <div>
-        <span class="section-title">Lowest Tracked Prices</span>
-        <span class="section-sub">historically verified</span>
+    <section class="hero">
+      <span class="eyebrow reveal"><span></span>Live pricing engine · India</span>
+      <h1 class="reveal">Real deals,<br><span class="grad">verified by data.</span></h1>
+      <p class="reveal">Every price scored against its own history. We track the floor, the average, and the ceiling — so you <b>never overpay</b>. Not a coupon site. A pricing observatory.</p>
+
+      <div class="console">
+        <div class="metric m1 reveal"><div class="mlabel">Live deals</div><div class="mval" id="stat-live">—</div><div class="msub">tracked right now</div></div>
+        <div class="metric m2 reveal"><div class="mlabel">Hero picks</div><div class="mval" id="stat-hero">—</div><div class="msub">top intelligence rank</div></div>
+        <div class="metric m3 reveal"><div class="mlabel">Verified lows</div><div class="mval" id="stat-lows">—</div><div class="msub">at historical floor</div></div>
+        <div class="metric m4 reveal"><div class="mlabel">Avg confidence</div><div class="mval" id="stat-conf">—</div><div class="msub">across all deals</div></div>
       </div>
-      <div class="see-all">View all</div>
-    </div>
-    <div class="lowest-list" id="lowest-container">
-      <div style="height:68px" class="skeleton"></div>
-      <div style="height:68px" class="skeleton"></div>
-      <div style="height:68px" class="skeleton"></div>
-    </div>
-  </div>
+      <div class="updated reveal" id="stat-updated">Updated just now</div>
 
-  <!-- TRENDING NOW -->
-  <div class="section">
-    <div class="section-eyebrow">
-      <div class="eyebrow-dot" style="background:var(--amber)"></div>
-      <div class="eyebrow-text">Trending Now</div>
-    </div>
-    <div class="section-head">
-      <div><span class="section-title">Moving Fast</span></div>
-      <div class="see-all">See all</div>
-    </div>
-    <div class="trending-scroll" id="trending-container">
-      <div style="width:148px;height:100px" class="skeleton"></div>
-      <div style="width:148px;height:100px" class="skeleton"></div>
-      <div style="width:148px;height:100px" class="skeleton"></div>
-    </div>
-  </div>
-
-  <!-- BEST DEALS TODAY -->
-  <div class="section">
-    <div class="section-eyebrow">
-      <div class="eyebrow-dot" style="background:var(--indigo)"></div>
-      <div class="eyebrow-text">Best Deals Today</div>
-    </div>
-    <div class="section-head">
-      <div>
-        <span class="section-title">High Confidence</span>
-        <span class="section-sub">intelligence-ranked</span>
+      <div class="searchwrap reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/></svg>
+        <input id="search-input" type="text" placeholder="Search deals, brands, categories…" autocomplete="off">
       </div>
-      <div class="see-all" id="all-deals-see-all">See all</div>
-    </div>
-    <div class="deals-grid" id="deals-container">
-      <div style="height:180px" class="skeleton"></div>
-      <div style="height:180px" class="skeleton"></div>
-      <div style="height:180px" class="skeleton"></div>
-      <div style="height:180px" class="skeleton"></div>
-    </div>
-  </div>
+      <div class="rail reveal">
+        <div class="filter-pill active" data-filter="all">All deals</div>
+        <div class="filter-pill" data-filter="hero">Hero picks</div>
+        <div class="filter-pill" data-filter="lowest">Historical lows</div>
+        <div class="filter-pill" data-filter="trending">Trending</div>
+        <div class="filter-pill" data-filter="tv">TVs</div>
+        <div class="filter-pill" data-filter="audio">Audio</div>
+        <div class="filter-pill" data-filter="laptop">Laptops</div>
+        <div class="filter-pill" data-filter="phone">Phones</div>
+        <div class="filter-pill" data-filter="appliance">Appliances</div>
+        <div class="filter-pill" data-filter="amazon">Amazon</div>
+        <div class="filter-pill" data-filter="flipkart">Flipkart</div>
+      </div>
+    </section>
 
-  <!-- TELEGRAM BANNER -->
-  <div class="tg-banner" style="margin:28px 24px 0;max-width:1200px">
-    <div class="tg-banner-icon">
-      <svg viewBox="0 0 24 24" fill="#229ED9"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-    </div>
-    <div class="tg-banner-copy">
-      <div class="tg-banner-title">Get deals before they expire</div>
-      <div class="tg-banner-sub">Hero deals, historical lows &amp; rare drops — instant on Telegram</div>
-    </div>
-    <a href="https://t.me/techeasydeals" target="_blank" rel="noopener" class="tg-join-btn">
-      <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-      Join Free
-    </a>
-  </div>
+    <main id="main-content">
 
-  <!-- SEARCH RESULTS (hidden by default) -->
-  <div class="section" id="search-results-section" style="display:none">
-    <div class="section-head">
-      <div><span class="section-title">Search Results</span> <span class="section-sub" id="search-count"></span></div>
-      <div class="see-all" id="clear-search">Clear</div>
-    </div>
-    <div class="deals-grid" id="search-results-container"></div>
-  </div>
+      <section class="section" id="search-results-section">
+        <div class="section-head">
+          <div class="titles">
+            <div class="kicker"><i></i>Query</div>
+            <div class="section-title">Search results <span class="section-sub" id="search-count"></span></div>
+          </div>
+          <div class="see-all" id="clear-search">Clear</div>
+        </div>
+        <div class="deals-grid" id="search-results-container"></div>
+      </section>
 
-</main>
+      <section class="section reveal" id="hero-section">
+        <div class="section-head">
+          <div class="titles">
+            <div class="kicker"><i></i>Top of the board</div>
+            <div class="section-title">Hero deals</div>
+            <div class="section-sub">Ranked by master intelligence score</div>
+          </div>
+          <div class="see-all" id="hero-see-all">See all</div>
+        </div>
+        <div id="hero-container">
+          <div class="skeleton" style="aspect-ratio:1.3"></div>
+          <div class="hero-stack"><div class="skeleton"></div><div class="skeleton"></div></div>
+        </div>
+      </section>
 
-<!-- ─── Footer ───────────────────────────────────────── -->
-<footer>
-  <div class="footer" style="margin-top:40px;padding:24px;max-width:1200px;margin-left:auto;margin-right:auto;border-top:1px solid var(--border)">
-    <div class="footer-inner">
-      <div class="footer-top">
-        <div class="footer-logo">
-          <div class="logo-mark" style="width:22px;height:22px;font-size:11px">S</div>
-          <div>
-            <div class="footer-name">SastaShopping</div>
-            <div class="footer-tagline">calm intelligence, not discount chaos</div>
+      <section class="section reveal" id="dotd-section">
+        <div class="section-head">
+          <div class="titles">
+            <div class="kicker"><i></i>Curated</div>
+            <div class="section-title">Deal of the Day</div>
+            <div class="section-sub">Today's hand-picked drops</div>
           </div>
         </div>
-        <div class="footer-links">
-          <a href="https://t.me/techeasydeals" target="_blank" rel="noopener" class="footer-link">Telegram</a>
-          <a href="/about" class="footer-link">About</a>
+        <div class="dotd-scroll" id="dotd-container"></div>
+      </section>
+
+      <section class="section reveal" id="lowest-section">
+        <div class="section-head">
+          <div class="titles">
+            <div class="kicker"><i></i>At the floor</div>
+            <div class="section-title">Verified lows</div>
+            <div class="section-sub">Lowest tracked prices, historically confirmed</div>
+          </div>
+        </div>
+        <div class="low-list" id="lowest-container">
+          <div class="skeleton" style="min-height:88px"></div>
+          <div class="skeleton" style="min-height:88px"></div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="trending-section">
+        <div class="section-head">
+          <div class="titles">
+            <div class="kicker"><i></i>Moving fast</div>
+            <div class="section-title">Trending now</div>
+          </div>
+        </div>
+        <div class="marquee"><div class="marquee-track" id="trending-container"></div></div>
+      </section>
+
+      <section class="section reveal" id="best-section">
+        <div class="section-head">
+          <div class="titles">
+            <div class="kicker"><i></i>The full board</div>
+            <div class="section-title">Best deals today</div>
+            <div class="section-sub">High-confidence, intelligence-ranked</div>
+          </div>
+          <div class="see-all" id="all-deals-see-all">See all</div>
+        </div>
+        <div class="deals-grid" id="deals-container">
+          <div class="skeleton" style="aspect-ratio:.8"></div>
+          <div class="skeleton" style="aspect-ratio:.8"></div>
+          <div class="skeleton" style="aspect-ratio:.8"></div>
+          <div class="skeleton" style="aspect-ratio:.8"></div>
+        </div>
+      </section>
+
+      <section class="cta reveal">
+        <div class="cta-inner">
+          <h2>Get the drop before it's gone</h2>
+          <p>Hero deals, historical lows &amp; rare price drops — instant, on Telegram.</p>
+          <a class="tg-btn" href="https://t.me/techeasydeals" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+            Join free
+          </a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="foot-top">
+        <div class="foot-brand">
+          <div class="foot-name">SastaShopping</div>
+          <div class="foot-tag">calm intelligence, not discount chaos</div>
+        </div>
+        <div class="foot-links">
+          <a href="https://t.me/techeasydeals" target="_blank" rel="noopener">Telegram</a>
+          <a href="/about">About</a>
         </div>
       </div>
-      <div class="footer-disclaimer">
-        Prices and availability are accurate as of the time of posting and may change. 
-        We earn a small affiliate commission when you buy through our links — at no extra cost to you. 
-        This helps us keep tracking prices for free.
+      <div class="disclaimer">
+        Prices and availability are accurate as of the time of posting and may change. We earn a small affiliate commission when you buy through our links — at no extra cost to you. This helps us keep tracking prices for free.
       </div>
-    </div>
-  </div>
-</footer>
+    </footer>
 
-</div><!-- .page -->
+  </div>
+</div>
 
 <script>
-// ─── Config ──────────────────────────────────────────────────
-const DEALS_URL  = '/deals.json';
-const DOTD_URL   = '/dotd_cache.json';
-const TG_URL     = 'https://t.me/techeasydeals';
-const AMAZON_TAG = 'techeasy0d1-21'; // fallback tag
-
-// ─── Helpers ─────────────────────────────────────────────────
+// ════════════════════════════════════════════════════════════════
+//  CONFIG — unchanged data contract (bot pushes /deals.json)
+// ════════════════════════════════════════════════════════════════
+const DEALS_URL = '/deals.json';
+const DOTD_URL  = '/dotd_cache.json';
+const AMAZON_TAG = 'techeasy0d1-21';
 const $ = id => document.getElementById(id);
-const qs = sel => document.querySelector(sel);
 
-function sourceClass(src) {
-  if (!src) return '';
-  if (src.includes('flipkart')) return 'flipkart';
-  if (src === 'amazon') return 'amazon';
-  if (src === 'desidime') return 'desidime';
-  return 'amazon';
+function sourceClass(s){if(!s)return'amazon';if(s.includes('flipkart'))return'flipkart';if(s==='desidime')return'desidime';return'amazon';}
+function sourceName(s){if(!s)return'Amazon';if(s.includes('flipkart'))return'Flipkart';if(s==='desidime')return'DesiDime';return'Amazon';}
+function parseNum(s){if(!s)return 0;if(typeof s==='number')return s;return parseInt(s.toString().replace(/[^0-9]/g,''),10)||0;}
+function esc(s){return(s||'').toString().replace(/"/g,'&quot;').replace(/</g,'&lt;');}
+function timeSince(iso){if(!iso)return'';const m=Math.floor((Date.now()-new Date(iso).getTime())/60000);
+  if(m<2)return'just now';if(m<60)return m+'m ago';const h=Math.floor(m/60);if(h<24)return h+'h ago';return Math.floor(h/24)+'d ago';}
+
+function pricePos(cur,low,avg){
+  const ceil=avg?avg*1.15:cur*1.5, floor=low||cur*0.7, range=ceil-floor;
+  if(range<=0)return 50;
+  return Math.max(5,Math.min(95,Math.round(((cur-floor)/range)*100)));
+}
+function avgPos(low,avg){
+  if(!low||!avg)return null;
+  const ceil=avg*1.15, range=ceil-low;
+  if(range<=0)return null;
+  return Math.max(8,Math.min(92,Math.round(((avg-low)/range)*100)));
 }
 
-function sourceName(src) {
-  if (!src) return 'Amazon';
-  if (src.includes('flipkart')) return 'Flipkart';
-  if (src === 'desidime') return 'DesiDime';
-  return 'Amazon';
+const icLow  = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="2,4 6,8 10,6 14,11"/><polyline points="11,11 14,11 14,8"/></svg>';
+const icConf = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 1.5l1.8 1.3 2.2-.2.6 2.1 1.7 1.4-1 2 1 2-1.7 1.4-.6 2.1-2.2-.2L8 14.5l-1.8-1.3-2.2.2-.6-2.1L1.7 9.9l1-2-1-2 1.7-1.4.6-2.1 2.2.2z"/><polyline points="5.5,8 7,9.5 10.5,6"/></svg>';
+const icTrend= '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="2,12 6,7 9,10 14,3"/><polyline points="11,3 14,3 14,6"/></svg>';
+const icRare = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 1.5l2 4.3 4.5.5-3.4 3 1 4.4L8 11.4 3.9 13.7l1-4.4-3.4-3 4.5-.5z"/></svg>';
+
+const catEmoji={tv:'📺',audio:'🎧',laptop:'💻',phone:'📱',appliance:'🏠',gaming:'🎮',kitchen:'🍳',other:'🛍️'};
+function media(d){
+  const e=catEmoji[d.product_category_key]||'🛍️';
+  if(d.image_url&&d.image_url.length>10){
+    return `<img src="${esc(d.image_url)}" alt="${esc(d.title)}" loading="lazy"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="img-ph" style="display:none">${e}</div>`;
+  }
+  return `<div class="img-ph">${e}</div>`;
+}
+function buyLink(d){
+  if(d.affiliate_link&&d.affiliate_link.length>10)return d.affiliate_link;
+  if(d.flipkart_link&&d.flipkart_link.length>10)return d.flipkart_link;
+  if(d.asin&&!d.asin.startsWith('fk_'))return `https://www.amazon.in/dp/${d.asin}?tag=${AMAZON_TAG}&linkCode=ll1`;
+  return '#';
 }
 
-function pricePos(current, low, avg) {
-  // Returns 0–100 position of current between low and a ceiling
-  const ceil = avg ? avg * 1.15 : current * 1.5;
-  const floor = low || current * 0.7;
-  const range = ceil - floor;
-  if (range <= 0) return 50;
-  return Math.max(4, Math.min(96, Math.round(((current - floor) / range) * 100)));
+function badges(d,max=4){
+  const pi=d.price_intelligence||{},tags=d.trend_tags||[],b=[];
+  if(d.is_lowest_ever||pi.rare_low) b.push(`<span class="badge low">${icLow} Historical low</span>`);
+  if(d.local_lowest) b.push(`<span class="badge low">${icLow} Local low</span>`);
+  if((d.confidence_score||0)>=80||(d.pricing_confidence||0)>=80)
+    b.push(`<span class="badge conf">${icConf} ${d.confidence_score||d.pricing_confidence}% confidence</span>`);
+  if(tags.includes('trending')||(d.trend_score||0)>20) b.push(`<span class="badge trend">${icTrend} Trending</span>`);
+  if(pi.rare_low&&!d.is_lowest_ever) b.push(`<span class="badge rare">${icRare} Rare drop</span>`);
+  if(d.public_deal_label&&d.public_deal_label!=='Worth Checking')
+    b.push(`<span class="badge value">${esc(d.public_deal_label)}</span>`);
+  return b.slice(0,max).join('');
 }
-
-function timeSince(isoStr) {
-  if (!isoStr) return '';
-  const diff = Date.now() - new Date(isoStr).getTime();
-  const mins = Math.floor(diff / 60000);
-  if (mins < 2) return 'just now';
-  if (mins < 60) return `${mins}m ago`;
-  const hrs = Math.floor(mins / 60);
-  if (hrs < 24) return `${hrs}h ago`;
-  return `${Math.floor(hrs / 24)}d ago`;
-}
-
-function parseNum(str) {
-  if (!str) return 0;
-  if (typeof str === 'number') return str;
-  return parseInt(str.toString().replace(/[^0-9]/g, ''), 10) || 0;
-}
-
-// ─── Badge builders ───────────────────────────────────────────
-const iconLow = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="2,10 6,6 10,8 14,4"/></svg>`;
-const iconConf = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 2l1.5 4h4l-3.2 2.4 1.2 4L8 10 4.5 12.4l1.2-4L2.5 6h4z"/></svg>`;
-const iconTrend = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="2,12 7,7 10,10 14,4"/><polyline points="11,4 14,4 14,7"/></svg>`;
-const iconRare = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="8,2 10.5,6.5 15,7.5 11.5,11 12.5,15.5 8,13 3.5,15.5 4.5,11 1,7.5 5.5,6.5"/></svg>`;
-
-function buildBadges(d) {
-  const pi = d.price_intelligence || {};
-  const tags = d.trend_tags || [];
-  const badges = [];
-  if (d.is_lowest_ever || pi.rare_low)
-    badges.push(`<span class="badge historical-low">${iconLow} Historical low</span>`);
-  if (d.local_lowest)
-    badges.push(`<span class="badge historical-low">${iconLow} Local low</span>`);
-  if (d.confidence_score >= 80 || d.pricing_confidence >= 80)
-    badges.push(`<span class="badge confidence">${iconConf} ${d.confidence_score || d.pricing_confidence}% confidence</span>`);
-  if (tags.includes('trending') || (d.trend_score && d.trend_score > 20))
-    badges.push(`<span class="badge trending">${iconTrend} Trending</span>`);
-  if (pi.rare_low && !d.is_lowest_ever)
-    badges.push(`<span class="badge rare">${iconRare} Rare drop</span>`);
-  if (d.public_deal_label && d.public_deal_label !== 'Worth Checking')
-    badges.push(`<span class="badge premium">${d.public_deal_label}</span>`);
-  return badges.slice(0,4).join('');
-}
-
-function buildMiniBadges(d) {
-  const pi = d.price_intelligence || {};
-  const tags = d.trend_tags || [];
-  const b = [];
-  if (d.is_lowest_ever || pi.rare_low)
-    b.push(`<span class="mini-badge hl">${iconLow} Low</span>`);
-  if (d.confidence_score >= 75)
-    b.push(`<span class="mini-badge ind">${d.confidence_score}%</span>`);
-  if (tags.includes('trending'))
-    b.push(`<span class="mini-badge amb">${iconTrend} Trending</span>`);
-  if (d.local_lowest)
-    b.push(`<span class="mini-badge pur">Local low</span>`);
+function miniBadges(d){
+  const pi=d.price_intelligence||{},tags=d.trend_tags||[],b=[];
+  if(d.is_lowest_ever||pi.rare_low) b.push(`<span class="mini-badge low">${icLow} Low</span>`);
+  else if(d.public_deal_label==='Excellent Deal'||d.public_deal_label==='Strong Value')
+    b.push(`<span class="mini-badge value">${esc(d.public_deal_label)}</span>`);
+  if(tags.includes('trending')) b.push(`<span class="mini-badge trend">${icTrend} Trending</span>`);
   return b.slice(0,2).join('');
 }
-
-function trackTag(d) {
-  const tags = d.trend_tags || [];
-  if (d.is_lowest_ever || (d.price_intelligence||{}).rare_low)
-    return `<span class="trend-chip-tag low">${iconLow} Historical low</span>`;
-  if (tags.includes('trending'))
-    return `<span class="trend-chip-tag trending">${iconTrend} Trending</span>`;
-  if (d.hero_score >= 70)
-    return `<span class="trend-chip-tag premium">Premium pick</span>`;
+function trendTag(d){
+  const tags=d.trend_tags||[];
+  if(d.is_lowest_ever||(d.price_intelligence||{}).rare_low) return `<span class="trend-chip-tag low">${icLow} Historical low</span>`;
+  if(tags.includes('trending')) return `<span class="trend-chip-tag trending">${icTrend} Trending</span>`;
+  if((d.hero_score||0)>=70) return `<span class="trend-chip-tag premium">Premium pick</span>`;
   return `<span class="trend-chip-tag amb">Hot category</span>`;
 }
 
-// ─── Image with fallback ──────────────────────────────────────
-const catEmoji = { tv:'📺', audio:'🎧', laptop:'💻', phone:'📱', appliance:'🏠', gaming:'🎮', other:'🛍️' };
-function imgOrEmoji(d, cls='') {
-  const emoji = catEmoji[d.product_category_key] || '🛍️';
-  if (d.image_url && d.image_url.length > 10) {
-    return `<img src="${d.image_url}" alt="${d.title}" loading="lazy"
-      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-      <div class="img-placeholder" style="display:none">${emoji}</div>`;
-  }
-  return `<div class="img-placeholder">${emoji}</div>`;
-}
-
-// ─── Price bar ────────────────────────────────────────────────
-function priceBar(d) {
-  const cur = d.price_num || parseNum(d.price);
-  const low = parseNum(d.lowest_ever);
-  const avg = parseNum(d.average_price);
-  if (!avg && !low) return '';
-  const pos = pricePos(cur, low, avg);
-  const lo = d.lowest_ever || d.price;
-  const av = d.average_price ? `Avg ${d.average_price}` : '';
+function gauge(d){
+  const cur=d.price_num||parseNum(d.price), low=parseNum(d.lowest_ever), avg=parseNum(d.average_price);
+  if(!avg&&!low)return'';
+  // True floor = the lowest price ever seen. If the current price has dropped
+  // below the previously recorded low, this deal IS the new floor.
+  const floorIsCur=!low||cur<=low;
+  const floorLabel=floorIsCur?d.price:d.lowest_ever;
+  const pos=pricePos(cur,low,avg), ap=avgPos(low,avg);
   return `
-  <div class="price-track">
-    <div class="price-track-labels">
-      <span>Floor ${lo}</span>
-      <span class="current">Now ${d.price}</span>
-      ${av ? `<span>${av}</span>` : ''}
+  <div class="gauge" data-pos="${pos}">
+    <div class="gauge-labels">
+      <span>Floor ${esc(floorLabel)}</span>
+      <span class="now">Now ${esc(d.price)}</span>
+      ${avg?`<span>Avg ${esc(d.average_price)}</span>`:''}
     </div>
-    <div class="price-track-bg">
-      <div class="price-track-fill" style="width:${pos}%"></div>
-      <div class="price-track-dot" style="left:${pos}%"></div>
+    <div class="gauge-track">
+      <div class="gauge-fill"></div>
+      ${ap!==null?`<div class="gauge-avg" style="left:${ap}%"><span>avg</span></div>`:''}
+      <div class="gauge-dot"></div>
     </div>
   </div>`;
 }
 
-// ─── Affiliate link ───────────────────────────────────────────
-function buyLink(d) {
-  if (d.affiliate_link && d.affiliate_link.length > 10) return d.affiliate_link;
-  if (d.flipkart_link && d.flipkart_link.length > 10) return d.flipkart_link;
-  if (d.asin && !d.asin.startsWith('fk_'))
-    return `https://www.amazon.in/dp/${d.asin}?tag=${AMAZON_TAG}&linkCode=ll1`;
-  return '#';
+function ring(score){
+  if(!score)return'';
+  const r=18,c=2*Math.PI*r,off=c*(1-score/100);
+  return `<div class="conf-ring" data-off="${off}">
+    <svg width="42" height="42" viewBox="0 0 42 42">
+      <circle class="ring-bg" cx="21" cy="21" r="${r}" fill="none" stroke-width="3"/>
+      <circle class="ring-fg" cx="21" cy="21" r="${r}" fill="none" stroke-width="3" stroke-dasharray="${c}" stroke-dashoffset="${c}"/>
+    </svg>
+    <div class="ring-num">${score}</div>
+  </div>`;
 }
 
-// ─── RENDER: Featured hero card ───────────────────────────────
-function renderFeaturedHero(d) {
-  const src = sourceClass(d.source);
-  const link = buyLink(d);
-  const insight = d.deal_insight || d.headline || '';
+// ── Renderers ──
+function renderFeatured(d){
+  const link=buyLink(d), src=sourceClass(d.source), insight=d.deal_insight||d.headline||'';
   return `
-<div class="hero-card featured" onclick="window.open('${link}','_blank')">
-  <div class="hero-featured-img">
-    ${imgOrEmoji(d)}
-    <div class="hero-source-pill ${src}">${sourceName(d.source)}</div>
-    ${d.score ? `<div class="hero-score-pill">Score ${d.score}</div>` : ''}
+<div class="card featured" onclick="window.open('${link}','_blank')">
+  <div class="feat-media">
+    ${media(d)}
+    <div class="src-pill ${src}">${sourceName(d.source)}</div>
+    ${d.score?`<div class="score-pill">SCORE ${d.score}</div>`:''}
   </div>
-  <div class="hero-body">
-    <div class="hero-title">${d.title}</div>
-    <div class="hero-price-row">
-      <div class="hero-price">${d.price}</div>
-      ${d.original_price ? `<div class="hero-orig">${d.original_price}</div>` : ''}
-      ${d.discount_pct ? `<div class="hero-off">-${d.discount_pct}%</div>` : ''}
+  <div class="feat-body">
+    <div class="feat-title">${esc(d.title)}</div>
+    <div class="price-row">
+      <div class="price">${esc(d.price)}</div>
+      ${d.original_price?`<div class="orig">${esc(d.original_price)}</div>`:''}
+      ${d.discount_pct?`<div class="off">−${d.discount_pct}%</div>`:''}
     </div>
-    <div class="badge-row">${buildBadges(d)}</div>
-    ${insight ? `<div class="why-matters">${insight}</div>` : ''}
-    ${priceBar(d)}
-    <a href="${link}" target="_blank" rel="noopener sponsored" class="btn-buy"
-       onclick="event.stopPropagation()">
+    <div class="badge-row">${badges(d)}</div>
+    ${insight?`<div class="insight">${esc(insight)}</div>`:''}
+    ${gauge(d)}
+    <a class="btn-buy" href="${link}" target="_blank" rel="noopener sponsored" onclick="event.stopPropagation()">
       Buy on ${sourceName(d.source)}
-      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M3 8h10M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </a>
   </div>
 </div>`;
 }
-
-// ─── RENDER: Small hero card ──────────────────────────────────
-function renderSmHero(d) {
-  const src = sourceClass(d.source);
-  const link = buyLink(d);
+function renderSmall(d){
+  const link=buyLink(d), src=sourceClass(d.source);
   return `
-<div class="hero-sm-card" onclick="window.open('${link}','_blank')">
-  <div class="hero-sm-img">
-    ${imgOrEmoji(d)}
-    <div class="hero-source-pill ${src}" style="top:8px;left:8px;font-size:9px">${sourceName(d.source)}</div>
-  </div>
-  <div class="hero-sm-body">
-    <div class="hero-sm-title">${d.title}</div>
-    <div class="hero-sm-price">${d.price}</div>
-    <div class="hero-sm-meta">
-      ${d.original_price ? `<span class="hero-sm-orig">${d.original_price}</span>` : ''}
-      ${d.discount_pct ? `<span class="hero-sm-off">-${d.discount_pct}%</span>` : ''}
-    </div>
-    <div class="hero-sm-bottom">
-      <div class="badge-row" style="margin:0">${buildBadges(d).split('</span>')[0]}</span></div>
-      <a href="${link}" target="_blank" rel="noopener sponsored" class="btn-buy sm"
-         onclick="event.stopPropagation()">Buy</a>
+<div class="card sm-card" onclick="window.open('${link}','_blank')">
+  <div class="sm-media">${media(d)}<div class="src-pill ${src}" style="top:6px;left:6px;font-size:9px;padding:3px 7px">${sourceName(d.source)}</div></div>
+  <div class="sm-body">
+    <div class="sm-title">${esc(d.title)}</div>
+    <div class="sm-price-row"><span class="sm-price">${esc(d.price)}</span>${d.discount_pct?`<span class="sm-off">−${d.discount_pct}%</span>`:''}</div>
+    <div class="badge-row">${badges(d,1)}</div>
+    <div class="sm-foot">
+      <a class="btn-buy sm" href="${link}" target="_blank" rel="noopener sponsored" onclick="event.stopPropagation()">Buy
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
     </div>
   </div>
 </div>`;
 }
-
-// ─── RENDER: Trending chip ────────────────────────────────────
-function renderTrendChip(d) {
-  const link = buyLink(d);
+function renderLow(d){
+  const link=buyLink(d), pi=d.price_intelligence||{};
+  const label=d.is_lowest_ever?'All-time low':pi.rare_low?'Rare drop':d.local_lowest?'Local low':'Below avg';
+  return `
+<div class="low-row" onclick="window.open('${link}','_blank')">
+  <div class="low-media">${media(d)}</div>
+  <div class="low-info">
+    <div class="low-title">${esc(d.title)}</div>
+    <div class="low-meta">
+      <span class="low-price">${esc(d.price)}</span>
+      ${d.original_price?`<span class="low-orig">${esc(d.original_price)}</span>`:''}
+      ${d.vs_avg_str?`<span class="low-vs">${esc(d.vs_avg_str)}</span>`:''}
+    </div>
+  </div>
+  <div class="low-tag">${label}</div>
+</div>`;
+}
+function renderTrend(d){
+  const link=buyLink(d);
   return `
 <div class="trend-chip" onclick="window.open('${link}','_blank')">
-  <div class="trend-chip-title">${d.title}</div>
-  <div>
-    <span class="trend-chip-price">${d.price}</span>
-    ${d.discount_pct ? `<span class="trend-chip-off">-${d.discount_pct}%</span>` : ''}
-  </div>
-  ${trackTag(d)}
+  <div class="trend-chip-title">${esc(d.title)}</div>
+  <div><span class="trend-chip-price">${esc(d.price)}</span>${d.discount_pct?`<span class="trend-chip-off">−${d.discount_pct}%</span>`:''}</div>
+  ${trendTag(d)}
 </div>`;
 }
-
-// ─── RENDER: Lowest price row ──────────────────────────────────
-function renderLowestItem(d) {
-  const link = buyLink(d);
-  const cur = d.price_num || parseNum(d.price);
-  const low = parseNum(d.lowest_ever);
-  const avg = parseNum(d.average_price);
-  const pos = pricePos(cur, low, avg);
-  const pi = d.price_intelligence || {};
-  const label = d.is_lowest_ever ? 'All-time low' : pi.rare_low ? 'Rare drop' : d.local_lowest ? 'Local low' : 'Below avg';
+function renderDeal(d){
+  const link=buyLink(d), src=sourceClass(d.source);
   return `
-<div class="lowest-item" onclick="window.open('${link}','_blank')">
-  <div class="lowest-img">${imgOrEmoji(d)}</div>
-  <div class="lowest-info">
-    <div class="lowest-title">${d.title}</div>
-    <div class="lowest-price-row">
-      <div class="lowest-price">${d.price}</div>
-      ${d.original_price ? `<div class="lowest-orig">${d.original_price}</div>` : ''}
-    </div>
-    <div class="lowest-bar-bg">
-      <div class="lowest-bar-fill" style="width:${pos}%"></div>
-      <div class="lowest-bar-dot" style="left:${pos}%"></div>
-    </div>
-    ${d.vs_avg_str ? `<div style="font-size:9px;color:var(--text-3);margin-top:3px">${d.vs_avg_str}</div>` : ''}
-  </div>
-  <div class="lowest-label">${label}</div>
-</div>`;
-}
-
-// ─── RENDER: Deal card ────────────────────────────────────────
-function renderDealCard(d) {
-  const link = buyLink(d);
-  return `
-<div class="deal-card" onclick="window.open('${link}','_blank')">
-  <div class="deal-img">
-    ${imgOrEmoji(d)}
-    <div class="hero-source-pill ${sourceClass(d.source)}" style="top:6px;left:6px;font-size:9px;padding:2px 6px">
-      ${sourceName(d.source)}
-    </div>
+<div class="card deal-card" onclick="window.open('${link}','_blank')">
+  <div class="deal-media">
+    ${media(d)}
+    <div class="src-pill ${src}" style="top:8px;left:8px;font-size:9px;padding:3px 7px">${sourceName(d.source)}</div>
+    ${ring(d.confidence_score)}
   </div>
   <div class="deal-body">
-    <div class="deal-title">${d.title}</div>
+    <div class="deal-title">${esc(d.title)}</div>
     <div class="deal-price-row">
-      <span class="deal-price">${d.price}</span>
-      ${d.original_price ? `<span class="deal-orig">${d.original_price}</span>` : ''}
-      ${d.discount_pct ? `<span class="deal-off">-${d.discount_pct}%</span>` : ''}
+      <span class="deal-price">${esc(d.price)}</span>
+      ${d.original_price?`<span class="deal-orig">${esc(d.original_price)}</span>`:''}
+      ${d.discount_pct?`<span class="deal-off">−${d.discount_pct}%</span>`:''}
     </div>
-    <div class="deal-badges">${buildMiniBadges(d)}</div>
-    ${d.vs_avg_pct > 0 ? `<div class="deal-vs">${d.vs_avg_pct}% below tracked avg</div>` : ''}
+    <div class="deal-foot">${miniBadges(d)}</div>
   </div>
 </div>`;
 }
-
-// ─── RENDER: DOTD card ────────────────────────────────────────
-function renderDotdCard(item) {
+function renderDotd(it){
   return `
-<div class="dotd-card" onclick="window.open('${item.link}','_blank')">
-  <div class="dotd-label">${item.label}</div>
-  <div class="dotd-img">
-    ${item.image ? `<img src="${item.image}" alt="${item.title}" loading="lazy"
-      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-      <div class="img-placeholder" style="display:none">🛍️</div>`
-      : `<div class="img-placeholder">🛍️</div>`}
-  </div>
+<div class="dotd-card" onclick="window.open('${it.link}','_blank')">
+  <div class="dotd-label">${esc(it.label)}</div>
+  <div class="dotd-media">${it.image?`<img src="${esc(it.image)}" alt="${esc(it.title)}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="img-ph" style="display:none">🛍️</div>`:`<div class="img-ph">🛍️</div>`}</div>
   <div class="dotd-body">
-    <div class="dotd-title">${item.title}</div>
-    <div>
-      <span class="dotd-price">${item.price}</span>
-      ${item.discount ? `<span class="dotd-off">-${item.discount}%</span>` : ''}
-    </div>
-    ${item.is_lowest_ever ? `<span class="dotd-low">Historical low</span>` : ''}
+    <div class="dotd-title">${esc(it.title)}</div>
+    <div><span class="dotd-price">${esc(it.price)}</span>${it.discount?`<span class="dotd-off">−${it.discount}%</span>`:''}</div>
+    ${it.is_lowest_ever?`<span class="dotd-low">Historical low</span>`:''}
   </div>
 </div>`;
 }
 
-// ─── MAIN: Load & render ──────────────────────────────────────
-let allDeals = [];
+// ════════════════════════════════════════════════════════════════
+//  ANIMATION ORCHESTRATION
+// ════════════════════════════════════════════════════════════════
+const io=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(!e.isIntersecting)return;
+    const el=e.target;
+    el.classList.add('in');
+    el.querySelectorAll&&el.querySelectorAll('.gauge:not(.done)').forEach(activateGauge);
+    el.querySelectorAll&&el.querySelectorAll('.conf-ring:not(.done)').forEach(activateRing);
+    if(el.matches&&el.matches('.gauge'))activateGauge(el);
+    if(el.matches&&el.matches('.conf-ring'))activateRing(el);
+    io.unobserve(el);
+  });
+},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
 
-async function loadDeals() {
-  try {
-    const res = await fetch(DEALS_URL + '?v=' + Date.now());
-    if (!res.ok) throw new Error('fetch failed');
-    const data = await res.json();
-    allDeals = Array.isArray(data) ? data : (data.deals || []);
+function activateGauge(g){
+  g.classList.add('done','in');
+  const pos=g.dataset.pos||50;
+  const fill=g.querySelector('.gauge-fill'), dot=g.querySelector('.gauge-dot');
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{
+    if(fill)fill.style.width=pos+'%';
+    if(dot)dot.style.left=pos+'%';
+  }));
+}
+function activateRing(r){
+  r.classList.add('done');
+  const fg=r.querySelector('.ring-fg');
+  if(fg)requestAnimationFrame(()=>requestAnimationFrame(()=>{fg.style.strokeDashoffset=r.dataset.off;}));
+}
+function observe(scope){
+  (scope||document).querySelectorAll('.reveal:not(.in),.gauge:not(.done),.conf-ring:not(.done)').forEach(el=>io.observe(el));
+}
+
+function countUp(el,target,suffix){
+  if(isNaN(target)){el.textContent='—';return;}
+  const dur=900,start=performance.now();
+  function step(t){
+    const p=Math.min(1,(t-start)/dur), e=1-Math.pow(1-p,3);
+    el.textContent=Math.round(target*e)+(suffix||'');
+    if(p<1)requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+const prog=$('scroll-progress');
+addEventListener('scroll',()=>{
+  const h=document.documentElement;
+  const pct=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  prog.style.width=Math.min(100,pct)+'%';
+},{passive:true});
+
+// ════════════════════════════════════════════════════════════════
+//  DATA LOAD
+// ════════════════════════════════════════════════════════════════
+let allDeals=[];
+
+async function loadDeals(){
+  try{
+    const res=await fetch(DEALS_URL+'?v='+Date.now());
+    if(!res.ok)throw new Error('fetch failed');
+    const data=await res.json();
+    allDeals=Array.isArray(data)?data:(data.deals||[]);
     renderAll(allDeals);
-    updateStats(allDeals, data.updated_at);
-  } catch(e) {
-    console.warn('deals.json error:', e);
-    $('hero-container').innerHTML = `<div class="error-state">
-      Could not load deals. <a href="javascript:location.reload()">Retry</a>
-    </div>`;
+    updateStats(allDeals,data.updated_at);
+  }catch(e){
+    console.warn('deals.json error:',e);
+    $('hero-container').innerHTML=`<div class="empty" style="grid-column:1/-1">Couldn't reach the pricing engine. <a href="javascript:location.reload()">Retry</a></div>`;
   }
 }
-
-async function loadDotd() {
-  try {
-    const res = await fetch(DOTD_URL + '?v=' + Date.now());
-    if (!res.ok) return;
-    const data = await res.json();
-    const items = data.items || [];
-    if (!items.length) return;
-    $('dotd-container').innerHTML = items.map(renderDotdCard).join('');
-    $('dotd-section').style.display = 'block';
-  } catch(e) { /* silently skip dotd if unavailable */ }
+async function loadDotd(){
+  try{
+    const res=await fetch(DOTD_URL+'?v='+Date.now());
+    if(!res.ok)return;
+    const data=await res.json();
+    const items=data.items||[];
+    if(!items.length)return;
+    $('dotd-container').innerHTML=items.map(renderDotd).join('');
+    $('dotd-section').style.display='block';
+    observe($('dotd-section'));
+  }catch(e){}
 }
 
-function updateStats(deals, updatedAt) {
-  const hero = deals.filter(d => d.is_hero_deal).length;
-  const lows = deals.filter(d => d.is_lowest_ever || (d.price_intelligence||{}).rare_low || d.local_lowest).length;
-  const confs = deals.filter(d => d.confidence_score).map(d => d.confidence_score);
-  const avgConf = confs.length ? Math.round(confs.reduce((a,b)=>a+b,0)/confs.length) : 0;
-
-  $('deal-count-top').textContent = `${deals.length} live`;
-  $('stat-live').textContent = `${deals.length}`;
-  $('stat-hero').textContent = hero;
-  $('stat-lows').textContent = `${lows} today`;
-  $('stat-conf').textContent = avgConf ? `${avgConf}%` : '—';
-  $('stat-updated').textContent = updatedAt ? `Updated ${timeSince(updatedAt)}` : 'Updated just now';
-  if ($('hs-deals')) $('hs-deals').textContent = `${deals.length}+`;
+function updateStats(deals,updatedAt){
+  const hero=deals.filter(d=>d.is_hero_deal).length;
+  const lows=deals.filter(d=>d.is_lowest_ever||(d.price_intelligence||{}).rare_low||d.local_lowest).length;
+  const confs=deals.filter(d=>d.confidence_score).map(d=>d.confidence_score);
+  const avgConf=confs.length?Math.round(confs.reduce((a,b)=>a+b,0)/confs.length):0;
+  $('deal-count-top').textContent=`${deals.length} live`;
+  countUp($('stat-live'),deals.length,'');
+  countUp($('stat-hero'),hero,'');
+  countUp($('stat-lows'),lows,'');
+  countUp($('stat-conf'),avgConf,'%');
+  $('stat-updated').textContent=updatedAt?`Updated ${timeSince(updatedAt)}`:'Updated just now';
 }
 
-function renderAll(deals) {
-  // Hero section: top 3 by score/hero_score
-  const heroDeals = deals
-    .filter(d => d.is_hero_deal || d.hero_score >= 60)
-    .sort((a,b) => (b.score||0) - (a.score||0));
-  const featured = heroDeals[0];
-  const smHeroes = heroDeals.slice(1, 3);
+function renderAll(deals){
+  let hero=deals.filter(d=>d.is_hero_deal||d.hero_score>=60).sort((a,b)=>(b.score||0)-(a.score||0));
+  if(!hero.length)hero=deals.slice().sort((a,b)=>(b.score||0)-(a.score||0));
+  const feat=hero[0], sm=hero.slice(1,3);
+  $('hero-container').innerHTML=feat
+    ?renderFeatured(feat)+`<div class="hero-stack">${sm.map(renderSmall).join('')}</div>`
+    :`<div class="empty" style="grid-column:1/-1">No hero deals right now.</div>`;
 
-  if (featured) {
-    $('hero-container').innerHTML =
-      renderFeaturedHero(featured) +
-      (smHeroes.length
-        ? `<div class="hero-grid-2">${smHeroes.map(renderSmHero).join('')}</div>`
-        : '');
-  } else {
-    // Fallback: top 3 by score
-    const top = deals.slice().sort((a,b)=>(b.score||0)-(a.score||0));
-    $('hero-container').innerHTML =
-      renderFeaturedHero(top[0]) +
-      `<div class="hero-grid-2">${top.slice(1,3).map(renderSmHero).join('')}</div>`;
-  }
+  const lows=deals.filter(d=>d.is_lowest_ever||(d.price_intelligence||{}).rare_low||d.local_lowest||(d.vs_avg_pct&&d.vs_avg_pct>=20))
+    .sort((a,b)=>(b.confidence_score||0)-(a.confidence_score||0)).slice(0,5);
+  $('lowest-container').innerHTML=lows.length?lows.map(renderLow).join(''):`<div class="empty">No verified lows right now.</div>`;
 
-  // Lowest tracked prices
-  const lows = deals
-    .filter(d => d.is_lowest_ever || (d.price_intelligence||{}).rare_low || d.local_lowest || (d.vs_avg_pct && d.vs_avg_pct >= 20))
-    .sort((a,b) => (b.confidence_score||0) - (a.confidence_score||0))
-    .slice(0, 5);
-  $('lowest-container').innerHTML = lows.length
-    ? lows.map(renderLowestItem).join('')
-    : '<div class="error-state">No verified lows right now</div>';
+  let trend=deals.filter(d=>(d.trend_tags||[]).length>0||d.trend_score>15).sort((a,b)=>(b.trend_score||0)-(a.trend_score||0)).slice(0,10);
+  if(trend.length<4)trend=deals.slice(0,8);
+  const tHtml=trend.map(renderTrend).join('');
+  $('trending-container').innerHTML=tHtml+tHtml;
 
-  // Trending
-  const trending = deals
-    .filter(d => (d.trend_tags||[]).length > 0 || d.trend_score > 15)
-    .sort((a,b) => (b.trend_score||0) - (a.trend_score||0))
-    .slice(0, 8);
-  $('trending-container').innerHTML = (trending.length ? trending : deals.slice(0,6))
-    .map(renderTrendChip).join('');
+  const best=deals.slice().sort((a,b)=>(b.score||0)-(a.score||0));
+  $('deals-container').innerHTML=best.slice(0,8).map(renderDeal).join('');
+  const seeAll=$('all-deals-see-all');
+  seeAll.style.display=best.length>8?'inline-flex':'none';
+  seeAll.onclick=()=>{$('deals-container').innerHTML=best.map(renderDeal).join('');seeAll.style.display='none';observe($('best-section'));};
 
-  // Best deals today (all, sorted by score)
-  const best = deals.slice().sort((a,b) => (b.score||0) - (a.score||0));
-  $('deals-container').innerHTML = best.slice(0, 8).map(renderDealCard).join('');
-
-  // "See all" for best deals shows all
-  $('all-deals-see-all').addEventListener('click', () => {
-    $('deals-container').innerHTML = best.map(renderDealCard).join('');
-    $('all-deals-see-all').style.display = 'none';
-  });
+  observe(document);
 }
 
-// ─── Filters ──────────────────────────────────────────────────
-document.querySelectorAll('.filter-pill').forEach(pill => {
-  pill.addEventListener('click', () => {
-    document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+document.querySelectorAll('.filter-pill').forEach(pill=>{
+  pill.addEventListener('click',()=>{
+    document.querySelectorAll('.filter-pill').forEach(p=>p.classList.remove('active'));
     pill.classList.add('active');
-    const f = pill.dataset.filter;
-    let filtered;
-    if (f === 'all') filtered = allDeals;
-    else if (f === 'hero') filtered = allDeals.filter(d => d.is_hero_deal || d.hero_score >= 60);
-    else if (f === 'lowest') filtered = allDeals.filter(d => d.is_lowest_ever || (d.price_intelligence||{}).rare_low || d.local_lowest);
-    else if (f === 'trending') filtered = allDeals.filter(d => (d.trend_tags||[]).length > 0 || d.trend_score > 15);
-    else if (f === 'amazon') filtered = allDeals.filter(d => d.source === 'amazon');
-    else if (f === 'flipkart') filtered = allDeals.filter(d => (d.source||'').includes('flipkart'));
-    else filtered = allDeals.filter(d => d.product_category_key === f || (d.category||'').toLowerCase().includes(f));
-
-    $('deals-container').innerHTML = filtered.slice(0,20).map(renderDealCard).join('');
-    $('all-deals-see-all').style.display = filtered.length > 20 ? 'block' : 'none';
-    document.querySelector('.section:has(#deals-container)').scrollIntoView({behavior:'smooth', block:'start'});
+    const f=pill.dataset.filter;let r;
+    if(f==='all')r=allDeals;
+    else if(f==='hero')r=allDeals.filter(d=>d.is_hero_deal||d.hero_score>=60);
+    else if(f==='lowest')r=allDeals.filter(d=>d.is_lowest_ever||(d.price_intelligence||{}).rare_low||d.local_lowest);
+    else if(f==='trending')r=allDeals.filter(d=>(d.trend_tags||[]).length>0||d.trend_score>15);
+    else if(f==='amazon')r=allDeals.filter(d=>d.source==='amazon');
+    else if(f==='flipkart')r=allDeals.filter(d=>(d.source||'').includes('flipkart'));
+    else r=allDeals.filter(d=>d.product_category_key===f||(d.category||'').toLowerCase().includes(f));
+    const c=$('deals-container');
+    c.innerHTML=r.length?r.slice(0,20).map(renderDeal).join(''):`<div class="empty">No deals match that filter yet.</div>`;
+    $('all-deals-see-all').style.display=r.length>20?'inline-flex':'none';
+    observe($('best-section'));
+    $('best-section').scrollIntoView({behavior:'smooth',block:'start'});
   });
 });
 
-// ─── Search ───────────────────────────────────────────────────
-let searchTimeout;
-$('search-input').addEventListener('input', e => {
-  clearTimeout(searchTimeout);
-  searchTimeout = setTimeout(() => {
-    const q = e.target.value.trim().toLowerCase();
-    if (!q) {
-      $('search-results-section').style.display = 'none';
-      $('main-content').querySelectorAll('.section:not(#search-results-section)').forEach(s => s.style.display = '');
-      return;
-    }
-    const results = allDeals.filter(d =>
-      (d.title||'').toLowerCase().includes(q) ||
-      (d.brand||'').toLowerCase().includes(q) ||
-      (d.category||'').toLowerCase().includes(q) ||
-      (d.product_category_key||'').toLowerCase().includes(q)
-    );
-    $('search-count').textContent = `${results.length} result${results.length !== 1 ? 's' : ''}`;
-    $('search-results-container').innerHTML = results.length
-      ? results.map(renderDealCard).join('')
-      : '<div class="error-state" style="grid-column:1/-1">No results for that search</div>';
-    $('search-results-section').style.display = '';
-    $('main-content').querySelectorAll('.section:not(#search-results-section)').forEach(s => s.style.display = 'none');
-  }, 250);
+let sT;
+$('search-input').addEventListener('input',e=>{
+  clearTimeout(sT);
+  sT=setTimeout(()=>{
+    const q=e.target.value.trim().toLowerCase();
+    const others=$('main-content').querySelectorAll('.section:not(#search-results-section)');
+    if(!q){$('search-results-section').style.display='none';others.forEach(s=>s.style.display='');return;}
+    const r=allDeals.filter(d=>(d.title||'').toLowerCase().includes(q)||(d.brand||'').toLowerCase().includes(q)||(d.category||'').toLowerCase().includes(q)||(d.product_category_key||'').toLowerCase().includes(q));
+    $('search-count').textContent=`${r.length} result${r.length!==1?'s':''}`;
+    $('search-results-container').innerHTML=r.length?r.map(renderDeal).join(''):`<div class="empty">No results for "${esc(e.target.value.trim())}".</div>`;
+    $('search-results-section').style.display='';
+    others.forEach(s=>s.style.display='none');
+    observe($('search-results-section'));
+  },220);
+});
+$('clear-search').addEventListener('click',()=>{
+  $('search-input').value='';
+  $('search-results-section').style.display='none';
+  $('main-content').querySelectorAll('.section:not(#search-results-section)').forEach(s=>s.style.display='');
 });
 
-$('clear-search').addEventListener('click', () => {
-  $('search-input').value = '';
-  $('search-results-section').style.display = 'none';
-  $('main-content').querySelectorAll('.section:not(#search-results-section)').forEach(s => s.style.display = '');
-});
-
-// ─── Boot ─────────────────────────────────────────────────────
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js').catch(err => {
-      console.warn('service worker registration failed:', err);
-    });
-  });
+if('serviceWorker' in navigator){
+  addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
 }
-
+observe(document);
 loadDeals();
 loadDotd();
-
-// Auto-refresh every 10 minutes
-setInterval(loadDeals, 10 * 60 * 1000);
+setInterval(loadDeals,10*60*1000);
 </script>
 </body>
 </html>
