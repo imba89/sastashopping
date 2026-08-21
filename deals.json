@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T13:55:54.792339+00:00",
+  "updated_at": "2026-08-21T13:58:57.786971+00:00",
   "deals": [
     {
       "asin": "fk_ITM275E00DD11259",
@@ -125,7 +125,9 @@
       "headline": "Usually tracks around ₹167,981.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/apple-iphone-17-pro-max-deep-blue-512-gb/p/itm275e00dd11259?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T13:49:47.504566+00:00"
+      "posted_at": "2026-08-21T13:49:47.504566+00:00",
+      "variant_key": "apple:phone:iphone-17-pro-max:512gb",
+      "forced_update_at": "2026-08-21T13:58:57.786954+00:00"
     },
     {
       "asin": "fk_ITMF29B1195D8621",
@@ -251,133 +253,8 @@
       "headline": "Usually tracks around ₹148,021.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/apple-iphone-17-pro-max-deep-blue-256-gb/p/itmf29b1195d8621?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T13:49:31.701156+00:00"
-    },
-    {
-      "asin": "fk_ITM81F3A173391C4",
-      "title": "Apple iPhone 17 Pro Max (256 GB Storage) Online at Best Price On Flipkart.com",
-      "price": "₹144,900",
-      "display_price": "₹144,900",
-      "price_num": 144900,
-      "original_price": "₹149,900",
-      "discount_pct": 3,
-      "effective_price": "₹135,900",
-      "effective_price_num": 135900,
-      "effective_price_note": "Conditional Flipkart offer price; final eligibility may vary by card, SuperCoins, account and payment mode.",
-      "offer_price_conditional": false,
-      "candidate_kind": "flagship_effective",
-      "protected_flagship": true,
-      "flagship_effective_deal": true,
-      "visible_saving_num": 5000,
-      "total_effective_saving_num": 14000,
-      "effective_saving_pct": 9.3,
-      "effective_vs_avg_pct": null,
-      "offer_evidence": [],
-      "offer_terms": [],
-      "fk_live_price_corrected": false,
-      "fk_live_price_drift_pct": null,
-      "fk_original_scraped_price": null,
-      "price_verified_at": "2026-08-21T13:49:22.162844+00:00",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/f/v/m/-original-imahft6chnx2vbuy.jpeg?q=70",
-      "category": "⚡ Electronics",
-      "source": "flipkart",
-      "is_lowest_ever": false,
-      "lowest_ever": "₹134,900",
-      "average_price": "₹148,086",
-      "highest_price": "₹149,900",
-      "vs_avg_str": "2% below avg (avg ₹148,086)",
-      "vs_avg_pct": 2,
-      "vs_local_avg_pct": 0,
-      "local_lowest": false,
-      "best_card_label": null,
-      "best_card_discount": 9000,
-      "bank_offer_confidence": 8,
-      "bank_offers": [
-        "₹9,000 off",
-        "₹1500 off"
-      ],
-      "saving_breakdown": [
-        "₹9,000 bank/card"
-      ],
-      "coupon": null,
-      "coupon_num": 0,
-      "coupon_confidence": 0,
-      "emi_savings": null,
-      "score": 75,
-      "final_intelligence_score": 52,
-      "intelligence_explanation": {
-        "score": 52,
-        "components": {
-          "base_deal": 75,
-          "pricing_confidence": 60,
-          "trust": 53,
-          "historical_strength": 45,
-          "hero": 55,
-          "trend": 24,
-          "effective_price_strength": 16,
-          "category_quality": 80,
-          "rarity": 10,
-          "community_validation": 0,
-          "watchlist_relevance": 100
-        },
-        "weights": {
-          "base_deal": 22,
-          "pricing_confidence": 14,
-          "trust": 14,
-          "historical_strength": 12,
-          "hero": 10,
-          "trend": 8,
-          "effective_price_strength": 7,
-          "category_quality": 5,
-          "rarity": 4,
-          "community_validation": 3,
-          "watchlist_relevance": 1
-        },
-        "penalties": {},
-        "synergy_bonus": 0
-      },
-      "confidence_score": 55,
-      "historical_conversion_score": 0,
-      "historical_product_strength": 0,
-      "historical_confidence": 45.0,
-      "trend_score": 10,
-      "trend_velocity": 50,
-      "trend_stability": 38,
-      "trend_decay": 0,
-      "trend_maturity_score": 24,
-      "trend_tags": [
-        "hot category"
-      ],
-      "hero_score": 55,
-      "is_hero_deal": false,
-      "trust_score": 53,
-      "public_trust_label": "Verify Before Buying",
-      "trust_signals": [],
-      "revenue_per_impression": 0.0,
-      "revenue_per_click": 0,
-      "epc_estimate": 0.0,
-      "deal_insight": "Usually tracks around ₹148,086.",
-      "public_deal_label": "Worth Checking",
-      "pricing_confidence": 60,
-      "price_intelligence": {
-        "volatility_score": 0,
-        "fake_discount_risk": false,
-        "pricing_confidence": 60,
-        "likely_to_drop_further": false,
-        "rare_low": false,
-        "normal_sale_range": true,
-        "historical_floor": "₹134,900",
-        "seasonal_baseline_price": "₹148,086"
-      },
-      "tracked_since": "2026-08-21 13:37:11",
-      "brand": "Apple",
-      "product_category_key": "phone",
-      "rating": null,
-      "review_count": null,
-      "headline": "Usually tracks around ₹148,086.",
-      "affiliate_link": "",
-      "flipkart_link": "https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-orange-256-gb/p/itm81f3a173391c4?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T13:49:22.162853+00:00"
+      "posted_at": "2026-08-21T13:49:31.701156+00:00",
+      "variant_key": "apple:phone:iphone-17-pro-max:256gb"
     },
     {
       "asin": "B0FDL5T1PF",
@@ -517,7 +394,8 @@
       "headline": "Usually tracks around ₹174,723.",
       "affiliate_link": "https://www.amazon.in/dp/B0FDL5T1PF?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FDL5T1PF&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T13:49:01.185862+00:00"
+      "posted_at": "2026-08-21T13:49:01.185862+00:00",
+      "variant_key": "B0FDL5T1PF"
     },
     {
       "asin": "B0BDJS3MRM",
@@ -657,7 +535,8 @@
       "headline": "Usually tracks around ₹68,763.",
       "affiliate_link": "https://www.amazon.in/dp/B0BDJS3MRM?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BDJS3MRM&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T13:48:51.315162+00:00"
+      "posted_at": "2026-08-21T13:48:51.315162+00:00",
+      "variant_key": "B0BDJS3MRM"
     },
     {
       "asin": "B0D7LWQF1X",
@@ -722,17 +601,17 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": null,
-      "score": 51,
-      "final_intelligence_score": 46,
+      "score": 81,
+      "final_intelligence_score": 51,
       "intelligence_explanation": {
-        "score": 46,
+        "score": 51,
         "components": {
-          "base_deal": 33,
+          "base_deal": 51,
           "pricing_confidence": 95,
           "trust": 63,
-          "historical_strength": 11,
-          "hero": 29,
-          "trend": 35,
+          "historical_strength": 13,
+          "hero": 30,
+          "trend": 44,
           "effective_price_strength": 44,
           "category_quality": 74,
           "rarity": 70,
@@ -756,16 +635,16 @@
         "synergy_bonus": 0
       },
       "confidence_score": 56,
-      "historical_conversion_score": 6,
-      "historical_product_strength": 11,
-      "historical_confidence": 48.5,
-      "trend_score": 0,
-      "trend_velocity": 50,
+      "historical_conversion_score": 14,
+      "historical_product_strength": 13,
+      "historical_confidence": 50.38,
+      "trend_score": 16,
+      "trend_velocity": 82,
       "trend_stability": 100,
-      "trend_decay": 0,
-      "trend_maturity_score": 35,
+      "trend_decay": 12,
+      "trend_maturity_score": 44,
       "trend_tags": [],
-      "hero_score": 29,
+      "hero_score": 30,
       "is_hero_deal": false,
       "trust_score": 63,
       "public_trust_label": "Worth Checking",
@@ -796,7 +675,13 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "https://www.amazon.in/dp/B0D7LWQF1X?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D7LWQF1X&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T13:48:40.956650+00:00"
+      "posted_at": "2026-08-21T13:48:40.956650+00:00",
+      "variant_key": "B0D7LWQF1X",
+      "product_id": "amz:B0D7LWQF1X",
+      "trend_signals": {
+        "repeated_telegram_appearances": 3
+      },
+      "intelligence_score_bonus": 30
     },
     {
       "asin": "B0GL8GXNTS",
@@ -936,7 +821,8 @@
       "headline": "Usually tracks around ₹151,340.",
       "affiliate_link": "https://www.amazon.in/dp/B0GL8GXNTS?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GL8GXNTS&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T13:48:31.270528+00:00"
+      "posted_at": "2026-08-21T13:48:31.270528+00:00",
+      "variant_key": "samsung:phone:galaxy-s26-ultra:512gb"
     },
     {
       "asin": "B0GZ7WG3BH",
@@ -1002,17 +888,17 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": "₹11,441 EMI interest savings",
-      "score": 83,
-      "final_intelligence_score": 54,
+      "score": 108,
+      "final_intelligence_score": 55,
       "intelligence_explanation": {
-        "score": 54,
+        "score": 55,
         "components": {
-          "base_deal": 71,
-          "pricing_confidence": 85,
-          "trust": 69,
-          "historical_strength": 45,
-          "hero": 28,
-          "trend": 9,
+          "base_deal": 83,
+          "pricing_confidence": 95,
+          "trust": 71,
+          "historical_strength": 13,
+          "hero": 30,
+          "trend": 19,
           "effective_price_strength": 38,
           "category_quality": 48,
           "rarity": 70,
@@ -1036,18 +922,18 @@
         "synergy_bonus": 0
       },
       "confidence_score": 75,
-      "historical_conversion_score": 0,
-      "historical_product_strength": 0,
-      "historical_confidence": 75,
+      "historical_conversion_score": 12,
+      "historical_product_strength": 13,
+      "historical_confidence": 75.0,
       "trend_score": 0,
-      "trend_velocity": 0,
+      "trend_velocity": 50,
       "trend_stability": 35,
       "trend_decay": 0,
-      "trend_maturity_score": 9,
+      "trend_maturity_score": 19,
       "trend_tags": [],
-      "hero_score": 28,
+      "hero_score": 30,
       "is_hero_deal": false,
-      "trust_score": 69,
+      "trust_score": 71,
       "public_trust_label": "Strong Value",
       "trust_signals": [
         "Historical Low"
@@ -1055,20 +941,20 @@
       "revenue_per_impression": 0.0,
       "revenue_per_click": 0,
       "epc_estimate": 0.0,
-      "deal_insight": "Lowest tracked price since 9th Jun 2026.",
-      "public_deal_label": "Worth Checking",
-      "pricing_confidence": 85,
+      "deal_insight": "Lowest tracked price in our data.",
+      "public_deal_label": "Good Price",
+      "pricing_confidence": 95,
       "price_intelligence": {
         "volatility_score": 0,
         "fake_discount_risk": false,
-        "pricing_confidence": 85,
+        "pricing_confidence": 95,
         "likely_to_drop_further": false,
         "rare_low": true,
         "normal_sale_range": true,
         "historical_floor": "₹169,999",
         "seasonal_baseline_price": "₹169,999"
       },
-      "tracked_since": null,
+      "tracked_since": "2026-08-21 13:47:21",
       "brand": "Oppo",
       "product_category_key": "other",
       "rating": 4.6,
@@ -1076,7 +962,11 @@
       "headline": "Lowest tracked price since 9th Jun 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0GZ7WG3BH?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GZ7WG3BH&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T13:48:21.393860+00:00"
+      "posted_at": "2026-08-21T13:48:21.393860+00:00",
+      "variant_key": "B0GZ7WG3BH",
+      "product_id": "amz:B0GZ7WG3BH",
+      "trend_signals": {},
+      "intelligence_score_bonus": 25
     },
     {
       "asin": "B086M39YV1",
@@ -1235,7 +1125,8 @@
       "headline": "Lowest tracked price since 2nd Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B086M39YV1?tag=techeasy0d1-21&linkCode=ll1&linkId=B086M39YV1&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T13:47:57.486302+00:00"
+      "posted_at": "2026-08-21T13:47:57.486302+00:00",
+      "variant_key": "B086M39YV1"
     },
     {
       "asin": "B077B9W343",
@@ -1397,7 +1288,8 @@
       "headline": "Lowest tracked price since 21st Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B077B9W343?tag=techeasy0d1-21&linkCode=ll1&linkId=B077B9W343&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T13:47:46.176667+00:00"
+      "posted_at": "2026-08-21T13:47:46.176667+00:00",
+      "variant_key": "B077B9W343"
     },
     {
       "asin": "B0D11KYW41",
@@ -1516,7 +1408,8 @@
       "trend_signals": {
         "repeated_telegram_appearances": 3
       },
-      "intelligence_score_bonus": 18
+      "intelligence_score_bonus": 18,
+      "variant_key": "B0D11KYW41"
     },
     {
       "asin": "fk_ITM873992960526D",
@@ -1633,7 +1526,8 @@
       "headline": "Usually tracks around ₹90,607.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/lg-122-cm-48-inch-oled-ultra-hd-4k-smart-webos-tv/p/itm873992960526d?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T13:09:26.427848+00:00"
+      "posted_at": "2026-08-21T13:09:26.427848+00:00",
+      "variant_key": "fk_ITM873992960526D"
     },
     {
       "asin": "fk_ITM170D9F8C2EC9C",
@@ -1748,7 +1642,8 @@
       "headline": "Usually tracks around ₹53,624.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/samsung-galaxy-s24-5g-snapdragon-amber-yellow-256-gb/p/itm170d9f8c2ec9c?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T13:09:16.070199+00:00"
+      "posted_at": "2026-08-21T13:09:16.070199+00:00",
+      "variant_key": "samsung:phone:galaxy-s24:256gb"
     },
     {
       "asin": "B0DST6Z7K1",
@@ -1861,7 +1756,8 @@
       "headline": "Discount looks high, but price history support is limited.",
       "affiliate_link": "https://www.amazon.in/dp/B0DST6Z7K1?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DST6Z7K1&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T13:08:54.387411+00:00"
+      "posted_at": "2026-08-21T13:08:54.387411+00:00",
+      "variant_key": "B0DST6Z7K1"
     },
     {
       "asin": "B08G1Y1V26",
@@ -1972,7 +1868,8 @@
       "headline": "Usually tracks around ₹7,254.",
       "affiliate_link": "https://www.amazon.in/dp/B08G1Y1V26?tag=techeasy0d1-21&linkCode=ll1&linkId=B08G1Y1V26&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T13:08:06.707364+00:00"
+      "posted_at": "2026-08-21T13:08:06.707364+00:00",
+      "variant_key": "B08G1Y1V26"
     },
     {
       "asin": "B008KSHQBU",
@@ -2088,7 +1985,8 @@
       "headline": "Lowest tracked price since 26th Jan 2025.",
       "affiliate_link": "https://www.amazon.in/dp/B008KSHQBU?tag=techeasy0d1-21&linkCode=ll1&linkId=B008KSHQBU&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T13:07:50.240308+00:00"
+      "posted_at": "2026-08-21T13:07:50.240308+00:00",
+      "variant_key": "B008KSHQBU"
     },
     {
       "asin": "B09CL79J9F",
@@ -2202,7 +2100,8 @@
       "headline": "Lowest tracked price since 16th Jan 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B09CL79J9F?tag=techeasy0d1-21&linkCode=ll1&linkId=B09CL79J9F&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T12:22:24.566315+00:00"
+      "posted_at": "2026-08-21T12:22:24.566315+00:00",
+      "variant_key": "B09CL79J9F"
     },
     {
       "asin": "fk_ITM7F845B2629E05",
@@ -2319,7 +2218,8 @@
       "headline": "Usually tracks around ₹28,229.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-80-cm-32-inch-full-hd-3d-led-smart-google-tv-features-watchlist-assistant-chromecast-built-mic-additional-apple-airplay-homekit-alexa/p/itm7f845b2629e05?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T12:13:18.674776+00:00"
+      "posted_at": "2026-08-21T12:13:18.674776+00:00",
+      "variant_key": "fk_ITM7F845B2629E05"
     },
     {
       "asin": "fk_ITM8B5EC539E47DA",
@@ -2434,7 +2334,8 @@
       "headline": "Usually tracks around ₹56,847.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-bravia-2-ii-125-7-cm-50-inch-ultra-hd-4k-led-smart-google-tv/p/itm8b5ec539e47da?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T12:13:02.958299+00:00"
+      "posted_at": "2026-08-21T12:13:02.958299+00:00",
+      "variant_key": "fk_ITM8B5EC539E47DA"
     },
     {
       "asin": "fk_ITMA455EE5184095",
@@ -2547,7 +2448,8 @@
       "headline": "Usually tracks around ₹101,596.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/samsung-vision-ai-189-cm-75-inch-ultra-hd-4k-mini-led-smart-tizen-tv-2026-companion-hdr-pure-spectrum-color-4k-upscaling-booster-knox-security-150-free-channels-dynamic-sound-pack/p/itma455ee5184095?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T12:12:52.500565+00:00"
+      "posted_at": "2026-08-21T12:12:52.500565+00:00",
+      "variant_key": "fk_ITMA455EE5184095"
     },
     {
       "asin": "fk_ITM51AC59ECE9CBD",
@@ -2660,7 +2562,8 @@
       "headline": "Usually tracks around ₹78,939.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/samsung-vision-ai-163-cm-65-inch-ultra-hd-4k-mini-led-smart-tizen-tv-2026-companion-30w-powerful-speakers-hdr-pure-spectrum-color-4k-upscaling-booster-knox-security-150-free-channels-dynamic-sound-pack/p/itm51ac59ece9cbd?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T12:12:42.185643+00:00"
+      "posted_at": "2026-08-21T12:12:42.185643+00:00",
+      "variant_key": "fk_ITM51AC59ECE9CBD"
     },
     {
       "asin": "fk_ITMA43EEE623DA49",
@@ -2779,7 +2682,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-bravia-3-163-9-cm-65-inch-ultra-hd-4k-led-smart-google-tv-advanced-ai-processor-x1-hdr-picture-core-dolby-vision-atmos/p/itma43eee623da49?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T12:12:33.347824+00:00"
+      "posted_at": "2026-08-21T12:12:33.347824+00:00",
+      "variant_key": "fk_ITMA43EEE623DA49"
     },
     {
       "asin": "B0DK54K2HL",
@@ -2892,7 +2796,8 @@
       "headline": "Usually tracks around ₹2,675.",
       "affiliate_link": "https://www.amazon.in/dp/B0DK54K2HL?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DK54K2HL&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T12:12:11.210104+00:00"
+      "posted_at": "2026-08-21T12:12:11.210104+00:00",
+      "variant_key": "B0DK54K2HL"
     },
     {
       "asin": "B081QTNF7V",
@@ -3008,7 +2913,8 @@
       "headline": "Community momentum is unusually strong.",
       "affiliate_link": "https://www.amazon.in/dp/B081QTNF7V?tag=techeasy0d1-21&linkCode=ll1&linkId=B081QTNF7V&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T12:11:26.979505+00:00"
+      "posted_at": "2026-08-21T12:11:26.979505+00:00",
+      "variant_key": "B081QTNF7V"
     },
     {
       "asin": "B08JV93XY8",
@@ -3121,7 +3027,8 @@
       "headline": "Lowest tracked price since 5th May 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B08JV93XY8?tag=techeasy0d1-21&linkCode=ll1&linkId=B08JV93XY8&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T12:11:13.705697+00:00"
+      "posted_at": "2026-08-21T12:11:13.705697+00:00",
+      "variant_key": "B08JV93XY8"
     },
     {
       "asin": "fk_ITM3E30994265AA2",
@@ -3232,7 +3139,8 @@
       "headline": "Usually tracks around ₹1,973.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/adidas-lightrun-edge-force-m-running-shoes-men/p/itm3e30994265aa2?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T11:30:24.112592+00:00"
+      "posted_at": "2026-08-21T11:30:24.112592+00:00",
+      "variant_key": "fk_ITM3E30994265AA2"
     },
     {
       "asin": "fk_ITMF742F217F2375",
@@ -3350,7 +3258,8 @@
       "trend_signals": {
         "repeated_telegram_appearances": 3
       },
-      "intelligence_score_bonus": 21
+      "intelligence_score_bonus": 21,
+      "variant_key": "fk_ITMF742F217F2375"
     },
     {
       "asin": "B0GT9DP1H5",
@@ -3465,7 +3374,8 @@
       "headline": "Usually tracks around ₹15,587.",
       "affiliate_link": "https://www.amazon.in/dp/B0GT9DP1H5?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GT9DP1H5&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T11:29:51.032949+00:00"
+      "posted_at": "2026-08-21T11:29:51.032949+00:00",
+      "variant_key": "B0GT9DP1H5"
     },
     {
       "asin": "B09KH6NFXG",
@@ -3578,7 +3488,8 @@
       "headline": "Usually tracks around ₹3,171.",
       "affiliate_link": "https://www.amazon.in/dp/B09KH6NFXG?tag=techeasy0d1-21&linkCode=ll1&linkId=B09KH6NFXG&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T11:29:40.583764+00:00"
+      "posted_at": "2026-08-21T11:29:40.583764+00:00",
+      "variant_key": "B09KH6NFXG"
     },
     {
       "asin": "B092R71V77",
@@ -3691,7 +3602,8 @@
       "headline": "Usually tracks around ₹1,457.",
       "affiliate_link": "https://www.amazon.in/dp/B092R71V77?tag=techeasy0d1-21&linkCode=ll1&linkId=B092R71V77&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T11:29:26.522529+00:00"
+      "posted_at": "2026-08-21T11:29:26.522529+00:00",
+      "variant_key": "B092R71V77"
     },
     {
       "asin": "B0DQ57M7MD",
@@ -3804,7 +3716,8 @@
       "headline": "Usually tracks around ₹7,521.",
       "affiliate_link": "https://www.amazon.in/dp/B0DQ57M7MD?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DQ57M7MD&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T11:28:57.991578+00:00"
+      "posted_at": "2026-08-21T11:28:57.991578+00:00",
+      "variant_key": "B0DQ57M7MD"
     },
     {
       "asin": "B0CWLL6VQP",
@@ -3916,7 +3829,8 @@
       "headline": "Lowest tracked price since 11th Apr 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0CWLL6VQP?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CWLL6VQP&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T11:28:20.148351+00:00"
+      "posted_at": "2026-08-21T11:28:20.148351+00:00",
+      "variant_key": "B0CWLL6VQP"
     },
     {
       "asin": "B0CT9TQD8D",
@@ -4029,7 +3943,8 @@
       "headline": "Lowest tracked price since 14th Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0CT9TQD8D?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CT9TQD8D&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:58:10.733425+00:00"
+      "posted_at": "2026-08-21T10:58:10.733425+00:00",
+      "variant_key": "B0CT9TQD8D"
     },
     {
       "asin": "B0FX2LP4FF",
@@ -4142,7 +4057,8 @@
       "headline": "Lowest tracked price since 4th Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0FX2LP4FF?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FX2LP4FF&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:54:08.034098+00:00"
+      "posted_at": "2026-08-21T10:54:08.034098+00:00",
+      "variant_key": "B0FX2LP4FF"
     },
     {
       "asin": "fk_ITM2DEF276E47610",
@@ -4255,7 +4171,8 @@
       "headline": "Discount looks high, but price history support is limited.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/boat-30000-mah-65-w-power-bank/p/itm2def276e47610?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T10:52:07.418488+00:00"
+      "posted_at": "2026-08-21T10:52:07.418488+00:00",
+      "variant_key": "fk_ITM2DEF276E47610"
     },
     {
       "asin": "fk_ITM7A0F844B4364F",
@@ -4366,7 +4283,8 @@
       "headline": "Usually tracks around ₹1,258.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/zebronics-10000-mah-magsafe-power-bank/p/itm7a0f844b4364f?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T10:51:56.394594+00:00"
+      "posted_at": "2026-08-21T10:51:56.394594+00:00",
+      "variant_key": "fk_ITM7A0F844B4364F"
     },
     {
       "asin": "fk_ITM283DB135C0992",
@@ -4479,7 +4397,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/portronics-10000-mah-22-5-w-compact-power-bank/p/itm283db135c0992?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T10:51:47.425602+00:00"
+      "posted_at": "2026-08-21T10:51:47.425602+00:00",
+      "variant_key": "fk_ITM283DB135C0992"
     },
     {
       "asin": "fk_ITM3A9FCB5BB59B7",
@@ -4590,7 +4509,8 @@
       "headline": "Usually tracks around ₹915.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/portronics-10000-mah-22-5-w-compact-power-bank/p/itm3a9fcb5bb59b7?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T10:51:33.318064+00:00"
+      "posted_at": "2026-08-21T10:51:33.318064+00:00",
+      "variant_key": "fk_ITM3A9FCB5BB59B7"
     },
     {
       "asin": "fk_ITM3333FA5AD382B",
@@ -4703,7 +4623,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/zebronics-10000-mah-12-w-slim-power-bank/p/itm3333fa5ad382b?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T10:51:21.937698+00:00"
+      "posted_at": "2026-08-21T10:51:21.937698+00:00",
+      "variant_key": "fk_ITM3333FA5AD382B"
     },
     {
       "asin": "B0BWRW7QP8",
@@ -4820,7 +4741,8 @@
       "headline": "Usually tracks around ₹1,994.",
       "affiliate_link": "https://www.amazon.in/dp/B0BWRW7QP8?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BWRW7QP8&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:51:00.212997+00:00"
+      "posted_at": "2026-08-21T10:51:00.212997+00:00",
+      "variant_key": "B0BWRW7QP8"
     },
     {
       "asin": "B0BKPFX2RL",
@@ -4937,7 +4859,8 @@
       "headline": "Usually tracks around ₹2,608.",
       "affiliate_link": "https://www.amazon.in/dp/B0BKPFX2RL?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BKPFX2RL&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:50:50.283961+00:00"
+      "posted_at": "2026-08-21T10:50:50.283961+00:00",
+      "variant_key": "B0BKPFX2RL"
     },
     {
       "asin": "B0FDL66T4D",
@@ -5052,7 +4975,8 @@
       "headline": "Usually tracks around ₹22,728.",
       "affiliate_link": "https://www.amazon.in/dp/B0FDL66T4D?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FDL66T4D&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:50:38.514492+00:00"
+      "posted_at": "2026-08-21T10:50:38.514492+00:00",
+      "variant_key": "B0FDL66T4D"
     },
     {
       "asin": "B0GXWC86N7",
@@ -5167,7 +5091,8 @@
       "headline": "Usually tracks around ₹1,489.",
       "affiliate_link": "https://www.amazon.in/dp/B0GXWC86N7?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GXWC86N7&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:50:26.444636+00:00"
+      "posted_at": "2026-08-21T10:50:26.444636+00:00",
+      "variant_key": "B0GXWC86N7"
     },
     {
       "asin": "B09P1KK9K1",
@@ -5278,7 +5203,8 @@
       "headline": "Usually tracks around ₹2,225.",
       "affiliate_link": "https://www.amazon.in/dp/B09P1KK9K1?tag=techeasy0d1-21&linkCode=ll1&linkId=B09P1KK9K1&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:50:16.259359+00:00"
+      "posted_at": "2026-08-21T10:50:16.259359+00:00",
+      "variant_key": "B09P1KK9K1"
     },
     {
       "asin": "B07B4BFC6S",
@@ -5393,7 +5319,8 @@
       "headline": "Usually tracks around ₹19,818.",
       "affiliate_link": "https://www.amazon.in/dp/B07B4BFC6S?tag=techeasy0d1-21&linkCode=ll1&linkId=B07B4BFC6S&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:50:06.941321+00:00"
+      "posted_at": "2026-08-21T10:50:06.941321+00:00",
+      "variant_key": "B07B4BFC6S"
     },
     {
       "asin": "B0BDPCRYN4",
@@ -5506,7 +5433,8 @@
       "headline": "Lowest tracked price since 9th May 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0BDPCRYN4?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BDPCRYN4&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:49:50.103537+00:00"
+      "posted_at": "2026-08-21T10:49:50.103537+00:00",
+      "variant_key": "B0BDPCRYN4"
     },
     {
       "asin": "fk_ITME92FD82FD18B8",
@@ -5619,7 +5547,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/samsung-crystal-4k-vision-pro-125-cm-50-inch-ultra-hd-4k-led-smart-tizen-tv-bright-upscaling-multiple-voice-assistance-remote-purcolor-hdr-10-auto-game-mode-q-symphony-knox-security/p/itme92fd82fd18b8?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T10:15:24.062398+00:00"
+      "posted_at": "2026-08-21T10:15:24.062398+00:00",
+      "variant_key": "fk_ITME92FD82FD18B8"
     },
     {
       "asin": "fk_ITMA27A329411BD3",
@@ -5732,7 +5661,8 @@
       "headline": "Usually tracks around ₹43,914.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/lg-ai-qned65-108-cm-43-inch-ultra-hd-4k-mini-led-smart-webos-tv-2026-dynamic-qned-color-alpha7-processor-4k-gen8-hdr10-pro-dolby-atmos-sound-pro-9-1-2-ch-multi-google-gemini-ms-copilot-linear-flow-design-60hz-vrr-5-years-os-upgrade-secured-shield-channels/p/itma27a329411bd3?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T10:15:12.717598+00:00"
+      "posted_at": "2026-08-21T10:15:12.717598+00:00",
+      "variant_key": "fk_ITMA27A329411BD3"
     },
     {
       "asin": "fk_ITM57C5B4B592475",
@@ -5845,7 +5775,8 @@
       "headline": "Usually tracks around ₹226,909.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-bravia-8-ii-138-8-cm-55-inch-oled-ultra-hd-4k-smart-google-tv/p/itm57c5b4b592475?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T10:15:01.288272+00:00"
+      "posted_at": "2026-08-21T10:15:01.288272+00:00",
+      "variant_key": "fk_ITM57C5B4B592475"
     },
     {
       "asin": "B0GXPB4FGH",
@@ -5960,7 +5891,8 @@
       "headline": "Usually tracks around ₹42,290.",
       "affiliate_link": "https://www.amazon.in/dp/B0GXPB4FGH?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GXPB4FGH&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:14:39.609021+00:00"
+      "posted_at": "2026-08-21T10:14:39.609021+00:00",
+      "variant_key": "B0GXPB4FGH"
     },
     {
       "asin": "B089N5W8L6",
@@ -6071,7 +6003,8 @@
       "headline": "Strong deal compared to normal pricing.",
       "affiliate_link": "https://www.amazon.in/dp/B089N5W8L6?tag=techeasy0d1-21&linkCode=ll1&linkId=B089N5W8L6&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:13:43.086731+00:00"
+      "posted_at": "2026-08-21T10:13:43.086731+00:00",
+      "variant_key": "B089N5W8L6"
     },
     {
       "asin": "B07KVZD4TJ",
@@ -6191,7 +6124,8 @@
       "headline": "Lowest tracked price since 21st Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B07KVZD4TJ?tag=techeasy0d1-21&linkCode=ll1&linkId=B07KVZD4TJ&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:13:29.796766+00:00"
+      "posted_at": "2026-08-21T10:13:29.796766+00:00",
+      "variant_key": "B07KVZD4TJ"
     },
     {
       "asin": "B09MCXT5F7",
@@ -6306,7 +6240,8 @@
       "headline": "Lowest tracked price since 28th Apr 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B09MCXT5F7?tag=techeasy0d1-21&linkCode=ll1&linkId=B09MCXT5F7&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:13:14.297229+00:00"
+      "posted_at": "2026-08-21T10:13:14.297229+00:00",
+      "variant_key": "B09MCXT5F7"
     },
     {
       "asin": "B0GQC67KQG",
@@ -6421,7 +6356,8 @@
       "headline": "Lowest tracked price since 20th Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0GQC67KQG?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GQC67KQG&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:13:02.526723+00:00"
+      "posted_at": "2026-08-21T10:13:02.526723+00:00",
+      "variant_key": "B0GQC67KQG"
     },
     {
       "asin": "B0821NJ8JS",
@@ -6536,7 +6472,8 @@
       "headline": "Lowest tracked price since 9th Sep 2022.",
       "affiliate_link": "https://www.amazon.in/dp/B0821NJ8JS?tag=techeasy0d1-21&linkCode=ll1&linkId=B0821NJ8JS&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T10:12:46.040521+00:00"
+      "posted_at": "2026-08-21T10:12:46.040521+00:00",
+      "variant_key": "B0821NJ8JS"
     },
     {
       "asin": "B0BN4C64VX",
@@ -6650,7 +6587,8 @@
       "headline": "Lowest tracked price since 12th Aug 2025.",
       "affiliate_link": "https://www.amazon.in/dp/B0BN4C64VX?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BN4C64VX&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T09:34:58.940038+00:00"
+      "posted_at": "2026-08-21T09:34:58.940038+00:00",
+      "variant_key": "B0BN4C64VX"
     },
     {
       "asin": "fk_ITM0929002E59881",
@@ -6765,7 +6703,8 @@
       "headline": "Usually tracks around ₹169,654.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/samsung-163-cm-65-inch-oled-ultra-hd-4k-smart-tizen-tv/p/itm0929002e59881?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T09:32:24.439631+00:00"
+      "posted_at": "2026-08-21T09:32:24.439631+00:00",
+      "variant_key": "fk_ITM0929002E59881"
     },
     {
       "asin": "B0GX5BF141",
@@ -6881,7 +6820,8 @@
       "headline": "Usually tracks around ₹9,596.",
       "affiliate_link": "https://www.amazon.in/dp/B0GX5BF141?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GX5BF141&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T09:32:00.287201+00:00"
+      "posted_at": "2026-08-21T09:32:00.287201+00:00",
+      "variant_key": "B0GX5BF141"
     },
     {
       "asin": "B0D4YJ74T3",
@@ -6996,7 +6936,8 @@
       "headline": "Usually tracks around ₹13,450.",
       "affiliate_link": "https://www.amazon.in/dp/B0D4YJ74T3?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D4YJ74T3&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T09:31:49.424984+00:00"
+      "posted_at": "2026-08-21T09:31:49.424984+00:00",
+      "variant_key": "B0D4YJ74T3"
     },
     {
       "asin": "B0H49R58LH",
@@ -7109,7 +7050,8 @@
       "headline": "Lowest tracked price since 3rd Jul 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0H49R58LH?tag=techeasy0d1-21&linkCode=ll1&linkId=B0H49R58LH&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T09:31:24.547748+00:00"
+      "posted_at": "2026-08-21T09:31:24.547748+00:00",
+      "variant_key": "B0H49R58LH"
     },
     {
       "asin": "B0DKFT2J9C",
@@ -7227,7 +7169,8 @@
       "headline": "Lowest tracked price since 16th Jul 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0DKFT2J9C?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DKFT2J9C&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T09:31:11.901186+00:00"
+      "posted_at": "2026-08-21T09:31:11.901186+00:00",
+      "variant_key": "B0DKFT2J9C"
     },
     {
       "asin": "B0BNQDLGMR",
@@ -7341,7 +7284,8 @@
       "headline": "Lowest tracked price since 8th Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0BNQDLGMR?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BNQDLGMR&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T09:30:59.890978+00:00"
+      "posted_at": "2026-08-21T09:30:59.890978+00:00",
+      "variant_key": "B0BNQDLGMR"
     },
     {
       "asin": "fk_ITM14AA1630E0A67",
@@ -7454,7 +7398,8 @@
       "headline": "Usually tracks around ₹25,871.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-ht-s2000-dolby-atmos-home-theatre-subwoofer-powerful-bass-dtsx-hec-app-bluetooth-soundbar/p/itm14aa1630e0a67?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T08:51:59.591628+00:00"
+      "posted_at": "2026-08-21T08:51:59.591628+00:00",
+      "variant_key": "fk_ITM14AA1630E0A67"
     },
     {
       "asin": "fk_ITM296F2977BAF98",
@@ -7567,7 +7512,8 @@
       "headline": "Usually tracks around ₹23,913.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-ult-field-5-massive-bass-25hrs-playtime-ip67-360-party-light-built-power-bank-100-w-bluetooth-speaker/p/itm296f2977baf98?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T08:51:50.410131+00:00"
+      "posted_at": "2026-08-21T08:51:50.410131+00:00",
+      "variant_key": "fk_ITM296F2977BAF98"
     },
     {
       "asin": "fk_ITM441B0AC6E5DF0",
@@ -7682,7 +7628,8 @@
       "headline": "Usually tracks around ₹727,250.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/asus-rog-zephyrus-duo-16-oled-2026-touch-screen-intel-core-ultra-9-386h-64-gb-2-tb-ssd-windows-11-home-24-gb-graphics-nvidia-geforce-rtx-5090-120-hz-gx651ax-sr099ws-gaming-laptop/p/itm441b0ac6e5df0?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T08:51:41.455946+00:00"
+      "posted_at": "2026-08-21T08:51:41.455946+00:00",
+      "variant_key": "fk_ITM441B0AC6E5DF0"
     },
     {
       "asin": "fk_ITMFEC58F35C0189",
@@ -7797,7 +7744,8 @@
       "headline": "Usually tracks around ₹246,701.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/lenovo-legion-7-wqxga-oled-intel-core-ultra-9-275hx-32-gb-1-tb-ssd-windows-11-home-8-gb-graphics-nvidia-geforce-rtx-5060-16iax10-gaming-laptop/p/itmfec58f35c0189?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T08:51:30.621619+00:00"
+      "posted_at": "2026-08-21T08:51:30.621619+00:00",
+      "variant_key": "fk_ITMFEC58F35C0189"
     },
     {
       "asin": "fk_ITMFY95DVFGCBNSD",
@@ -7912,7 +7860,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-sa-d40-80-w-bluetooth-home-theatre/p/itmfy95dvfgcbnsd?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T08:51:18.041420+00:00"
+      "posted_at": "2026-08-21T08:51:18.041420+00:00",
+      "variant_key": "fk_ITMFY95DVFGCBNSD"
     },
     {
       "asin": "B0G2S349C4",
@@ -8025,7 +7974,8 @@
       "headline": "Usually tracks around ₹1,424.",
       "affiliate_link": "https://www.amazon.in/dp/B0G2S349C4?tag=techeasy0d1-21&linkCode=ll1&linkId=B0G2S349C4&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T08:50:23.746846+00:00"
+      "posted_at": "2026-08-21T08:50:23.746846+00:00",
+      "variant_key": "B0G2S349C4"
     },
     {
       "asin": "B0DGTVRH97",
@@ -8138,7 +8088,8 @@
       "headline": "Usually tracks around ₹2,102.",
       "affiliate_link": "https://www.amazon.in/dp/B0DGTVRH97?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DGTVRH97&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T08:50:05.856224+00:00"
+      "posted_at": "2026-08-21T08:50:05.856224+00:00",
+      "variant_key": "B0DGTVRH97"
     },
     {
       "asin": "B0GFD11ZQJ",
@@ -8251,7 +8202,8 @@
       "headline": "Usually tracks around ₹5,354.",
       "affiliate_link": "https://www.amazon.in/dp/B0GFD11ZQJ?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GFD11ZQJ&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T08:49:45.167796+00:00"
+      "posted_at": "2026-08-21T08:49:45.167796+00:00",
+      "variant_key": "B0GFD11ZQJ"
     },
     {
       "asin": "B0FB44F3NZ",
@@ -8362,7 +8314,8 @@
       "headline": "Usually tracks around ₹5,932.",
       "affiliate_link": "https://www.amazon.in/dp/B0FB44F3NZ?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FB44F3NZ&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T08:49:15.659375+00:00"
+      "posted_at": "2026-08-21T08:49:15.659375+00:00",
+      "variant_key": "B0FB44F3NZ"
     },
     {
       "asin": "B0B5V5VHB6",
@@ -8476,7 +8429,8 @@
       "headline": "Lowest tracked price since 20th Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0B5V5VHB6?tag=techeasy0d1-21&linkCode=ll1&linkId=B0B5V5VHB6&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T08:48:33.799631+00:00"
+      "posted_at": "2026-08-21T08:48:33.799631+00:00",
+      "variant_key": "B0B5V5VHB6"
     },
     {
       "asin": "B0C8MTWMK2",
@@ -8593,7 +8547,8 @@
       "headline": "Lowest tracked price since 20th Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0C8MTWMK2?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C8MTWMK2&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T08:48:16.993491+00:00"
+      "posted_at": "2026-08-21T08:48:16.993491+00:00",
+      "variant_key": "B0C8MTWMK2"
     },
     {
       "asin": "B09C2JSMFB",
@@ -8708,7 +8663,8 @@
       "headline": "Lowest tracked price since 20th Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B09C2JSMFB?tag=techeasy0d1-21&linkCode=ll1&linkId=B09C2JSMFB&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T08:48:00.332157+00:00"
+      "posted_at": "2026-08-21T08:48:00.332157+00:00",
+      "variant_key": "B09C2JSMFB"
     },
     {
       "asin": "B0GY123MH4",
@@ -8823,7 +8779,8 @@
       "headline": "Lowest tracked price since 31st Jul 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0GY123MH4?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GY123MH4&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T08:16:25.892435+00:00"
+      "posted_at": "2026-08-21T08:16:25.892435+00:00",
+      "variant_key": "B0GY123MH4"
     },
     {
       "asin": "B0F13XNZC6",
@@ -8939,7 +8896,8 @@
       "headline": "Lowest tracked price since 21st Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0F13XNZC6?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F13XNZC6&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T08:15:51.062151+00:00"
+      "posted_at": "2026-08-21T08:15:51.062151+00:00",
+      "variant_key": "B0F13XNZC6"
     },
     {
       "asin": "fk_ITM5CA4168860128",
@@ -8980,17 +8938,17 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": null,
-      "score": 81,
-      "final_intelligence_score": 32,
+      "score": 88,
+      "final_intelligence_score": 34,
       "intelligence_explanation": {
-        "score": 32,
+        "score": 34,
         "components": {
-          "base_deal": 74,
+          "base_deal": 81,
           "pricing_confidence": 70,
           "trust": 43,
           "historical_strength": 3,
           "hero": 48,
-          "trend": 28,
+          "trend": 31,
           "effective_price_strength": 54,
           "category_quality": 88,
           "rarity": 70,
@@ -9018,12 +8976,12 @@
       "confidence_score": 72,
       "historical_conversion_score": 1,
       "historical_product_strength": 3,
-      "historical_confidence": 51.86,
+      "historical_confidence": 56.89,
       "trend_score": 0,
       "trend_velocity": 50,
-      "trend_stability": 89,
+      "trend_stability": 100,
       "trend_decay": 12,
-      "trend_maturity_score": 28,
+      "trend_maturity_score": 31,
       "trend_tags": [],
       "hero_score": 48,
       "is_hero_deal": false,
@@ -9057,7 +9015,8 @@
       "posted_at": "2026-08-21T08:12:27.661530+00:00",
       "product_id": "fk:ITM5CA4168860128",
       "trend_signals": {},
-      "intelligence_score_bonus": 7
+      "intelligence_score_bonus": 7,
+      "variant_key": "fk_ITM5CA4168860128"
     },
     {
       "asin": "fk_ITM7250DD4C0839D",
@@ -9174,7 +9133,8 @@
       "headline": "Usually tracks around ₹41,649.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-bravia-2-ii-108-cm-43-inch-ultra-hd-4k-led-smart-google-tv/p/itm7250dd4c0839d?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T08:12:18.267526+00:00"
+      "posted_at": "2026-08-21T08:12:18.267526+00:00",
+      "variant_key": "fk_ITM7250DD4C0839D"
     },
     {
       "asin": "fk_ITM8B613F02D40A6",
@@ -9289,7 +9249,8 @@
       "headline": "Usually tracks around ₹165,754.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/lg-evo-ai-g5-139-cm-55-inch-oled-ultra-hd-4k-smart-webos-tv-alpha-11-processor-4k-gen2-brightness-booster-ultimate-picture-pro-dolby-vision-sound-virtual-11-1-2ch-up-mix-atmos-up-165hz-variable-refresh-rate-60w-output-2-5-gb-ram-16-rom-nvidia-g-sync-amd-freesync-compatible/p/itm8b613f02d40a6?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T08:12:06.281575+00:00"
+      "posted_at": "2026-08-21T08:12:06.281575+00:00",
+      "variant_key": "fk_ITM8B613F02D40A6"
     },
     {
       "asin": "B0CGHFBD9K",
@@ -9404,7 +9365,8 @@
       "headline": "Lowest tracked price since 15th Jun 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0CGHFBD9K?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CGHFBD9K&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T07:40:49.897316+00:00"
+      "posted_at": "2026-08-21T07:40:49.897316+00:00",
+      "variant_key": "B0CGHFBD9K"
     },
     {
       "asin": "B0BC5BJD5G",
@@ -9517,7 +9479,8 @@
       "headline": "Lowest tracked price since 25th Jun 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0BC5BJD5G?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BC5BJD5G&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T07:39:28.191577+00:00"
+      "posted_at": "2026-08-21T07:39:28.191577+00:00",
+      "variant_key": "B0BC5BJD5G"
     },
     {
       "asin": "fk_ITM726061D7EAF48",
@@ -9630,7 +9593,8 @@
       "headline": "Usually tracks around ₹1,726.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/zebronics-transformer-pro-wireless-standard-gaming-keyboard-compatible-desktop-laptop-mac-mouse-2-4ghz-led-modes-type-c-al-body/p/itm726061d7eaf48?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T07:31:56.216678+00:00"
+      "posted_at": "2026-08-21T07:31:56.216678+00:00",
+      "variant_key": "fk_ITM726061D7EAF48"
     },
     {
       "asin": "fk_ITMB1D22868FFB54",
@@ -9745,7 +9709,8 @@
       "headline": "Usually tracks around ₹118,387.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/samsung-s85h-138-cm-55-inch-oled-ultra-hd-4k-smart-tizen-tv-vision-ai-football-mode/p/itmb1d22868ffb54?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T07:31:44.644061+00:00"
+      "posted_at": "2026-08-21T07:31:44.644061+00:00",
+      "variant_key": "fk_ITMB1D22868FFB54"
     },
     {
       "asin": "fk_ITMD75FD0474463B",
@@ -9862,7 +9827,8 @@
       "headline": "Usually tracks around ₹114,907.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/lg-ai-tv-oled-evo-c4-139-cm-55-inch-ultra-hd-4k-smart-webos-alpha-9-processor-4k-gen7-picture-pro-dolby-vision-sound-virtual-9-1-2ch-up-mix-atmos-144hz-vrr-40w-output-magic-remote-nvidia-g-sync-amd-freesync-certified/p/itmd75fd0474463b?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T07:31:32.934279+00:00"
+      "posted_at": "2026-08-21T07:31:32.934279+00:00",
+      "variant_key": "fk_ITMD75FD0474463B"
     },
     {
       "asin": "fk_ITM24080674875ED",
@@ -9977,7 +9943,8 @@
       "headline": "Usually tracks around ₹229,687.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-bravia-164-cm-65-inch-oled-ultra-hd-4k-smart-tv/p/itm24080674875ed?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T07:31:21.757935+00:00"
+      "posted_at": "2026-08-21T07:31:21.757935+00:00",
+      "variant_key": "fk_ITM24080674875ED"
     },
     {
       "asin": "B07S8PXYMS",
@@ -10090,7 +10057,8 @@
       "headline": "Usually tracks around ₹2,172.",
       "affiliate_link": "https://www.amazon.in/dp/B07S8PXYMS?tag=techeasy0d1-21&linkCode=ll1&linkId=B07S8PXYMS&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T07:30:56.910731+00:00"
+      "posted_at": "2026-08-21T07:30:56.910731+00:00",
+      "variant_key": "B07S8PXYMS"
     },
     {
       "asin": "B0H6FLJH3S",
@@ -10207,7 +10175,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "https://www.amazon.in/dp/B0H6FLJH3S?tag=techeasy0d1-21&linkCode=ll1&linkId=B0H6FLJH3S&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T07:30:48.014734+00:00"
+      "posted_at": "2026-08-21T07:30:48.014734+00:00",
+      "variant_key": "B0H6FLJH3S"
     },
     {
       "asin": "B0CCLB75Q2",
@@ -10326,7 +10295,8 @@
       "headline": "Community momentum is unusually strong.",
       "affiliate_link": "https://www.amazon.in/dp/B0CCLB75Q2?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CCLB75Q2&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T07:29:44.267222+00:00"
+      "posted_at": "2026-08-21T07:29:44.267222+00:00",
+      "variant_key": "B0CCLB75Q2"
     },
     {
       "asin": "B07G4CV4MF",
@@ -10442,7 +10412,8 @@
       "headline": "Usually tracks around ₹2,720.",
       "affiliate_link": "https://www.amazon.in/dp/B07G4CV4MF?tag=techeasy0d1-21&linkCode=ll1&linkId=B07G4CV4MF&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T07:29:29.386233+00:00"
+      "posted_at": "2026-08-21T07:29:29.386233+00:00",
+      "variant_key": "B07G4CV4MF"
     },
     {
       "asin": "B01KJENN0U",
@@ -10555,7 +10526,8 @@
       "headline": "Lowest tracked price since 11th Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B01KJENN0U?tag=techeasy0d1-21&linkCode=ll1&linkId=B01KJENN0U&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T07:29:17.355604+00:00"
+      "posted_at": "2026-08-21T07:29:17.355604+00:00",
+      "variant_key": "B01KJENN0U"
     },
     {
       "asin": "B0BT1YXLYV",
@@ -10594,17 +10566,17 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": null,
-      "score": 71,
-      "final_intelligence_score": 0,
+      "score": 81,
+      "final_intelligence_score": 2,
       "intelligence_explanation": {
-        "score": 0,
+        "score": 2,
         "components": {
-          "base_deal": 60,
+          "base_deal": 71,
           "pricing_confidence": 35,
           "trust": 14,
-          "historical_strength": 13,
+          "historical_strength": 11,
           "hero": 0,
-          "trend": 49,
+          "trend": 43,
           "effective_price_strength": 48,
           "category_quality": 48,
           "rarity": 14,
@@ -10631,14 +10603,14 @@
         "synergy_bonus": 0
       },
       "confidence_score": 58,
-      "historical_conversion_score": 12,
-      "historical_product_strength": 13,
-      "historical_confidence": 54.32,
+      "historical_conversion_score": 11,
+      "historical_product_strength": 11,
+      "historical_confidence": 55.24,
       "trend_score": 26,
-      "trend_velocity": 82,
-      "trend_stability": 100,
-      "trend_decay": 12,
-      "trend_maturity_score": 49,
+      "trend_velocity": 50,
+      "trend_stability": 87,
+      "trend_decay": 0,
+      "trend_maturity_score": 43,
       "trend_tags": [],
       "hero_score": 0,
       "is_hero_deal": false,
@@ -10652,7 +10624,7 @@
       "public_deal_label": "Worth Checking",
       "pricing_confidence": 35,
       "price_intelligence": {
-        "volatility_score": 15,
+        "volatility_score": 14,
         "fake_discount_risk": true,
         "pricing_confidence": 35,
         "likely_to_drop_further": false,
@@ -10675,7 +10647,8 @@
         "repeated_telegram_appearances": 3,
         "review_volume": 4332
       },
-      "intelligence_score_bonus": 11
+      "intelligence_score_bonus": 10,
+      "variant_key": "B0BT1YXLYV"
     },
     {
       "asin": "B09RF1GMF6",
@@ -10790,7 +10763,8 @@
       "headline": "Lowest tracked price since 30th Oct 2024.",
       "affiliate_link": "https://www.amazon.in/dp/B09RF1GMF6?tag=techeasy0d1-21&linkCode=ll1&linkId=B09RF1GMF6&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T07:28:52.451221+00:00"
+      "posted_at": "2026-08-21T07:28:52.451221+00:00",
+      "variant_key": "B09RF1GMF6"
     },
     {
       "asin": "fk_ITM7690E5C855D5A",
@@ -10905,7 +10879,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/honeywell-air-touch-v1-3-stage-filtration-covers-235-sq-ft-3-in-1-filter-pre-filter-h13-hepa-filter-activated-carbon-removes-99-97-pollutants-allergens-pet-danger-smoke-dust-pollens-portable-room-purifier/p/itm7690e5c855d5a?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T06:50:03.812485+00:00"
+      "posted_at": "2026-08-21T06:50:03.812485+00:00",
+      "variant_key": "fk_ITM7690E5C855D5A"
     },
     {
       "asin": "B0C9QJV5TZ",
@@ -11018,7 +10993,8 @@
       "headline": "Usually tracks around ₹3,198.",
       "affiliate_link": "https://www.amazon.in/dp/B0C9QJV5TZ?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C9QJV5TZ&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T06:48:55.330324+00:00"
+      "posted_at": "2026-08-21T06:48:55.330324+00:00",
+      "variant_key": "B0C9QJV5TZ"
     },
     {
       "asin": "B08PGYLCQB",
@@ -11057,7 +11033,7 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": null,
-      "score": 144,
+      "score": 172,
       "final_intelligence_score": 49,
       "intelligence_explanation": {
         "score": 49,
@@ -11135,7 +11111,8 @@
         "repeated_telegram_appearances": 19,
         "review_volume": 44993
       },
-      "intelligence_score_bonus": 28
+      "intelligence_score_bonus": 28,
+      "variant_key": "B08PGYLCQB"
     },
     {
       "asin": "B0CXKSCY1G",
@@ -11243,7 +11220,8 @@
       "headline": "Usually tracks around ₹9,199.",
       "affiliate_link": "https://www.amazon.in/dp/B0CXKSCY1G?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CXKSCY1G&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T06:48:27.143514+00:00"
+      "posted_at": "2026-08-21T06:48:27.143514+00:00",
+      "variant_key": "B0CXKSCY1G"
     },
     {
       "asin": "B0GRGX3S7N",
@@ -11358,7 +11336,8 @@
       "headline": "Lowest tracked price since 31st Jul 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0GRGX3S7N?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GRGX3S7N&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T06:17:28.201444+00:00"
+      "posted_at": "2026-08-21T06:17:28.201444+00:00",
+      "variant_key": "B0GRGX3S7N"
     },
     {
       "asin": "B0C3VYT6Q6",
@@ -11474,7 +11453,8 @@
       "headline": "Lowest tracked price since 4th Mar 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0C3VYT6Q6?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C3VYT6Q6&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T06:13:59.767945+00:00"
+      "posted_at": "2026-08-21T06:13:59.767945+00:00",
+      "variant_key": "B0C3VYT6Q6"
     },
     {
       "asin": "fk_ITM3805E76C12D48",
@@ -11591,7 +11571,8 @@
       "headline": "Usually tracks around ₹43,439.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-bravia-2m2-108-cm-43-inch-ultra-hd-4k-led-smart-google-tv-dolby-atmos/p/itm3805e76c12d48?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T06:08:54.406671+00:00"
+      "posted_at": "2026-08-21T06:08:54.406671+00:00",
+      "variant_key": "fk_ITM3805E76C12D48"
     },
     {
       "asin": "fk_ITM69A9D2B1A495A",
@@ -11706,7 +11687,8 @@
       "headline": "Usually tracks around ₹165,785.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/lg-ai-tv-oled-b4-164-cm-65-inch-ultra-hd-4k-smart-webos-alpha-8-processor-4k-picture-pro-dolby-vision-sound-virtual-9-1-2-surround-atmos-120hz-refresh-rate-magic-remote-nvidia-g-sync-amd-freesync-compatible-chromecast-built-in/p/itm69a9d2b1a495a?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T06:08:45.326888+00:00"
+      "posted_at": "2026-08-21T06:08:45.326888+00:00",
+      "variant_key": "fk_ITM69A9D2B1A495A"
     },
     {
       "asin": "fk_ITM162B174D60121",
@@ -11819,7 +11801,8 @@
       "headline": "Usually tracks around ₹69,660.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/lg-ai-nu87-164-cm-65-inch-ultra-hd-4k-led-smart-webos-tv-2026-nano-detail-enhancer-hdr10-pro-4k-super-upscaling-alpha7-processor-gen9-dolby-atmos-sound-pro-9-1-2-ch-multi-google-gemini-ms-copilot-linear-flow-design-60hz-vrr-5-years-os-upgrade-secured-shield-channels/p/itm162b174d60121?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T06:08:33.088614+00:00"
+      "posted_at": "2026-08-21T06:08:33.088614+00:00",
+      "variant_key": "fk_ITM162B174D60121"
     },
     {
       "asin": "B0F38M4S6B",
@@ -11934,7 +11917,8 @@
       "headline": "Usually tracks around ₹58,525.",
       "affiliate_link": "https://www.amazon.in/dp/B0F38M4S6B?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F38M4S6B&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T06:08:08.813435+00:00"
+      "posted_at": "2026-08-21T06:08:08.813435+00:00",
+      "variant_key": "B0F38M4S6B"
     },
     {
       "asin": "B0DQ93C4LK",
@@ -12045,7 +12029,8 @@
       "headline": "Usually tracks around ₹5,309.",
       "affiliate_link": "https://www.amazon.in/dp/B0DQ93C4LK?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DQ93C4LK&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T06:07:33.237644+00:00"
+      "posted_at": "2026-08-21T06:07:33.237644+00:00",
+      "variant_key": "B0DQ93C4LK"
     },
     {
       "asin": "B0DG8M74Z8",
@@ -12161,7 +12146,8 @@
       "headline": "Usually tracks around ₹1,197.",
       "affiliate_link": "https://www.amazon.in/dp/B0DG8M74Z8?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DG8M74Z8&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T06:07:21.818611+00:00"
+      "posted_at": "2026-08-21T06:07:21.818611+00:00",
+      "variant_key": "B0DG8M74Z8"
     },
     {
       "asin": "B073CXZ8KR",
@@ -12276,7 +12262,8 @@
       "headline": "Lowest tracked price since 29th Mar 2019.",
       "affiliate_link": "https://www.amazon.in/dp/B073CXZ8KR?tag=techeasy0d1-21&linkCode=ll1&linkId=B073CXZ8KR&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T06:07:09.697772+00:00"
+      "posted_at": "2026-08-21T06:07:09.697772+00:00",
+      "variant_key": "B073CXZ8KR"
     },
     {
       "asin": "B095749V5V",
@@ -12393,7 +12380,8 @@
       "headline": "Lowest tracked price since 19th Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B095749V5V?tag=techeasy0d1-21&linkCode=ll1&linkId=B095749V5V&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T05:17:13.305345+00:00"
+      "posted_at": "2026-08-21T05:17:13.305345+00:00",
+      "variant_key": "B095749V5V"
     },
     {
       "asin": "fk_ITMCF9A82A4C4D4F",
@@ -12510,7 +12498,8 @@
       "headline": "Usually tracks around ₹104,107.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/lg-ai-tv-oled-b4-139-cm-55-inch-ultra-hd-4k-smart-webos-alpha-8-processor-4k-picture-pro-dolby-vision-sound-virtual-9-1-2-surround-atmos-120hz-refresh-rate-magic-remote-nvidia-g-sync-amd-freesync-compatible-chromecast-built-in/p/itmcf9a82a4c4d4f?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T05:15:56.670350+00:00"
+      "posted_at": "2026-08-21T05:15:56.670350+00:00",
+      "variant_key": "fk_ITMCF9A82A4C4D4F"
     },
     {
       "asin": "fk_ITM236E947A68235",
@@ -12627,7 +12616,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/lg-139-cm-55-inch-oled-ultra-hd-4k-smart-webos-tv/p/itm236e947a68235?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T05:15:45.969615+00:00"
+      "posted_at": "2026-08-21T05:15:45.969615+00:00",
+      "variant_key": "fk_ITM236E947A68235"
     },
     {
       "asin": "fk_ITMBA32C1DC761B4",
@@ -12742,7 +12732,8 @@
       "headline": "Usually tracks around ₹183,374.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/lg-ai-tv-oled-evo-c4-164-cm-65-inch-ultra-hd-4k-smart-webos-alpha-9-processor-4k-gen7-picture-pro-dolby-vision-sound-virtual-9-1-2ch-up-mix-atmos-144hz-vrr-40w-output-magic-remote-nvidia-g-sync-amd-freesync-certified/p/itmba32c1dc761b4?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T05:15:36.490485+00:00"
+      "posted_at": "2026-08-21T05:15:36.490485+00:00",
+      "variant_key": "fk_ITMBA32C1DC761B4"
     },
     {
       "asin": "fk_ITM7181392B2BC04",
@@ -12857,7 +12848,8 @@
       "headline": "Usually tracks around ₹123,543.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/samsung-138-cm-55-inch-oled-ultra-hd-4k-smart-tizen-tv/p/itm7181392b2bc04?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T05:15:25.583903+00:00"
+      "posted_at": "2026-08-21T05:15:25.583903+00:00",
+      "variant_key": "fk_ITM7181392B2BC04"
     },
     {
       "asin": "fk_ITM9AC47DAE57648",
@@ -12972,7 +12964,8 @@
       "headline": "Usually tracks around ₹123,455.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/lg-evo-ai-c5-139-cm-55-inch-oled-ultra-hd-4k-smart-webos-tv-alpha-9-processor-4k-gen8-brightness-booster-picture-pro-dolby-vision-sound-virtual-11-1-2ch-up-mix-atmos-up-144hz-variable-refresh-rate-40w-output-2-5-gb-ram-16-rom-nvidia-g-sync-amd-freesync-compatible/p/itm9ac47dae57648?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-21T05:15:14.812141+00:00"
+      "posted_at": "2026-08-21T05:15:14.812141+00:00",
+      "variant_key": "fk_ITM9AC47DAE57648"
     },
     {
       "asin": "B0DV43PG96",
@@ -13088,7 +13081,8 @@
       "headline": "Usually tracks around ₹7,603.",
       "affiliate_link": "https://www.amazon.in/dp/B0DV43PG96?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DV43PG96&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-21T05:14:58.064711+00:00"
+      "posted_at": "2026-08-21T05:14:58.064711+00:00",
+      "variant_key": "B0DV43PG96"
     },
     {
       "asin": "fk_ITM3FD949E12F470",
@@ -13201,7 +13195,8 @@
       "headline": "Usually tracks around ₹25,294.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-ht-s40r-5-1ch-home-theatre-dolby-digital-subwoofer-rear-speakers-600-w-bluetooth-soundbar/p/itm3fd949e12f470?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-19T17:58:05.295836+00:00"
+      "posted_at": "2026-08-19T17:58:05.295836+00:00",
+      "variant_key": "fk_ITM3FD949E12F470"
     },
     {
       "asin": "B0FH4QTGBT",
@@ -13314,7 +13309,8 @@
       "headline": "Usually tracks around ₹2,750.",
       "affiliate_link": "https://www.amazon.in/dp/B0FH4QTGBT?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FH4QTGBT&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T17:57:29.595368+00:00"
+      "posted_at": "2026-08-19T17:57:29.595368+00:00",
+      "variant_key": "B0FH4QTGBT"
     },
     {
       "asin": "B07PQBJ4BP",
@@ -13430,7 +13426,8 @@
       "headline": "Usually tracks around ₹716.",
       "affiliate_link": "https://www.amazon.in/dp/B07PQBJ4BP?tag=techeasy0d1-21&linkCode=ll1&linkId=B07PQBJ4BP&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T17:56:34.439302+00:00"
+      "posted_at": "2026-08-19T17:56:34.439302+00:00",
+      "variant_key": "B07PQBJ4BP"
     },
     {
       "asin": "B01EJVYN3K",
@@ -13541,7 +13538,8 @@
       "headline": "Lowest tracked price since 16th Apr 2022.",
       "affiliate_link": "https://www.amazon.in/dp/B01EJVYN3K?tag=techeasy0d1-21&linkCode=ll1&linkId=B01EJVYN3K&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T17:56:24.608363+00:00"
+      "posted_at": "2026-08-19T17:56:24.608363+00:00",
+      "variant_key": "B01EJVYN3K"
     },
     {
       "asin": "fk_ITMF517F779CDC5E",
@@ -13658,7 +13656,8 @@
       "headline": "Usually tracks around ₹131,094.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-bravia-5-138-8-cm-55-inch-ultra-hd-4k-mini-led-smart-google-tv/p/itmf517f779cdc5e?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-19T17:25:21.330067+00:00"
+      "posted_at": "2026-08-19T17:25:21.330067+00:00",
+      "variant_key": "fk_ITMF517F779CDC5E"
     },
     {
       "asin": "fk_ITME1B93ADC23E76",
@@ -13773,7 +13772,8 @@
       "headline": "Usually tracks around ₹28,032.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-srs-xv500-mega-bass25-hrs-batterylightningkaraokemicportable-party-speaker-240-w-bluetooth/p/itme1b93adc23e76?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-19T17:05:46.612874+00:00"
+      "posted_at": "2026-08-19T17:05:46.612874+00:00",
+      "variant_key": "fk_ITME1B93ADC23E76"
     },
     {
       "asin": "B0F7LMY2FZ",
@@ -13890,7 +13890,8 @@
       "headline": "Usually tracks around ₹130.",
       "affiliate_link": "https://www.amazon.in/dp/B0F7LMY2FZ?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F7LMY2FZ&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T17:05:34.645608+00:00"
+      "posted_at": "2026-08-19T17:05:34.645608+00:00",
+      "variant_key": "B0F7LMY2FZ"
     },
     {
       "asin": "fk_ITM3580D1A4D06EC",
@@ -14005,7 +14006,8 @@
       "headline": "Usually tracks around ₹47,119.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/samsung-138-cm-55-inch-qled-ultra-hd-4k-smart-tizen-tv-vision-ai-100-color-volume-quantum-dot-real-sheet-hdr-pantone-validated-4k-upscaling-knox-security-100-free-channels/p/itm3580d1a4d06ec?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-19T16:34:41.518615+00:00"
+      "posted_at": "2026-08-19T16:34:41.518615+00:00",
+      "variant_key": "fk_ITM3580D1A4D06EC"
     },
     {
       "asin": "B0FMR7XH7W",
@@ -14044,14 +14046,14 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": null,
-      "score": 130,
-      "final_intelligence_score": 34,
+      "score": 156,
+      "final_intelligence_score": 33,
       "intelligence_explanation": {
-        "score": 34,
+        "score": 33,
         "components": {
           "base_deal": 100,
           "pricing_confidence": 60,
-          "trust": 51,
+          "trust": 43,
           "historical_strength": 12,
           "hero": 0,
           "trend": 32,
@@ -14080,18 +14082,18 @@
         "synergy_bonus": 0
       },
       "confidence_score": 60,
-      "historical_conversion_score": 20,
+      "historical_conversion_score": 19,
       "historical_product_strength": 12,
-      "historical_confidence": 71.81,
+      "historical_confidence": 68.86,
       "trend_score": 16,
       "trend_velocity": 50,
-      "trend_stability": 58,
+      "trend_stability": 60,
       "trend_decay": 0,
       "trend_maturity_score": 32,
       "trend_tags": [],
       "hero_score": 0,
       "is_hero_deal": false,
-      "trust_score": 51,
+      "trust_score": 43,
       "public_trust_label": "Verify Before Buying",
       "trust_signals": [],
       "revenue_per_impression": 0.0,
@@ -14123,7 +14125,8 @@
       "trend_signals": {
         "repeated_telegram_appearances": 5
       },
-      "intelligence_score_bonus": 26
+      "intelligence_score_bonus": 26,
+      "variant_key": "B0FMR7XH7W"
     },
     {
       "asin": "B0B6XTD8WW",
@@ -14238,7 +14241,8 @@
       "headline": "Lowest tracked price since 3rd Jul 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0B6XTD8WW?tag=techeasy0d1-21&linkCode=ll1&linkId=B0B6XTD8WW&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T16:33:51.400959+00:00"
+      "posted_at": "2026-08-19T16:33:51.400959+00:00",
+      "variant_key": "B0B6XTD8WW"
     },
     {
       "asin": "B0GVLVJVVK",
@@ -14346,7 +14350,8 @@
       "headline": "Usually tracks around ₹6,830.",
       "affiliate_link": "https://www.amazon.in/dp/B0GVLVJVVK?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GVLVJVVK&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T16:33:39.769316+00:00"
+      "posted_at": "2026-08-19T16:33:39.769316+00:00",
+      "variant_key": "B0GVLVJVVK"
     },
     {
       "asin": "B09HR1MWW7",
@@ -14461,7 +14466,8 @@
       "headline": "Lowest tracked price since 16th Jun 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B09HR1MWW7?tag=techeasy0d1-21&linkCode=ll1&linkId=B09HR1MWW7&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T16:33:30.963350+00:00"
+      "posted_at": "2026-08-19T16:33:30.963350+00:00",
+      "variant_key": "B09HR1MWW7"
     },
     {
       "asin": "fk_ITMC09BDB2DE85EB",
@@ -14579,7 +14585,8 @@
       "trend_signals": {
         "repeated_telegram_appearances": 3
       },
-      "intelligence_score_bonus": 7
+      "intelligence_score_bonus": 7,
+      "variant_key": "fk_ITMC09BDB2DE85EB"
     },
     {
       "asin": "B07GX7TD34",
@@ -14692,7 +14699,8 @@
       "headline": "Usually tracks around ₹1,655.",
       "affiliate_link": "https://www.amazon.in/dp/B07GX7TD34?tag=techeasy0d1-21&linkCode=ll1&linkId=B07GX7TD34&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T15:55:06.077374+00:00"
+      "posted_at": "2026-08-19T15:55:06.077374+00:00",
+      "variant_key": "B07GX7TD34"
     },
     {
       "asin": "B09J4XW5QM",
@@ -14809,7 +14817,8 @@
       "headline": "Lowest tracked price since 30th Sep 2025.",
       "affiliate_link": "https://www.amazon.in/dp/B09J4XW5QM?tag=techeasy0d1-21&linkCode=ll1&linkId=B09J4XW5QM&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T15:54:15.232388+00:00"
+      "posted_at": "2026-08-19T15:54:15.232388+00:00",
+      "variant_key": "B09J4XW5QM"
     },
     {
       "asin": "B01GT8JSH2",
@@ -14924,7 +14933,8 @@
       "headline": "Lowest tracked price since 19th Sep 2019.",
       "affiliate_link": "https://www.amazon.in/dp/B01GT8JSH2?tag=techeasy0d1-21&linkCode=ll1&linkId=B01GT8JSH2&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T15:54:04.313781+00:00"
+      "posted_at": "2026-08-19T15:54:04.313781+00:00",
+      "variant_key": "B01GT8JSH2"
     },
     {
       "asin": "fk_ITMD64C3272E8492",
@@ -15041,7 +15051,8 @@
       "headline": "Usually tracks around ₹199,785.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/samsung-55s95h-138-cm-55-inch-oled-ultra-hd-4k-smart-tizen-tv-vision-ai-google-voice-assistant/p/itmd64c3272e8492?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-19T15:14:30.148952+00:00"
+      "posted_at": "2026-08-19T15:14:30.148952+00:00",
+      "variant_key": "fk_ITMD64C3272E8492"
     },
     {
       "asin": "fk_ITM6D1D64EEBFED8",
@@ -15158,7 +15169,8 @@
       "headline": "Usually tracks around ₹46,173.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sonos-era-300-spatial-audio-dolby-atmos-180-w-bluetooth-speaker/p/itm6d1d64eebfed8?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-19T15:14:20.507572+00:00"
+      "posted_at": "2026-08-19T15:14:20.507572+00:00",
+      "variant_key": "fk_ITM6D1D64EEBFED8"
     },
     {
       "asin": "fk_ITM78B9AF6EE2E0C",
@@ -15271,7 +15283,8 @@
       "headline": "Usually tracks around ₹15,132.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-ult-field-3-massive-bass-24hrs-battery-voice-calling-ip67-shoulder-strap-48-w-bluetooth-speaker/p/itm78b9af6ee2e0c?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-08-19T15:14:06.023075+00:00"
+      "posted_at": "2026-08-19T15:14:06.023075+00:00",
+      "variant_key": "fk_ITM78B9AF6EE2E0C"
     },
     {
       "asin": "B09V51YCW4",
@@ -15310,15 +15323,15 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": "₹57 EMI interest savings",
-      "score": 72,
-      "final_intelligence_score": 40,
+      "score": 82,
+      "final_intelligence_score": 42,
       "intelligence_explanation": {
-        "score": 40,
+        "score": 42,
         "components": {
-          "base_deal": 62,
+          "base_deal": 72,
           "pricing_confidence": 60,
           "trust": 51,
-          "historical_strength": 6,
+          "historical_strength": 5,
           "hero": 10,
           "trend": 25,
           "effective_price_strength": 48,
@@ -15345,8 +15358,8 @@
       },
       "confidence_score": 80,
       "historical_conversion_score": 3,
-      "historical_product_strength": 6,
-      "historical_confidence": 80.04,
+      "historical_product_strength": 5,
+      "historical_confidence": 80.03,
       "trend_score": 0,
       "trend_velocity": 50,
       "trend_stability": 77,
@@ -15385,7 +15398,8 @@
       "posted_at": "2026-08-19T15:12:42.387768+00:00",
       "product_id": "amz:B09V51YCW4",
       "trend_signals": {},
-      "intelligence_score_bonus": 10
+      "intelligence_score_bonus": 10,
+      "variant_key": "B09V51YCW4"
     },
     {
       "asin": "B09N79MX8H",
@@ -15493,7 +15507,8 @@
       "headline": "Usually tracks around ₹5,917.",
       "affiliate_link": "https://www.amazon.in/dp/B09N79MX8H?tag=techeasy0d1-21&linkCode=ll1&linkId=B09N79MX8H&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T15:12:32.028021+00:00"
+      "posted_at": "2026-08-19T15:12:32.028021+00:00",
+      "variant_key": "B09N79MX8H"
     },
     {
       "asin": "B09RQR84CC",
@@ -15601,7 +15616,8 @@
       "headline": "Usually tracks around ₹8,006.",
       "affiliate_link": "https://www.amazon.in/dp/B09RQR84CC?tag=techeasy0d1-21&linkCode=ll1&linkId=B09RQR84CC&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T15:12:09.418946+00:00"
+      "posted_at": "2026-08-19T15:12:09.418946+00:00",
+      "variant_key": "B09RQR84CC"
     },
     {
       "asin": "fk_ITM1F1D76D2B55EB",
@@ -15721,7 +15737,8 @@
       "trend_signals": {
         "repeated_telegram_appearances": 3
       },
-      "intelligence_score_bonus": 14
+      "intelligence_score_bonus": 14,
+      "variant_key": "fk_ITM1F1D76D2B55EB"
     },
     {
       "asin": "fk_ITMFF95B84019DC9",
@@ -15762,17 +15779,17 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": null,
-      "score": 55,
+      "score": 58,
       "final_intelligence_score": 14,
       "intelligence_explanation": {
         "score": 14,
         "components": {
-          "base_deal": 52,
+          "base_deal": 55,
           "pricing_confidence": 35,
           "trust": 16,
-          "historical_strength": 6,
+          "historical_strength": 5,
           "hero": 30,
-          "trend": 27,
+          "trend": 28,
           "effective_price_strength": 53,
           "category_quality": 72,
           "rarity": 2,
@@ -15799,13 +15816,13 @@
       },
       "confidence_score": 44,
       "historical_conversion_score": 3,
-      "historical_product_strength": 6,
-      "historical_confidence": 45.21,
+      "historical_product_strength": 5,
+      "historical_confidence": 44.91,
       "trend_score": 0,
       "trend_velocity": 50,
-      "trend_stability": 86,
+      "trend_stability": 87,
       "trend_decay": 12,
-      "trend_maturity_score": 27,
+      "trend_maturity_score": 28,
       "trend_tags": [],
       "hero_score": 30,
       "is_hero_deal": false,
@@ -15819,7 +15836,7 @@
       "public_deal_label": "Worth Checking",
       "pricing_confidence": 35,
       "price_intelligence": {
-        "volatility_score": 72,
+        "volatility_score": 68,
         "fake_discount_risk": true,
         "pricing_confidence": 35,
         "likely_to_drop_further": true,
@@ -15839,7 +15856,8 @@
       "posted_at": "2026-08-19T14:31:47.873396+00:00",
       "product_id": "fk:ITMFF95B84019DC9",
       "trend_signals": {},
-      "intelligence_score_bonus": 3
+      "intelligence_score_bonus": 3,
+      "variant_key": "fk_ITMFF95B84019DC9"
     },
     {
       "asin": "fk_ITM269972FBA2E7B",
@@ -15957,7 +15975,8 @@
       "trend_signals": {
         "repeated_telegram_appearances": 3
       },
-      "intelligence_score_bonus": 22
+      "intelligence_score_bonus": 22,
+      "variant_key": "fk_ITM269972FBA2E7B"
     },
     {
       "asin": "fk_ITM9D4A8086ADDBC",
@@ -15998,17 +16017,17 @@
       "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": null,
-      "score": 38,
-      "final_intelligence_score": 20,
+      "score": 45,
+      "final_intelligence_score": 21,
       "intelligence_explanation": {
-        "score": 20,
+        "score": 21,
         "components": {
-          "base_deal": 30,
+          "base_deal": 38,
           "pricing_confidence": 70,
           "trust": 33,
-          "historical_strength": 11,
+          "historical_strength": 9,
           "hero": 29,
-          "trend": 35,
+          "trend": 31,
           "effective_price_strength": 51,
           "category_quality": 72,
           "rarity": 62,
@@ -16034,14 +16053,14 @@
         "synergy_bonus": 0
       },
       "confidence_score": 50,
-      "historical_conversion_score": 6,
-      "historical_product_strength": 11,
-      "historical_confidence": 46.62,
+      "historical_conversion_score": 5,
+      "historical_product_strength": 9,
+      "historical_confidence": 47.46,
       "trend_score": 0,
       "trend_velocity": 50,
       "trend_stability": 100,
-      "trend_decay": 0,
-      "trend_maturity_score": 35,
+      "trend_decay": 12,
+      "trend_maturity_score": 31,
       "trend_tags": [],
       "hero_score": 29,
       "is_hero_deal": false,
@@ -16055,7 +16074,7 @@
       "public_deal_label": "Worth Checking",
       "pricing_confidence": 70,
       "price_intelligence": {
-        "volatility_score": 36,
+        "volatility_score": 34,
         "fake_discount_risk": true,
         "pricing_confidence": 70,
         "likely_to_drop_further": false,
@@ -16075,7 +16094,8 @@
       "posted_at": "2026-08-19T14:31:24.932641+00:00",
       "product_id": "fk:ITM9D4A8086ADDBC",
       "trend_signals": {},
-      "intelligence_score_bonus": 8
+      "intelligence_score_bonus": 7,
+      "variant_key": "fk_ITM9D4A8086ADDBC"
     },
     {
       "asin": "B0F69BGWJV",
@@ -16186,7 +16206,8 @@
       "headline": "Usually tracks around ₹7,974.",
       "affiliate_link": "https://www.amazon.in/dp/B0F69BGWJV?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F69BGWJV&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T14:30:39.607818+00:00"
+      "posted_at": "2026-08-19T14:30:39.607818+00:00",
+      "variant_key": "B0F69BGWJV"
     },
     {
       "asin": "B0DF2FT3YN",
@@ -16302,7 +16323,8 @@
       "headline": "Community momentum is unusually strong.",
       "affiliate_link": "https://www.amazon.in/dp/B0DF2FT3YN?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DF2FT3YN&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T14:30:28.884673+00:00"
+      "posted_at": "2026-08-19T14:30:28.884673+00:00",
+      "variant_key": "B0DF2FT3YN"
     },
     {
       "asin": "B0C3XG7NHK",
@@ -16420,7 +16442,8 @@
       "headline": "Lowest tracked price since 14th May 2025.",
       "affiliate_link": "https://www.amazon.in/dp/B0C3XG7NHK?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C3XG7NHK&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T14:29:52.220784+00:00"
+      "posted_at": "2026-08-19T14:29:52.220784+00:00",
+      "variant_key": "B0C3XG7NHK"
     },
     {
       "asin": "B0FH71VR4X",
@@ -16532,7 +16555,8 @@
       "headline": "Usually tracks around ₹11,397.",
       "affiliate_link": "https://www.amazon.in/dp/B0FH71VR4X?tag=techeasy0d1-21&linkCode=ll1&linkId=B0FH71VR4X&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T13:50:39.535847+00:00"
+      "posted_at": "2026-08-19T13:50:39.535847+00:00",
+      "variant_key": "B0FH71VR4X"
     },
     {
       "asin": "B0GVG74WTK",
@@ -16647,7 +16671,8 @@
       "headline": "Usually tracks around ₹11,642.",
       "affiliate_link": "https://www.amazon.in/dp/B0GVG74WTK?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GVG74WTK&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T13:50:30.237165+00:00"
+      "posted_at": "2026-08-19T13:50:30.237165+00:00",
+      "variant_key": "B0GVG74WTK"
     },
     {
       "asin": "B0D9LRTZP3",
@@ -16760,7 +16785,8 @@
       "headline": "Usually tracks around ₹5,593.",
       "affiliate_link": "https://www.amazon.in/dp/B0D9LRTZP3?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D9LRTZP3&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T13:50:18.862859+00:00"
+      "posted_at": "2026-08-19T13:50:18.862859+00:00",
+      "variant_key": "B0D9LRTZP3"
     },
     {
       "asin": "B0F5QPJW7Q",
@@ -16873,7 +16899,8 @@
       "headline": "Usually tracks around ₹7,996.",
       "affiliate_link": "https://www.amazon.in/dp/B0F5QPJW7Q?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F5QPJW7Q&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T13:49:57.733633+00:00"
+      "posted_at": "2026-08-19T13:49:57.733633+00:00",
+      "variant_key": "B0F5QPJW7Q"
     },
     {
       "asin": "B075SL18PS",
@@ -16992,7 +17019,8 @@
       "headline": "Lowest tracked price since 21st Dec 2021.",
       "affiliate_link": "https://www.amazon.in/dp/B075SL18PS?tag=techeasy0d1-21&linkCode=ll1&linkId=B075SL18PS&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T09:46:55.486365+00:00"
+      "posted_at": "2026-08-19T09:46:55.486365+00:00",
+      "variant_key": "B075SL18PS"
     },
     {
       "asin": "B08K4L9MHM",
@@ -17111,7 +17139,8 @@
       "headline": "Lowest tracked price since 8th Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B08K4L9MHM?tag=techeasy0d1-21&linkCode=ll1&linkId=B08K4L9MHM&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T06:34:44.181263+00:00"
+      "posted_at": "2026-08-19T06:34:44.181263+00:00",
+      "variant_key": "B08K4L9MHM"
     },
     {
       "asin": "B0D9BZNJMC",
@@ -17225,7 +17254,8 @@
       "headline": "Lowest tracked price since 11th Aug 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0D9BZNJMC?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D9BZNJMC&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T06:35:55.758774+00:00"
+      "posted_at": "2026-08-19T06:35:55.758774+00:00",
+      "variant_key": "B0D9BZNJMC"
     },
     {
       "asin": "B0DK622V14",
@@ -17339,7 +17369,8 @@
       "headline": "Lowest tracked price since 19th Apr 2026.",
       "affiliate_link": "https://www.amazon.in/dp/B0DK622V14?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DK622V14&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-19T11:42:49.394989+00:00"
+      "posted_at": "2026-08-19T11:42:49.394989+00:00",
+      "variant_key": "B0DK622V14"
     },
     {
       "asin": "B097MFYZFR",
@@ -17453,7 +17484,8 @@
       "headline": "Lowest tracked price since 28th Sep 2024.",
       "affiliate_link": "https://www.amazon.in/dp/B097MFYZFR?tag=techeasy0d1-21&linkCode=ll1&linkId=B097MFYZFR&ref_=as_li_ss_tl",
       "flipkart_link": "",
-      "posted_at": "2026-08-18T15:47:27.990715+00:00"
+      "posted_at": "2026-08-18T15:47:27.990715+00:00",
+      "variant_key": "B097MFYZFR"
     }
   ],
   "sections": {
@@ -17575,7 +17607,8 @@
         "headline": "Lowest tracked price since 21st Dec 2021.",
         "affiliate_link": "https://www.amazon.in/dp/B075SL18PS?tag=techeasy0d1-21&linkCode=ll1&linkId=B075SL18PS&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T09:46:55.486365+00:00"
+        "posted_at": "2026-08-19T09:46:55.486365+00:00",
+        "variant_key": "B075SL18PS"
       },
       {
         "asin": "B08K4L9MHM",
@@ -17694,7 +17727,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B08K4L9MHM?tag=techeasy0d1-21&linkCode=ll1&linkId=B08K4L9MHM&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:34:44.181263+00:00"
+        "posted_at": "2026-08-19T06:34:44.181263+00:00",
+        "variant_key": "B08K4L9MHM"
       },
       {
         "asin": "B095749V5V",
@@ -17811,7 +17845,8 @@
         "headline": "Lowest tracked price since 19th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B095749V5V?tag=techeasy0d1-21&linkCode=ll1&linkId=B095749V5V&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T05:17:13.305345+00:00"
+        "posted_at": "2026-08-21T05:17:13.305345+00:00",
+        "variant_key": "B095749V5V"
       },
       {
         "asin": "fk_ITMA43EEE623DA49",
@@ -17930,7 +17965,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-163-9-cm-65-inch-ultra-hd-4k-led-smart-google-tv-advanced-ai-processor-x1-hdr-picture-core-dolby-vision-atmos/p/itma43eee623da49?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T12:12:33.347824+00:00"
+        "posted_at": "2026-08-21T12:12:33.347824+00:00",
+        "variant_key": "fk_ITMA43EEE623DA49"
       },
       {
         "asin": "B09C2JSMFB",
@@ -18045,7 +18081,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B09C2JSMFB?tag=techeasy0d1-21&linkCode=ll1&linkId=B09C2JSMFB&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:00.332157+00:00"
+        "posted_at": "2026-08-21T08:48:00.332157+00:00",
+        "variant_key": "B09C2JSMFB"
       },
       {
         "asin": "B0C8MTWMK2",
@@ -18162,7 +18199,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0C8MTWMK2?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C8MTWMK2&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:16.993491+00:00"
+        "posted_at": "2026-08-21T08:48:16.993491+00:00",
+        "variant_key": "B0C8MTWMK2"
       },
       {
         "asin": "B0D9BZNJMC",
@@ -18276,7 +18314,8 @@
         "headline": "Lowest tracked price since 11th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0D9BZNJMC?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D9BZNJMC&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:35:55.758774+00:00"
+        "posted_at": "2026-08-19T06:35:55.758774+00:00",
+        "variant_key": "B0D9BZNJMC"
       },
       {
         "asin": "B077B9W343",
@@ -18438,7 +18477,8 @@
         "headline": "Lowest tracked price since 21st Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B077B9W343?tag=techeasy0d1-21&linkCode=ll1&linkId=B077B9W343&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:47:46.176667+00:00"
+        "posted_at": "2026-08-21T13:47:46.176667+00:00",
+        "variant_key": "B077B9W343"
       },
       {
         "asin": "B0BNQDLGMR",
@@ -18552,7 +18592,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0BNQDLGMR?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BNQDLGMR&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T09:30:59.890978+00:00"
+        "posted_at": "2026-08-21T09:30:59.890978+00:00",
+        "variant_key": "B0BNQDLGMR"
       },
       {
         "asin": "B0B5V5VHB6",
@@ -18666,7 +18707,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0B5V5VHB6?tag=techeasy0d1-21&linkCode=ll1&linkId=B0B5V5VHB6&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:33.799631+00:00"
+        "posted_at": "2026-08-21T08:48:33.799631+00:00",
+        "variant_key": "B0B5V5VHB6"
       },
       {
         "asin": "B086M39YV1",
@@ -18825,7 +18867,8 @@
         "headline": "Lowest tracked price since 2nd Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B086M39YV1?tag=techeasy0d1-21&linkCode=ll1&linkId=B086M39YV1&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:47:57.486302+00:00"
+        "posted_at": "2026-08-21T13:47:57.486302+00:00",
+        "variant_key": "B086M39YV1"
       },
       {
         "asin": "B01EJVYN3K",
@@ -18936,7 +18979,8 @@
         "headline": "Lowest tracked price since 16th Apr 2022.",
         "affiliate_link": "https://www.amazon.in/dp/B01EJVYN3K?tag=techeasy0d1-21&linkCode=ll1&linkId=B01EJVYN3K&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T17:56:24.608363+00:00"
+        "posted_at": "2026-08-19T17:56:24.608363+00:00",
+        "variant_key": "B01EJVYN3K"
       }
     ],
     "trending_deals": [
@@ -19057,7 +19101,8 @@
         "headline": "Lowest tracked price since 21st Dec 2021.",
         "affiliate_link": "https://www.amazon.in/dp/B075SL18PS?tag=techeasy0d1-21&linkCode=ll1&linkId=B075SL18PS&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T09:46:55.486365+00:00"
+        "posted_at": "2026-08-19T09:46:55.486365+00:00",
+        "variant_key": "B075SL18PS"
       },
       {
         "asin": "B0D9BZNJMC",
@@ -19171,7 +19216,8 @@
         "headline": "Lowest tracked price since 11th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0D9BZNJMC?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D9BZNJMC&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:35:55.758774+00:00"
+        "posted_at": "2026-08-19T06:35:55.758774+00:00",
+        "variant_key": "B0D9BZNJMC"
       },
       {
         "asin": "B077B9W343",
@@ -19333,7 +19379,8 @@
         "headline": "Lowest tracked price since 21st Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B077B9W343?tag=techeasy0d1-21&linkCode=ll1&linkId=B077B9W343&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:47:46.176667+00:00"
+        "posted_at": "2026-08-21T13:47:46.176667+00:00",
+        "variant_key": "B077B9W343"
       },
       {
         "asin": "B0DST6Z7K1",
@@ -19446,7 +19493,8 @@
         "headline": "Discount looks high, but price history support is limited.",
         "affiliate_link": "https://www.amazon.in/dp/B0DST6Z7K1?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DST6Z7K1&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:08:54.387411+00:00"
+        "posted_at": "2026-08-21T13:08:54.387411+00:00",
+        "variant_key": "B0DST6Z7K1"
       },
       {
         "asin": "B073CXZ8KR",
@@ -19561,127 +19609,8 @@
         "headline": "Lowest tracked price since 29th Mar 2019.",
         "affiliate_link": "https://www.amazon.in/dp/B073CXZ8KR?tag=techeasy0d1-21&linkCode=ll1&linkId=B073CXZ8KR&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T06:07:09.697772+00:00"
-      },
-      {
-        "asin": "B0BT1YXLYV",
-        "title": "Buy Pigeon By Stovekraft Kitchen Tools Value Combo, Stainless Steel (400Ml Chopper &amp; Storage, 3 Knives Set, 1 Kitchen Scissor), Green Online at Low Prices in India - Amazon.in",
-        "price": "₹377",
-        "display_price": "₹377",
-        "price_num": 377,
-        "original_price": "₹1,799",
-        "discount_pct": 79,
-        "effective_price": null,
-        "effective_price_note": null,
-        "fk_live_price_corrected": false,
-        "fk_live_price_drift_pct": null,
-        "fk_original_scraped_price": null,
-        "price_verified_at": "2026-08-21T07:29:08.127583+00:00",
-        "image_url": "https://m.media-amazon.com/images/I/71psS2GzqCL._SL1500_.jpg",
-        "category": "🍳 Kitchen",
-        "source": "amazon",
-        "is_lowest_ever": false,
-        "lowest_ever": "₹296",
-        "average_price": "₹404",
-        "highest_price": "₹629",
-        "vs_avg_str": "6% below avg (avg ₹404)",
-        "vs_avg_pct": 6,
-        "vs_local_avg_pct": null,
-        "local_lowest": null,
-        "best_card_label": null,
-        "best_card_discount": 0,
-        "bank_offer_confidence": 4,
-        "bank_offers": [
-          "Upto ₹11 off via Amazon Pay",
-          "Upto ₹2,000 off via select Credit"
-        ],
-        "saving_breakdown": [],
-        "coupon": null,
-        "coupon_num": 0,
-        "coupon_confidence": 0,
-        "emi_savings": null,
-        "score": 71,
-        "final_intelligence_score": 0,
-        "intelligence_explanation": {
-          "score": 0,
-          "components": {
-            "base_deal": 60,
-            "pricing_confidence": 35,
-            "trust": 14,
-            "historical_strength": 13,
-            "hero": 0,
-            "trend": 49,
-            "effective_price_strength": 48,
-            "category_quality": 48,
-            "rarity": 14,
-            "community_validation": 0,
-            "watchlist_relevance": 0
-          },
-          "weights": {
-            "base_deal": 22,
-            "pricing_confidence": 14,
-            "trust": 14,
-            "historical_strength": 12,
-            "hero": 10,
-            "trend": 8,
-            "effective_price_strength": 7,
-            "category_quality": 5,
-            "rarity": 4,
-            "community_validation": 3,
-            "watchlist_relevance": 1
-          },
-          "penalties": {
-            "fake_discount_risk": 18,
-            "low_value_item": 14
-          },
-          "synergy_bonus": 0
-        },
-        "confidence_score": 58,
-        "historical_conversion_score": 12,
-        "historical_product_strength": 13,
-        "historical_confidence": 54.32,
-        "trend_score": 26,
-        "trend_velocity": 82,
-        "trend_stability": 100,
-        "trend_decay": 12,
-        "trend_maturity_score": 49,
-        "trend_tags": [],
-        "hero_score": 0,
-        "is_hero_deal": false,
-        "trust_score": 14,
-        "public_trust_label": "Verify Before Buying",
-        "trust_signals": [],
-        "revenue_per_impression": 0.0,
-        "revenue_per_click": 0,
-        "epc_estimate": 0.0,
-        "deal_insight": "Usually tracks around ₹404.",
-        "public_deal_label": "Worth Checking",
-        "pricing_confidence": 35,
-        "price_intelligence": {
-          "volatility_score": 15,
-          "fake_discount_risk": true,
-          "pricing_confidence": 35,
-          "likely_to_drop_further": false,
-          "rare_low": false,
-          "normal_sale_range": true,
-          "historical_floor": "₹296",
-          "seasonal_baseline_price": "₹404"
-        },
-        "tracked_since": "2026-08-01 04:33:31",
-        "brand": "Buy",
-        "product_category_key": "other",
-        "rating": 4.1,
-        "review_count": 4332,
-        "headline": "Usually tracks around ₹404.",
-        "affiliate_link": "https://www.amazon.in/dp/B0BT1YXLYV?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BT1YXLYV&ref_=as_li_ss_tl",
-        "flipkart_link": "",
-        "posted_at": "2026-08-21T07:29:08.127610+00:00",
-        "product_id": "amz:B0BT1YXLYV",
-        "trend_signals": {
-          "repeated_telegram_appearances": 3,
-          "review_volume": 4332
-        },
-        "intelligence_score_bonus": 11
+        "posted_at": "2026-08-21T06:07:09.697772+00:00",
+        "variant_key": "B073CXZ8KR"
       },
       {
         "asin": "fk_ITM3333FA5AD382B",
@@ -19794,7 +19723,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/zebronics-10000-mah-12-w-slim-power-bank/p/itm3333fa5ad382b?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T10:51:21.937698+00:00"
+        "posted_at": "2026-08-21T10:51:21.937698+00:00",
+        "variant_key": "fk_ITM3333FA5AD382B"
       },
       {
         "asin": "B0GQC67KQG",
@@ -19909,7 +19839,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0GQC67KQG?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GQC67KQG&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T10:13:02.526723+00:00"
+        "posted_at": "2026-08-21T10:13:02.526723+00:00",
+        "variant_key": "B0GQC67KQG"
       },
       {
         "asin": "B07KVZD4TJ",
@@ -20029,7 +19960,8 @@
         "headline": "Lowest tracked price since 21st Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B07KVZD4TJ?tag=techeasy0d1-21&linkCode=ll1&linkId=B07KVZD4TJ&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T10:13:29.796766+00:00"
+        "posted_at": "2026-08-21T10:13:29.796766+00:00",
+        "variant_key": "B07KVZD4TJ"
       },
       {
         "asin": "B07PQBJ4BP",
@@ -20145,7 +20077,8 @@
         "headline": "Usually tracks around ₹716.",
         "affiliate_link": "https://www.amazon.in/dp/B07PQBJ4BP?tag=techeasy0d1-21&linkCode=ll1&linkId=B07PQBJ4BP&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T17:56:34.439302+00:00"
+        "posted_at": "2026-08-19T17:56:34.439302+00:00",
+        "variant_key": "B07PQBJ4BP"
       },
       {
         "asin": "B0C3VYT6Q6",
@@ -20261,7 +20194,8 @@
         "headline": "Lowest tracked price since 4th Mar 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0C3VYT6Q6?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C3VYT6Q6&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T06:13:59.767945+00:00"
+        "posted_at": "2026-08-21T06:13:59.767945+00:00",
+        "variant_key": "B0C3VYT6Q6"
       },
       {
         "asin": "B008KSHQBU",
@@ -20377,7 +20311,125 @@
         "headline": "Lowest tracked price since 26th Jan 2025.",
         "affiliate_link": "https://www.amazon.in/dp/B008KSHQBU?tag=techeasy0d1-21&linkCode=ll1&linkId=B008KSHQBU&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:07:50.240308+00:00"
+        "posted_at": "2026-08-21T13:07:50.240308+00:00",
+        "variant_key": "B008KSHQBU"
+      },
+      {
+        "asin": "B0GX5BF141",
+        "title": "VW 80 cm (32 inches) Spectra Series HD Ready Smart QLED Android TV VW32AQ3",
+        "price": "₹9,699",
+        "display_price": "₹9,699",
+        "price_num": 9699,
+        "original_price": "₹19,999",
+        "discount_pct": 51,
+        "effective_price": null,
+        "effective_price_note": null,
+        "fk_live_price_corrected": false,
+        "fk_live_price_drift_pct": null,
+        "fk_original_scraped_price": null,
+        "price_verified_at": "2026-08-21T09:32:00.287168+00:00",
+        "image_url": "https://m.media-amazon.com/images/I/81oOBnd1iiL._SL1500_.jpg",
+        "category": "⚡ Electronics",
+        "source": "amazon",
+        "is_lowest_ever": false,
+        "lowest_ever": "₹9,299",
+        "average_price": "₹9,596",
+        "highest_price": "₹9,999",
+        "vs_avg_str": "1% above avg (avg ₹9,596)",
+        "vs_avg_pct": -1,
+        "vs_local_avg_pct": null,
+        "local_lowest": null,
+        "best_card_label": null,
+        "best_card_discount": 0,
+        "bank_offer_confidence": 4,
+        "bank_offers": [
+          "Upto ₹290 off via Amazon Pay",
+          "Upto ₹2,000 off via select Credit"
+        ],
+        "saving_breakdown": [],
+        "coupon": null,
+        "coupon_num": 0,
+        "coupon_confidence": 0,
+        "emi_savings": "₹252 EMI interest savings",
+        "score": 64,
+        "final_intelligence_score": 16,
+        "intelligence_explanation": {
+          "score": 16,
+          "components": {
+            "base_deal": 38,
+            "pricing_confidence": 35,
+            "trust": 24,
+            "historical_strength": 6,
+            "hero": 48,
+            "trend": 45,
+            "effective_price_strength": 48,
+            "category_quality": 88,
+            "rarity": 0,
+            "community_validation": 0,
+            "watchlist_relevance": 0
+          },
+          "weights": {
+            "base_deal": 22,
+            "pricing_confidence": 14,
+            "trust": 14,
+            "historical_strength": 12,
+            "hero": 10,
+            "trend": 8,
+            "effective_price_strength": 7,
+            "category_quality": 5,
+            "rarity": 4,
+            "community_validation": 3,
+            "watchlist_relevance": 1
+          },
+          "penalties": {
+            "fake_discount_risk": 18
+          },
+          "synergy_bonus": 0
+        },
+        "confidence_score": 47,
+        "historical_conversion_score": 16,
+        "historical_product_strength": 6,
+        "historical_confidence": 47.07,
+        "trend_score": 36,
+        "trend_velocity": 70,
+        "trend_stability": 94,
+        "trend_decay": 24,
+        "trend_maturity_score": 45,
+        "trend_tags": [
+          "trending",
+          "hot category"
+        ],
+        "hero_score": 48,
+        "is_hero_deal": false,
+        "trust_score": 24,
+        "public_trust_label": "Verify Before Buying",
+        "trust_signals": [],
+        "revenue_per_impression": 0.0,
+        "revenue_per_click": 0,
+        "epc_estimate": 0.0,
+        "deal_insight": "Usually tracks around ₹9,596.",
+        "public_deal_label": "Worth Checking",
+        "pricing_confidence": 35,
+        "price_intelligence": {
+          "volatility_score": 2,
+          "fake_discount_risk": true,
+          "pricing_confidence": 35,
+          "likely_to_drop_further": false,
+          "rare_low": false,
+          "normal_sale_range": false,
+          "historical_floor": "₹9,299",
+          "seasonal_baseline_price": "₹9,596"
+        },
+        "tracked_since": "2026-06-30 09:00:24",
+        "brand": "Vw",
+        "product_category_key": "tv",
+        "rating": 4.0,
+        "review_count": 16156,
+        "headline": "Usually tracks around ₹9,596.",
+        "affiliate_link": "https://www.amazon.in/dp/B0GX5BF141?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GX5BF141&ref_=as_li_ss_tl",
+        "flipkart_link": "",
+        "posted_at": "2026-08-21T09:32:00.287201+00:00",
+        "variant_key": "B0GX5BF141"
       }
     ],
     "best_deals_today": [
@@ -20498,7 +20550,8 @@
         "headline": "Lowest tracked price since 21st Dec 2021.",
         "affiliate_link": "https://www.amazon.in/dp/B075SL18PS?tag=techeasy0d1-21&linkCode=ll1&linkId=B075SL18PS&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T09:46:55.486365+00:00"
+        "posted_at": "2026-08-19T09:46:55.486365+00:00",
+        "variant_key": "B075SL18PS"
       },
       {
         "asin": "B08K4L9MHM",
@@ -20617,7 +20670,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B08K4L9MHM?tag=techeasy0d1-21&linkCode=ll1&linkId=B08K4L9MHM&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:34:44.181263+00:00"
+        "posted_at": "2026-08-19T06:34:44.181263+00:00",
+        "variant_key": "B08K4L9MHM"
       },
       {
         "asin": "B095749V5V",
@@ -20734,7 +20788,8 @@
         "headline": "Lowest tracked price since 19th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B095749V5V?tag=techeasy0d1-21&linkCode=ll1&linkId=B095749V5V&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T05:17:13.305345+00:00"
+        "posted_at": "2026-08-21T05:17:13.305345+00:00",
+        "variant_key": "B095749V5V"
       },
       {
         "asin": "B0C8MTWMK2",
@@ -20851,7 +20906,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0C8MTWMK2?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C8MTWMK2&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:16.993491+00:00"
+        "posted_at": "2026-08-21T08:48:16.993491+00:00",
+        "variant_key": "B0C8MTWMK2"
       },
       {
         "asin": "B09C2JSMFB",
@@ -20966,7 +21022,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B09C2JSMFB?tag=techeasy0d1-21&linkCode=ll1&linkId=B09C2JSMFB&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:00.332157+00:00"
+        "posted_at": "2026-08-21T08:48:00.332157+00:00",
+        "variant_key": "B09C2JSMFB"
       },
       {
         "asin": "fk_ITMA43EEE623DA49",
@@ -21085,7 +21142,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-163-9-cm-65-inch-ultra-hd-4k-led-smart-google-tv-advanced-ai-processor-x1-hdr-picture-core-dolby-vision-atmos/p/itma43eee623da49?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T12:12:33.347824+00:00"
+        "posted_at": "2026-08-21T12:12:33.347824+00:00",
+        "variant_key": "fk_ITMA43EEE623DA49"
       },
       {
         "asin": "B0D9BZNJMC",
@@ -21199,7 +21257,8 @@
         "headline": "Lowest tracked price since 11th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0D9BZNJMC?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D9BZNJMC&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:35:55.758774+00:00"
+        "posted_at": "2026-08-19T06:35:55.758774+00:00",
+        "variant_key": "B0D9BZNJMC"
       },
       {
         "asin": "B086M39YV1",
@@ -21358,7 +21417,8 @@
         "headline": "Lowest tracked price since 2nd Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B086M39YV1?tag=techeasy0d1-21&linkCode=ll1&linkId=B086M39YV1&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:47:57.486302+00:00"
+        "posted_at": "2026-08-21T13:47:57.486302+00:00",
+        "variant_key": "B086M39YV1"
       },
       {
         "asin": "B077B9W343",
@@ -21520,7 +21580,8 @@
         "headline": "Lowest tracked price since 21st Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B077B9W343?tag=techeasy0d1-21&linkCode=ll1&linkId=B077B9W343&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:47:46.176667+00:00"
+        "posted_at": "2026-08-21T13:47:46.176667+00:00",
+        "variant_key": "B077B9W343"
       },
       {
         "asin": "B0BNQDLGMR",
@@ -21634,7 +21695,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0BNQDLGMR?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BNQDLGMR&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T09:30:59.890978+00:00"
+        "posted_at": "2026-08-21T09:30:59.890978+00:00",
+        "variant_key": "B0BNQDLGMR"
       },
       {
         "asin": "B0B5V5VHB6",
@@ -21748,7 +21810,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0B5V5VHB6?tag=techeasy0d1-21&linkCode=ll1&linkId=B0B5V5VHB6&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:33.799631+00:00"
+        "posted_at": "2026-08-21T08:48:33.799631+00:00",
+        "variant_key": "B0B5V5VHB6"
       },
       {
         "asin": "B0C3VYT6Q6",
@@ -21864,7 +21927,8 @@
         "headline": "Lowest tracked price since 4th Mar 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0C3VYT6Q6?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C3VYT6Q6&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T06:13:59.767945+00:00"
+        "posted_at": "2026-08-21T06:13:59.767945+00:00",
+        "variant_key": "B0C3VYT6Q6"
       }
     ],
     "lowest_tracked_prices": [
@@ -21985,7 +22049,8 @@
         "headline": "Lowest tracked price since 21st Dec 2021.",
         "affiliate_link": "https://www.amazon.in/dp/B075SL18PS?tag=techeasy0d1-21&linkCode=ll1&linkId=B075SL18PS&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T09:46:55.486365+00:00"
+        "posted_at": "2026-08-19T09:46:55.486365+00:00",
+        "variant_key": "B075SL18PS"
       },
       {
         "asin": "B08K4L9MHM",
@@ -22104,7 +22169,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B08K4L9MHM?tag=techeasy0d1-21&linkCode=ll1&linkId=B08K4L9MHM&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:34:44.181263+00:00"
+        "posted_at": "2026-08-19T06:34:44.181263+00:00",
+        "variant_key": "B08K4L9MHM"
       },
       {
         "asin": "B095749V5V",
@@ -22221,7 +22287,8 @@
         "headline": "Lowest tracked price since 19th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B095749V5V?tag=techeasy0d1-21&linkCode=ll1&linkId=B095749V5V&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T05:17:13.305345+00:00"
+        "posted_at": "2026-08-21T05:17:13.305345+00:00",
+        "variant_key": "B095749V5V"
       },
       {
         "asin": "fk_ITMA43EEE623DA49",
@@ -22340,7 +22407,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-163-9-cm-65-inch-ultra-hd-4k-led-smart-google-tv-advanced-ai-processor-x1-hdr-picture-core-dolby-vision-atmos/p/itma43eee623da49?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T12:12:33.347824+00:00"
+        "posted_at": "2026-08-21T12:12:33.347824+00:00",
+        "variant_key": "fk_ITMA43EEE623DA49"
       },
       {
         "asin": "B0C8MTWMK2",
@@ -22457,7 +22525,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0C8MTWMK2?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C8MTWMK2&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:16.993491+00:00"
+        "posted_at": "2026-08-21T08:48:16.993491+00:00",
+        "variant_key": "B0C8MTWMK2"
       },
       {
         "asin": "B09C2JSMFB",
@@ -22572,7 +22641,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B09C2JSMFB?tag=techeasy0d1-21&linkCode=ll1&linkId=B09C2JSMFB&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:00.332157+00:00"
+        "posted_at": "2026-08-21T08:48:00.332157+00:00",
+        "variant_key": "B09C2JSMFB"
       },
       {
         "asin": "B0D9BZNJMC",
@@ -22686,7 +22756,8 @@
         "headline": "Lowest tracked price since 11th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0D9BZNJMC?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D9BZNJMC&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:35:55.758774+00:00"
+        "posted_at": "2026-08-19T06:35:55.758774+00:00",
+        "variant_key": "B0D9BZNJMC"
       },
       {
         "asin": "B086M39YV1",
@@ -22845,7 +22916,8 @@
         "headline": "Lowest tracked price since 2nd Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B086M39YV1?tag=techeasy0d1-21&linkCode=ll1&linkId=B086M39YV1&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:47:57.486302+00:00"
+        "posted_at": "2026-08-21T13:47:57.486302+00:00",
+        "variant_key": "B086M39YV1"
       },
       {
         "asin": "B077B9W343",
@@ -23007,7 +23079,8 @@
         "headline": "Lowest tracked price since 21st Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B077B9W343?tag=techeasy0d1-21&linkCode=ll1&linkId=B077B9W343&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:47:46.176667+00:00"
+        "posted_at": "2026-08-21T13:47:46.176667+00:00",
+        "variant_key": "B077B9W343"
       },
       {
         "asin": "B0BNQDLGMR",
@@ -23121,7 +23194,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0BNQDLGMR?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BNQDLGMR&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T09:30:59.890978+00:00"
+        "posted_at": "2026-08-21T09:30:59.890978+00:00",
+        "variant_key": "B0BNQDLGMR"
       },
       {
         "asin": "B0B5V5VHB6",
@@ -23235,7 +23309,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0B5V5VHB6?tag=techeasy0d1-21&linkCode=ll1&linkId=B0B5V5VHB6&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:33.799631+00:00"
+        "posted_at": "2026-08-21T08:48:33.799631+00:00",
+        "variant_key": "B0B5V5VHB6"
       },
       {
         "asin": "B0C3VYT6Q6",
@@ -23351,7 +23426,8 @@
         "headline": "Lowest tracked price since 4th Mar 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0C3VYT6Q6?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C3VYT6Q6&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T06:13:59.767945+00:00"
+        "posted_at": "2026-08-21T06:13:59.767945+00:00",
+        "variant_key": "B0C3VYT6Q6"
       }
     ],
     "premium_picks": [
@@ -23472,7 +23548,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B08K4L9MHM?tag=techeasy0d1-21&linkCode=ll1&linkId=B08K4L9MHM&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:34:44.181263+00:00"
+        "posted_at": "2026-08-19T06:34:44.181263+00:00",
+        "variant_key": "B08K4L9MHM"
       },
       {
         "asin": "B0DKFT2J9C",
@@ -23590,7 +23667,8 @@
         "headline": "Lowest tracked price since 16th Jul 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0DKFT2J9C?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DKFT2J9C&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T09:31:11.901186+00:00"
+        "posted_at": "2026-08-21T09:31:11.901186+00:00",
+        "variant_key": "B0DKFT2J9C"
       },
       {
         "asin": "B075SL18PS",
@@ -23709,7 +23787,8 @@
         "headline": "Lowest tracked price since 21st Dec 2021.",
         "affiliate_link": "https://www.amazon.in/dp/B075SL18PS?tag=techeasy0d1-21&linkCode=ll1&linkId=B075SL18PS&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T09:46:55.486365+00:00"
+        "posted_at": "2026-08-19T09:46:55.486365+00:00",
+        "variant_key": "B075SL18PS"
       },
       {
         "asin": "fk_ITMA43EEE623DA49",
@@ -23828,7 +23907,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-163-9-cm-65-inch-ultra-hd-4k-led-smart-google-tv-advanced-ai-processor-x1-hdr-picture-core-dolby-vision-atmos/p/itma43eee623da49?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T12:12:33.347824+00:00"
+        "posted_at": "2026-08-21T12:12:33.347824+00:00",
+        "variant_key": "fk_ITMA43EEE623DA49"
       },
       {
         "asin": "B077B9W343",
@@ -23990,7 +24070,8 @@
         "headline": "Lowest tracked price since 21st Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B077B9W343?tag=techeasy0d1-21&linkCode=ll1&linkId=B077B9W343&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:47:46.176667+00:00"
+        "posted_at": "2026-08-21T13:47:46.176667+00:00",
+        "variant_key": "B077B9W343"
       },
       {
         "asin": "fk_ITM236E947A68235",
@@ -24107,7 +24188,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/lg-139-cm-55-inch-oled-ultra-hd-4k-smart-webos-tv/p/itm236e947a68235?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T05:15:45.969615+00:00"
+        "posted_at": "2026-08-21T05:15:45.969615+00:00",
+        "variant_key": "fk_ITM236E947A68235"
       },
       {
         "asin": "B0C3XG7NHK",
@@ -24225,7 +24307,8 @@
         "headline": "Lowest tracked price since 14th May 2025.",
         "affiliate_link": "https://www.amazon.in/dp/B0C3XG7NHK?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C3XG7NHK&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T14:29:52.220784+00:00"
+        "posted_at": "2026-08-19T14:29:52.220784+00:00",
+        "variant_key": "B0C3XG7NHK"
       },
       {
         "asin": "B0DF2FT3YN",
@@ -24341,7 +24424,8 @@
         "headline": "Community momentum is unusually strong.",
         "affiliate_link": "https://www.amazon.in/dp/B0DF2FT3YN?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DF2FT3YN&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T14:30:28.884673+00:00"
+        "posted_at": "2026-08-19T14:30:28.884673+00:00",
+        "variant_key": "B0DF2FT3YN"
       },
       {
         "asin": "B0BWRW7QP8",
@@ -24458,7 +24542,8 @@
         "headline": "Usually tracks around ₹1,994.",
         "affiliate_link": "https://www.amazon.in/dp/B0BWRW7QP8?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BWRW7QP8&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T10:51:00.212997+00:00"
+        "posted_at": "2026-08-21T10:51:00.212997+00:00",
+        "variant_key": "B0BWRW7QP8"
       },
       {
         "asin": "fk_ITM8B613F02D40A6",
@@ -24573,7 +24658,8 @@
         "headline": "Usually tracks around ₹165,754.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/lg-evo-ai-g5-139-cm-55-inch-oled-ultra-hd-4k-smart-webos-tv-alpha-11-processor-4k-gen2-brightness-booster-ultimate-picture-pro-dolby-vision-sound-virtual-11-1-2ch-up-mix-atmos-up-165hz-variable-refresh-rate-60w-output-2-5-gb-ram-16-rom-nvidia-g-sync-amd-freesync-compatible/p/itm8b613f02d40a6?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T08:12:06.281575+00:00"
+        "posted_at": "2026-08-21T08:12:06.281575+00:00",
+        "variant_key": "fk_ITM8B613F02D40A6"
       },
       {
         "asin": "fk_ITM57C5B4B592475",
@@ -24686,7 +24772,8 @@
         "headline": "Usually tracks around ₹226,909.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-8-ii-138-8-cm-55-inch-oled-ultra-hd-4k-smart-google-tv/p/itm57c5b4b592475?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T10:15:01.288272+00:00"
+        "posted_at": "2026-08-21T10:15:01.288272+00:00",
+        "variant_key": "fk_ITM57C5B4B592475"
       },
       {
         "asin": "fk_ITM3580D1A4D06EC",
@@ -24801,7 +24888,8 @@
         "headline": "Usually tracks around ₹47,119.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/samsung-138-cm-55-inch-qled-ultra-hd-4k-smart-tizen-tv-vision-ai-100-color-volume-quantum-dot-real-sheet-hdr-pantone-validated-4k-upscaling-knox-security-100-free-channels/p/itm3580d1a4d06ec?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-19T16:34:41.518615+00:00"
+        "posted_at": "2026-08-19T16:34:41.518615+00:00",
+        "variant_key": "fk_ITM3580D1A4D06EC"
       }
     ],
     "fast_selling_deals": [
@@ -24917,7 +25005,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0BNQDLGMR?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BNQDLGMR&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T09:30:59.890978+00:00"
+        "posted_at": "2026-08-21T09:30:59.890978+00:00",
+        "variant_key": "B0BNQDLGMR"
       },
       {
         "asin": "B0DK622V14",
@@ -25031,7 +25120,8 @@
         "headline": "Lowest tracked price since 19th Apr 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0DK622V14?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DK622V14&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T11:42:49.394989+00:00"
+        "posted_at": "2026-08-19T11:42:49.394989+00:00",
+        "variant_key": "B0DK622V14"
       },
       {
         "asin": "B073CXZ8KR",
@@ -25146,7 +25236,8 @@
         "headline": "Lowest tracked price since 29th Mar 2019.",
         "affiliate_link": "https://www.amazon.in/dp/B073CXZ8KR?tag=techeasy0d1-21&linkCode=ll1&linkId=B073CXZ8KR&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T06:07:09.697772+00:00"
+        "posted_at": "2026-08-21T06:07:09.697772+00:00",
+        "variant_key": "B073CXZ8KR"
       },
       {
         "asin": "fk_ITM3333FA5AD382B",
@@ -25259,7 +25350,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/zebronics-10000-mah-12-w-slim-power-bank/p/itm3333fa5ad382b?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T10:51:21.937698+00:00"
+        "posted_at": "2026-08-21T10:51:21.937698+00:00",
+        "variant_key": "fk_ITM3333FA5AD382B"
       },
       {
         "asin": "fk_ITM7690E5C855D5A",
@@ -25374,7 +25466,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/honeywell-air-touch-v1-3-stage-filtration-covers-235-sq-ft-3-in-1-filter-pre-filter-h13-hepa-filter-activated-carbon-removes-99-97-pollutants-allergens-pet-danger-smoke-dust-pollens-portable-room-purifier/p/itm7690e5c855d5a?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T06:50:03.812485+00:00"
+        "posted_at": "2026-08-21T06:50:03.812485+00:00",
+        "variant_key": "fk_ITM7690E5C855D5A"
       },
       {
         "asin": "fk_ITM283DB135C0992",
@@ -25487,7 +25580,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/portronics-10000-mah-22-5-w-compact-power-bank/p/itm283db135c0992?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T10:51:47.425602+00:00"
+        "posted_at": "2026-08-21T10:51:47.425602+00:00",
+        "variant_key": "fk_ITM283DB135C0992"
       },
       {
         "asin": "B075SL18PS",
@@ -25606,7 +25700,8 @@
         "headline": "Lowest tracked price since 21st Dec 2021.",
         "affiliate_link": "https://www.amazon.in/dp/B075SL18PS?tag=techeasy0d1-21&linkCode=ll1&linkId=B075SL18PS&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T09:46:55.486365+00:00"
+        "posted_at": "2026-08-19T09:46:55.486365+00:00",
+        "variant_key": "B075SL18PS"
       },
       {
         "asin": "B0D9BZNJMC",
@@ -25720,59 +25815,86 @@
         "headline": "Lowest tracked price since 11th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0D9BZNJMC?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D9BZNJMC&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:35:55.758774+00:00"
+        "posted_at": "2026-08-19T06:35:55.758774+00:00",
+        "variant_key": "B0D9BZNJMC"
       },
       {
-        "asin": "B0BT1YXLYV",
-        "title": "Buy Pigeon By Stovekraft Kitchen Tools Value Combo, Stainless Steel (400Ml Chopper &amp; Storage, 3 Knives Set, 1 Kitchen Scissor), Green Online at Low Prices in India - Amazon.in",
-        "price": "₹377",
-        "display_price": "₹377",
-        "price_num": 377,
-        "original_price": "₹1,799",
-        "discount_pct": 79,
+        "asin": "B0D7LWQF1X",
+        "title": "REACHER Travel White Noise Sound Machine,Portable Mini Noise Machine for Sleeping with 20 Soothing Sounds, Small Bluetooth Speaker, Baby, Adults, Rechargeable",
+        "price": "₹2,921",
+        "display_price": "₹2,921",
+        "price_num": 2921,
+        "original_price": "₹4,674",
+        "discount_pct": 37,
         "effective_price": null,
+        "effective_price_num": null,
         "effective_price_note": null,
+        "offer_price_conditional": false,
+        "candidate_kind": "standard",
+        "protected_flagship": false,
+        "flagship_effective_deal": false,
+        "visible_saving_num": 1753,
+        "total_effective_saving_num": 1753,
+        "effective_saving_pct": 37.5,
+        "effective_vs_avg_pct": null,
+        "offer_evidence": [
+          "No Cost EMI available EMI options Save Extra with 4 offers Cashback: Get 5% back with Amazon Pay ICICI Bank credit card for Prime members. 3% back for others."
+        ],
+        "offer_terms": [
+          {
+            "kind": "bank",
+            "amount": 0,
+            "label": "Amazon Pay card offer",
+            "evidence": "No Cost EMI available EMI options Save Extra with 4 offers Cashback: Get 5% back with Amazon Pay ICICI Bank credit card for Prime members. 3% back for others.",
+            "confidence": 55,
+            "conditional": true,
+            "bank": "Amazon Pay",
+            "minimum_purchase": 0,
+            "percent": 0,
+            "maximum_discount": 0,
+            "deductible": false
+          }
+        ],
         "fk_live_price_corrected": false,
         "fk_live_price_drift_pct": null,
         "fk_original_scraped_price": null,
-        "price_verified_at": "2026-08-21T07:29:08.127583+00:00",
-        "image_url": "https://m.media-amazon.com/images/I/71psS2GzqCL._SL1500_.jpg",
-        "category": "🍳 Kitchen",
+        "price_verified_at": "2026-08-21T13:48:40.956622+00:00",
+        "image_url": "https://m.media-amazon.com/images/I/71BGHoDBNbL._SL1500_.jpg",
+        "category": "⚡ Electronics",
         "source": "amazon",
         "is_lowest_ever": false,
-        "lowest_ever": "₹296",
-        "average_price": "₹404",
-        "highest_price": "₹629",
-        "vs_avg_str": "6% below avg (avg ₹404)",
-        "vs_avg_pct": 6,
+        "lowest_ever": null,
+        "average_price": null,
+        "highest_price": null,
+        "vs_avg_str": null,
+        "vs_avg_pct": null,
         "vs_local_avg_pct": null,
         "local_lowest": null,
-        "best_card_label": null,
+        "best_card_label": "Amazon Pay card offer",
         "best_card_discount": 0,
-        "bank_offer_confidence": 4,
+        "bank_offer_confidence": 55,
         "bank_offers": [
-          "Upto ₹11 off via Amazon Pay",
-          "Upto ₹2,000 off via select Credit"
+          "Amazon Pay card offer"
         ],
         "saving_breakdown": [],
         "coupon": null,
         "coupon_num": 0,
         "coupon_confidence": 0,
         "emi_savings": null,
-        "score": 71,
-        "final_intelligence_score": 0,
+        "score": 81,
+        "final_intelligence_score": 51,
         "intelligence_explanation": {
-          "score": 0,
+          "score": 51,
           "components": {
-            "base_deal": 60,
-            "pricing_confidence": 35,
-            "trust": 14,
+            "base_deal": 51,
+            "pricing_confidence": 95,
+            "trust": 63,
             "historical_strength": 13,
-            "hero": 0,
-            "trend": 49,
-            "effective_price_strength": 48,
-            "category_quality": 48,
-            "rarity": 14,
+            "hero": 30,
+            "trend": 44,
+            "effective_price_strength": 44,
+            "category_quality": 74,
+            "rarity": 70,
             "community_validation": 0,
             "watchlist_relevance": 0
           },
@@ -25789,58 +25911,57 @@
             "community_validation": 3,
             "watchlist_relevance": 1
           },
-          "penalties": {
-            "fake_discount_risk": 18,
-            "low_value_item": 14
-          },
+          "penalties": {},
           "synergy_bonus": 0
         },
-        "confidence_score": 58,
-        "historical_conversion_score": 12,
+        "confidence_score": 56,
+        "historical_conversion_score": 14,
         "historical_product_strength": 13,
-        "historical_confidence": 54.32,
-        "trend_score": 26,
+        "historical_confidence": 50.38,
+        "trend_score": 16,
         "trend_velocity": 82,
         "trend_stability": 100,
         "trend_decay": 12,
-        "trend_maturity_score": 49,
+        "trend_maturity_score": 44,
         "trend_tags": [],
-        "hero_score": 0,
+        "hero_score": 30,
         "is_hero_deal": false,
-        "trust_score": 14,
-        "public_trust_label": "Verify Before Buying",
-        "trust_signals": [],
+        "trust_score": 63,
+        "public_trust_label": "Worth Checking",
+        "trust_signals": [
+          "Historical Low"
+        ],
         "revenue_per_impression": 0.0,
         "revenue_per_click": 0,
         "epc_estimate": 0.0,
-        "deal_insight": "Usually tracks around ₹404.",
+        "deal_insight": "Lowest tracked price in our data.",
         "public_deal_label": "Worth Checking",
-        "pricing_confidence": 35,
+        "pricing_confidence": 95,
         "price_intelligence": {
-          "volatility_score": 15,
-          "fake_discount_risk": true,
-          "pricing_confidence": 35,
+          "volatility_score": 0,
+          "fake_discount_risk": false,
+          "pricing_confidence": 95,
           "likely_to_drop_further": false,
-          "rare_low": false,
+          "rare_low": true,
           "normal_sale_range": true,
-          "historical_floor": "₹296",
-          "seasonal_baseline_price": "₹404"
+          "historical_floor": "₹2,921",
+          "seasonal_baseline_price": "₹2,921"
         },
-        "tracked_since": "2026-08-01 04:33:31",
-        "brand": "Buy",
-        "product_category_key": "other",
-        "rating": 4.1,
-        "review_count": 4332,
-        "headline": "Usually tracks around ₹404.",
-        "affiliate_link": "https://www.amazon.in/dp/B0BT1YXLYV?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BT1YXLYV&ref_=as_li_ss_tl",
+        "tracked_since": "2026-07-13 09:58:40",
+        "brand": "Reacher",
+        "product_category_key": "audio",
+        "rating": 4.6,
+        "review_count": 115,
+        "headline": "Lowest tracked price in our data.",
+        "affiliate_link": "https://www.amazon.in/dp/B0D7LWQF1X?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D7LWQF1X&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T07:29:08.127610+00:00",
-        "product_id": "amz:B0BT1YXLYV",
+        "posted_at": "2026-08-21T13:48:40.956650+00:00",
+        "variant_key": "B0D7LWQF1X",
+        "product_id": "amz:B0D7LWQF1X",
         "trend_signals": {
-          "repeated_telegram_appearances": 3,
-          "review_volume": 4332
+          "repeated_telegram_appearances": 3
         },
-        "intelligence_score_bonus": 11
+        "intelligence_score_bonus": 30
       },
       {
         "asin": "fk_ITM269972FBA2E7B",
@@ -25958,7 +26079,8 @@
         "trend_signals": {
           "repeated_telegram_appearances": 3
         },
-        "intelligence_score_bonus": 22
+        "intelligence_score_bonus": 22,
+        "variant_key": "fk_ITM269972FBA2E7B"
       },
       {
         "asin": "B0D11KYW41",
@@ -26077,7 +26199,8 @@
         "trend_signals": {
           "repeated_telegram_appearances": 3
         },
-        "intelligence_score_bonus": 18
+        "intelligence_score_bonus": 18,
+        "variant_key": "B0D11KYW41"
       },
       {
         "asin": "B0DST6Z7K1",
@@ -26190,7 +26313,8 @@
         "headline": "Discount looks high, but price history support is limited.",
         "affiliate_link": "https://www.amazon.in/dp/B0DST6Z7K1?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DST6Z7K1&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:08:54.387411+00:00"
+        "posted_at": "2026-08-21T13:08:54.387411+00:00",
+        "variant_key": "B0DST6Z7K1"
       }
     ],
     "community_picks": [
@@ -26307,7 +26431,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0GQC67KQG?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GQC67KQG&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T10:13:02.526723+00:00"
+        "posted_at": "2026-08-21T10:13:02.526723+00:00",
+        "variant_key": "B0GQC67KQG"
       },
       {
         "asin": "B0DF2FT3YN",
@@ -26423,7 +26548,8 @@
         "headline": "Community momentum is unusually strong.",
         "affiliate_link": "https://www.amazon.in/dp/B0DF2FT3YN?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DF2FT3YN&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T14:30:28.884673+00:00"
+        "posted_at": "2026-08-19T14:30:28.884673+00:00",
+        "variant_key": "B0DF2FT3YN"
       },
       {
         "asin": "B07KVZD4TJ",
@@ -26543,7 +26669,8 @@
         "headline": "Lowest tracked price since 21st Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B07KVZD4TJ?tag=techeasy0d1-21&linkCode=ll1&linkId=B07KVZD4TJ&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T10:13:29.796766+00:00"
+        "posted_at": "2026-08-21T10:13:29.796766+00:00",
+        "variant_key": "B07KVZD4TJ"
       },
       {
         "asin": "B0DG8M74Z8",
@@ -26659,7 +26786,8 @@
         "headline": "Usually tracks around ₹1,197.",
         "affiliate_link": "https://www.amazon.in/dp/B0DG8M74Z8?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DG8M74Z8&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T06:07:21.818611+00:00"
+        "posted_at": "2026-08-21T06:07:21.818611+00:00",
+        "variant_key": "B0DG8M74Z8"
       },
       {
         "asin": "B081QTNF7V",
@@ -26775,7 +26903,8 @@
         "headline": "Community momentum is unusually strong.",
         "affiliate_link": "https://www.amazon.in/dp/B081QTNF7V?tag=techeasy0d1-21&linkCode=ll1&linkId=B081QTNF7V&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T12:11:26.979505+00:00"
+        "posted_at": "2026-08-21T12:11:26.979505+00:00",
+        "variant_key": "B081QTNF7V"
       },
       {
         "asin": "B07G4CV4MF",
@@ -26891,7 +27020,8 @@
         "headline": "Usually tracks around ₹2,720.",
         "affiliate_link": "https://www.amazon.in/dp/B07G4CV4MF?tag=techeasy0d1-21&linkCode=ll1&linkId=B07G4CV4MF&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T07:29:29.386233+00:00"
+        "posted_at": "2026-08-21T07:29:29.386233+00:00",
+        "variant_key": "B07G4CV4MF"
       },
       {
         "asin": "B0CCLB75Q2",
@@ -27010,7 +27140,8 @@
         "headline": "Community momentum is unusually strong.",
         "affiliate_link": "https://www.amazon.in/dp/B0CCLB75Q2?tag=techeasy0d1-21&linkCode=ll1&linkId=B0CCLB75Q2&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T07:29:44.267222+00:00"
+        "posted_at": "2026-08-21T07:29:44.267222+00:00",
+        "variant_key": "B0CCLB75Q2"
       },
       {
         "asin": "B0F7LMY2FZ",
@@ -27127,7 +27258,8 @@
         "headline": "Usually tracks around ₹130.",
         "affiliate_link": "https://www.amazon.in/dp/B0F7LMY2FZ?tag=techeasy0d1-21&linkCode=ll1&linkId=B0F7LMY2FZ&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T17:05:34.645608+00:00"
+        "posted_at": "2026-08-19T17:05:34.645608+00:00",
+        "variant_key": "B0F7LMY2FZ"
       },
       {
         "asin": "B0DV43PG96",
@@ -27243,7 +27375,8 @@
         "headline": "Usually tracks around ₹7,603.",
         "affiliate_link": "https://www.amazon.in/dp/B0DV43PG96?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DV43PG96&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T05:14:58.064711+00:00"
+        "posted_at": "2026-08-21T05:14:58.064711+00:00",
+        "variant_key": "B0DV43PG96"
       },
       {
         "asin": "B0DK54K2HL",
@@ -27356,7 +27489,8 @@
         "headline": "Usually tracks around ₹2,675.",
         "affiliate_link": "https://www.amazon.in/dp/B0DK54K2HL?tag=techeasy0d1-21&linkCode=ll1&linkId=B0DK54K2HL&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T12:12:11.210104+00:00"
+        "posted_at": "2026-08-21T12:12:11.210104+00:00",
+        "variant_key": "B0DK54K2HL"
       },
       {
         "asin": "B0H6FLJH3S",
@@ -27473,7 +27607,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "https://www.amazon.in/dp/B0H6FLJH3S?tag=techeasy0d1-21&linkCode=ll1&linkId=B0H6FLJH3S&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T07:30:48.014734+00:00"
+        "posted_at": "2026-08-21T07:30:48.014734+00:00",
+        "variant_key": "B0H6FLJH3S"
       }
     ],
     "high_confidence_deals": [
@@ -27594,7 +27729,8 @@
         "headline": "Lowest tracked price since 21st Dec 2021.",
         "affiliate_link": "https://www.amazon.in/dp/B075SL18PS?tag=techeasy0d1-21&linkCode=ll1&linkId=B075SL18PS&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T09:46:55.486365+00:00"
+        "posted_at": "2026-08-19T09:46:55.486365+00:00",
+        "variant_key": "B075SL18PS"
       },
       {
         "asin": "B08K4L9MHM",
@@ -27713,7 +27849,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B08K4L9MHM?tag=techeasy0d1-21&linkCode=ll1&linkId=B08K4L9MHM&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:34:44.181263+00:00"
+        "posted_at": "2026-08-19T06:34:44.181263+00:00",
+        "variant_key": "B08K4L9MHM"
       },
       {
         "asin": "B095749V5V",
@@ -27830,7 +27967,8 @@
         "headline": "Lowest tracked price since 19th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B095749V5V?tag=techeasy0d1-21&linkCode=ll1&linkId=B095749V5V&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T05:17:13.305345+00:00"
+        "posted_at": "2026-08-21T05:17:13.305345+00:00",
+        "variant_key": "B095749V5V"
       },
       {
         "asin": "B0C8MTWMK2",
@@ -27947,7 +28085,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0C8MTWMK2?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C8MTWMK2&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:16.993491+00:00"
+        "posted_at": "2026-08-21T08:48:16.993491+00:00",
+        "variant_key": "B0C8MTWMK2"
       },
       {
         "asin": "B09C2JSMFB",
@@ -28062,7 +28201,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B09C2JSMFB?tag=techeasy0d1-21&linkCode=ll1&linkId=B09C2JSMFB&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:00.332157+00:00"
+        "posted_at": "2026-08-21T08:48:00.332157+00:00",
+        "variant_key": "B09C2JSMFB"
       },
       {
         "asin": "B086M39YV1",
@@ -28221,7 +28361,8 @@
         "headline": "Lowest tracked price since 2nd Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B086M39YV1?tag=techeasy0d1-21&linkCode=ll1&linkId=B086M39YV1&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:47:57.486302+00:00"
+        "posted_at": "2026-08-21T13:47:57.486302+00:00",
+        "variant_key": "B086M39YV1"
       },
       {
         "asin": "B077B9W343",
@@ -28383,7 +28524,8 @@
         "headline": "Lowest tracked price since 21st Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B077B9W343?tag=techeasy0d1-21&linkCode=ll1&linkId=B077B9W343&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:47:46.176667+00:00"
+        "posted_at": "2026-08-21T13:47:46.176667+00:00",
+        "variant_key": "B077B9W343"
       },
       {
         "asin": "fk_ITMA43EEE623DA49",
@@ -28502,7 +28644,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-163-9-cm-65-inch-ultra-hd-4k-led-smart-google-tv-advanced-ai-processor-x1-hdr-picture-core-dolby-vision-atmos/p/itma43eee623da49?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T12:12:33.347824+00:00"
+        "posted_at": "2026-08-21T12:12:33.347824+00:00",
+        "variant_key": "fk_ITMA43EEE623DA49"
       },
       {
         "asin": "B0D9BZNJMC",
@@ -28616,7 +28759,8 @@
         "headline": "Lowest tracked price since 11th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0D9BZNJMC?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D9BZNJMC&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:35:55.758774+00:00"
+        "posted_at": "2026-08-19T06:35:55.758774+00:00",
+        "variant_key": "B0D9BZNJMC"
       },
       {
         "asin": "B0BNQDLGMR",
@@ -28730,7 +28874,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0BNQDLGMR?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BNQDLGMR&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T09:30:59.890978+00:00"
+        "posted_at": "2026-08-21T09:30:59.890978+00:00",
+        "variant_key": "B0BNQDLGMR"
       },
       {
         "asin": "B0B5V5VHB6",
@@ -28844,7 +28989,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0B5V5VHB6?tag=techeasy0d1-21&linkCode=ll1&linkId=B0B5V5VHB6&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:33.799631+00:00"
+        "posted_at": "2026-08-21T08:48:33.799631+00:00",
+        "variant_key": "B0B5V5VHB6"
       },
       {
         "asin": "B0C3VYT6Q6",
@@ -28960,7 +29106,8 @@
         "headline": "Lowest tracked price since 4th Mar 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0C3VYT6Q6?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C3VYT6Q6&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T06:13:59.767945+00:00"
+        "posted_at": "2026-08-21T06:13:59.767945+00:00",
+        "variant_key": "B0C3VYT6Q6"
       }
     ],
     "rare_discounts": [
@@ -29081,7 +29228,8 @@
         "headline": "Lowest tracked price since 21st Dec 2021.",
         "affiliate_link": "https://www.amazon.in/dp/B075SL18PS?tag=techeasy0d1-21&linkCode=ll1&linkId=B075SL18PS&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T09:46:55.486365+00:00"
+        "posted_at": "2026-08-19T09:46:55.486365+00:00",
+        "variant_key": "B075SL18PS"
       },
       {
         "asin": "B08K4L9MHM",
@@ -29200,7 +29348,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B08K4L9MHM?tag=techeasy0d1-21&linkCode=ll1&linkId=B08K4L9MHM&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:34:44.181263+00:00"
+        "posted_at": "2026-08-19T06:34:44.181263+00:00",
+        "variant_key": "B08K4L9MHM"
       },
       {
         "asin": "B095749V5V",
@@ -29317,7 +29466,8 @@
         "headline": "Lowest tracked price since 19th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B095749V5V?tag=techeasy0d1-21&linkCode=ll1&linkId=B095749V5V&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T05:17:13.305345+00:00"
+        "posted_at": "2026-08-21T05:17:13.305345+00:00",
+        "variant_key": "B095749V5V"
       },
       {
         "asin": "B0C8MTWMK2",
@@ -29434,7 +29584,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0C8MTWMK2?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C8MTWMK2&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:16.993491+00:00"
+        "posted_at": "2026-08-21T08:48:16.993491+00:00",
+        "variant_key": "B0C8MTWMK2"
       },
       {
         "asin": "B09C2JSMFB",
@@ -29549,7 +29700,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B09C2JSMFB?tag=techeasy0d1-21&linkCode=ll1&linkId=B09C2JSMFB&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:00.332157+00:00"
+        "posted_at": "2026-08-21T08:48:00.332157+00:00",
+        "variant_key": "B09C2JSMFB"
       },
       {
         "asin": "B0D9BZNJMC",
@@ -29663,7 +29815,8 @@
         "headline": "Lowest tracked price since 11th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0D9BZNJMC?tag=techeasy0d1-21&linkCode=ll1&linkId=B0D9BZNJMC&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:35:55.758774+00:00"
+        "posted_at": "2026-08-19T06:35:55.758774+00:00",
+        "variant_key": "B0D9BZNJMC"
       },
       {
         "asin": "fk_ITMA43EEE623DA49",
@@ -29782,7 +29935,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-163-9-cm-65-inch-ultra-hd-4k-led-smart-google-tv-advanced-ai-processor-x1-hdr-picture-core-dolby-vision-atmos/p/itma43eee623da49?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T12:12:33.347824+00:00"
+        "posted_at": "2026-08-21T12:12:33.347824+00:00",
+        "variant_key": "fk_ITMA43EEE623DA49"
       },
       {
         "asin": "B0BNQDLGMR",
@@ -29896,7 +30050,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0BNQDLGMR?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BNQDLGMR&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T09:30:59.890978+00:00"
+        "posted_at": "2026-08-21T09:30:59.890978+00:00",
+        "variant_key": "B0BNQDLGMR"
       },
       {
         "asin": "B0B5V5VHB6",
@@ -30010,7 +30165,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0B5V5VHB6?tag=techeasy0d1-21&linkCode=ll1&linkId=B0B5V5VHB6&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:33.799631+00:00"
+        "posted_at": "2026-08-21T08:48:33.799631+00:00",
+        "variant_key": "B0B5V5VHB6"
       },
       {
         "asin": "B077B9W343",
@@ -30172,7 +30328,8 @@
         "headline": "Lowest tracked price since 21st Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B077B9W343?tag=techeasy0d1-21&linkCode=ll1&linkId=B077B9W343&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:47:46.176667+00:00"
+        "posted_at": "2026-08-21T13:47:46.176667+00:00",
+        "variant_key": "B077B9W343"
       },
       {
         "asin": "B086M39YV1",
@@ -30331,7 +30488,8 @@
         "headline": "Lowest tracked price since 2nd Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B086M39YV1?tag=techeasy0d1-21&linkCode=ll1&linkId=B086M39YV1&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:47:57.486302+00:00"
+        "posted_at": "2026-08-21T13:47:57.486302+00:00",
+        "variant_key": "B086M39YV1"
       },
       {
         "asin": "B01EJVYN3K",
@@ -30442,7 +30600,8 @@
         "headline": "Lowest tracked price since 16th Apr 2022.",
         "affiliate_link": "https://www.amazon.in/dp/B01EJVYN3K?tag=techeasy0d1-21&linkCode=ll1&linkId=B01EJVYN3K&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T17:56:24.608363+00:00"
+        "posted_at": "2026-08-19T17:56:24.608363+00:00",
+        "variant_key": "B01EJVYN3K"
       }
     ],
     "watchlist_hits": [],
@@ -30565,7 +30724,8 @@
         "headline": "Lowest tracked price since 21st Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B07KVZD4TJ?tag=techeasy0d1-21&linkCode=ll1&linkId=B07KVZD4TJ&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T10:13:29.796766+00:00"
+        "posted_at": "2026-08-21T10:13:29.796766+00:00",
+        "variant_key": "B07KVZD4TJ"
       },
       {
         "asin": "B095749V5V",
@@ -30682,7 +30842,8 @@
         "headline": "Lowest tracked price since 19th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B095749V5V?tag=techeasy0d1-21&linkCode=ll1&linkId=B095749V5V&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T05:17:13.305345+00:00"
+        "posted_at": "2026-08-21T05:17:13.305345+00:00",
+        "variant_key": "B095749V5V"
       },
       {
         "asin": "B0BNQDLGMR",
@@ -30796,7 +30957,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0BNQDLGMR?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BNQDLGMR&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T09:30:59.890978+00:00"
+        "posted_at": "2026-08-21T09:30:59.890978+00:00",
+        "variant_key": "B0BNQDLGMR"
       },
       {
         "asin": "B0C8MTWMK2",
@@ -30913,7 +31075,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0C8MTWMK2?tag=techeasy0d1-21&linkCode=ll1&linkId=B0C8MTWMK2&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:16.993491+00:00"
+        "posted_at": "2026-08-21T08:48:16.993491+00:00",
+        "variant_key": "B0C8MTWMK2"
       },
       {
         "asin": "B09C2JSMFB",
@@ -31028,7 +31191,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B09C2JSMFB?tag=techeasy0d1-21&linkCode=ll1&linkId=B09C2JSMFB&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:00.332157+00:00"
+        "posted_at": "2026-08-21T08:48:00.332157+00:00",
+        "variant_key": "B09C2JSMFB"
       },
       {
         "asin": "B0B5V5VHB6",
@@ -31142,7 +31306,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0B5V5VHB6?tag=techeasy0d1-21&linkCode=ll1&linkId=B0B5V5VHB6&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T08:48:33.799631+00:00"
+        "posted_at": "2026-08-21T08:48:33.799631+00:00",
+        "variant_key": "B0B5V5VHB6"
       },
       {
         "asin": "B077B9W343",
@@ -31304,7 +31469,8 @@
         "headline": "Lowest tracked price since 21st Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B077B9W343?tag=techeasy0d1-21&linkCode=ll1&linkId=B077B9W343&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T13:47:46.176667+00:00"
+        "posted_at": "2026-08-21T13:47:46.176667+00:00",
+        "variant_key": "B077B9W343"
       },
       {
         "asin": "B0BDPCRYN4",
@@ -31417,7 +31583,8 @@
         "headline": "Lowest tracked price since 9th May 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0BDPCRYN4?tag=techeasy0d1-21&linkCode=ll1&linkId=B0BDPCRYN4&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T10:49:50.103537+00:00"
+        "posted_at": "2026-08-21T10:49:50.103537+00:00",
+        "variant_key": "B0BDPCRYN4"
       },
       {
         "asin": "fk_ITM3333FA5AD382B",
@@ -31530,7 +31697,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/zebronics-10000-mah-12-w-slim-power-bank/p/itm3333fa5ad382b?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-08-21T10:51:21.937698+00:00"
+        "posted_at": "2026-08-21T10:51:21.937698+00:00",
+        "variant_key": "fk_ITM3333FA5AD382B"
       },
       {
         "asin": "B0GQC67KQG",
@@ -31645,7 +31813,8 @@
         "headline": "Lowest tracked price since 20th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B0GQC67KQG?tag=techeasy0d1-21&linkCode=ll1&linkId=B0GQC67KQG&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-21T10:13:02.526723+00:00"
+        "posted_at": "2026-08-21T10:13:02.526723+00:00",
+        "variant_key": "B0GQC67KQG"
       },
       {
         "asin": "B01EJVYN3K",
@@ -31756,7 +31925,8 @@
         "headline": "Lowest tracked price since 16th Apr 2022.",
         "affiliate_link": "https://www.amazon.in/dp/B01EJVYN3K?tag=techeasy0d1-21&linkCode=ll1&linkId=B01EJVYN3K&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T17:56:24.608363+00:00"
+        "posted_at": "2026-08-19T17:56:24.608363+00:00",
+        "variant_key": "B01EJVYN3K"
       },
       {
         "asin": "B08K4L9MHM",
@@ -31875,7 +32045,8 @@
         "headline": "Lowest tracked price since 8th Aug 2026.",
         "affiliate_link": "https://www.amazon.in/dp/B08K4L9MHM?tag=techeasy0d1-21&linkCode=ll1&linkId=B08K4L9MHM&ref_=as_li_ss_tl",
         "flipkart_link": "",
-        "posted_at": "2026-08-19T06:34:44.181263+00:00"
+        "posted_at": "2026-08-19T06:34:44.181263+00:00",
+        "variant_key": "B08K4L9MHM"
       }
     ]
   }
