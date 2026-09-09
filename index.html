@@ -188,7 +188,7 @@ body{min-height:100vh;background:var(--bg);position:relative;overflow-x:hidden}
    ════════════════════════════════════════════════════════════════ */
 main{padding-bottom:40px}
 .section{margin-top:64px}
-.section-head{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:22px;gap:16px}
+.section-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;margin-bottom:22px;gap:16px}
 .section-head .titles{display:flex;flex-direction:column;gap:6px}
 .kicker{font-family:var(--ff-mono);font-size:10px;letter-spacing:2px;text-transform:uppercase;
   color:var(--t3);display:flex;align-items:center;gap:8px}
@@ -487,7 +487,8 @@ footer{margin-top:74px;border-top:1px solid var(--line);padding:40px 0 60px}
         <div class="metric m3 reveal"><div class="mlabel">Verified lows</div><div class="mval" id="stat-lows">—</div><div class="msub">at historical floor</div></div>
         <div class="metric m4 reveal"><div class="mlabel">Avg confidence</div><div class="mval" id="stat-conf">—</div><div class="msub">across all deals</div></div>
       </div>
-      <div class="updated reveal" id="stat-updated">Updated just now</div>
+      <div class="updated reveal" id="stat-updated">Feed sync: checking</div>
+      <div class="updated reveal" id="stat-last-post">Last new deal: checking</div>
 
       <div class="searchwrap reveal">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/></svg>
@@ -575,10 +576,15 @@ footer{margin-top:74px;border-top:1px solid var(--line);padding:40px 0 60px}
         <div class="section-head">
           <div class="titles">
             <div class="kicker"><i></i>The full board</div>
-            <div class="section-title">Best deals today</div>
-            <div class="section-sub">High-confidence, intelligence-ranked</div>
+            <div class="section-title" id="deal-list-title">Latest Deals</div>
           </div>
-          <div class="see-all" id="all-deals-see-all">See all</div>
+          <label>Sort
+            <select id="deal-sort" aria-label="Sort deals" style="font:inherit;color:var(--t1);background:var(--bg);padding:8px;border:1px solid var(--line-2);border-radius:6px">
+              <option value="latest">Newest first</option>
+              <option value="score">Highest score</option>
+            </select>
+          </label>
+          <button class="see-all" id="all-deals-see-all" type="button">See all</button>
         </div>
         <div class="deals-grid" id="deals-container">
           <div class="skeleton" style="aspect-ratio:.8"></div>
@@ -630,7 +636,7 @@ const AMAZON_TAG = 'techeasy0d1-21';
 const $ = id => document.getElementById(id);
 
 function sourceClass(s){if(!s)return'amazon';if(s.includes('flipkart'))return'flipkart';if(s==='desidime')return'desidime';return'amazon';}
-function sourceName(s){if(!s)return'Amazon';if(s.includes('flipkart'))return'Flipkart';if(s==='desidime')return'DesiDime';return'Amazon';}
+function sourceName(s){if(!s)return'Amazon';if(s.includes('flipkart'))return'Flipkart';if(s==='desidime')return'Community curated';return'Amazon';}
 function parseNum(s){if(!s)return 0;if(typeof s==='number')return s;return parseInt(s.toString().replace(/[^0-9]/g,''),10)||0;}
 function esc(s){return(s||'').toString().replace(/"/g,'&quot;').replace(/</g,'&lt;');}
 function timeSince(iso){if(!iso)return'';const m=Math.floor((Date.now()-new Date(iso).getTime())/60000);
@@ -818,7 +824,10 @@ function renderDeal(d){
       ${d.original_price?`<span class="deal-orig">${esc(d.original_price)}</span>`:''}
       ${d.discount_pct?`<span class="deal-off">−${d.discount_pct}%</span>`:''}
     </div>
+    ${d.effective_price?`<div class="insight">${esc(d.effective_price)} with ${esc((d.saving_breakdown||[]).join(' or '))}</div>`:''}
+    ${d.purchase_fee_note?`<div class="insight">${esc(d.purchase_fee_note)}</div>`:''}
     <div class="deal-foot">${miniBadges(d)}</div>
+    <div class="updated">Posted ${timeSince(d.posted_at)}${d.price_checked_at?` · Price checked ${timeSince(d.price_checked_at)}`:''}</div>
   </div>
 </div>`;
 }
@@ -890,14 +899,58 @@ addEventListener('scroll',()=>{
 // ════════════════════════════════════════════════════════════════
 //  DATA LOAD
 // ════════════════════════════════════════════════════════════════
-let allDeals=[];
+let allDeals=[], activeFilter='all', visibleDealCount=8, feedUpdatedAt=null;
+// Place fresh posts before the independent score-ranked recommendations.
+$('main-content').insertBefore($('best-section'), $('hero-section'));
+function postTime(deal){
+  const raw=deal.posted_at||deal.sent_at;
+  const parsed=raw?Date.parse(raw):NaN;
+  if(Number.isFinite(parsed))return parsed;
+  const numeric=Number(deal.posted_at_ts||deal.sent_at_ts||0);
+  return Number.isFinite(numeric)?(numeric<1e12?numeric*1000:numeric):0;
+}
+function orderedDeals(deals){
+  return deals.slice().sort($('deal-sort').value==='score'
+    ?(a,b)=>(b.score||0)-(a.score||0)||postTime(b)-postTime(a)
+    :(a,b)=>postTime(b)-postTime(a));
+}
+function filteredDeals(){
+  const f=activeFilter;
+  return allDeals.filter(d=>{
+    if(f==='all')return true;
+    if(f==='hero')return d.is_hero_deal||d.hero_score>=60;
+    if(f==='lowest')return d.is_lowest_ever||(d.price_intelligence||{}).rare_low||d.local_lowest;
+    if(f==='trending')return (d.trend_tags||[]).length>0||d.trend_score>15;
+    if(f==='amazon')return !(d.source||'').includes('flipkart');
+    if(f==='flipkart')return (d.source||'').includes('flipkart');
+    return d.product_category_key===f||(d.category||'').toLowerCase().includes(f);
+  });
+}
+function renderDealList(){
+  const deals=orderedDeals(filteredDeals());
+  $('deal-list-title').textContent=$('deal-sort').value==='latest'?'Latest Deals':'Highest-Ranked Deals';
+  $('deals-container').innerHTML=deals.length?deals.slice(0,visibleDealCount).map(renderDeal).join(''):`<div class="empty">No deals match that filter yet.</div>`;
+  $('all-deals-see-all').style.display=deals.length>visibleDealCount?'inline-flex':'none';
+  observe($('best-section'));
+}
+$('deal-sort').addEventListener('change',()=>{visibleDealCount=8;renderDealList();});
+$('all-deals-see-all').addEventListener('click',()=>{visibleDealCount=Infinity;renderDealList();});
+function updateFreshness(){
+  const stamp=Date.parse(feedUpdatedAt);
+  const newest=Math.max(0,...allDeals.map(postTime));
+  $('stat-updated').textContent=Number.isFinite(stamp)?`Feed synced ${timeSince(feedUpdatedAt)}`:'Feed sync time unavailable';
+  $('stat-last-post').textContent=newest?`Last new deal posted ${timeSince(new Date(newest).toISOString())}`:'Last new deal time unavailable';
+  $('stat-updated').title=Number.isFinite(stamp)?new Date(stamp).toLocaleString('en-IN',{timeZone:'Asia/Kolkata'})+' IST':'';
+  $('stat-last-post').title=newest?new Date(newest).toLocaleString('en-IN',{timeZone:'Asia/Kolkata'})+' IST':'';
+}
 
 async function loadDeals(){
   try{
     const res=await fetch(DEALS_URL+'?v='+Date.now());
     if(!res.ok)throw new Error('fetch failed');
     const data=await res.json();
-    allDeals=Array.isArray(data)?data:(data.deals||[]);
+    allDeals=(Array.isArray(data)?data:(data.deals||[])).filter(d=>
+      d.purchase_available!==false && !(parseNum(d.original_price)>0 && parseNum(d.original_price)<parseNum(d.price)));
     renderAll(allDeals);
     updateStats(allDeals,data.updated_at);
   }catch(e){
@@ -928,7 +981,8 @@ function updateStats(deals,updatedAt){
   countUp($('stat-hero'),hero,'');
   countUp($('stat-lows'),lows,'');
   countUp($('stat-conf'),avgConf,'%');
-  $('stat-updated').textContent=updatedAt?`Updated ${timeSince(updatedAt)}`:'Updated just now';
+   feedUpdatedAt=updatedAt;
+   updateFreshness();
 }
 
 function renderAll(deals){
@@ -948,11 +1002,7 @@ function renderAll(deals){
   const tHtml=trend.map(renderTrend).join('');
   $('trending-container').innerHTML=tHtml+tHtml;
 
-  const best=deals.slice().sort((a,b)=>(b.score||0)-(a.score||0));
-  $('deals-container').innerHTML=best.slice(0,8).map(renderDeal).join('');
-  const seeAll=$('all-deals-see-all');
-  seeAll.style.display=best.length>8?'inline-flex':'none';
-  seeAll.onclick=()=>{$('deals-container').innerHTML=best.map(renderDeal).join('');seeAll.style.display='none';observe($('best-section'));};
+  renderDealList();
 
   observe(document);
 }
@@ -961,17 +1011,9 @@ document.querySelectorAll('.filter-pill').forEach(pill=>{
   pill.addEventListener('click',()=>{
     document.querySelectorAll('.filter-pill').forEach(p=>p.classList.remove('active'));
     pill.classList.add('active');
-    const f=pill.dataset.filter;let r;
-    if(f==='all')r=allDeals;
-    else if(f==='hero')r=allDeals.filter(d=>d.is_hero_deal||d.hero_score>=60);
-    else if(f==='lowest')r=allDeals.filter(d=>d.is_lowest_ever||(d.price_intelligence||{}).rare_low||d.local_lowest);
-    else if(f==='trending')r=allDeals.filter(d=>(d.trend_tags||[]).length>0||d.trend_score>15);
-    else if(f==='amazon')r=allDeals.filter(d=>d.source==='amazon');
-    else if(f==='flipkart')r=allDeals.filter(d=>(d.source||'').includes('flipkart'));
-    else r=allDeals.filter(d=>d.product_category_key===f||(d.category||'').toLowerCase().includes(f));
-    const c=$('deals-container');
-    c.innerHTML=r.length?r.slice(0,20).map(renderDeal).join(''):`<div class="empty">No deals match that filter yet.</div>`;
-    $('all-deals-see-all').style.display=r.length>20?'inline-flex':'none';
+    activeFilter=pill.dataset.filter;
+    visibleDealCount=8;
+    renderDealList();
     observe($('best-section'));
     $('best-section').scrollIntoView({behavior:'smooth',block:'start'});
   });
@@ -1005,6 +1047,7 @@ observe(document);
 loadDeals();
 loadDotd();
 setInterval(loadDeals,10*60*1000);
+setInterval(updateFreshness,60*1000);
 </script>
 </body>
 </html>
