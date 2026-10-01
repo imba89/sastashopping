@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T08:07:09.172409+00:00",
+  "updated_at": "2026-10-01T08:16:13.520377+00:00",
   "deals": [
     {
       "asin": "fk_ITM9ED5F92DC1B32",
@@ -10,10 +10,10 @@
       "price_num": 10399,
       "original_price": null,
       "discount_pct": 0,
-      "effective_price": null,
-      "effective_price_num": null,
-      "effective_price_note": null,
-      "offer_price_conditional": false,
+      "effective_price": "Rs 9,649",
+      "effective_price_num": 9649,
+      "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+      "offer_price_conditional": true,
       "candidate_kind": "standard",
       "stock_alert": false,
       "protected_flagship": false,
@@ -23,21 +23,21 @@
       "effective_saving_pct": 7.2,
       "effective_vs_avg_pct": 0,
       "offer_evidence": [
-        "Flipkart Buy at ₹9,649 (sticker ₹10,399)"
+        "Bank Offer ₹750 off on ICICI Credit Card."
       ],
       "offer_terms": [
         {
-          "kind": "checkout_offer",
+          "kind": "bank",
           "amount": 750,
-          "label": "Flipkart conditional price saves ₹750",
-          "evidence": "Flipkart Buy at ₹9,649 (sticker ₹10,399)",
-          "confidence": 60,
+          "label": "₹750 off with ICICI card",
+          "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+          "confidence": 90,
           "conditional": true,
-          "bank": "",
+          "bank": "ICICI",
           "minimum_purchase": 0,
           "percent": 0,
           "maximum_discount": 0,
-          "deductible": false
+          "deductible": true
         }
       ],
       "fk_live_price_corrected": false,
@@ -59,11 +59,15 @@
       "local_price_median": 10399,
       "local_price_p10": 10399,
       "local_price_low": 10399,
-      "best_card_label": null,
-      "best_card_discount": 0,
+      "best_card_label": "₹750 off with ICICI card",
+      "best_card_discount": 750,
       "bank_offer_confidence": 0,
-      "bank_offers": [],
-      "saving_breakdown": [],
+      "bank_offers": [
+        "₹750 off with ICICI card"
+      ],
+      "saving_breakdown": [
+        "₹750 off with ICICI card"
+      ],
       "coupon": null,
       "price_verified": true,
       "fk_live_price_verified": true,
@@ -152,7 +156,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/asics-gel-nyc-sneakers-men/p/itm9ed5f92dc1b32?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-10-01T08:00:00.686458+00:00"
+      "posted_at": "2026-10-01T08:00:00.686458+00:00",
+      "offer_confidence": 90
     },
     {
       "asin": "fk_ITM49C127E895E98",
@@ -163,10 +168,10 @@
       "price_num": 10399,
       "original_price": null,
       "discount_pct": 0,
-      "effective_price": null,
-      "effective_price_num": null,
-      "effective_price_note": null,
-      "offer_price_conditional": false,
+      "effective_price": "Rs 9,649",
+      "effective_price_num": 9649,
+      "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+      "offer_price_conditional": true,
       "candidate_kind": "standard",
       "stock_alert": false,
       "protected_flagship": false,
@@ -176,21 +181,21 @@
       "effective_saving_pct": 7.2,
       "effective_vs_avg_pct": 0,
       "offer_evidence": [
-        "Flipkart Buy at ₹9,649 (sticker ₹10,399)"
+        "Bank Offer ₹750 off on ICICI Credit Card."
       ],
       "offer_terms": [
         {
-          "kind": "checkout_offer",
+          "kind": "bank",
           "amount": 750,
-          "label": "Flipkart conditional price saves ₹750",
-          "evidence": "Flipkart Buy at ₹9,649 (sticker ₹10,399)",
-          "confidence": 60,
+          "label": "₹750 off with ICICI card",
+          "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+          "confidence": 90,
           "conditional": true,
-          "bank": "",
+          "bank": "ICICI",
           "minimum_purchase": 0,
           "percent": 0,
           "maximum_discount": 0,
-          "deductible": false
+          "deductible": true
         }
       ],
       "fk_live_price_corrected": false,
@@ -212,11 +217,15 @@
       "local_price_median": 10399,
       "local_price_p10": 10399,
       "local_price_low": 10399,
-      "best_card_label": null,
-      "best_card_discount": 0,
+      "best_card_label": "₹750 off with ICICI card",
+      "best_card_discount": 750,
       "bank_offer_confidence": 0,
-      "bank_offers": [],
-      "saving_breakdown": [],
+      "bank_offers": [
+        "₹750 off with ICICI card"
+      ],
+      "saving_breakdown": [
+        "₹750 off with ICICI card"
+      ],
       "coupon": null,
       "price_verified": true,
       "fk_live_price_verified": true,
@@ -305,7 +314,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/asics-gel-nyc-sneakers-unisex/p/itm49c127e895e98?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-10-01T07:59:47.189482+00:00"
+      "posted_at": "2026-10-01T07:59:47.189482+00:00",
+      "offer_confidence": 90
     },
     {
       "asin": "fk_ITMBC683CA610B48",
@@ -316,10 +326,10 @@
       "price_num": 11895,
       "original_price": null,
       "discount_pct": 0,
-      "effective_price": null,
-      "effective_price_num": null,
-      "effective_price_note": null,
-      "offer_price_conditional": false,
+      "effective_price": "Rs 11,145",
+      "effective_price_num": 11145,
+      "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+      "offer_price_conditional": true,
       "candidate_kind": "standard",
       "stock_alert": false,
       "protected_flagship": false,
@@ -329,21 +339,21 @@
       "effective_saving_pct": 6.3,
       "effective_vs_avg_pct": 0,
       "offer_evidence": [
-        "Flipkart Buy at ₹11,145 (sticker ₹11,895)"
+        "Bank Offer ₹750 off on ICICI Credit Card."
       ],
       "offer_terms": [
         {
-          "kind": "checkout_offer",
+          "kind": "bank",
           "amount": 750,
-          "label": "Flipkart conditional price saves ₹750",
-          "evidence": "Flipkart Buy at ₹11,145 (sticker ₹11,895)",
-          "confidence": 60,
+          "label": "₹750 off with ICICI card",
+          "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+          "confidence": 90,
           "conditional": true,
-          "bank": "",
+          "bank": "ICICI",
           "minimum_purchase": 0,
           "percent": 0,
           "maximum_discount": 0,
-          "deductible": false
+          "deductible": true
         }
       ],
       "fk_live_price_corrected": true,
@@ -365,11 +375,15 @@
       "local_price_median": 11895,
       "local_price_p10": 11895,
       "local_price_low": 11895,
-      "best_card_label": null,
-      "best_card_discount": 0,
+      "best_card_label": "₹750 off with ICICI card",
+      "best_card_discount": 750,
       "bank_offer_confidence": 0,
-      "bank_offers": [],
-      "saving_breakdown": [],
+      "bank_offers": [
+        "₹750 off with ICICI card"
+      ],
+      "saving_breakdown": [
+        "₹750 off with ICICI card"
+      ],
       "coupon": null,
       "price_verified": true,
       "fk_live_price_verified": true,
@@ -458,7 +472,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/nike-pegasus-40-men-s-road-running-shoes-men/p/itmbc683ca610b48?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-10-01T07:59:32.649259+00:00"
+      "posted_at": "2026-10-01T07:59:32.649259+00:00",
+      "offer_confidence": 90
     },
     {
       "asin": "fk_ITMCDA64526B8723",
@@ -469,10 +484,10 @@
       "price_num": 8159,
       "original_price": null,
       "discount_pct": 0,
-      "effective_price": null,
-      "effective_price_num": null,
-      "effective_price_note": null,
-      "offer_price_conditional": false,
+      "effective_price": "Rs 7,409",
+      "effective_price_num": 7409,
+      "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+      "offer_price_conditional": true,
       "candidate_kind": "standard",
       "stock_alert": false,
       "protected_flagship": false,
@@ -482,21 +497,21 @@
       "effective_saving_pct": 9.2,
       "effective_vs_avg_pct": 13,
       "offer_evidence": [
-        "Flipkart Buy at ₹7,409 (sticker ₹8,159)"
+        "Bank Offer ₹750 off on ICICI Credit Card."
       ],
       "offer_terms": [
         {
-          "kind": "checkout_offer",
+          "kind": "bank",
           "amount": 750,
-          "label": "Flipkart conditional price saves ₹750",
-          "evidence": "Flipkart Buy at ₹7,409 (sticker ₹8,159)",
-          "confidence": 60,
+          "label": "₹750 off with ICICI card",
+          "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+          "confidence": 90,
           "conditional": true,
-          "bank": "",
+          "bank": "ICICI",
           "minimum_purchase": 0,
           "percent": 0,
           "maximum_discount": 0,
-          "deductible": false
+          "deductible": true
         }
       ],
       "fk_live_price_corrected": false,
@@ -518,11 +533,15 @@
       "local_price_median": 8159,
       "local_price_p10": 8159,
       "local_price_low": 8159,
-      "best_card_label": null,
-      "best_card_discount": 0,
+      "best_card_label": "₹750 off with ICICI card",
+      "best_card_discount": 750,
       "bank_offer_confidence": 0,
-      "bank_offers": [],
-      "saving_breakdown": [],
+      "bank_offers": [
+        "₹750 off with ICICI card"
+      ],
+      "saving_breakdown": [
+        "₹750 off with ICICI card"
+      ],
       "coupon": null,
       "price_verified": true,
       "fk_live_price_verified": true,
@@ -609,7 +628,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/asics-gel-nimbus-27-running-shoes-men/p/itmcda64526b8723?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-10-01T07:59:18.600213+00:00"
+      "posted_at": "2026-10-01T07:59:18.600213+00:00",
+      "offer_confidence": 90
     },
     {
       "asin": "fk_ITMC52695A373F8B",
@@ -620,10 +640,10 @@
       "price_num": 74499,
       "original_price": null,
       "discount_pct": 0,
-      "effective_price": null,
-      "effective_price_num": null,
-      "effective_price_note": null,
-      "offer_price_conditional": false,
+      "effective_price": "Rs 70,774",
+      "effective_price_num": 70774,
+      "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+      "offer_price_conditional": true,
       "candidate_kind": "standard",
       "stock_alert": false,
       "protected_flagship": false,
@@ -633,21 +653,21 @@
       "effective_saving_pct": 5.0,
       "effective_vs_avg_pct": 2,
       "offer_evidence": [
-        "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
+        "Bank Offer ₹3,725 off on Flipkart Axis Credit Card"
       ],
       "offer_terms": [
         {
-          "kind": "checkout_offer",
+          "kind": "bank",
           "amount": 3725,
-          "label": "Flipkart conditional price saves ₹3,725",
-          "evidence": "Flipkart Buy at ₹70,774 (sticker ₹74,499)",
-          "confidence": 60,
+          "label": "₹3,725 off with Axis card",
+          "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card",
+          "confidence": 90,
           "conditional": true,
-          "bank": "",
+          "bank": "Axis",
           "minimum_purchase": 0,
           "percent": 0,
           "maximum_discount": 0,
-          "deductible": false
+          "deductible": true
         }
       ],
       "fk_live_price_corrected": true,
@@ -669,11 +689,15 @@
       "local_price_median": 74499,
       "local_price_p10": 74499,
       "local_price_low": 74499,
-      "best_card_label": null,
-      "best_card_discount": 0,
+      "best_card_label": "₹3,725 off with Axis card",
+      "best_card_discount": 3725,
       "bank_offer_confidence": 0,
-      "bank_offers": [],
-      "saving_breakdown": [],
+      "bank_offers": [
+        "₹3,725 off with Axis card"
+      ],
+      "saving_breakdown": [
+        "₹3,725 off with Axis card"
+      ],
       "coupon": null,
       "price_verified": true,
       "fk_live_price_verified": true,
@@ -767,7 +791,8 @@
       "headline": "Lowest tracked price in our data.",
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-bravia-3-138-8-cm-55-inch-ultra-hd-4k-led-smart-google-tv-dolby-vision-atmos-feature-playstation-5/p/itmc52695a373f8b?affid=earnkaro&affExtParam1=5260014",
-      "posted_at": "2026-10-01T07:59:04.099186+00:00"
+      "posted_at": "2026-10-01T07:59:04.099186+00:00",
+      "offer_confidence": 90
     },
     {
       "asin": "B09GKKQ9VM",
@@ -22379,10 +22404,10 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": null,
-        "effective_price_num": null,
-        "effective_price_note": null,
-        "offer_price_conditional": false,
+        "effective_price": "Rs 70,774",
+        "effective_price_num": 70774,
+        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+        "offer_price_conditional": true,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -22392,21 +22417,21 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
+          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card"
         ],
         "offer_terms": [
           {
-            "kind": "checkout_offer",
+            "kind": "bank",
             "amount": 3725,
-            "label": "Flipkart conditional price saves ₹3,725",
-            "evidence": "Flipkart Buy at ₹70,774 (sticker ₹74,499)",
-            "confidence": 60,
+            "label": "₹3,725 off with Axis card",
+            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card",
+            "confidence": 90,
             "conditional": true,
-            "bank": "",
+            "bank": "Axis",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": false
+            "deductible": true
           }
         ],
         "fk_live_price_corrected": true,
@@ -22428,11 +22453,15 @@
         "local_price_median": 74499,
         "local_price_p10": 74499,
         "local_price_low": 74499,
-        "best_card_label": null,
-        "best_card_discount": 0,
+        "best_card_label": "₹3,725 off with Axis card",
+        "best_card_discount": 3725,
         "bank_offer_confidence": 0,
-        "bank_offers": [],
-        "saving_breakdown": [],
+        "bank_offers": [
+          "₹3,725 off with Axis card"
+        ],
+        "saving_breakdown": [
+          "₹3,725 off with Axis card"
+        ],
         "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
@@ -22526,7 +22555,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-138-8-cm-55-inch-ultra-hd-4k-led-smart-google-tv-dolby-vision-atmos-feature-playstation-5/p/itmc52695a373f8b?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-10-01T07:59:04.099186+00:00"
+        "posted_at": "2026-10-01T07:59:04.099186+00:00",
+        "offer_confidence": 90
       },
       {
         "asin": "B0CRJZ8NQC",
@@ -23369,10 +23399,10 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": null,
-        "effective_price_num": null,
-        "effective_price_note": null,
-        "offer_price_conditional": false,
+        "effective_price": "Rs 70,774",
+        "effective_price_num": 70774,
+        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+        "offer_price_conditional": true,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -23382,21 +23412,21 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
+          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card"
         ],
         "offer_terms": [
           {
-            "kind": "checkout_offer",
+            "kind": "bank",
             "amount": 3725,
-            "label": "Flipkart conditional price saves ₹3,725",
-            "evidence": "Flipkart Buy at ₹70,774 (sticker ₹74,499)",
-            "confidence": 60,
+            "label": "₹3,725 off with Axis card",
+            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card",
+            "confidence": 90,
             "conditional": true,
-            "bank": "",
+            "bank": "Axis",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": false
+            "deductible": true
           }
         ],
         "fk_live_price_corrected": true,
@@ -23418,11 +23448,15 @@
         "local_price_median": 74499,
         "local_price_p10": 74499,
         "local_price_low": 74499,
-        "best_card_label": null,
-        "best_card_discount": 0,
+        "best_card_label": "₹3,725 off with Axis card",
+        "best_card_discount": 3725,
         "bank_offer_confidence": 0,
-        "bank_offers": [],
-        "saving_breakdown": [],
+        "bank_offers": [
+          "₹3,725 off with Axis card"
+        ],
+        "saving_breakdown": [
+          "₹3,725 off with Axis card"
+        ],
         "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
@@ -23516,7 +23550,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-138-8-cm-55-inch-ultra-hd-4k-led-smart-google-tv-dolby-vision-atmos-feature-playstation-5/p/itmc52695a373f8b?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-10-01T07:59:04.099186+00:00"
+        "posted_at": "2026-10-01T07:59:04.099186+00:00",
+        "offer_confidence": 90
       },
       {
         "asin": "fk_ITMBC683CA610B48",
@@ -23527,10 +23562,10 @@
         "price_num": 11895,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": null,
-        "effective_price_num": null,
-        "effective_price_note": null,
-        "offer_price_conditional": false,
+        "effective_price": "Rs 11,145",
+        "effective_price_num": 11145,
+        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+        "offer_price_conditional": true,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -23540,21 +23575,21 @@
         "effective_saving_pct": 6.3,
         "effective_vs_avg_pct": 0,
         "offer_evidence": [
-          "Flipkart Buy at ₹11,145 (sticker ₹11,895)"
+          "Bank Offer ₹750 off on ICICI Credit Card."
         ],
         "offer_terms": [
           {
-            "kind": "checkout_offer",
+            "kind": "bank",
             "amount": 750,
-            "label": "Flipkart conditional price saves ₹750",
-            "evidence": "Flipkart Buy at ₹11,145 (sticker ₹11,895)",
-            "confidence": 60,
+            "label": "₹750 off with ICICI card",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "confidence": 90,
             "conditional": true,
-            "bank": "",
+            "bank": "ICICI",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": false
+            "deductible": true
           }
         ],
         "fk_live_price_corrected": true,
@@ -23576,11 +23611,15 @@
         "local_price_median": 11895,
         "local_price_p10": 11895,
         "local_price_low": 11895,
-        "best_card_label": null,
-        "best_card_discount": 0,
+        "best_card_label": "₹750 off with ICICI card",
+        "best_card_discount": 750,
         "bank_offer_confidence": 0,
-        "bank_offers": [],
-        "saving_breakdown": [],
+        "bank_offers": [
+          "₹750 off with ICICI card"
+        ],
+        "saving_breakdown": [
+          "₹750 off with ICICI card"
+        ],
         "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
@@ -23669,7 +23708,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/nike-pegasus-40-men-s-road-running-shoes-men/p/itmbc683ca610b48?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-10-01T07:59:32.649259+00:00"
+        "posted_at": "2026-10-01T07:59:32.649259+00:00",
+        "offer_confidence": 90
       },
       {
         "asin": "B0CPFYVPBG",
@@ -23818,10 +23858,10 @@
         "price_num": 10399,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": null,
-        "effective_price_num": null,
-        "effective_price_note": null,
-        "offer_price_conditional": false,
+        "effective_price": "Rs 9,649",
+        "effective_price_num": 9649,
+        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+        "offer_price_conditional": true,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -23831,21 +23871,21 @@
         "effective_saving_pct": 7.2,
         "effective_vs_avg_pct": 0,
         "offer_evidence": [
-          "Flipkart Buy at ₹9,649 (sticker ₹10,399)"
+          "Bank Offer ₹750 off on ICICI Credit Card."
         ],
         "offer_terms": [
           {
-            "kind": "checkout_offer",
+            "kind": "bank",
             "amount": 750,
-            "label": "Flipkart conditional price saves ₹750",
-            "evidence": "Flipkart Buy at ₹9,649 (sticker ₹10,399)",
-            "confidence": 60,
+            "label": "₹750 off with ICICI card",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "confidence": 90,
             "conditional": true,
-            "bank": "",
+            "bank": "ICICI",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": false
+            "deductible": true
           }
         ],
         "fk_live_price_corrected": false,
@@ -23867,11 +23907,15 @@
         "local_price_median": 10399,
         "local_price_p10": 10399,
         "local_price_low": 10399,
-        "best_card_label": null,
-        "best_card_discount": 0,
+        "best_card_label": "₹750 off with ICICI card",
+        "best_card_discount": 750,
         "bank_offer_confidence": 0,
-        "bank_offers": [],
-        "saving_breakdown": [],
+        "bank_offers": [
+          "₹750 off with ICICI card"
+        ],
+        "saving_breakdown": [
+          "₹750 off with ICICI card"
+        ],
         "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
@@ -23960,7 +24004,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/asics-gel-nyc-sneakers-unisex/p/itm49c127e895e98?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-10-01T07:59:47.189482+00:00"
+        "posted_at": "2026-10-01T07:59:47.189482+00:00",
+        "offer_confidence": 90
       },
       {
         "asin": "fk_ITM9ED5F92DC1B32",
@@ -23971,10 +24016,10 @@
         "price_num": 10399,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": null,
-        "effective_price_num": null,
-        "effective_price_note": null,
-        "offer_price_conditional": false,
+        "effective_price": "Rs 9,649",
+        "effective_price_num": 9649,
+        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+        "offer_price_conditional": true,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -23984,21 +24029,21 @@
         "effective_saving_pct": 7.2,
         "effective_vs_avg_pct": 0,
         "offer_evidence": [
-          "Flipkart Buy at ₹9,649 (sticker ₹10,399)"
+          "Bank Offer ₹750 off on ICICI Credit Card."
         ],
         "offer_terms": [
           {
-            "kind": "checkout_offer",
+            "kind": "bank",
             "amount": 750,
-            "label": "Flipkart conditional price saves ₹750",
-            "evidence": "Flipkart Buy at ₹9,649 (sticker ₹10,399)",
-            "confidence": 60,
+            "label": "₹750 off with ICICI card",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "confidence": 90,
             "conditional": true,
-            "bank": "",
+            "bank": "ICICI",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": false
+            "deductible": true
           }
         ],
         "fk_live_price_corrected": false,
@@ -24020,11 +24065,15 @@
         "local_price_median": 10399,
         "local_price_p10": 10399,
         "local_price_low": 10399,
-        "best_card_label": null,
-        "best_card_discount": 0,
+        "best_card_label": "₹750 off with ICICI card",
+        "best_card_discount": 750,
         "bank_offer_confidence": 0,
-        "bank_offers": [],
-        "saving_breakdown": [],
+        "bank_offers": [
+          "₹750 off with ICICI card"
+        ],
+        "saving_breakdown": [
+          "₹750 off with ICICI card"
+        ],
         "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
@@ -24113,7 +24162,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/asics-gel-nyc-sneakers-men/p/itm9ed5f92dc1b32?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-10-01T08:00:00.686458+00:00"
+        "posted_at": "2026-10-01T08:00:00.686458+00:00",
+        "offer_confidence": 90
       },
       {
         "asin": "B0CT9DF5RL",
@@ -27497,10 +27547,10 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": null,
-        "effective_price_num": null,
-        "effective_price_note": null,
-        "offer_price_conditional": false,
+        "effective_price": "Rs 70,774",
+        "effective_price_num": 70774,
+        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+        "offer_price_conditional": true,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -27510,21 +27560,21 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
+          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card"
         ],
         "offer_terms": [
           {
-            "kind": "checkout_offer",
+            "kind": "bank",
             "amount": 3725,
-            "label": "Flipkart conditional price saves ₹3,725",
-            "evidence": "Flipkart Buy at ₹70,774 (sticker ₹74,499)",
-            "confidence": 60,
+            "label": "₹3,725 off with Axis card",
+            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card",
+            "confidence": 90,
             "conditional": true,
-            "bank": "",
+            "bank": "Axis",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": false
+            "deductible": true
           }
         ],
         "fk_live_price_corrected": true,
@@ -27546,11 +27596,15 @@
         "local_price_median": 74499,
         "local_price_p10": 74499,
         "local_price_low": 74499,
-        "best_card_label": null,
-        "best_card_discount": 0,
+        "best_card_label": "₹3,725 off with Axis card",
+        "best_card_discount": 3725,
         "bank_offer_confidence": 0,
-        "bank_offers": [],
-        "saving_breakdown": [],
+        "bank_offers": [
+          "₹3,725 off with Axis card"
+        ],
+        "saving_breakdown": [
+          "₹3,725 off with Axis card"
+        ],
         "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
@@ -27644,7 +27698,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-138-8-cm-55-inch-ultra-hd-4k-led-smart-google-tv-dolby-vision-atmos-feature-playstation-5/p/itmc52695a373f8b?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-10-01T07:59:04.099186+00:00"
+        "posted_at": "2026-10-01T07:59:04.099186+00:00",
+        "offer_confidence": 90
       },
       {
         "asin": "B0CRJZ8NQC",
@@ -28205,10 +28260,10 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": null,
-        "effective_price_num": null,
-        "effective_price_note": null,
-        "offer_price_conditional": false,
+        "effective_price": "Rs 70,774",
+        "effective_price_num": 70774,
+        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+        "offer_price_conditional": true,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -28218,21 +28273,21 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
+          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card"
         ],
         "offer_terms": [
           {
-            "kind": "checkout_offer",
+            "kind": "bank",
             "amount": 3725,
-            "label": "Flipkart conditional price saves ₹3,725",
-            "evidence": "Flipkart Buy at ₹70,774 (sticker ₹74,499)",
-            "confidence": 60,
+            "label": "₹3,725 off with Axis card",
+            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card",
+            "confidence": 90,
             "conditional": true,
-            "bank": "",
+            "bank": "Axis",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": false
+            "deductible": true
           }
         ],
         "fk_live_price_corrected": true,
@@ -28254,11 +28309,15 @@
         "local_price_median": 74499,
         "local_price_p10": 74499,
         "local_price_low": 74499,
-        "best_card_label": null,
-        "best_card_discount": 0,
+        "best_card_label": "₹3,725 off with Axis card",
+        "best_card_discount": 3725,
         "bank_offer_confidence": 0,
-        "bank_offers": [],
-        "saving_breakdown": [],
+        "bank_offers": [
+          "₹3,725 off with Axis card"
+        ],
+        "saving_breakdown": [
+          "₹3,725 off with Axis card"
+        ],
         "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
@@ -28352,7 +28411,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-138-8-cm-55-inch-ultra-hd-4k-led-smart-google-tv-dolby-vision-atmos-feature-playstation-5/p/itmc52695a373f8b?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-10-01T07:59:04.099186+00:00"
+        "posted_at": "2026-10-01T07:59:04.099186+00:00",
+        "offer_confidence": 90
       },
       {
         "asin": "B0CPFYVPBG",
@@ -30021,10 +30081,10 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": null,
-        "effective_price_num": null,
-        "effective_price_note": null,
-        "offer_price_conditional": false,
+        "effective_price": "Rs 70,774",
+        "effective_price_num": 70774,
+        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+        "offer_price_conditional": true,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -30034,21 +30094,21 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
+          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card"
         ],
         "offer_terms": [
           {
-            "kind": "checkout_offer",
+            "kind": "bank",
             "amount": 3725,
-            "label": "Flipkart conditional price saves ₹3,725",
-            "evidence": "Flipkart Buy at ₹70,774 (sticker ₹74,499)",
-            "confidence": 60,
+            "label": "₹3,725 off with Axis card",
+            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card",
+            "confidence": 90,
             "conditional": true,
-            "bank": "",
+            "bank": "Axis",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": false
+            "deductible": true
           }
         ],
         "fk_live_price_corrected": true,
@@ -30070,11 +30130,15 @@
         "local_price_median": 74499,
         "local_price_p10": 74499,
         "local_price_low": 74499,
-        "best_card_label": null,
-        "best_card_discount": 0,
+        "best_card_label": "₹3,725 off with Axis card",
+        "best_card_discount": 3725,
         "bank_offer_confidence": 0,
-        "bank_offers": [],
-        "saving_breakdown": [],
+        "bank_offers": [
+          "₹3,725 off with Axis card"
+        ],
+        "saving_breakdown": [
+          "₹3,725 off with Axis card"
+        ],
         "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
@@ -30168,7 +30232,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-138-8-cm-55-inch-ultra-hd-4k-led-smart-google-tv-dolby-vision-atmos-feature-playstation-5/p/itmc52695a373f8b?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-10-01T07:59:04.099186+00:00"
+        "posted_at": "2026-10-01T07:59:04.099186+00:00",
+        "offer_confidence": 90
       },
       {
         "asin": "B0CPFYVPBG",
@@ -30885,10 +30950,10 @@
         "price_num": 8159,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": null,
-        "effective_price_num": null,
-        "effective_price_note": null,
-        "offer_price_conditional": false,
+        "effective_price": "Rs 7,409",
+        "effective_price_num": 7409,
+        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+        "offer_price_conditional": true,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -30898,21 +30963,21 @@
         "effective_saving_pct": 9.2,
         "effective_vs_avg_pct": 13,
         "offer_evidence": [
-          "Flipkart Buy at ₹7,409 (sticker ₹8,159)"
+          "Bank Offer ₹750 off on ICICI Credit Card."
         ],
         "offer_terms": [
           {
-            "kind": "checkout_offer",
+            "kind": "bank",
             "amount": 750,
-            "label": "Flipkart conditional price saves ₹750",
-            "evidence": "Flipkart Buy at ₹7,409 (sticker ₹8,159)",
-            "confidence": 60,
+            "label": "₹750 off with ICICI card",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "confidence": 90,
             "conditional": true,
-            "bank": "",
+            "bank": "ICICI",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": false
+            "deductible": true
           }
         ],
         "fk_live_price_corrected": false,
@@ -30934,11 +30999,15 @@
         "local_price_median": 8159,
         "local_price_p10": 8159,
         "local_price_low": 8159,
-        "best_card_label": null,
-        "best_card_discount": 0,
+        "best_card_label": "₹750 off with ICICI card",
+        "best_card_discount": 750,
         "bank_offer_confidence": 0,
-        "bank_offers": [],
-        "saving_breakdown": [],
+        "bank_offers": [
+          "₹750 off with ICICI card"
+        ],
+        "saving_breakdown": [
+          "₹750 off with ICICI card"
+        ],
         "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
@@ -31025,7 +31094,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/asics-gel-nimbus-27-running-shoes-men/p/itmcda64526b8723?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-10-01T07:59:18.600213+00:00"
+        "posted_at": "2026-10-01T07:59:18.600213+00:00",
+        "offer_confidence": 90
       },
       {
         "asin": "fk_ITMBC683CA610B48",
@@ -31036,10 +31106,10 @@
         "price_num": 11895,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": null,
-        "effective_price_num": null,
-        "effective_price_note": null,
-        "offer_price_conditional": false,
+        "effective_price": "Rs 11,145",
+        "effective_price_num": 11145,
+        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+        "offer_price_conditional": true,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -31049,21 +31119,21 @@
         "effective_saving_pct": 6.3,
         "effective_vs_avg_pct": 0,
         "offer_evidence": [
-          "Flipkart Buy at ₹11,145 (sticker ₹11,895)"
+          "Bank Offer ₹750 off on ICICI Credit Card."
         ],
         "offer_terms": [
           {
-            "kind": "checkout_offer",
+            "kind": "bank",
             "amount": 750,
-            "label": "Flipkart conditional price saves ₹750",
-            "evidence": "Flipkart Buy at ₹11,145 (sticker ₹11,895)",
-            "confidence": 60,
+            "label": "₹750 off with ICICI card",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "confidence": 90,
             "conditional": true,
-            "bank": "",
+            "bank": "ICICI",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": false
+            "deductible": true
           }
         ],
         "fk_live_price_corrected": true,
@@ -31085,11 +31155,15 @@
         "local_price_median": 11895,
         "local_price_p10": 11895,
         "local_price_low": 11895,
-        "best_card_label": null,
-        "best_card_discount": 0,
+        "best_card_label": "₹750 off with ICICI card",
+        "best_card_discount": 750,
         "bank_offer_confidence": 0,
-        "bank_offers": [],
-        "saving_breakdown": [],
+        "bank_offers": [
+          "₹750 off with ICICI card"
+        ],
+        "saving_breakdown": [
+          "₹750 off with ICICI card"
+        ],
         "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
@@ -31178,7 +31252,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/nike-pegasus-40-men-s-road-running-shoes-men/p/itmbc683ca610b48?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-10-01T07:59:32.649259+00:00"
+        "posted_at": "2026-10-01T07:59:32.649259+00:00",
+        "offer_confidence": 90
       },
       {
         "asin": "fk_ITM49C127E895E98",
@@ -31189,10 +31264,10 @@
         "price_num": 10399,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": null,
-        "effective_price_num": null,
-        "effective_price_note": null,
-        "offer_price_conditional": false,
+        "effective_price": "Rs 9,649",
+        "effective_price_num": 9649,
+        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+        "offer_price_conditional": true,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -31202,21 +31277,21 @@
         "effective_saving_pct": 7.2,
         "effective_vs_avg_pct": 0,
         "offer_evidence": [
-          "Flipkart Buy at ₹9,649 (sticker ₹10,399)"
+          "Bank Offer ₹750 off on ICICI Credit Card."
         ],
         "offer_terms": [
           {
-            "kind": "checkout_offer",
+            "kind": "bank",
             "amount": 750,
-            "label": "Flipkart conditional price saves ₹750",
-            "evidence": "Flipkart Buy at ₹9,649 (sticker ₹10,399)",
-            "confidence": 60,
+            "label": "₹750 off with ICICI card",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "confidence": 90,
             "conditional": true,
-            "bank": "",
+            "bank": "ICICI",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": false
+            "deductible": true
           }
         ],
         "fk_live_price_corrected": false,
@@ -31238,11 +31313,15 @@
         "local_price_median": 10399,
         "local_price_p10": 10399,
         "local_price_low": 10399,
-        "best_card_label": null,
-        "best_card_discount": 0,
+        "best_card_label": "₹750 off with ICICI card",
+        "best_card_discount": 750,
         "bank_offer_confidence": 0,
-        "bank_offers": [],
-        "saving_breakdown": [],
+        "bank_offers": [
+          "₹750 off with ICICI card"
+        ],
+        "saving_breakdown": [
+          "₹750 off with ICICI card"
+        ],
         "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
@@ -31331,7 +31410,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/asics-gel-nyc-sneakers-unisex/p/itm49c127e895e98?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-10-01T07:59:47.189482+00:00"
+        "posted_at": "2026-10-01T07:59:47.189482+00:00",
+        "offer_confidence": 90
       },
       {
         "asin": "fk_ITM9ED5F92DC1B32",
@@ -31342,10 +31422,10 @@
         "price_num": 10399,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": null,
-        "effective_price_num": null,
-        "effective_price_note": null,
-        "offer_price_conditional": false,
+        "effective_price": "Rs 9,649",
+        "effective_price_num": 9649,
+        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
+        "offer_price_conditional": true,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -31355,21 +31435,21 @@
         "effective_saving_pct": 7.2,
         "effective_vs_avg_pct": 0,
         "offer_evidence": [
-          "Flipkart Buy at ₹9,649 (sticker ₹10,399)"
+          "Bank Offer ₹750 off on ICICI Credit Card."
         ],
         "offer_terms": [
           {
-            "kind": "checkout_offer",
+            "kind": "bank",
             "amount": 750,
-            "label": "Flipkart conditional price saves ₹750",
-            "evidence": "Flipkart Buy at ₹9,649 (sticker ₹10,399)",
-            "confidence": 60,
+            "label": "₹750 off with ICICI card",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "confidence": 90,
             "conditional": true,
-            "bank": "",
+            "bank": "ICICI",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": false
+            "deductible": true
           }
         ],
         "fk_live_price_corrected": false,
@@ -31391,11 +31471,15 @@
         "local_price_median": 10399,
         "local_price_p10": 10399,
         "local_price_low": 10399,
-        "best_card_label": null,
-        "best_card_discount": 0,
+        "best_card_label": "₹750 off with ICICI card",
+        "best_card_discount": 750,
         "bank_offer_confidence": 0,
-        "bank_offers": [],
-        "saving_breakdown": [],
+        "bank_offers": [
+          "₹750 off with ICICI card"
+        ],
+        "saving_breakdown": [
+          "₹750 off with ICICI card"
+        ],
         "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
@@ -31484,7 +31568,8 @@
         "headline": "Lowest tracked price in our data.",
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/asics-gel-nyc-sneakers-men/p/itm9ed5f92dc1b32?affid=earnkaro&affExtParam1=5260014",
-        "posted_at": "2026-10-01T08:00:00.686458+00:00"
+        "posted_at": "2026-10-01T08:00:00.686458+00:00",
+        "offer_confidence": 90
       },
       {
         "asin": "B097G78J4J",
