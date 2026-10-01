@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T08:18:08.583252+00:00",
+  "updated_at": "2026-10-01T08:19:38.111162+00:00",
   "deals": [
     {
       "asin": "fk_ITM9ED5F92DC1B32",
@@ -640,10 +640,10 @@
       "price_num": 74499,
       "original_price": null,
       "discount_pct": 0,
-      "effective_price": "Rs 67,050",
-      "effective_price_num": 67050,
-      "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
-      "offer_price_conditional": true,
+      "effective_price": null,
+      "effective_price_num": null,
+      "effective_price_note": null,
+      "offer_price_conditional": false,
       "candidate_kind": "standard",
       "stock_alert": false,
       "protected_flagship": false,
@@ -653,24 +653,10 @@
       "effective_saving_pct": 5.0,
       "effective_vs_avg_pct": 2,
       "offer_evidence": [
-        "Unlock All coupon 10% off",
         "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
         "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
       ],
       "offer_terms": [
-        {
-          "kind": "coupon",
-          "amount": 7449,
-          "label": "10% coupon",
-          "evidence": "Unlock All coupon 10% off",
-          "confidence": 88,
-          "conditional": true,
-          "bank": "",
-          "minimum_purchase": 0,
-          "percent": 10,
-          "maximum_discount": 0,
-          "deductible": true
-        },
         {
           "kind": "bank",
           "amount": 0,
@@ -721,10 +707,8 @@
       "best_card_discount": 0,
       "bank_offer_confidence": 0,
       "bank_offers": [],
-      "saving_breakdown": [
-        "10% coupon"
-      ],
-      "coupon": "10% coupon",
+      "saving_breakdown": [],
+      "coupon": null,
       "price_verified": true,
       "fk_live_price_verified": true,
       "price_checked_at": "2026-10-01T07:58:55.831251+00:00",
@@ -735,7 +719,7 @@
       "deal_is_back": false,
       "deal_reminder": false,
       "meaningful_price_drop": true,
-      "coupon_num": 7449,
+      "coupon_num": 0,
       "coupon_confidence": 0,
       "emi_savings": null,
       "score": 108,
@@ -22431,10 +22415,10 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": "Rs 67,050",
-        "effective_price_num": 67050,
-        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
-        "offer_price_conditional": true,
+        "effective_price": null,
+        "effective_price_num": null,
+        "effective_price_note": null,
+        "offer_price_conditional": false,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -22444,24 +22428,10 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Unlock All coupon 10% off",
           "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
           "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
         ],
         "offer_terms": [
-          {
-            "kind": "coupon",
-            "amount": 7449,
-            "label": "10% coupon",
-            "evidence": "Unlock All coupon 10% off",
-            "confidence": 88,
-            "conditional": true,
-            "bank": "",
-            "minimum_purchase": 0,
-            "percent": 10,
-            "maximum_discount": 0,
-            "deductible": true
-          },
           {
             "kind": "bank",
             "amount": 0,
@@ -22512,10 +22482,8 @@
         "best_card_discount": 0,
         "bank_offer_confidence": 0,
         "bank_offers": [],
-        "saving_breakdown": [
-          "10% coupon"
-        ],
-        "coupon": "10% coupon",
+        "saving_breakdown": [],
+        "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
         "price_checked_at": "2026-10-01T07:58:55.831251+00:00",
@@ -22526,7 +22494,7 @@
         "deal_is_back": false,
         "deal_reminder": false,
         "meaningful_price_drop": true,
-        "coupon_num": 7449,
+        "coupon_num": 0,
         "coupon_confidence": 0,
         "emi_savings": null,
         "score": 108,
@@ -23453,10 +23421,10 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": "Rs 67,050",
-        "effective_price_num": 67050,
-        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
-        "offer_price_conditional": true,
+        "effective_price": null,
+        "effective_price_num": null,
+        "effective_price_note": null,
+        "offer_price_conditional": false,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -23466,24 +23434,10 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Unlock All coupon 10% off",
           "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
           "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
         ],
         "offer_terms": [
-          {
-            "kind": "coupon",
-            "amount": 7449,
-            "label": "10% coupon",
-            "evidence": "Unlock All coupon 10% off",
-            "confidence": 88,
-            "conditional": true,
-            "bank": "",
-            "minimum_purchase": 0,
-            "percent": 10,
-            "maximum_discount": 0,
-            "deductible": true
-          },
           {
             "kind": "bank",
             "amount": 0,
@@ -23534,10 +23488,8 @@
         "best_card_discount": 0,
         "bank_offer_confidence": 0,
         "bank_offers": [],
-        "saving_breakdown": [
-          "10% coupon"
-        ],
-        "coupon": "10% coupon",
+        "saving_breakdown": [],
+        "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
         "price_checked_at": "2026-10-01T07:58:55.831251+00:00",
@@ -23548,7 +23500,7 @@
         "deal_is_back": false,
         "deal_reminder": false,
         "meaningful_price_drop": true,
-        "coupon_num": 7449,
+        "coupon_num": 0,
         "coupon_confidence": 0,
         "emi_savings": null,
         "score": 108,
@@ -27628,10 +27580,10 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": "Rs 67,050",
-        "effective_price_num": 67050,
-        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
-        "offer_price_conditional": true,
+        "effective_price": null,
+        "effective_price_num": null,
+        "effective_price_note": null,
+        "offer_price_conditional": false,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -27641,24 +27593,10 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Unlock All coupon 10% off",
           "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
           "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
         ],
         "offer_terms": [
-          {
-            "kind": "coupon",
-            "amount": 7449,
-            "label": "10% coupon",
-            "evidence": "Unlock All coupon 10% off",
-            "confidence": 88,
-            "conditional": true,
-            "bank": "",
-            "minimum_purchase": 0,
-            "percent": 10,
-            "maximum_discount": 0,
-            "deductible": true
-          },
           {
             "kind": "bank",
             "amount": 0,
@@ -27709,10 +27647,8 @@
         "best_card_discount": 0,
         "bank_offer_confidence": 0,
         "bank_offers": [],
-        "saving_breakdown": [
-          "10% coupon"
-        ],
-        "coupon": "10% coupon",
+        "saving_breakdown": [],
+        "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
         "price_checked_at": "2026-10-01T07:58:55.831251+00:00",
@@ -27723,7 +27659,7 @@
         "deal_is_back": false,
         "deal_reminder": false,
         "meaningful_price_drop": true,
-        "coupon_num": 7449,
+        "coupon_num": 0,
         "coupon_confidence": 0,
         "emi_savings": null,
         "score": 108,
@@ -28368,10 +28304,10 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": "Rs 67,050",
-        "effective_price_num": 67050,
-        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
-        "offer_price_conditional": true,
+        "effective_price": null,
+        "effective_price_num": null,
+        "effective_price_note": null,
+        "offer_price_conditional": false,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -28381,24 +28317,10 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Unlock All coupon 10% off",
           "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
           "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
         ],
         "offer_terms": [
-          {
-            "kind": "coupon",
-            "amount": 7449,
-            "label": "10% coupon",
-            "evidence": "Unlock All coupon 10% off",
-            "confidence": 88,
-            "conditional": true,
-            "bank": "",
-            "minimum_purchase": 0,
-            "percent": 10,
-            "maximum_discount": 0,
-            "deductible": true
-          },
           {
             "kind": "bank",
             "amount": 0,
@@ -28449,10 +28371,8 @@
         "best_card_discount": 0,
         "bank_offer_confidence": 0,
         "bank_offers": [],
-        "saving_breakdown": [
-          "10% coupon"
-        ],
-        "coupon": "10% coupon",
+        "saving_breakdown": [],
+        "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
         "price_checked_at": "2026-10-01T07:58:55.831251+00:00",
@@ -28463,7 +28383,7 @@
         "deal_is_back": false,
         "deal_reminder": false,
         "meaningful_price_drop": true,
-        "coupon_num": 7449,
+        "coupon_num": 0,
         "coupon_confidence": 0,
         "emi_savings": null,
         "score": 108,
@@ -30216,10 +30136,10 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": "Rs 67,050",
-        "effective_price_num": 67050,
-        "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
-        "offer_price_conditional": true,
+        "effective_price": null,
+        "effective_price_num": null,
+        "effective_price_note": null,
+        "offer_price_conditional": false,
         "candidate_kind": "standard",
         "stock_alert": false,
         "protected_flagship": false,
@@ -30229,24 +30149,10 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Unlock All coupon 10% off",
           "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
           "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
         ],
         "offer_terms": [
-          {
-            "kind": "coupon",
-            "amount": 7449,
-            "label": "10% coupon",
-            "evidence": "Unlock All coupon 10% off",
-            "confidence": 88,
-            "conditional": true,
-            "bank": "",
-            "minimum_purchase": 0,
-            "percent": 10,
-            "maximum_discount": 0,
-            "deductible": true
-          },
           {
             "kind": "bank",
             "amount": 0,
@@ -30297,10 +30203,8 @@
         "best_card_discount": 0,
         "bank_offer_confidence": 0,
         "bank_offers": [],
-        "saving_breakdown": [
-          "10% coupon"
-        ],
-        "coupon": "10% coupon",
+        "saving_breakdown": [],
+        "coupon": null,
         "price_verified": true,
         "fk_live_price_verified": true,
         "price_checked_at": "2026-10-01T07:58:55.831251+00:00",
@@ -30311,7 +30215,7 @@
         "deal_is_back": false,
         "deal_reminder": false,
         "meaningful_price_drop": true,
-        "coupon_num": 7449,
+        "coupon_num": 0,
         "coupon_confidence": 0,
         "emi_savings": null,
         "score": 108,
