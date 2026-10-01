@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T08:16:13.520377+00:00",
+  "updated_at": "2026-10-01T08:18:08.583252+00:00",
   "deals": [
     {
       "asin": "fk_ITM9ED5F92DC1B32",
@@ -23,14 +23,14 @@
       "effective_saving_pct": 7.2,
       "effective_vs_avg_pct": 0,
       "offer_evidence": [
-        "Bank Offer ₹750 off on ICICI Credit Card."
+        "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts."
       ],
       "offer_terms": [
         {
           "kind": "bank",
           "amount": 750,
           "label": "₹750 off with ICICI card",
-          "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+          "evidence": "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts.",
           "confidence": 90,
           "conditional": true,
           "bank": "ICICI",
@@ -181,14 +181,14 @@
       "effective_saving_pct": 7.2,
       "effective_vs_avg_pct": 0,
       "offer_evidence": [
-        "Bank Offer ₹750 off on ICICI Credit Card."
+        "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts."
       ],
       "offer_terms": [
         {
           "kind": "bank",
           "amount": 750,
           "label": "₹750 off with ICICI card",
-          "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+          "evidence": "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts.",
           "confidence": 90,
           "conditional": true,
           "bank": "ICICI",
@@ -339,14 +339,14 @@
       "effective_saving_pct": 6.3,
       "effective_vs_avg_pct": 0,
       "offer_evidence": [
-        "Bank Offer ₹750 off on ICICI Credit Card."
+        "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts."
       ],
       "offer_terms": [
         {
           "kind": "bank",
           "amount": 750,
           "label": "₹750 off with ICICI card",
-          "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+          "evidence": "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts.",
           "confidence": 90,
           "conditional": true,
           "bank": "ICICI",
@@ -497,14 +497,14 @@
       "effective_saving_pct": 9.2,
       "effective_vs_avg_pct": 13,
       "offer_evidence": [
-        "Bank Offer ₹750 off on ICICI Credit Card."
+        "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts."
       ],
       "offer_terms": [
         {
           "kind": "bank",
           "amount": 750,
           "label": "₹750 off with ICICI card",
-          "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+          "evidence": "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts.",
           "confidence": 90,
           "conditional": true,
           "bank": "ICICI",
@@ -640,8 +640,8 @@
       "price_num": 74499,
       "original_price": null,
       "discount_pct": 0,
-      "effective_price": "Rs 70,774",
-      "effective_price_num": 70774,
+      "effective_price": "Rs 67,050",
+      "effective_price_num": 67050,
       "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
       "offer_price_conditional": true,
       "candidate_kind": "standard",
@@ -653,21 +653,49 @@
       "effective_saving_pct": 5.0,
       "effective_vs_avg_pct": 2,
       "offer_evidence": [
-        "Bank Offer ₹3,725 off on Flipkart Axis Credit Card"
+        "Unlock All coupon 10% off",
+        "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
+        "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
       ],
       "offer_terms": [
         {
+          "kind": "coupon",
+          "amount": 7449,
+          "label": "10% coupon",
+          "evidence": "Unlock All coupon 10% off",
+          "confidence": 88,
+          "conditional": true,
+          "bank": "",
+          "minimum_purchase": 0,
+          "percent": 10,
+          "maximum_discount": 0,
+          "deductible": true
+        },
+        {
           "kind": "bank",
-          "amount": 3725,
+          "amount": 0,
           "label": "₹3,725 off with Axis card",
-          "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card",
-          "confidence": 90,
+          "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
+          "confidence": 55,
           "conditional": true,
           "bank": "Axis",
           "minimum_purchase": 0,
           "percent": 0,
           "maximum_discount": 0,
-          "deductible": true
+          "deductible": false
+        },
+        {
+          "kind": "checkout_offer",
+          "amount": 3725,
+          "label": "Flipkart conditional price saves ₹3,725",
+          "evidence": "Flipkart Buy at ₹70,774 (sticker ₹74,499)",
+          "confidence": 60,
+          "conditional": true,
+          "bank": "",
+          "minimum_purchase": 0,
+          "percent": 0,
+          "maximum_discount": 0,
+          "deductible": false
         }
       ],
       "fk_live_price_corrected": true,
@@ -689,16 +717,14 @@
       "local_price_median": 74499,
       "local_price_p10": 74499,
       "local_price_low": 74499,
-      "best_card_label": "₹3,725 off with Axis card",
-      "best_card_discount": 3725,
+      "best_card_label": null,
+      "best_card_discount": 0,
       "bank_offer_confidence": 0,
-      "bank_offers": [
-        "₹3,725 off with Axis card"
-      ],
+      "bank_offers": [],
       "saving_breakdown": [
-        "₹3,725 off with Axis card"
+        "10% coupon"
       ],
-      "coupon": null,
+      "coupon": "10% coupon",
       "price_verified": true,
       "fk_live_price_verified": true,
       "price_checked_at": "2026-10-01T07:58:55.831251+00:00",
@@ -709,7 +735,7 @@
       "deal_is_back": false,
       "deal_reminder": false,
       "meaningful_price_drop": true,
-      "coupon_num": 0,
+      "coupon_num": 7449,
       "coupon_confidence": 0,
       "emi_savings": null,
       "score": 108,
@@ -792,7 +818,8 @@
       "affiliate_link": "",
       "flipkart_link": "https://www.flipkart.com/sony-bravia-3-138-8-cm-55-inch-ultra-hd-4k-led-smart-google-tv-dolby-vision-atmos-feature-playstation-5/p/itmc52695a373f8b?affid=earnkaro&affExtParam1=5260014",
       "posted_at": "2026-10-01T07:59:04.099186+00:00",
-      "offer_confidence": 90
+      "offer_confidence": 90,
+      "unverified_lowest_for_you": 70774
     },
     {
       "asin": "B09GKKQ9VM",
@@ -22404,8 +22431,8 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": "Rs 70,774",
-        "effective_price_num": 70774,
+        "effective_price": "Rs 67,050",
+        "effective_price_num": 67050,
         "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
         "offer_price_conditional": true,
         "candidate_kind": "standard",
@@ -22417,21 +22444,49 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card"
+          "Unlock All coupon 10% off",
+          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
+          "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
         ],
         "offer_terms": [
           {
+            "kind": "coupon",
+            "amount": 7449,
+            "label": "10% coupon",
+            "evidence": "Unlock All coupon 10% off",
+            "confidence": 88,
+            "conditional": true,
+            "bank": "",
+            "minimum_purchase": 0,
+            "percent": 10,
+            "maximum_discount": 0,
+            "deductible": true
+          },
+          {
             "kind": "bank",
-            "amount": 3725,
+            "amount": 0,
             "label": "₹3,725 off with Axis card",
-            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card",
-            "confidence": 90,
+            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
+            "confidence": 55,
             "conditional": true,
             "bank": "Axis",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": true
+            "deductible": false
+          },
+          {
+            "kind": "checkout_offer",
+            "amount": 3725,
+            "label": "Flipkart conditional price saves ₹3,725",
+            "evidence": "Flipkart Buy at ₹70,774 (sticker ₹74,499)",
+            "confidence": 60,
+            "conditional": true,
+            "bank": "",
+            "minimum_purchase": 0,
+            "percent": 0,
+            "maximum_discount": 0,
+            "deductible": false
           }
         ],
         "fk_live_price_corrected": true,
@@ -22453,16 +22508,14 @@
         "local_price_median": 74499,
         "local_price_p10": 74499,
         "local_price_low": 74499,
-        "best_card_label": "₹3,725 off with Axis card",
-        "best_card_discount": 3725,
+        "best_card_label": null,
+        "best_card_discount": 0,
         "bank_offer_confidence": 0,
-        "bank_offers": [
-          "₹3,725 off with Axis card"
-        ],
+        "bank_offers": [],
         "saving_breakdown": [
-          "₹3,725 off with Axis card"
+          "10% coupon"
         ],
-        "coupon": null,
+        "coupon": "10% coupon",
         "price_verified": true,
         "fk_live_price_verified": true,
         "price_checked_at": "2026-10-01T07:58:55.831251+00:00",
@@ -22473,7 +22526,7 @@
         "deal_is_back": false,
         "deal_reminder": false,
         "meaningful_price_drop": true,
-        "coupon_num": 0,
+        "coupon_num": 7449,
         "coupon_confidence": 0,
         "emi_savings": null,
         "score": 108,
@@ -22556,7 +22609,8 @@
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-138-8-cm-55-inch-ultra-hd-4k-led-smart-google-tv-dolby-vision-atmos-feature-playstation-5/p/itmc52695a373f8b?affid=earnkaro&affExtParam1=5260014",
         "posted_at": "2026-10-01T07:59:04.099186+00:00",
-        "offer_confidence": 90
+        "offer_confidence": 90,
+        "unverified_lowest_for_you": 70774
       },
       {
         "asin": "B0CRJZ8NQC",
@@ -23399,8 +23453,8 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": "Rs 70,774",
-        "effective_price_num": 70774,
+        "effective_price": "Rs 67,050",
+        "effective_price_num": 67050,
         "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
         "offer_price_conditional": true,
         "candidate_kind": "standard",
@@ -23412,21 +23466,49 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card"
+          "Unlock All coupon 10% off",
+          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
+          "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
         ],
         "offer_terms": [
           {
+            "kind": "coupon",
+            "amount": 7449,
+            "label": "10% coupon",
+            "evidence": "Unlock All coupon 10% off",
+            "confidence": 88,
+            "conditional": true,
+            "bank": "",
+            "minimum_purchase": 0,
+            "percent": 10,
+            "maximum_discount": 0,
+            "deductible": true
+          },
+          {
             "kind": "bank",
-            "amount": 3725,
+            "amount": 0,
             "label": "₹3,725 off with Axis card",
-            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card",
-            "confidence": 90,
+            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
+            "confidence": 55,
             "conditional": true,
             "bank": "Axis",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": true
+            "deductible": false
+          },
+          {
+            "kind": "checkout_offer",
+            "amount": 3725,
+            "label": "Flipkart conditional price saves ₹3,725",
+            "evidence": "Flipkart Buy at ₹70,774 (sticker ₹74,499)",
+            "confidence": 60,
+            "conditional": true,
+            "bank": "",
+            "minimum_purchase": 0,
+            "percent": 0,
+            "maximum_discount": 0,
+            "deductible": false
           }
         ],
         "fk_live_price_corrected": true,
@@ -23448,16 +23530,14 @@
         "local_price_median": 74499,
         "local_price_p10": 74499,
         "local_price_low": 74499,
-        "best_card_label": "₹3,725 off with Axis card",
-        "best_card_discount": 3725,
+        "best_card_label": null,
+        "best_card_discount": 0,
         "bank_offer_confidence": 0,
-        "bank_offers": [
-          "₹3,725 off with Axis card"
-        ],
+        "bank_offers": [],
         "saving_breakdown": [
-          "₹3,725 off with Axis card"
+          "10% coupon"
         ],
-        "coupon": null,
+        "coupon": "10% coupon",
         "price_verified": true,
         "fk_live_price_verified": true,
         "price_checked_at": "2026-10-01T07:58:55.831251+00:00",
@@ -23468,7 +23548,7 @@
         "deal_is_back": false,
         "deal_reminder": false,
         "meaningful_price_drop": true,
-        "coupon_num": 0,
+        "coupon_num": 7449,
         "coupon_confidence": 0,
         "emi_savings": null,
         "score": 108,
@@ -23551,7 +23631,8 @@
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-138-8-cm-55-inch-ultra-hd-4k-led-smart-google-tv-dolby-vision-atmos-feature-playstation-5/p/itmc52695a373f8b?affid=earnkaro&affExtParam1=5260014",
         "posted_at": "2026-10-01T07:59:04.099186+00:00",
-        "offer_confidence": 90
+        "offer_confidence": 90,
+        "unverified_lowest_for_you": 70774
       },
       {
         "asin": "fk_ITMBC683CA610B48",
@@ -23575,14 +23656,14 @@
         "effective_saving_pct": 6.3,
         "effective_vs_avg_pct": 0,
         "offer_evidence": [
-          "Bank Offer ₹750 off on ICICI Credit Card."
+          "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts."
         ],
         "offer_terms": [
           {
             "kind": "bank",
             "amount": 750,
             "label": "₹750 off with ICICI card",
-            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts.",
             "confidence": 90,
             "conditional": true,
             "bank": "ICICI",
@@ -23871,14 +23952,14 @@
         "effective_saving_pct": 7.2,
         "effective_vs_avg_pct": 0,
         "offer_evidence": [
-          "Bank Offer ₹750 off on ICICI Credit Card."
+          "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts."
         ],
         "offer_terms": [
           {
             "kind": "bank",
             "amount": 750,
             "label": "₹750 off with ICICI card",
-            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts.",
             "confidence": 90,
             "conditional": true,
             "bank": "ICICI",
@@ -24029,14 +24110,14 @@
         "effective_saving_pct": 7.2,
         "effective_vs_avg_pct": 0,
         "offer_evidence": [
-          "Bank Offer ₹750 off on ICICI Credit Card."
+          "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts."
         ],
         "offer_terms": [
           {
             "kind": "bank",
             "amount": 750,
             "label": "₹750 off with ICICI card",
-            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts.",
             "confidence": 90,
             "conditional": true,
             "bank": "ICICI",
@@ -27547,8 +27628,8 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": "Rs 70,774",
-        "effective_price_num": 70774,
+        "effective_price": "Rs 67,050",
+        "effective_price_num": 67050,
         "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
         "offer_price_conditional": true,
         "candidate_kind": "standard",
@@ -27560,21 +27641,49 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card"
+          "Unlock All coupon 10% off",
+          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
+          "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
         ],
         "offer_terms": [
           {
+            "kind": "coupon",
+            "amount": 7449,
+            "label": "10% coupon",
+            "evidence": "Unlock All coupon 10% off",
+            "confidence": 88,
+            "conditional": true,
+            "bank": "",
+            "minimum_purchase": 0,
+            "percent": 10,
+            "maximum_discount": 0,
+            "deductible": true
+          },
+          {
             "kind": "bank",
-            "amount": 3725,
+            "amount": 0,
             "label": "₹3,725 off with Axis card",
-            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card",
-            "confidence": 90,
+            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
+            "confidence": 55,
             "conditional": true,
             "bank": "Axis",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": true
+            "deductible": false
+          },
+          {
+            "kind": "checkout_offer",
+            "amount": 3725,
+            "label": "Flipkart conditional price saves ₹3,725",
+            "evidence": "Flipkart Buy at ₹70,774 (sticker ₹74,499)",
+            "confidence": 60,
+            "conditional": true,
+            "bank": "",
+            "minimum_purchase": 0,
+            "percent": 0,
+            "maximum_discount": 0,
+            "deductible": false
           }
         ],
         "fk_live_price_corrected": true,
@@ -27596,16 +27705,14 @@
         "local_price_median": 74499,
         "local_price_p10": 74499,
         "local_price_low": 74499,
-        "best_card_label": "₹3,725 off with Axis card",
-        "best_card_discount": 3725,
+        "best_card_label": null,
+        "best_card_discount": 0,
         "bank_offer_confidence": 0,
-        "bank_offers": [
-          "₹3,725 off with Axis card"
-        ],
+        "bank_offers": [],
         "saving_breakdown": [
-          "₹3,725 off with Axis card"
+          "10% coupon"
         ],
-        "coupon": null,
+        "coupon": "10% coupon",
         "price_verified": true,
         "fk_live_price_verified": true,
         "price_checked_at": "2026-10-01T07:58:55.831251+00:00",
@@ -27616,7 +27723,7 @@
         "deal_is_back": false,
         "deal_reminder": false,
         "meaningful_price_drop": true,
-        "coupon_num": 0,
+        "coupon_num": 7449,
         "coupon_confidence": 0,
         "emi_savings": null,
         "score": 108,
@@ -27699,7 +27806,8 @@
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-138-8-cm-55-inch-ultra-hd-4k-led-smart-google-tv-dolby-vision-atmos-feature-playstation-5/p/itmc52695a373f8b?affid=earnkaro&affExtParam1=5260014",
         "posted_at": "2026-10-01T07:59:04.099186+00:00",
-        "offer_confidence": 90
+        "offer_confidence": 90,
+        "unverified_lowest_for_you": 70774
       },
       {
         "asin": "B0CRJZ8NQC",
@@ -28260,8 +28368,8 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": "Rs 70,774",
-        "effective_price_num": 70774,
+        "effective_price": "Rs 67,050",
+        "effective_price_num": 67050,
         "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
         "offer_price_conditional": true,
         "candidate_kind": "standard",
@@ -28273,21 +28381,49 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card"
+          "Unlock All coupon 10% off",
+          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
+          "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
         ],
         "offer_terms": [
           {
+            "kind": "coupon",
+            "amount": 7449,
+            "label": "10% coupon",
+            "evidence": "Unlock All coupon 10% off",
+            "confidence": 88,
+            "conditional": true,
+            "bank": "",
+            "minimum_purchase": 0,
+            "percent": 10,
+            "maximum_discount": 0,
+            "deductible": true
+          },
+          {
             "kind": "bank",
-            "amount": 3725,
+            "amount": 0,
             "label": "₹3,725 off with Axis card",
-            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card",
-            "confidence": 90,
+            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
+            "confidence": 55,
             "conditional": true,
             "bank": "Axis",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": true
+            "deductible": false
+          },
+          {
+            "kind": "checkout_offer",
+            "amount": 3725,
+            "label": "Flipkart conditional price saves ₹3,725",
+            "evidence": "Flipkart Buy at ₹70,774 (sticker ₹74,499)",
+            "confidence": 60,
+            "conditional": true,
+            "bank": "",
+            "minimum_purchase": 0,
+            "percent": 0,
+            "maximum_discount": 0,
+            "deductible": false
           }
         ],
         "fk_live_price_corrected": true,
@@ -28309,16 +28445,14 @@
         "local_price_median": 74499,
         "local_price_p10": 74499,
         "local_price_low": 74499,
-        "best_card_label": "₹3,725 off with Axis card",
-        "best_card_discount": 3725,
+        "best_card_label": null,
+        "best_card_discount": 0,
         "bank_offer_confidence": 0,
-        "bank_offers": [
-          "₹3,725 off with Axis card"
-        ],
+        "bank_offers": [],
         "saving_breakdown": [
-          "₹3,725 off with Axis card"
+          "10% coupon"
         ],
-        "coupon": null,
+        "coupon": "10% coupon",
         "price_verified": true,
         "fk_live_price_verified": true,
         "price_checked_at": "2026-10-01T07:58:55.831251+00:00",
@@ -28329,7 +28463,7 @@
         "deal_is_back": false,
         "deal_reminder": false,
         "meaningful_price_drop": true,
-        "coupon_num": 0,
+        "coupon_num": 7449,
         "coupon_confidence": 0,
         "emi_savings": null,
         "score": 108,
@@ -28412,7 +28546,8 @@
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-138-8-cm-55-inch-ultra-hd-4k-led-smart-google-tv-dolby-vision-atmos-feature-playstation-5/p/itmc52695a373f8b?affid=earnkaro&affExtParam1=5260014",
         "posted_at": "2026-10-01T07:59:04.099186+00:00",
-        "offer_confidence": 90
+        "offer_confidence": 90,
+        "unverified_lowest_for_you": 70774
       },
       {
         "asin": "B0CPFYVPBG",
@@ -30081,8 +30216,8 @@
         "price_num": 74499,
         "original_price": null,
         "discount_pct": 0,
-        "effective_price": "Rs 70,774",
-        "effective_price_num": 70774,
+        "effective_price": "Rs 67,050",
+        "effective_price_num": 67050,
         "effective_price_note": "Conditional Flipkart price verified on the product page; eligible card, account or payment mode may be required.",
         "offer_price_conditional": true,
         "candidate_kind": "standard",
@@ -30094,21 +30229,49 @@
         "effective_saving_pct": 5.0,
         "effective_vs_avg_pct": 2,
         "offer_evidence": [
-          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card"
+          "Unlock All coupon 10% off",
+          "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
+          "Flipkart Buy at ₹70,774 (sticker ₹74,499)"
         ],
         "offer_terms": [
           {
+            "kind": "coupon",
+            "amount": 7449,
+            "label": "10% coupon",
+            "evidence": "Unlock All coupon 10% off",
+            "confidence": 88,
+            "conditional": true,
+            "bank": "",
+            "minimum_purchase": 0,
+            "percent": 10,
+            "maximum_discount": 0,
+            "deductible": true
+          },
+          {
             "kind": "bank",
-            "amount": 3725,
+            "amount": 0,
             "label": "₹3,725 off with Axis card",
-            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card",
-            "confidence": 90,
+            "evidence": "Bank Offer ₹3,725 off on Flipkart Axis Credit Card Cashback. Cashback offer Cashback will be credited to your card/bank account after the return period ends. Valid till Dec 15, 2026, 11:59 PM and until stock lasts.",
+            "confidence": 55,
             "conditional": true,
             "bank": "Axis",
             "minimum_purchase": 0,
             "percent": 0,
             "maximum_discount": 0,
-            "deductible": true
+            "deductible": false
+          },
+          {
+            "kind": "checkout_offer",
+            "amount": 3725,
+            "label": "Flipkart conditional price saves ₹3,725",
+            "evidence": "Flipkart Buy at ₹70,774 (sticker ₹74,499)",
+            "confidence": 60,
+            "conditional": true,
+            "bank": "",
+            "minimum_purchase": 0,
+            "percent": 0,
+            "maximum_discount": 0,
+            "deductible": false
           }
         ],
         "fk_live_price_corrected": true,
@@ -30130,16 +30293,14 @@
         "local_price_median": 74499,
         "local_price_p10": 74499,
         "local_price_low": 74499,
-        "best_card_label": "₹3,725 off with Axis card",
-        "best_card_discount": 3725,
+        "best_card_label": null,
+        "best_card_discount": 0,
         "bank_offer_confidence": 0,
-        "bank_offers": [
-          "₹3,725 off with Axis card"
-        ],
+        "bank_offers": [],
         "saving_breakdown": [
-          "₹3,725 off with Axis card"
+          "10% coupon"
         ],
-        "coupon": null,
+        "coupon": "10% coupon",
         "price_verified": true,
         "fk_live_price_verified": true,
         "price_checked_at": "2026-10-01T07:58:55.831251+00:00",
@@ -30150,7 +30311,7 @@
         "deal_is_back": false,
         "deal_reminder": false,
         "meaningful_price_drop": true,
-        "coupon_num": 0,
+        "coupon_num": 7449,
         "coupon_confidence": 0,
         "emi_savings": null,
         "score": 108,
@@ -30233,7 +30394,8 @@
         "affiliate_link": "",
         "flipkart_link": "https://www.flipkart.com/sony-bravia-3-138-8-cm-55-inch-ultra-hd-4k-led-smart-google-tv-dolby-vision-atmos-feature-playstation-5/p/itmc52695a373f8b?affid=earnkaro&affExtParam1=5260014",
         "posted_at": "2026-10-01T07:59:04.099186+00:00",
-        "offer_confidence": 90
+        "offer_confidence": 90,
+        "unverified_lowest_for_you": 70774
       },
       {
         "asin": "B0CPFYVPBG",
@@ -30963,14 +31125,14 @@
         "effective_saving_pct": 9.2,
         "effective_vs_avg_pct": 13,
         "offer_evidence": [
-          "Bank Offer ₹750 off on ICICI Credit Card."
+          "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts."
         ],
         "offer_terms": [
           {
             "kind": "bank",
             "amount": 750,
             "label": "₹750 off with ICICI card",
-            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts.",
             "confidence": 90,
             "conditional": true,
             "bank": "ICICI",
@@ -31119,14 +31281,14 @@
         "effective_saving_pct": 6.3,
         "effective_vs_avg_pct": 0,
         "offer_evidence": [
-          "Bank Offer ₹750 off on ICICI Credit Card."
+          "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts."
         ],
         "offer_terms": [
           {
             "kind": "bank",
             "amount": 750,
             "label": "₹750 off with ICICI card",
-            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts.",
             "confidence": 90,
             "conditional": true,
             "bank": "ICICI",
@@ -31277,14 +31439,14 @@
         "effective_saving_pct": 7.2,
         "effective_vs_avg_pct": 0,
         "offer_evidence": [
-          "Bank Offer ₹750 off on ICICI Credit Card."
+          "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts."
         ],
         "offer_terms": [
           {
             "kind": "bank",
             "amount": 750,
             "label": "₹750 off with ICICI card",
-            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts.",
             "confidence": 90,
             "conditional": true,
             "bank": "ICICI",
@@ -31435,14 +31597,14 @@
         "effective_saving_pct": 7.2,
         "effective_vs_avg_pct": 0,
         "offer_evidence": [
-          "Bank Offer ₹750 off on ICICI Credit Card."
+          "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts."
         ],
         "offer_terms": [
           {
             "kind": "bank",
             "amount": 750,
             "label": "₹750 off with ICICI card",
-            "evidence": "Bank Offer ₹750 off on ICICI Credit Card.",
+            "evidence": "Bank Offer ₹750 off on ICICI Credit Card. Valid till Oct 7, 2026, 11:59 PM and until stock lasts.",
             "confidence": 90,
             "conditional": true,
             "bank": "ICICI",
